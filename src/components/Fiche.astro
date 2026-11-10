@@ -1,0 +1,74 @@
+---
+import '../styles/fiche.css';
+import Carte from './Carte.astro';
+import FilAriane from './FilAriane.astro';
+import Frise from './Frise.astro';
+import Mosaique from './Mosaique.astro';
+import Questions from './Questions.astro';
+import { libelles } from '../lib/libelles';
+import { lien } from '../lib/lien';
+import { NIVEAUX } from '../lecon/niveaux';
+import type { Lecon } from '../lecon/schema';
+
+interface Props {
+  id: string;
+  lecon: Lecon;
+}
+
+const { id, lecon } = Astro.props;
+const t = libelles(lecon.langue);
+const niveau = NIVEAUX.find((n) => n.id === lecon.niveau)!;
+---
+
+<header class="fiche-tete">
+  <div lang="fr">
+    <FilAriane
+      etapes={[
+        { libelle: 'Cours', href: lien('') },
+        { libelle: niveau.libelle, href: lien(`${niveau.id}/`) },
+        { libelle: lecon.matiereLibelle, href: lien(`${niveau.id}/${lecon.matiere}/`) },
+        { libelle: lecon.titre },
+      ]}
+    />
+  </div>
+  <h1>{lecon.titre}</h1>
+  <p class="fiche-niveau">{niveau.libelle} · {lecon.matiereLibelle}</p>
+</header>
+
+{
+  lecon.chapitres.map((chap) => (
+    <section class="chapitre">
+      <h2 class="chapitre-titre">{chap.titre}</h2>
+      {chap.cartes.map((c, i) => (
+        <Carte carte={c} rang={i + 1} total={chap.cartes.length} idLecon={id} langue={lecon.langue} />
+      ))}
+      <section class="ensemble">
+        <h3 class="etiquette-structure">{t.ensemble}</h3>
+        {chap.ensemble?.type === 'frise' ? (
+          <Frise periodes={chap.ensemble.periodes} cartes={chap.cartes} langue={lecon.langue} />
+        ) : (
+          <Mosaique cartes={chap.cartes} idLecon={id} />
+        )}
+      </section>
+      {chap.formule && (
+        <section class="formule-finale">
+          <h3 class="etiquette-structure">{t.formule}</h3>
+          <p class="formule-finale-texte">{chap.formule}</p>
+        </section>
+      )}
+      {chap.questions && chap.questions.length > 0 && <Questions questions={chap.questions} idLecon={id} langue={lecon.langue} />}
+    </section>
+  ))
+}
+
+<footer class="sources">
+  <h2>{t.sources}</h2>
+  <ul>
+    {lecon.sources.map((s) => <li>{s.url ? <a href={s.url}>{s.libelle}</a> : s.libelle}</li>)}
+  </ul>
+</footer>
+
+<script>
+  import { activerQuestions } from '../scripts/questions';
+  activerQuestions();
+</script>

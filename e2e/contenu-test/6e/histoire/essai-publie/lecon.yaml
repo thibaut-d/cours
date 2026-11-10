@@ -40,8 +40,11 @@ chapitres:
               x: 70
               y: 80
       - motCle: feu
+        picto: feu
         phrases:
           - Le feu éclaire et chauffe.
+        enSavoirPlus: Les premiers foyers datent d'il y a très longtemps.
+        notes: NOTE-ORATEUR-ESSAI
     questions:
       - question: Pourquoi un abri est-il utile ?
         reponse: Il protège du froid et de la pluie.

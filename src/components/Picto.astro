@@ -1,0 +1,25 @@
+---
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+// Pictogramme SVG de `public/pictos/<nom>.svg`, inséré dans la page pour que `currentColor` prenne la couleur du parent.
+// Décoratif : le mot-clé et le numéro portent le sens.
+interface Props {
+  nom: string;
+  class?: string;
+}
+
+const { nom, class: classe } = Astro.props;
+const chemin = join(process.cwd(), 'public', 'pictos', `${nom}.svg`);
+let svg: string;
+try {
+  svg = readFileSync(chemin, 'utf8');
+} catch {
+  throw new Error(`Pictogramme introuvable : public/pictos/${nom}.svg`);
+}
+const html = svg
+  .replace(/<\?xml[^>]*>\s*/, '')
+  .replace(/<svg\b/, `<svg aria-hidden="true" focusable="false" class="picto${classe ? ` ${classe}` : ''}"`);
+---
+
+<Fragment set:html={html} />

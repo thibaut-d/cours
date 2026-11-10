@@ -1,0 +1,53 @@
+---
+import ImageCarte from './ImageCarte.astro';
+import Picto from './Picto.astro';
+import { libelles, type Langue } from '../lib/libelles';
+import { couleurDuRang } from '../lib/couleur';
+import type { Lecon } from '../lecon/schema';
+
+type CarteLecon = Lecon['chapitres'][number]['cartes'][number];
+
+interface Props {
+  carte: CarteLecon;
+  rang: number; // 1, 2, 3… dans le chapitre
+  total: number;
+  idLecon: string;
+  langue: Langue;
+}
+
+const { carte, rang, total, idLecon, langue } = Astro.props;
+const t = libelles(langue);
+// Texte lu par le bouton « écouter » (Task 6) : le mot-clé puis les phrases ; à défaut, les points.
+const corps = carte.phrases?.length ? carte.phrases.join(' ') : (carte.points ?? []).join('. ');
+const texte = [carte.motCle, corps].filter(Boolean).join('. ');
+// Les notes de l'orateur (`carte.notes`) ne sont jamais rendues dans la fiche.
+---
+
+<article class="carte" style={`--couleur: ${couleurDuRang(rang)}`} data-texte={texte}>
+  <p class="compteur">{rang} / {total}</p>
+  {carte.image && <ImageCarte image={carte.image} idLecon={idLecon} langue={langue} />}
+  <div class="carte-tete">
+    <span class="pastille" aria-hidden="true">{rang}</span>
+    {carte.picto && <Picto nom={carte.picto} />}
+    {carte.motCle && <h3 class="mot-cle">{carte.motCle}</h3>}
+  </div>
+  {carte.phrases?.map((p) => <p class="phrase">{p}</p>)}
+  {
+    carte.points && (
+      <ul class="points">
+        {carte.points.map((p) => (
+          <li>{p}</li>
+        ))}
+      </ul>
+    )
+  }
+  {carte.formule && <p class="formule">{carte.formule}</p>}
+  {
+    carte.enSavoirPlus && (
+      <details class="en-savoir-plus">
+        <summary>{t.enSavoirPlus}</summary>
+        <p>{carte.enSavoirPlus}</p>
+      </details>
+    )
+  }
+</article>

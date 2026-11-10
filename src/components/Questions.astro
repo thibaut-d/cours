@@ -1,0 +1,38 @@
+---
+import ImageCarte from './ImageCarte.astro';
+import { libelles, type Langue } from '../lib/libelles';
+import type { Lecon } from '../lecon/schema';
+
+type Question = NonNullable<Lecon['chapitres'][number]['questions']>[number];
+
+interface Props {
+  questions: Question[];
+  idLecon: string;
+  langue: Langue;
+}
+
+const { questions, idLecon, langue } = Astro.props;
+const t = libelles(langue);
+// Réponses visibles par défaut : c'est du contenu à apprendre, pas un exercice. Le bouton n'apparaît qu'avec JavaScript.
+---
+
+<section class="questions">
+  <h3>{t.questions}</h3>
+  <button type="button" class="bouton cacher-reponses" aria-pressed="false" hidden>{t.cacherReponses}</button>
+  <ol class="liste-questions">
+    {
+      questions.map((q) => (
+        <li class="question">
+          <p class="question-texte">{q.question}</p>
+          <div class="reponse">
+            {q.image && <ImageCarte image={q.image} idLecon={idLecon} langue={langue} />}
+            <p>{q.reponse}</p>
+          </div>
+          <button type="button" class="bouton voir-reponse" hidden>
+            {t.voirReponse}
+          </button>
+        </li>
+      ))
+    }
+  </ol>
+</section>

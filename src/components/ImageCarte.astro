@@ -1,0 +1,58 @@
+---
+import { Image } from 'astro:assets';
+import { resoudreImage } from '../lib/images';
+import { libelles, type Langue } from '../lib/libelles';
+import { modeApercu } from '../lecon/visibilite';
+import type { Lecon } from '../lecon/schema';
+
+export type ImageLecon = NonNullable<Lecon['chapitres'][number]['cartes'][number]['image']>;
+
+interface Props {
+  image: ImageLecon;
+  idLecon: string;
+  langue: Langue;
+}
+
+const { image, idLecon, langue } = Astro.props;
+const t = libelles(langue);
+const LARGEUR = 1600;
+// La colonne de lecture fait au plus --largeur-lecture (40rem) moins les marges ; en dessous, la largeur de l'écran.
+const sizes = '(min-width: 42rem) 38rem, calc(100vw - 2rem)';
+const source = 'fichier' in image ? resoudreImage(idLecon, image.fichier) : undefined;
+const largeur = source ? Math.min(LARGEUR, source.width) : LARGEUR;
+const largeurs = [400, 800, 1200, 1600].filter((l) => l < largeur).concat(largeur);
+const apercu = modeApercu();
+---
+
+{
+  (source || apercu) && (
+    <figure class="illustration">
+      <div class="illustration-cadre">
+        {source ? (
+          <Image src={source} alt={image.alt} width={largeur} widths={largeurs} sizes={sizes} />
+        ) : (
+          <div class="a-generer" role="img" aria-label={image.alt}>
+            <p class="etiquette-structure">{t.imageAGenerer}</p>
+            {'aGenerer' in image && <p>{image.aGenerer}</p>}
+          </div>
+        )}
+        {image.etiquettes?.map((e) => (
+          <span class="etiquette" style={`left:${e.x}%;top:${e.y}%;--x:${e.x};--y:${e.y}`}>
+            {e.texte}
+          </span>
+        ))}
+      </div>
+      {'credit' in image && (
+        <figcaption class="credit">
+          {image.credit === 'generee' ? (
+            t.imageGeneree
+          ) : (
+            <a href={image.credit.url}>
+              {image.credit.auteur} — {image.credit.licence}
+            </a>
+          )}
+        </figcaption>
+      )}
+    </figure>
+  )
+}

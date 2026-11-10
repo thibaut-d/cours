@@ -1,0 +1,20 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Fiche from '../../../../components/Fiche.astro';
+import { leconsVisibles } from '../../../../lib/lecons';
+import { slugLecon } from '../../../../lecon/catalogue';
+
+export async function getStaticPaths() {
+  const lecons = await leconsVisibles();
+  return lecons.map((l) => ({
+    params: { niveau: l.data.niveau, matiere: l.data.matiere, lecon: slugLecon(l.id) },
+    props: { id: l.id, lecon: l.data },
+  }));
+}
+
+const { id, lecon } = Astro.props;
+---
+
+<Base titre={`${lecon.titre} – ${lecon.matiereLibelle} – Cours`} langue={lecon.langue} {...(lecon.resume ? { description: lecon.resume } : {})}>
+  <Fiche id={id} lecon={lecon} />
+</Base>

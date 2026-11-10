@@ -1,0 +1,41 @@
+---
+import Picto from './Picto.astro';
+import { couleurDuRang } from '../lib/couleur';
+import { libelles, type Langue } from '../lib/libelles';
+import type { Lecon } from '../lecon/schema';
+
+type Chapitre = Lecon['chapitres'][number];
+type Periode = { libelle: string; dates: string; carte?: number | undefined };
+
+interface Props {
+  periodes: Periode[];
+  cartes: Chapitre['cartes'];
+  langue: Langue;
+}
+
+const { periodes, cartes, langue } = Astro.props;
+const t = libelles(langue);
+// Données pures : les dates et libellés sont posés par la page, jamais dessinés dans une image.
+// Une période qui renvoie à une carte en reprend la pastille (numéro et couleur) et le picto, pas le mot-clé.
+---
+
+<ol class="frise">
+  {
+    periodes.map((p) => {
+      const carte = p.carte ? cartes[p.carte - 1] : undefined;
+      return (
+        <li class="periode" style={p.carte ? `--couleur: ${couleurDuRang(p.carte)}` : undefined}>
+          <p class="periode-libelle">{p.libelle}</p>
+          <p class="periode-dates">{p.dates}</p>
+          {p.carte && (
+            <p class="periode-carte">
+              <span class="pastille" aria-hidden="true">{p.carte}</span>
+              <span class="visuellement-cache">{t.carte} {p.carte}</span>
+              {carte?.picto && <Picto nom={carte.picto} />}
+            </p>
+          )}
+        </li>
+      );
+    })
+  }
+</ol>

@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets';
+import Picto from './Picto.astro';
+import { couleurDuRang } from '../lib/couleur';
+import { resoudreImage } from '../lib/images';
+import type { Lecon } from '../lecon/schema';
+
+type Chapitre = Lecon['chapitres'][number];
+
+interface Props {
+  cartes: Chapitre['cartes'];
+  idLecon: string;
+}
+
+const { cartes, idLecon } = Astro.props;
+// Vignettes des cartes du chapitre : mêmes numéros, couleurs, pictos et mots-clés, sans information nouvelle.
+// L'image de vignette est décorative (alt vide) : le mot-clé porte le sens. Sans image, le picto en tient lieu ;
+// sans picto non plus, la vignette se réduit à la pastille et au mot-clé.
+---
+
+<ol class="mosaique">
+  {
+    cartes.map((c, i) => {
+      const rang = i + 1;
+      const source = c.image && 'fichier' in c.image ? resoudreImage(idLecon, c.image.fichier) : undefined;
+      return (
+        <li class:list={['vignette', { 'vignette-sans-image': !source && !c.picto }]} style={`--couleur: ${couleurDuRang(rang)}`}>
+          {source ? (
+            <Image class="vignette-image" src={source} alt="" width={Math.min(400, source.width)} sizes="6rem" />
+          ) : (
+            c.picto && (
+              <span class="vignette-image vignette-vide" aria-hidden="true">
+                <Picto nom={c.picto} />
+              </span>
+            )
+          )}
+          <p class="vignette-legende">
+            <span class="pastille">{rang}</span>
+            <span>{c.motCle ?? c.phrases?.[0] ?? c.points?.[0] ?? c.formule ?? ''}</span>
+          </p>
+        </li>
+      );
+    })
+  }
+</ol>
