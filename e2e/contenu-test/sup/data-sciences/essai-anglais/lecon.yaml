@@ -1,0 +1,18 @@
+titre: Sample lesson in English
+niveau: sup
+matiere: data-sciences
+matiereLibelle: Data sciences
+ordre: 1
+langue: en
+statut: publie
+sources:
+  - libelle: Sample document
+chapitres:
+  - titre: First chapter
+    cartes:
+      - motCle: dataset
+        phrases:
+          - A dataset is a collection of records.
+      - motCle: feature
+        phrases:
+          - A feature is a measurable property.

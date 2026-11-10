@@ -1,0 +1,59 @@
+titre: Leçon d'essai publiée
+niveau: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 1
+statut: publie
+resume: Une leçon inventée pour tester l'affichage.
+sources:
+  - libelle: Document d'essai
+chapitres:
+  - titre: Premier chapitre
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: Avant
+          dates: Il y a longtemps
+          carte: 1
+        - libelle: Pendant
+          dates: Un peu plus tard
+          carte: 2
+        - libelle: Après
+          dates: Plus récemment
+    formule: A = B + C
+    cartes:
+      - motCle: anthropologiquement
+        phrases:
+          - Un mot très long pour tester le débordement.
+      - motCle: abri
+        phrases:
+          - Un abri protège du froid.
+        image:
+          fichier: essai.webp
+          alt: Un dégradé de couleurs sans motif
+          credit: generee
+          etiquettes:
+            - texte: Haut
+              x: 20
+              y: 15
+            - texte: Bas
+              x: 70
+              y: 80
+      - motCle: feu
+        phrases:
+          - Le feu éclaire et chauffe.
+    questions:
+      - question: Pourquoi un abri est-il utile ?
+        reponse: Il protège du froid et de la pluie.
+      - question: À quoi sert le feu ?
+        reponse: Il éclaire et il chauffe.
+  - titre: Second chapitre
+    ensemble:
+      type: mosaique
+    cartes:
+      - motCle: outil
+        phrases:
+          - Un outil aide à travailler.
+      - points:
+          - Premier point
+          - Second point

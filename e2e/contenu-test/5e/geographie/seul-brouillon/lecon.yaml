@@ -1,0 +1,14 @@
+titre: Seule leçon de 5e
+niveau: 5e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 1
+statut: brouillon
+sources:
+  - libelle: Document d'essai
+chapitres:
+  - titre: Chapitre unique
+    cartes:
+      - motCle: carte
+        phrases:
+          - Une carte montre un lieu.

@@ -1,0 +1,15 @@
+titre: Leçon d'essai en brouillon
+niveau: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 2
+statut: brouillon
+sources:
+  - libelle: Document d'essai
+chapitres:
+  - titre: Chapitre unique
+    cartes:
+      - motCle: chasser
+        image:
+          aGenerer: des silhouettes et des animaux dans un paysage
+          alt: Des silhouettes dans un paysage

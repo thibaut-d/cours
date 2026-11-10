@@ -5,6 +5,6 @@
     "exactOptionalPropertyTypes": true,
     "verbatimModuleSyntax": true
   },
-  "include": [".astro/types.d.ts", "src/**/*", "e2e/**/*"],
+  "include": [".astro/types.d.ts", "src/**/*", "e2e/**/*", "scripts/**/*"],
   "exclude": ["dist"]
 }
