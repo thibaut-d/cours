@@ -1,6 +1,7 @@
 ---
 import '../styles/fiche.css';
 import Carte from './Carte.astro';
+import Ecouter from './Ecouter.astro';
 import FilAriane from './FilAriane.astro';
 import Frise from './Frise.astro';
 import Mosaique from './Mosaique.astro';
@@ -19,6 +20,8 @@ const { id, lecon } = Astro.props;
 const t = libelles(lecon.langue);
 const niveau = NIVEAUX.find((n) => n.id === lecon.niveau)!;
 ---
+
+<Ecouter langue={lecon.langue} />
 
 <header class="fiche-tete">
   <div lang="fr">

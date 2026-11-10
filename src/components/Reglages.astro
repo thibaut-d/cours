@@ -1,0 +1,47 @@
+---
+import { libelles, type Langue } from '../lib/libelles';
+
+interface Props {
+  langue: Langue;
+}
+
+const t = libelles(Astro.props.langue);
+const groupes = [
+  { nom: 'taille', legende: t.taille, options: [['normale', t.normale], ['grande', t.grande], ['tres-grande', t.tresGrande]] },
+  { nom: 'espacement', legende: t.espacement, options: [['normal', t.normal], ['aere', t.aere]] },
+  { nom: 'fond', legende: t.fond, options: [['creme', t.creme], ['blanc', t.blanc]] },
+  { nom: 'vitesse', legende: t.vitesse, options: [['0.8', t.lente], ['1', t.vitesseNormale], ['1.2', t.rapide]] },
+] as const;
+---
+
+<button type="button" class="btn-reglages" hidden aria-haspopup="dialog">
+  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+    <path d="M4 7h10M18 7h2M4 17h2M10 17h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+    <circle cx="16" cy="7" r="2.5" fill="none" stroke="currentColor" stroke-width="2"></circle>
+    <circle cx="8" cy="17" r="2.5" fill="none" stroke="currentColor" stroke-width="2"></circle>
+  </svg>
+  <span>{t.reglages}</span>
+</button>
+
+<dialog id="reglages" aria-labelledby="reglages-titre" class="reglages">
+  <h2 id="reglages-titre">{t.reglages}</h2>
+  {
+    groupes.map((g) => (
+      <fieldset>
+        <legend>{g.legende}</legend>
+        {g.options.map(([valeur, libelle]) => (
+          <label class="option">
+            <input type="radio" name={g.nom} value={valeur} />
+            <span>{libelle}</span>
+          </label>
+        ))}
+      </fieldset>
+    ))
+  }
+  <button type="button" class="fermer-reglages">{t.fermer}</button>
+</dialog>
+
+<script>
+  import { activerReglages } from '../scripts/reglages';
+  activerReglages();
+</script>

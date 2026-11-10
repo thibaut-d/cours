@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Reglages from '../components/Reglages.astro';
+import avantAffichage from '../scripts/reglages-avant-affichage.ts?raw';
 
 interface Props {
   titre: string;
@@ -31,9 +33,13 @@ const faces = polices
     <title>{titre}</title>
     {description && <meta name="description" content={description} />}
     <style is:inline set:html={faces}></style>
+    <script is:inline set:html={avantAffichage}></script>
     <slot name="tete" />
   </head>
   <body>
+    <div class="barre">
+      <Reglages langue={langue} />
+    </div>
     <main>
       <slot />
     </main>

@@ -166,3 +166,106 @@ summary {
   display: inline-flex;
   align-items: center;
 }
+
+/* Réglages de lecture : posés sur <html> avant l'affichage (reglages-avant-affichage.ts). */
+html[data-taille='grande'] {
+  font-size: 115%;
+}
+
+html[data-taille='tres-grande'] {
+  font-size: 130%;
+}
+
+html[data-espacement='aere'] {
+  --esp-lettres: 0.12em;
+  --esp-mots: 0.3em;
+}
+
+html[data-fond='blanc'] {
+  --fond: #ffffff;
+}
+
+.barre {
+  display: flex;
+  justify-content: flex-end;
+  max-width: var(--largeur-lecture);
+  margin: 0 auto;
+  padding: 0.5rem 1rem 0;
+}
+
+.btn-reglages,
+.btn-ecouter,
+.fermer-reglages {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--encre);
+  border-radius: 0.5rem;
+  background: var(--fond);
+  color: var(--encre);
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  cursor: pointer;
+}
+
+.btn-ecouter {
+  display: flex;
+  margin: 0 0 0.5rem auto;
+}
+
+.btn-ecouter[aria-pressed='true'] {
+  background: var(--encre);
+  color: var(--fond);
+}
+
+.reglages {
+  width: min(calc(100vw - 2rem), 28rem);
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
+  padding: 1rem;
+  border: 2px solid var(--encre);
+  border-radius: 0.75rem;
+  background: var(--fond);
+  color: var(--encre);
+  font-size: 1.125rem;
+}
+
+.reglages::backdrop {
+  background: rgb(0 0 0 / 0.5);
+}
+
+.reglages h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.reglages fieldset {
+  margin: 0 0 0.75rem;
+  padding: 0;
+  border: 0;
+}
+
+.reglages legend {
+  padding: 0;
+  font-weight: 700;
+}
+
+.reglages .option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 48px;
+  cursor: pointer;
+}
+
+.reglages input[type='radio'] {
+  flex: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0;
+  accent-color: var(--encre);
+}

@@ -1,0 +1,25 @@
+---
+import { libelles, type Langue } from '../lib/libelles';
+
+interface Props {
+  langue: Langue;
+}
+
+const t = libelles(Astro.props.langue);
+---
+
+<!-- Modèle du bouton : le script en insère un par carte, seulement si la synthèse vocale existe. -->
+<template data-ecouter data-lib-ecouter={t.ecouter} data-lib-arreter={t.arreter}>
+  <button type="button" class="btn-ecouter" aria-pressed="false">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <path d="M3 9v6h4l5 4V5L7 9H3z" fill="currentColor"></path>
+      <path d="M15.5 8.5a5 5 0 0 1 0 7M18 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+    </svg>
+    <span class="mot">{t.ecouter}</span>
+  </button>
+</template>
+
+<script>
+  import { activerEcouter } from '../scripts/ecouter';
+  activerEcouter();
+</script>
