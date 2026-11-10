@@ -17,16 +17,16 @@ const matieres = matieresDuNiveau(await leconsVisibles(), niveau.id);
 <Base titre={`${niveau.libelle} – Cours`} description={`Les matières de ${niveau.libelle}.`}>
   <FilAriane etapes={[{ libelle: 'Cours', href: lien('') }, { libelle: niveau.libelle }]} />
   <h1 data-niveau={niveau.id}>{niveau.libelle}</h1>
-  <ul class="cartes">
+  <ul class="tuiles">
     {
       matieres.map((m) => (
         <li>
-          <a class="carte" href={lien(`${niveau.id}/${m.matiere}/`)}>{m.matiereLibelle}</a>
+          <a class="tuile" href={lien(`${niveau.id}/${m.matiere}/`)}>{m.matiereLibelle}</a>
         </li>
       ))
     }
   </ul>
-  <p><a class="carte carte-discrete" href={lien('?choisir')}>Changer de niveau</a></p>
+  <p><a class="tuile tuile-discrete" href={lien('?choisir')}>Changer de niveau</a></p>
 </Base>
 
 <script>

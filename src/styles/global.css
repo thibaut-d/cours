@@ -107,7 +107,7 @@ summary {
 }
 
 /* Navigation : cartes de niveau, de matière et de leçon, un bloc pleine largeur par ligne. */
-.cartes {
+.tuiles {
   list-style: none;
   margin: 1rem 0;
   padding: 0;
@@ -115,11 +115,11 @@ summary {
   gap: 0.75rem;
 }
 
-.cartes li {
+.tuiles li {
   max-width: none;
 }
 
-.carte {
+.tuile {
   display: flex;
   align-items: center;
   min-height: 56px;
@@ -129,7 +129,7 @@ summary {
   font-weight: 700;
 }
 
-.carte-discrete {
+.tuile-discrete {
   display: inline-flex;
   border-color: var(--filet);
   font-weight: 400;

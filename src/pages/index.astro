@@ -12,14 +12,14 @@ const destinations = Object.fromEntries(niveaux.map((n) => [n.id, lien(`${n.id}/
   <h1>Cours</h1>
   {
     niveaux.length === 0 ? (
-      <p class="phrase">Aucun cours publié pour l'instant.</p>
+      <p class="chapeau">Aucun cours publié pour l'instant.</p>
     ) : (
       <>
-        <p class="phrase">Choisis ton niveau.</p>
-        <ul class="cartes" data-destinations={JSON.stringify(destinations)}>
+        <p class="chapeau">Choisis ton niveau.</p>
+        <ul class="tuiles" data-destinations={JSON.stringify(destinations)}>
           {niveaux.map((n) => (
             <li>
-              <a class="carte" href={lien(`${n.id}/`)}>{n.libelle}</a>
+              <a class="tuile" href={lien(`${n.id}/`)}>{n.libelle}</a>
             </li>
           ))}
         </ul>

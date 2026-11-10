@@ -29,11 +29,11 @@ const lecons = leconsDeMatiere(await leconsVisibles(), niveau.id, matiere);
     ]}
   />
   <h1>{matiereLibelle}</h1>
-  <ul class="cartes">
+  <ul class="tuiles">
     {
       lecons.map((l) => (
         <li>
-          <a class="carte" href={lien(`${niveau.id}/${matiere}/${slugLecon(l.id)}/`)}>{l.data.titre}</a>
+          <a class="tuile" href={lien(`${niveau.id}/${matiere}/${slugLecon(l.id)}/`)}>{l.data.titre}</a>
         </li>
       ))
     }
