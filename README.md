@@ -16,7 +16,8 @@ pnpm e2e      # tests de bout en bout : construit son propre site de test et éc
 ## Adresse publique
 
 https://thibaut-d.github.io/cours/ : mis à jour automatiquement à chaque push sur `main`
-(vérifications, tests, puis publication). Les leçons en brouillon ne sont pas publiées.
+(vérifications, tests, puis publication). Pendant la phase de relecture, les brouillons sont publiés aussi
+(`APERCU: '1'` dans `.github/workflows/publier.yml`) pour être relus en direct sur le site.
 
 ## Relire un brouillon sur téléphone
 

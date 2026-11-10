@@ -15,6 +15,8 @@ Le dépôt est public. Aucun détail personnel sur l'auteur, sa famille ou un é
 - L'identité Git du dépôt utilise l'adresse anonyme GitHub `4925720+thibaut-d@users.noreply.github.com`
   (réglée localement) ; jamais une adresse personnelle.
 - Messages en français ; `git add` avec des chemins explicites.
+- **Publication directe** (phase de relecture) : une fois les contrôles verts, les modifications sont poussées
+  sur `main` sans attendre, brouillons compris, pour que l'auteur les relise sur le site en ligne.
 
 ## Langue et vocabulaire
 

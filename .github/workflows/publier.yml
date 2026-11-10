@@ -40,7 +40,11 @@ jobs:
           path: playwright-report
           if-no-files-found: ignore
       # Construction du contenu réel : écrase dist.
+      # Phase de relecture : les brouillons sont publiés pour être relus en direct sur le site.
+      # Retirer APERCU quand le site aura d'autres lecteurs.
       - run: pnpm build
+        env:
+          APERCU: '1'
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
