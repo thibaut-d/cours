@@ -53,6 +53,13 @@ test('frise et questions', async ({ page }) => {
   await expect(reponse).toBeVisible();
 });
 
+test('frise verticale même sur grand écran, pour ne pas couper les mots', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 });
+  await page.goto(url);
+  const hauts = await page.locator('.frise li').evaluateAll((lis) => lis.map((li) => li.getBoundingClientRect().top));
+  for (let i = 1; i < hauts.length; i++) expect(hauts[i]).toBeGreaterThan(hauts[i - 1]!);
+});
+
 test('leçon en anglais', async ({ page }) => {
   await page.goto('/cours/sup/data-sciences/essai-anglais/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
