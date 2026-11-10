@@ -18,6 +18,16 @@ for (const largeur of [320, 375, 390, 768, 1280])
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   });
 
+for (const largeur of [320, 390])
+  test(`pas de défilement horizontal à ${largeur}px, réglages maximaux`, async ({ page }) => {
+    await page.addInitScript(() =>
+      localStorage.setItem('cours-reglages', JSON.stringify({ taille: 'tres-grande', espacement: 'aere', fond: 'creme', vitesse: 1 })),
+    );
+    await page.setViewportSize({ width: largeur, height: 800 });
+    await page.goto(url);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  });
+
 test('typographie de lecture', async ({ page }) => {
   await page.goto(url);
   const p = page.locator('article.carte p.phrase').first();
@@ -34,7 +44,7 @@ test("notes de l'orateur jamais affichées", async ({ page }) => {
 
 test('frise et questions', async ({ page }) => {
   await page.goto(url);
-  await expect(page.locator('.frise li')).toHaveCount(3);
+  await expect(page.locator('.frise li')).toHaveCount(4);
   const reponse = page.locator('.questions .reponse').first();
   await expect(reponse).toBeVisible();
   await page.getByRole('button', { name: 'Cacher les réponses' }).click();

@@ -29,6 +29,7 @@ export function activerEcouter(racine: ParentNode = document): void {
     const fragment = modele.content.cloneNode(true) as DocumentFragment;
     const bouton = fragment.querySelector<HTMLButtonElement>('button');
     if (!bouton) continue;
+    if (!carte.dataset.texte?.trim()) continue;
     const compteur = carte.querySelector('.compteur');
     if (compteur) compteur.after(bouton);
     else carte.prepend(bouton);

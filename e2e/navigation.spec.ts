@@ -65,3 +65,11 @@ test("stockage bloqué : l'accueil reste utilisable", async ({ browser }) => {
   await expect(page.getByRole('link', { name: '6e' })).toBeVisible();
   await ctx.close();
 });
+
+test("fil d'Ariane : « Cours » ramène au choix du niveau", async ({ page }) => {
+  await page.goto('/cours/6e/');
+  await page.getByRole('navigation', { name: "Fil d'Ariane" }).getByRole('link', { name: 'Cours' }).click();
+  await expect(page).toHaveURL(/\/cours\/\?choisir$/);
+  await expect(page.getByRole('link', { name: '6e' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Supérieur' })).toBeVisible();
+});

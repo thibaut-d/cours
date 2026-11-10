@@ -10,7 +10,7 @@ pnpm install
 pnpm dev      # serveur de développement
 pnpm build    # construit dist/
 pnpm test     # tests unitaires
-pnpm e2e      # tests de bout en bout (après pnpm build)
+pnpm e2e      # tests de bout en bout : construit son propre site de test et écrase dist/ ; relance `pnpm build` ensuite pour le vrai site
 ```
 
 ## Adresse publique

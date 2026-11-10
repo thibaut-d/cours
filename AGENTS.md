@@ -29,7 +29,7 @@ Tout est en français : textes du site (tutoiement, phrases courtes), commentair
 
 ## Contrôles
 
-Avant tout commit, ces commandes doivent passer (`valider` arrive avec la validation du contenu) :
+Avant tout commit, ces commandes doivent passer :
 
 ```
 pnpm check && pnpm test && pnpm valider && pnpm build && pnpm e2e

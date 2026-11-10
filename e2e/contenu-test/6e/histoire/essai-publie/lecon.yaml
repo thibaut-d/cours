@@ -7,6 +7,8 @@ statut: publie
 resume: Une leçon inventée pour tester l'affichage.
 sources:
   - libelle: Document d'essai
+  - libelle: https://eduscol.education.fr/essai/une-adresse-tres-longue-sans-aucune-coupure-possible/document-de-reference-numero-1234567890
+    url: https://eduscol.education.fr/essai/une-adresse-tres-longue-sans-aucune-coupure-possible/document-de-reference-numero-1234567890
 chapitres:
   - titre: Premier chapitre
     ensemble:
@@ -18,6 +20,8 @@ chapitres:
         - libelle: Pendant
           dates: Un peu plus tard
           carte: 2
+        - libelle: australopithèque
+          dates: Très loin
         - libelle: Après
           dates: Plus récemment
     formule: A = B + C
@@ -46,6 +50,8 @@ chapitres:
         enSavoirPlus: Les premiers foyers datent d'il y a très longtemps.
         notes: NOTE-ORATEUR-ESSAI
     questions:
+      - question: Pourquoi dit-on « Paléolithique » ?
+        reponse: C'est le nom de la période.
       - question: Pourquoi un abri est-il utile ?
         reponse: Il protège du froid et de la pluie.
       - question: À quoi sert le feu ?

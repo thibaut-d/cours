@@ -15,7 +15,7 @@ const matieres = matieresDuNiveau(await leconsVisibles(), niveau.id);
 ---
 
 <Base titre={`${niveau.libelle} – Cours`} description={`Les matières de ${niveau.libelle}.`}>
-  <FilAriane etapes={[{ libelle: 'Cours', href: lien('') }, { libelle: niveau.libelle }]} />
+  <FilAriane etapes={[{ libelle: 'Cours', href: lien('?choisir') }, { libelle: niveau.libelle }]} />
   <h1 data-niveau={niveau.id}>{niveau.libelle}</h1>
   <ul class="tuiles">
     {

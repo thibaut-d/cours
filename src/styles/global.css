@@ -54,6 +54,7 @@ body {
   word-spacing: var(--esp-mots);
   text-align: left;
   hyphens: none;
+  overflow-wrap: anywhere;
 }
 
 main {
@@ -165,6 +166,8 @@ summary {
 .fil a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  min-width: 48px;
 }
 
 /* Réglages de lecture : posés sur <html> avant l'affichage (reglages-avant-affichage.ts). */

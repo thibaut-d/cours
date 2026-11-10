@@ -17,7 +17,7 @@ const motifs = chargerMotifs(readFileSync(LISTE, 'utf8'));
 const sources = []; // { nom, texte }
 const [mode, arg] = process.argv.slice(2);
 if (mode === '--index') {
-  const noms = execFileSync('git', ['diff', '--cached', '--name-only', '--diff-filter=ACM', '-z'], { encoding: 'utf8' })
+  const noms = execFileSync('git', ['diff', '--cached', '--name-only', '--no-renames', '--diff-filter=ACM', '-z'], { encoding: 'utf8' })
     .split('\0')
     .filter(Boolean);
   for (const nom of noms) {

@@ -23,7 +23,7 @@ const lecons = leconsDeMatiere(await leconsVisibles(), niveau.id, matiere);
 <Base titre={`${matiereLibelle} – ${niveau.libelle} – Cours`} description={`Les leçons de ${matiereLibelle} en ${niveau.libelle}.`}>
   <FilAriane
     etapes={[
-      { libelle: 'Cours', href: lien('') },
+      { libelle: 'Cours', href: lien('?choisir') },
       { libelle: niveau.libelle, href: lien(`${niveau.id}/`) },
       { libelle: matiereLibelle },
     ]}
