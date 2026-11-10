@@ -13,14 +13,19 @@ pnpm test     # tests unitaires
 pnpm e2e      # tests de bout en bout (après pnpm build)
 ```
 
-## Aperçu sur téléphone
+## Adresse publique
+
+https://thibaut-d.github.io/cours/ : mis à jour automatiquement à chaque push sur `main`
+(vérifications, tests, puis publication). Les leçons en brouillon ne sont pas publiées.
+
+## Relire un brouillon sur téléphone
 
 ```
 pnpm apercu
 ```
 
-Construit le site puis le sert sur le réseau local : ouvre l'adresse « Network » affichée, suivie de `/cours/`,
-depuis le téléphone connecté au même Wi-Fi.
+Lance le serveur sur le réseau local, brouillons inclus. Astro affiche une ligne « Network » : sur le téléphone
+(même Wi-Fi), ouvre `http://<IP-du-PC>:4321/cours/`.
 
 ## Pour les agents
 
