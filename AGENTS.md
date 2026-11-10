@@ -7,7 +7,7 @@ plans de `docs/superpowers/plans/`.
 
 ## Vie privée
 
-Le dépôt est public. Aucun détail personnel sur l'auteur, sa famille ou un élève dans un fichier versionné, un commit ou le site. Le contexte personnel est dans `prive/` (ignoré par Git) ; ne jamais en recopier quoi que ce soit (spec § 7). `sources/` n'est jamais versionné.
+Le dépôt est public. Aucun détail personnel sur l'auteur, sa famille ou un élève dans un fichier versionné, un commit ou le site. Le contexte personnel est dans `prive/` (ignoré par Git) ; ne jamais en recopier quoi que ce soit (spec § 7). `sources/` n'est jamais versionné. Les crochets Git de `.githooks/` (activés par `pnpm install`) refusent tout commit dont un fichier ou le message contient un terme de `prive/mots-interdits.txt` ; ne jamais les contourner.
 
 ## Commits
 
