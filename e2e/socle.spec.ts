@@ -6,6 +6,15 @@ test('accueil servi sous /cours/', async ({ page }) => {
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
   const ff = await page.locator('body').evaluate((e) => getComputedStyle(e).fontFamily);
   expect(ff).toContain('Luciole');
+  // Le fichier de police est réellement chargé (et non le repli système).
+  const chargee = await page.evaluate(async () => {
+    await document.fonts.load('16px Luciole');
+    await document.fonts.ready;
+    return document.fonts.check('16px Luciole');
+  });
+  expect(chargee).toBe(true);
+  const luciole = await page.evaluate(() => [...document.fonts].filter((f) => f.family.includes('Luciole') && f.status === 'loaded').length);
+  expect(luciole).toBeGreaterThan(0);
   expect(await new AxeBuilder({ page }).analyze().then((r) => r.violations)).toEqual([]);
 });
 

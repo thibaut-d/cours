@@ -1,32 +1,5 @@
 /* Polices de lecture : Luciole (CC BY 4.0), repli Atkinson Hyperlegible. Servies en local, jamais de CDN. */
-@font-face {
-  font-family: 'Luciole';
-  src: url('/cours/fonts/luciole-400.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Luciole';
-  src: url('/cours/fonts/luciole-700.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('/cours/fonts/atkinson-hyperlegible-400.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('/cours/fonts/atkinson-hyperlegible-700.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+/* Les @font-face sont émis par Base.astro : leurs URL dépendent de la base du site. */
 
 :root {
   --fond: #fbf7ee;

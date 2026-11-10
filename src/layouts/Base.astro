@@ -8,6 +8,19 @@ interface Props {
 }
 
 const { titre, langue = 'fr', description } = Astro.props;
+
+// Polices de lecture : Luciole (CC BY 4.0), repli Atkinson Hyperlegible. Servies en local, jamais de CDN.
+// URL dérivées de la base : Astro ne réécrit pas les url() absolues d'un fichier CSS.
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const polices = [
+  ['Luciole', 'luciole', 400],
+  ['Luciole', 'luciole', 700],
+  ['Atkinson Hyperlegible', 'atkinson-hyperlegible', 400],
+  ['Atkinson Hyperlegible', 'atkinson-hyperlegible', 700],
+] as const;
+const faces = polices
+  .map(([famille, fichier, graisse]) => `@font-face{font-family:'${famille}';src:url('${base}/fonts/${fichier}-${graisse}.woff2') format('woff2');font-weight:${graisse};font-style:normal;font-display:swap}`)
+  .join('\n');
 ---
 
 <!doctype html>
@@ -17,6 +30,7 @@ const { titre, langue = 'fr', description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{titre}</title>
     {description && <meta name="description" content={description} />}
+    <style is:inline set:html={faces}></style>
     <slot name="tete" />
   </head>
   <body>
