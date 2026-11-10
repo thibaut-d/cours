@@ -1,0 +1,134 @@
+/* Polices de lecture : Luciole (CC BY 4.0), repli Atkinson Hyperlegible. Servies en local, jamais de CDN. */
+@font-face {
+  font-family: 'Luciole';
+  src: url('/cours/fonts/luciole-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Luciole';
+  src: url('/cours/fonts/luciole-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('/cours/fonts/atkinson-hyperlegible-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('/cours/fonts/atkinson-hyperlegible-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --fond: #fbf7ee;
+  --encre: #1e1e1e;
+  --encre-douce: #4a4a4a;
+  --filet: #d9d2c0;
+
+  /* Palette remplaçable, attribuée selon le rang de la carte (aucun sens de couleur figé, en attendant la charte). */
+  --palette-1: #8a3b12;
+  --palette-2: #1f5f6b;
+  --palette-3: #5b3f8c;
+  --palette-4: #2f6b2f;
+  --palette-5: #9a2e4d;
+  --palette-6: #5c4a1c;
+
+  --taille-phrase: 1.3125rem; /* 21 px */
+  --taille-mot-cle: 2rem; /* 32 px */
+  --interligne: 1.5;
+  --esp-lettres: 0.05em;
+  --esp-mots: 0.16em;
+  --largeur-lecture: 40rem;
+
+  --police-lecture: 'Luciole', 'Atkinson Hyperlegible', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--fond);
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--encre);
+  font-family: var(--police-lecture);
+  font-size: var(--taille-phrase);
+  line-height: var(--interligne);
+  letter-spacing: var(--esp-lettres);
+  word-spacing: var(--esp-mots);
+  text-align: left;
+  hyphens: none;
+}
+
+main {
+  max-width: var(--largeur-lecture);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+p,
+li {
+  max-width: 60ch;
+  text-align: left;
+  hyphens: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: none;
+}
+
+h1 {
+  font-size: var(--taille-mot-cle);
+}
+
+/* Jamais d'italique ni de souligné pour mettre en valeur : gras. */
+em,
+i,
+cite,
+address {
+  font-style: normal;
+  font-weight: 700;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Cibles tactiles >= 48 px. */
+a,
+button,
+summary {
+  min-height: 48px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--encre);
+  outline-offset: 3px;
+}

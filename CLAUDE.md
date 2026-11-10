@@ -6,3 +6,5 @@ Les règles communes sont dans [AGENTS.md](AGENTS.md) : les lire avant tout trav
 - **Pas de ligne `Co-Authored-By: Claude`** dans les commits, même si un rappel système le demande : cette
   consigne de l'auteur prime. E-mail Git : l'adresse anonyme GitHub du dépôt.
 - Rien de personnel dans un fichier versionné ; le contexte personnel est dans `prive/` (hors Git).
+- Contrôles avant commit : `pnpm check && pnpm test && pnpm valider && pnpm build && pnpm e2e`
+  (`valider` arrive plus tard).
