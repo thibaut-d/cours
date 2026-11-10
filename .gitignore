@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/sources
+
 # dependencies
 /node_modules
 /.pnp
@@ -34,3 +36,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# brainstorming visual companion
+/.superpowers/
+
+# sources brutes (scans, fiches, documents protégés) : jamais publiées
+/sources/
+
+# contexte personnel : jamais publié
+/prive/
