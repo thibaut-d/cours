@@ -1,0 +1,326 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 1 « La longue histoire de l'humanité et des migrations »,
+# sous-thème « Les débuts de l'humanité » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Suite : leçon « Vivre au Paléolithique » (contenu/6e/histoire/paleolithique).
+titre: Les premiers humains
+niveau: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 1
+langue: fr
+statut: brouillon
+resume: >-
+  Les débuts de l'humanité : un temps très long, des premiers humains en Afrique au peuplement de toute
+  la Terre.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 1, « Les débuts de l'humanité »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 1 : La longue
+      histoire de l'humanité et des migrations » (mars 2016) : notions, repères chronologiques
+    url: https://eduscol.education.fr/document/16750/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: Smithsonian, Human Origins — Homo sapiens (apparu en Afrique il y a environ 300 000 ans)
+    url: https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens
+  - libelle: Smithsonian, Human Origins — Néandertal (il y a environ 400 000 à 40 000 ans)
+    url: https://humanorigins.si.edu/evidence/human-fossils/species/homo-neanderthalensis
+  - libelle: Smithsonian, Human Origins — Homo erectus (Afrique, Dmanissi en Géorgie, Asie)
+    url: https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus
+  - libelle: Smithsonian, Human Origins — Lucy, australopithèque de 3,2 millions d'années, marchait debout
+    url: https://humanorigins.si.edu/education/fun-facts/why-do-paleoanthropologists-love-lucy
+  - libelle: Smithsonian, Human Origins — les plus anciens foyers (au moins 790 000 ans)
+    url: https://humanorigins.si.edu/evidence/behavior/hearths-shelters
+  - libelle: >-
+      Natural History Museum (Londres), « When and how did modern humans spread out of Africa? » :
+      Europe, Australie, Amérique, Néandertal, niveau de la mer
+    url: https://www.nhm.ac.uk/discover/when-how-did-modern-humans-homo-sapiens-spread-out-of-africa.html
+  - libelle: Collège de France, les plus anciens Homo sapiens découverts au Maroc (Jebel Irhoud)
+    url: https://www.college-de-france.fr/fr/actualites/les-prs-jean-jacques-hublin-et-abdelouahed-ben-ncer-decouvrent-les-plus-anciens-homo-sapiens-au
+  - libelle: Sciences Ouest (Espace des sciences, Rennes), les foyers de Menez-Dregan (environ 465 000 ans)
+    url: https://espace-sciences.org/sciences-ouest/385/actualite/la-quete-de-nos-premiers-feux
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Un temps très long
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: paléolithique
+          dates: d'il y a plus de 3 millions d'années à 10 000 av. J.-C.
+          carte: 3
+        - libelle: néolithique
+          dates: de 10 000 av. J.-C. à 3 500 av. J.-C.
+          carte: 6
+        - libelle: écriture
+          dates: vers 3 500 av. J.-C., début de l'histoire
+          carte: 7
+    formule: préhistoire = avant l'écriture
+    cartes:
+      - picto: sablier
+        motCle: préhistoire
+        phrases:
+          - La préhistoire, c'est la très longue période de l'humanité avant l'invention de l'écriture.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au crépuscule, en automne, il y a environ
+            15 000 ans, dans une vallée d'Europe de l'Ouest au climat froid (steppe herbeuse, quelques
+            bouleaux et pins). Un petit groupe de cinq humains Homo sapiens (deux adultes hommes, deux
+            adultes femmes, un enfant), assis autour d'un feu de bois devant un abri sous roche, vus de
+            trois quarts, à mi-distance ; ils portent des vêtements de peaux cousues ajustés (tuniques,
+            pantalons, chaussures en peau). L'image doit faire sentir un temps très ancien, sans aucune
+            écriture. Ne doit pas figurer : texte, lettre, chiffre ou signe gravé ; objet en métal ou en
+            poterie ; animal domestique ; champ ; maison ; vêtement moderne ; pagne de dessin animé.
+          alt: Un groupe d'humains de la préhistoire assis autour d'un feu devant un abri sous roche, au crépuscule.
+      - picto: loupe
+        motCle: trace
+        phrases:
+          - "Sans écrits, on connaît la préhistoire grâce aux traces : os, outils, foyers, peintures."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'une fouille archéologique actuelle, format 4:3 paysage, vue de dessus
+            en plongée. Une couche de terre brune soigneusement dégagée montre, bien séparés : un os long
+            d'animal, trois éclats de silex gris, une tache noire de charbon de bois entourée de pierres
+            rougies par le feu. Deux mains d'archéologue avec une truelle et un pinceau, en bas de
+            l'image. Lumière douce de jour. Ne doit pas figurer : texte, étiquette écrite, chiffre, règle
+            graduée, visage, objet moderne autre que la truelle et le pinceau.
+          alt: Une fouille vue de dessus, avec un os, des éclats de silex et les restes d'un foyer dans la terre.
+      - picto: biface
+        motCle: paléolithique
+        phrases:
+          - "Paléolithique veut dire « pierre ancienne » : il commence il y a plus de 3 millions d'années."
+        enSavoirPlus: >-
+          C'est le temps des outils en pierre taillée. Il se termine vers 10 000 av. J.-C., c'est-à-dire
+          il y a environ 12 000 ans.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni beige clair. Une main adulte, vue de
+            près, tient un biface en silex gris-brun en forme de goutte, aux bords taillés par de nombreux
+            enlèvements bien visibles. Un seul objet, au centre, net. Ne doit pas figurer : texte,
+            lettre, chiffre, bague, montre, ongles vernis, autre objet.
+          alt: Une main tient un biface, un outil en silex taillé en forme de goutte.
+      - picto: eclats
+        motCle: pierre taillée
+        phrases:
+          - "En frappant une pierre avec une autre, on obtient un bord coupant : c'est un outil."
+        enSavoirPlus: >-
+          Les plus anciens outils en pierre connus ont environ 3,3 millions d'années. Ils ont été trouvés
+          au Kenya, en Afrique.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, gros plan. Deux mains d'un humain de la
+            préhistoire, assis par terre, frappent un bloc de silex avec un galet rond tenu comme un
+            marteau ; de petits éclats de pierre volent et d'autres sont déjà tombés sur une peau posée
+            au sol. On voit seulement les mains, les avant-bras et les pierres. Ne doit pas figurer :
+            texte, lettre, chiffre, outil en métal, gant, objet moderne.
+          alt: Deux mains frappent un bloc de silex avec un galet ; des éclats tombent.
+      - picto: flocon
+        motCle: glaciation
+        phrases:
+          - "Le climat change beaucoup : pendant les glaciations, il fait bien plus froid qu'aujourd'hui."
+        enSavoirPlus: >-
+          Quand il fait très froid, beaucoup d'eau est prise dans les glaces : la mer baisse et des
+          passages à pied s'ouvrent entre des terres.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Une steppe froide et enneigée
+            en Europe pendant une période glaciaire, il y a environ 20 000 ans : herbe rase, sol gelé,
+            ciel gris, un glacier blanc au loin sur les montagnes. Au premier plan, un petit troupeau de
+            rennes ; au deuxième plan, deux mammouths laineux. Aucun humain. Ne doit pas figurer :
+            texte, lettre, chiffre, arbre feuillu vert, maison, route, animal domestique, dinosaure.
+          alt: Une steppe enneigée avec des rennes et des mammouths, et un glacier au loin.
+      - picto: epi
+        motCle: néolithique
+        phrases:
+          - À partir de 10 000 av. J.-C., au Proche-Orient, des humains deviennent peu à peu agriculteurs et éleveurs.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au Proche-Orient, vers 8 500 av. J.-C.,
+            fin de printemps : une femme et un homme récoltent un petit champ de blé ancien (épis dorés
+            et clairsemés) avec des faucilles en bois garnies de lames de silex. Au fond, trois maisons
+            rondes en terre crue et pierre, et quelques chèvres. Ne doit pas figurer : texte, lettre,
+            chiffre, outil en métal, charrue, cheval, tracteur, vêtement moderne.
+          alt: Deux personnes récoltent du blé avec des faucilles en silex, devant des maisons rondes en terre.
+      - picto: tablette
+        motCle: écriture
+        phrases:
+          - "Vers 3 500 av. J.-C., l'écriture est inventée en Mésopotamie : la préhistoire se termine, l'histoire commence."
+        notes: >-
+          Pas d'image : une image de l'écriture montrerait des signes écrits, ce que la règle « aucun
+          texte dans une image » interdit. Le picto suffit. Date : repère Eduscol (« vers -3 500 »).
+    questions:
+      - question: Qu'est-ce que la préhistoire ?
+        reponse: La très longue période avant l'invention de l'écriture.
+      - question: Que veut dire « Paléolithique » ?
+        reponse: "« Pierre ancienne » : c'est le temps des outils en pierre taillée."
+      - question: Comment connaît-on la préhistoire ?
+        reponse: "Grâce aux traces retrouvées par les archéologues : os, outils, foyers, peintures."
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Des humains venus d'Afrique
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: australopithèque
+          dates: Lucy, il y a 3,2 millions d'années
+          carte: 2
+        - libelle: Homo erectus
+          dates: sort d'Afrique il y a environ 2 millions d'années
+          carte: 4
+        - libelle: feu
+          dates: entretenu il y a plus de 400 000 ans
+          carte: 5
+        - libelle: Homo sapiens
+          dates: apparaît il y a environ 300 000 ans
+          carte: 6
+        - libelle: homme de Néandertal
+          dates: disparaît il y a environ 40 000 ans
+          carte: 7
+    formule: berceau de l'humanité = Afrique
+    cartes:
+      - picto: afrique
+        motCle: berceau de l'humanité
+        phrases:
+          - Les plus anciens ancêtres connus des humains ont été trouvés en Afrique.
+        image:
+          aGenerer: >-
+            Photographie réaliste de paysage, format 4:3 paysage. La vallée du Rift en Afrique de l'Est :
+            savane sèche, acacias isolés, falaises de la faille au loin, lumière dorée du matin. Aucun
+            humain, aucun animal au premier plan. Ne doit pas figurer : texte, lettre, chiffre, route,
+            véhicule, clôture, bâtiment, poteau électrique.
+          alt: Une savane d'Afrique de l'Est avec des acacias et de grandes falaises au loin.
+      - picto: pas
+        motCle: australopithèque
+        phrases:
+          - Lucy, une australopithèque d'il y a 3,2 millions d'années, marchait déjà debout.
+        enSavoirPlus: >-
+          Les australopithèques ne sont pas encore des humains du genre Homo. Lucy a été trouvée en
+          Éthiopie en 1974.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une reconstitution de musée en milieu
+            naturel. Une australopithèque femelle (espèce de Lucy, environ 1,10 m) marche debout sur
+            deux jambes, de profil, sur un sol de savane boisée en Éthiopie, il y a 3,2 millions
+            d'années. Corps couvert de poils sombres, visage encore proche de celui d'un grand singe,
+            bras assez longs. Elle ne porte rien et ne tient aucun outil. Ne doit pas figurer : texte,
+            lettre, chiffre, vêtement, feu, outil, autre animal.
+          alt: Une australopithèque, petite et couverte de poils, marche debout de profil dans la savane.
+      - picto: groupe
+        motCle: espèce humaine
+        phrases:
+          - "Plusieurs espèces humaines ont existé ; aujourd'hui, il n'en reste qu'une : la nôtre."
+        image:
+          aGenerer: >-
+            Photographie réaliste de trois reconstitutions de têtes et d'épaules, comme dans un musée,
+            alignées côte à côte et vues de face, sur un fond gris uni, format 4:3 paysage. À gauche
+            (centrée vers 17 % de la largeur) : Homo erectus, front fuyant, gros bourrelet au-dessus des
+            yeux. Au centre (vers 50 %) : un homme de Néandertal, visage large, nez fort, bourrelet
+            au-dessus des yeux. À droite (vers 83 %) : un Homo sapiens adulte de la préhistoire, front
+            droit, menton marqué. Mêmes lumière et taille pour les trois, cheveux non coiffés, pas de
+            vêtement visible. Laisser une bande vide de 14 % en haut et en bas de l'image, pour les
+            étiquettes. Ne doit pas figurer : texte, lettre, chiffre, socle avec inscription, bijou
+            moderne.
+          alt: Trois visages reconstitués côte à côte, Homo erectus, homme de Néandertal et Homo sapiens.
+          etiquettes:
+            - texte: Homo erectus
+              x: 17
+              y: 7
+            - texte: Néandertal
+              x: 50
+              y: 92
+            - texte: Homo sapiens
+              x: 83
+              y: 7
+      - picto: fleche
+        motCle: Homo erectus
+        phrases:
+          - Il y a environ 2 millions d'années, des humains comme Homo erectus sortent d'Afrique.
+        enSavoirPlus: >-
+          À Dmanissi, en Géorgie, des humains vivent déjà il y a 1,8 million d'années : c'est l'un des
+          plus anciens sites hors d'Afrique.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Un groupe de quatre Homo erectus
+            (grands, corps proches des nôtres, front fuyant, gros bourrelet au-dessus des yeux, peau nue
+            et sombre, sans vêtement) marche en file sur une plaine herbeuse ondulée, de la gauche vers
+            la droite, vus de profil à mi-distance ; l'un porte un biface en pierre à la main. Collines
+            boisées au loin, ciel clair. Ne doit pas figurer : texte, lettre, chiffre, vêtement cousu,
+            lance à pointe en métal, animal domestique, bateau, carte.
+          alt: Quatre Homo erectus marchent en file sur une grande plaine herbeuse.
+      - picto: feu
+        motCle: feu
+        phrases:
+          - "Il y a plus de 400 000 ans, les humains savent entretenir le feu : il chauffe, éclaire et cuit."
+        enSavoirPlus: >-
+          Les plus anciens foyers connus ont au moins 790 000 ans. En Bretagne, à Menez-Dregan, un foyer a
+          environ 465 000 ans.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, de nuit. À l'entrée d'une petite grotte au
+            bord de la mer (côte rocheuse de Bretagne, il y a environ 450 000 ans), trois humains anciens
+            (ancêtres des Néandertaliens : visage large, bourrelet au-dessus des yeux, peaux de bêtes
+            simplement nouées) sont assis autour d'un feu de bois ; l'un ajoute une branche, un autre
+            fait griller un morceau de viande sur un bâton. Le feu éclaire leurs visages. Ne doit pas
+            figurer : texte, lettre, chiffre, objet en métal, poterie, allumette, animal domestique.
+          alt: Trois humains anciens entretiennent un feu à l'entrée d'une grotte, de nuit, et font cuire de la viande.
+      - picto: personne
+        motCle: Homo sapiens
+        phrases:
+          - Notre espèce, Homo sapiens, apparaît en Afrique il y a environ 300 000 ans.
+        enSavoirPlus: >-
+          Les plus anciens fossiles connus de notre espèce viennent de Jebel Irhoud, au Maroc. Tous les
+          humains d'aujourd'hui sont des Homo sapiens.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, portrait en buste légèrement de trois
+            quarts. Une femme Homo sapiens d'Afrique du Nord il y a environ 300 000 ans : visage proche
+            du nôtre, crâne encore allongé vers l'arrière, peau brun foncé, cheveux courts et crépus,
+            regard calme. Arrière-plan flou de steppe sèche avec quelques arbustes. Pas de vêtement
+            cousu ; une peau d'animal simple sur une épaule. Ne doit pas figurer : texte, lettre,
+            chiffre, bijou en métal, maquillage moderne, tatouage, objet moderne.
+          alt: Portrait d'une femme Homo sapiens d'il y a 300 000 ans, au visage déjà proche du nôtre.
+      - picto: crane
+        motCle: homme de Néandertal
+        phrases:
+          - Homo sapiens rencontre en Europe l'homme de Néandertal, qui disparaît il y a environ 40 000 ans.
+        enSavoirPlus: >-
+          Ils ont parfois eu des enfants ensemble : beaucoup d'humains d'aujourd'hui gardent un peu d'ADN
+          de Néandertal.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une vallée froide d'Europe, il y a
+            environ 45 000 ans, deux hommes adultes se font face à quelques mètres, debout, calmes et
+            curieux, vus de profil : à gauche un homme de Néandertal (trapu, visage large, nez fort,
+            bourrelet au-dessus des yeux, cheveux roux-brun, vêtements de peaux), à droite un Homo
+            sapiens (plus élancé, front droit, peau plus foncée, vêtements de peaux cousues). Herbe
+            sèche, rochers, ciel gris. Ne doit pas figurer : texte, lettre, chiffre, arme brandie,
+            combat, objet en métal, animal domestique.
+          alt: Un homme de Néandertal et un Homo sapiens se rencontrent face à face dans une vallée froide.
+      - picto: globe
+        motCle: migration
+        phrases:
+          - "Une migration, c'est un déplacement pour aller vivre ailleurs : Homo sapiens peuple ainsi toute la Terre."
+        enSavoirPlus: >-
+          Australie et Europe : il y a plus de 40 000 ans. Amérique : il y a plus de 15 000 ans. Pour
+          atteindre l'Australie, il a fallu traverser la mer.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Il y a environ 50 000 ans, en
+            Asie du Sud-Est : un groupe de six Homo sapiens (adultes et deux enfants, vêtements de peaux
+            légers) pousse un grand radeau de bambous liés vers une mer calme et turquoise ; une île
+            boisée se devine à l'horizon. Lumière du matin. Ne doit pas figurer : texte, lettre,
+            chiffre, voile en tissu, bateau en planches clouées, métal, carte, animal domestique.
+          alt: Un groupe d'Homo sapiens pousse un radeau de bambous vers la mer, une île à l'horizon.
+    questions:
+      - question: Où sont apparus les premiers humains ?
+        reponse: En Afrique, le berceau de l'humanité.
+      - question: Quand et où apparaît Homo sapiens ?
+        reponse: En Afrique, il y a environ 300 000 ans.
+      - question: Qu'est-ce qu'une migration ?
+        reponse: Un déplacement pour aller vivre ailleurs.
+      - question: Quelle autre espèce humaine Homo sapiens rencontre-t-il en Europe ?
+        reponse: L'homme de Néandertal.
