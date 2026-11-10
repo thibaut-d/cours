@@ -1,8 +1,38 @@
 ---
 import Base from '../layouts/Base.astro';
+import { leconsVisibles } from '../lib/lecons';
+import { niveauxPresents } from '../lecon/catalogue';
+import { lien } from '../lib/lien';
+
+const niveaux = niveauxPresents(await leconsVisibles());
+const destinations = Object.fromEntries(niveaux.map((n) => [n.id, lien(`${n.id}/`)]));
 ---
 
 <Base titre="Cours" description="Des cours illustrés, faciles à lire.">
   <h1>Cours</h1>
-  <p class="phrase">Des cours illustrés, faciles à lire.</p>
+  {
+    niveaux.length === 0 ? (
+      <p class="phrase">Aucun cours publié pour l'instant.</p>
+    ) : (
+      <>
+        <p class="phrase">Choisis ton niveau.</p>
+        <ul class="cartes" data-destinations={JSON.stringify(destinations)}>
+          {niveaux.map((n) => (
+            <li>
+              <a class="carte" href={lien(`${n.id}/`)}>{n.libelle}</a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
 </Base>
+
+<script>
+  import { redirigerVersDernierNiveau } from '../scripts/dernier-niveau';
+  const liste = document.querySelector<HTMLElement>('[data-destinations]');
+  if (liste) {
+    const destinations: Record<string, string> = JSON.parse(liste.dataset.destinations ?? '{}');
+    redirigerVersDernierNiveau(Object.keys(destinations), (id) => destinations[id] ?? '');
+  }
+</script>

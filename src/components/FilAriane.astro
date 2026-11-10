@@ -1,0 +1,18 @@
+---
+interface Props {
+  etapes: { libelle: string; href?: string }[];
+}
+const { etapes } = Astro.props;
+---
+
+<nav aria-label="Fil d'Ariane" class="fil">
+  <ol>
+    {
+      etapes.map((e, i) => (
+        <li>
+          {e.href && i < etapes.length - 1 ? <a href={e.href}>{e.libelle}</a> : <span aria-current="page">{e.libelle}</span>}
+        </li>
+      ))
+    }
+  </ol>
+</nav>

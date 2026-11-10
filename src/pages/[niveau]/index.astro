@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import FilAriane from '../../components/FilAriane.astro';
+import { leconsVisibles } from '../../lib/lecons';
+import { matieresDuNiveau, niveauxPresents } from '../../lecon/catalogue';
+import { lien } from '../../lib/lien';
+
+export async function getStaticPaths() {
+  const lecons = await leconsVisibles();
+  return niveauxPresents(lecons).map((n) => ({ params: { niveau: n.id }, props: { niveau: n } }));
+}
+
+const { niveau } = Astro.props;
+const matieres = matieresDuNiveau(await leconsVisibles(), niveau.id);
+---
+
+<Base titre={`${niveau.libelle} – Cours`} description={`Les matières de ${niveau.libelle}.`}>
+  <FilAriane etapes={[{ libelle: 'Cours', href: lien('') }, { libelle: niveau.libelle }]} />
+  <h1 data-niveau={niveau.id}>{niveau.libelle}</h1>
+  <ul class="cartes">
+    {
+      matieres.map((m) => (
+        <li>
+          <a class="carte" href={lien(`${niveau.id}/${m.matiere}/`)}>{m.matiereLibelle}</a>
+        </li>
+      ))
+    }
+  </ul>
+  <p><a class="carte carte-discrete" href={lien('?choisir')}>Changer de niveau</a></p>
+</Base>
+
+<script>
+  import { ecrireNiveau } from '../../scripts/dernier-niveau';
+  const id = document.querySelector<HTMLElement>('[data-niveau]')?.dataset.niveau;
+  if (id) ecrireNiveau(id);
+</script>

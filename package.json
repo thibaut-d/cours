@@ -9,14 +9,15 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "apercu": "astro build && astro preview --host --ignore-lock",
+    "apercu": "cross-env APERCU=1 astro dev --host",
     "build": "astro build",
     "preview": "astro preview",
     "test": "vitest run",
     "prepare": "git config core.hooksPath .githooks",
     "e2e": "playwright test",
     "check": "astro check",
-    "valider": "tsx scripts/valider.ts"
+    "valider": "tsx scripts/valider.ts",
+    "build:essai": "cross-env CONTENU_DIR=e2e/contenu-test astro build"
   },
   "dependencies": {
     "astro": "^7.3.3",
@@ -28,6 +29,7 @@
     "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "^1.63.0",
     "@types/node": "^22",
+    "cross-env": "^10.1.0",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vitest": "^3.2.7"
