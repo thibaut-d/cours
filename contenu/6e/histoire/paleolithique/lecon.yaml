@@ -1,0 +1,676 @@
+# Leçon pilote, en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 1 « La longue histoire de l'humanité et des migrations »,
+# sous-thème « Les débuts de l'humanité » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+titre: Les débuts de l'humanité
+niveau: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 1
+langue: fr
+statut: brouillon
+resume: >-
+  Le Paléolithique : des premiers humains en Afrique au peuplement de la Terre, la vie nomade des
+  chasseurs-cueilleurs, les sépultures et l'art des grottes.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 1, « Les débuts de l'humanité »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 1 : La longue
+      histoire de l'humanité et des migrations » (mars 2016) : notions, repères chronologiques
+    url: https://eduscol.education.fr/document/16750/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: Smithsonian, Human Origins — Homo sapiens (apparu en Afrique il y a environ 300 000 ans)
+    url: https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens
+  - libelle: Smithsonian, Human Origins — Néandertal (il y a environ 400 000 à 40 000 ans ; sépultures)
+    url: https://humanorigins.si.edu/evidence/human-fossils/species/homo-neanderthalensis
+  - libelle: Smithsonian, Human Origins — Homo erectus (Afrique, Dmanissi en Géorgie, Asie)
+    url: https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus
+  - libelle: Smithsonian, Human Origins — Lucy, australopithèque de 3,2 millions d'années, marchait debout
+    url: https://humanorigins.si.edu/education/fun-facts/why-do-paleoanthropologists-love-lucy
+  - libelle: Smithsonian, Human Origins — les plus anciens foyers (au moins 790 000 ans)
+    url: https://humanorigins.si.edu/evidence/behavior/hearths-shelters
+  - libelle: Smithsonian, Human Origins — Qafzeh, sépulture d'environ 100 000 ans avec de l'ocre
+    url: https://humanorigins.si.edu/evidence/behavior/burial/qafzeh-oldest-intentional-burial
+  - libelle: Smithsonian, Human Origins — aiguilles en os pour coudre des vêtements ajustés
+    url: https://humanorigins.si.edu/evidence/behavior/making-clothing/bone-and-ivory-needles
+  - libelle: Smithsonian, Human Origins — parures (perles en coquillage, colliers)
+    url: https://humanorigins.si.edu/evidence/behavior/art-music/jewelry
+  - libelle: >-
+      Natural History Museum (Londres), « When and how did modern humans spread out of Africa? » :
+      Europe, Australie, Amérique, Néandertal
+    url: https://www.nhm.ac.uk/discover/when-how-did-modern-humans-homo-sapiens-spread-out-of-africa.html
+  - libelle: Collège de France, les plus anciens Homo sapiens découverts au Maroc (Jebel Irhoud)
+    url: https://www.college-de-france.fr/fr/actualites/les-prs-jean-jacques-hublin-et-abdelouahed-ben-ncer-decouvrent-les-plus-anciens-homo-sapiens-au
+  - libelle: Sciences Ouest (Espace des sciences, Rennes), les foyers de Menez-Dregan (environ 465 000 ans)
+    url: https://espace-sciences.org/sciences-ouest/385/actualite/la-quete-de-nos-premiers-feux
+  - libelle: Ministère de la Culture, grotte Chauvet (environ 36 000 ans)
+    url: https://archeologie.culture.gouv.fr/chauvet/fr
+  - libelle: Ministère de la Culture, grotte de Lascaux (environ 21 000 ans)
+    url: https://archeologie.culture.gouv.fr/lascaux/fr
+  - libelle: Ministère de la Culture (Drac Île-de-France), les derniers chasseurs-cueilleurs et Pincevent
+    url: https://www.culture.gouv.fr/Regions/Drac-Ile-de-France/Actualites/Actualite-a-la-une/Dans-les-pas-des-derniers-chasseurs-cueilleurs-du-sud-de-l-Ile-de-France
+  - libelle: Encyclopædia Universalis, « Pincevent » (chasse au renne, fin de l'été et automne)
+    url: https://www.universalis.fr/encyclopedie/pincevent/
+  - libelle: Wikipédia, « Pincevent » (occupation de septembre à novembre, remontages de silex)
+    url: https://fr.wikipedia.org/wiki/Pincevent
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Un temps très long
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: Paléolithique
+          dates: d'il y a 3 millions d'années à 10 000 av. J.-C.
+          carte: 3
+        - libelle: Néolithique
+          dates: de 10 000 av. J.-C. à l'écriture
+          carte: 6
+        - libelle: Histoire
+          dates: depuis l'invention de l'écriture
+          carte: 7
+    formule: préhistoire = avant l'écriture
+    cartes:
+      - picto: sablier
+        motCle: préhistoire
+        phrases:
+          - La préhistoire, c'est la très longue période de l'humanité avant l'invention de l'écriture.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au crépuscule, en automne, il y a environ
+            15 000 ans, dans une vallée d'Europe de l'Ouest au climat froid (steppe herbeuse, quelques
+            bouleaux et pins). Un petit groupe de cinq humains Homo sapiens (deux adultes hommes, deux
+            adultes femmes, un enfant), assis autour d'un feu de bois devant un abri sous roche, vus de
+            trois quarts, à mi-distance ; ils portent des vêtements de peaux cousues ajustés (tuniques,
+            pantalons, chaussures en peau). L'image doit faire sentir un temps très ancien, sans aucune
+            écriture. Ne doit pas figurer : texte, lettre, chiffre ou signe gravé ; objet en métal ou en
+            poterie ; animal domestique ; champ ; maison ; vêtement moderne ; pagne de dessin animé.
+          alt: Un groupe d'humains de la préhistoire assis autour d'un feu devant un abri sous roche, au crépuscule.
+      - picto: loupe
+        motCle: trace
+        phrases:
+          - "Sans écrits, on connaît la préhistoire grâce aux traces : os, outils, foyers, peintures."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'une fouille archéologique actuelle, format 4:3 paysage, vue de dessus
+            en plongée. Une couche de terre brune soigneusement dégagée montre, bien séparés : un os long
+            d'animal, trois éclats de silex gris, une tache noire de charbon de bois entourée de pierres
+            rougies par le feu. Deux mains d'archéologue avec une truelle et un pinceau, en bas de
+            l'image. Lumière douce de jour. Ne doit pas figurer : texte, étiquette écrite, chiffre, règle
+            graduée, visage, objet moderne autre que la truelle et le pinceau.
+          alt: Une fouille vue de dessus, avec un os, des éclats de silex et les restes d'un foyer dans la terre.
+      - picto: biface
+        motCle: paléolithique
+        phrases:
+          - "Paléolithique veut dire « pierre ancienne » : c'est le temps des outils en pierre taillée."
+        enSavoirPlus: >-
+          Le Paléolithique commence il y a environ 3 millions d'années et se termine vers 10 000 av. J.-C.,
+          c'est-à-dire il y a environ 12 000 ans.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni beige clair. Une main adulte, vue de
+            près, tient un biface en silex gris-brun en forme de goutte, aux bords taillés par de nombreux
+            enlèvements bien visibles. Un seul objet, au centre, net. Ne doit pas figurer : texte,
+            lettre, chiffre, bague, montre, ongles vernis, autre objet.
+          alt: Une main tient un biface, un outil en silex taillé en forme de goutte.
+      - picto: eclats
+        motCle: pierre taillée
+        phrases:
+          - "En frappant une pierre avec une autre, on obtient un bord coupant : c'est un outil."
+        enSavoirPlus: >-
+          Les plus anciens outils en pierre connus ont environ 3,3 millions d'années. Ils ont été trouvés
+          au Kenya, en Afrique.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, gros plan. Deux mains d'un humain de la
+            préhistoire, assis par terre, frappent un bloc de silex avec un galet rond tenu comme un
+            marteau ; de petits éclats de pierre volent et d'autres sont déjà tombés sur une peau posée
+            au sol. On voit seulement les mains, les avant-bras et les pierres. Ne doit pas figurer :
+            texte, lettre, chiffre, outil en métal, gant, objet moderne.
+          alt: Deux mains frappent un bloc de silex avec un galet ; des éclats tombent.
+      - picto: flocon
+        motCle: glaciation
+        phrases:
+          - "Le climat change beaucoup : pendant les glaciations, il fait bien plus froid qu'aujourd'hui."
+        enSavoirPlus: >-
+          Quand il fait très froid, beaucoup d'eau est prise dans les glaces : la mer baisse et des
+          passages à pied s'ouvrent entre des terres.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Une steppe froide et enneigée
+            en Europe pendant une période glaciaire, il y a environ 20 000 ans : herbe rase, sol gelé,
+            ciel gris, un glacier blanc au loin sur les montagnes. Au premier plan, un petit troupeau de
+            rennes ; au deuxième plan, deux mammouths laineux. Aucun humain. Ne doit pas figurer :
+            texte, lettre, chiffre, arbre feuillu vert, maison, route, animal domestique, dinosaure.
+          alt: Une steppe enneigée avec des rennes et des mammouths, et un glacier au loin.
+      - picto: epi
+        motCle: néolithique
+        phrases:
+          - À partir de 10 000 av. J.-C., au Proche-Orient, des humains deviennent peu à peu agriculteurs et éleveurs.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au Proche-Orient, vers 8 500 av. J.-C.,
+            fin de printemps : une femme et un homme récoltent un petit champ de blé ancien (épis dorés
+            et clairsemés) avec des faucilles en bois garnies de lames de silex. Au fond, trois maisons
+            rondes en terre crue et pierre, et quelques chèvres. Ne doit pas figurer : texte, lettre,
+            chiffre, outil en métal, charrue, cheval, tracteur, vêtement moderne.
+          alt: Deux personnes récoltent du blé avec des faucilles en silex, devant des maisons rondes en terre.
+      - picto: tablette
+        motCle: écriture
+        phrases:
+          - Avec l'invention de l'écriture, en Mésopotamie, la préhistoire se termine et l'histoire commence.
+        notes: >-
+          Pas d'image : une image de l'écriture montrerait des signes écrits, ce que la règle « aucun
+          texte dans une image » interdit. Le picto suffit.
+    questions:
+      - question: Qu'est-ce que la préhistoire ?
+        reponse: La très longue période avant l'invention de l'écriture.
+      - question: Que veut dire « Paléolithique » ?
+        reponse: "« Pierre ancienne » : c'est le temps des outils en pierre taillée."
+      - question: Comment connaît-on la préhistoire ?
+        reponse: "Grâce aux traces retrouvées par les archéologues : os, outils, foyers, peintures."
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Des humains venus d'Afrique
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: Lucy
+          dates: il y a 3,2 millions d'années
+          carte: 2
+        - libelle: Sortie d'Afrique
+          dates: il y a environ 2 millions d'années
+          carte: 4
+        - libelle: Le feu entretenu
+          dates: il y a plus de 400 000 ans
+          carte: 5
+        - libelle: Homo sapiens
+          dates: il y a environ 300 000 ans
+          carte: 6
+        - libelle: Fin de Néandertal
+          dates: il y a environ 40 000 ans
+          carte: 7
+        - libelle: Arrivée en Amérique
+          dates: il y a plus de 15 000 ans
+          carte: 8
+    formule: berceau de l'humanité = Afrique
+    cartes:
+      - picto: afrique
+        motCle: berceau de l'humanité
+        phrases:
+          - Les plus anciens ancêtres connus des humains ont été trouvés en Afrique.
+        image:
+          aGenerer: >-
+            Photographie réaliste de paysage, format 4:3 paysage. La vallée du Rift en Afrique de l'Est :
+            savane sèche, acacias isolés, falaises de la faille au loin, lumière dorée du matin. Aucun
+            humain, aucun animal au premier plan. Ne doit pas figurer : texte, lettre, chiffre, route,
+            véhicule, clôture, bâtiment, poteau électrique.
+          alt: Une savane d'Afrique de l'Est avec des acacias et de grandes falaises au loin.
+      - picto: pas
+        motCle: australopithèque
+        phrases:
+          - Lucy, une australopithèque d'il y a 3,2 millions d'années, marchait déjà debout.
+        enSavoirPlus: >-
+          Les australopithèques ne sont pas encore des humains du genre Homo. Lucy a été trouvée en
+          Éthiopie en 1974.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une reconstitution de musée en milieu
+            naturel. Une australopithèque femelle (espèce de Lucy, environ 1,10 m) marche debout sur
+            deux jambes, de profil, sur un sol de savane boisée en Éthiopie, il y a 3,2 millions
+            d'années. Corps couvert de poils sombres, visage encore proche de celui d'un grand singe,
+            bras assez longs. Elle ne porte rien et ne tient aucun outil. Ne doit pas figurer : texte,
+            lettre, chiffre, vêtement, feu, outil, autre animal.
+          alt: Une australopithèque, petite et couverte de poils, marche debout de profil dans la savane.
+      - picto: groupe
+        motCle: espèce humaine
+        phrases:
+          - "Plusieurs espèces humaines ont existé ; aujourd'hui, il n'en reste qu'une : la nôtre."
+        image:
+          aGenerer: >-
+            Photographie réaliste de trois reconstitutions de têtes et d'épaules, comme dans un musée,
+            alignées côte à côte et vues de face, sur un fond gris uni, format 4:3 paysage. À gauche
+            (centrée vers 17 % de la largeur) : Homo erectus, front fuyant, gros bourrelet au-dessus des
+            yeux. Au centre (vers 50 %) : un homme de Néandertal, visage large, nez fort, bourrelet
+            au-dessus des yeux. À droite (vers 83 %) : un Homo sapiens adulte de la préhistoire, front
+            droit, menton marqué. Mêmes lumière et taille pour les trois, cheveux non coiffés, pas de
+            vêtement visible. Laisser une bande vide de 14 % en haut et en bas de l'image, pour les étiquettes.
+            Ne doit pas figurer : texte, lettre, chiffre, socle avec inscription, bijou moderne.
+          alt: Trois visages reconstitués côte à côte, Homo erectus, homme de Néandertal et Homo sapiens.
+          etiquettes:
+            - texte: Homo erectus
+              x: 17
+              y: 7
+            - texte: Néandertal
+              x: 50
+              y: 92
+            - texte: Homo sapiens
+              x: 83
+              y: 7
+      - picto: fleche
+        motCle: Homo erectus
+        phrases:
+          - Il y a environ 2 millions d'années, des humains comme Homo erectus sortent d'Afrique.
+        enSavoirPlus: >-
+          À Dmanissi, en Géorgie, des humains vivent déjà il y a 1,8 million d'années : c'est l'un des
+          plus anciens sites hors d'Afrique.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Un groupe de quatre Homo erectus
+            (grands, corps proches des nôtres, front fuyant, gros bourrelet au-dessus des yeux, peau nue
+            et sombre, sans vêtement) marche en file sur une plaine herbeuse ondulée, de la gauche vers
+            la droite, vus de profil à mi-distance ; l'un porte un biface en pierre à la main. Collines
+            boisées au loin, ciel clair. Ne doit pas figurer : texte, lettre, chiffre, vêtement cousu,
+            lance à pointe en métal, animal domestique, bateau, carte.
+          alt: Quatre Homo erectus marchent en file sur une grande plaine herbeuse.
+      - picto: feu
+        motCle: feu
+        phrases:
+          - "Il y a plus de 400 000 ans, les humains savent entretenir le feu : il chauffe, éclaire et cuit."
+        enSavoirPlus: >-
+          Les plus anciens foyers connus ont au moins 790 000 ans. En Bretagne, à Menez-Dregan, un foyer a
+          environ 465 000 ans.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, de nuit. À l'entrée d'une petite grotte au
+            bord de la mer (côte rocheuse de Bretagne, il y a environ 450 000 ans), trois humains anciens
+            (ancêtres des Néandertaliens : visage large, bourrelet au-dessus des yeux, peaux de bêtes
+            simplement nouées) sont assis autour d'un feu de bois ; l'un ajoute une branche, un autre
+            fait griller un morceau de viande sur un bâton. Le feu éclaire leurs visages. Ne doit pas
+            figurer : texte, lettre, chiffre, objet en métal, poterie, allumette, animal domestique.
+          alt: Trois humains anciens entretiennent un feu à l'entrée d'une grotte, de nuit, et font cuire de la viande.
+      - picto: personne
+        motCle: Homo sapiens
+        phrases:
+          - Notre espèce, Homo sapiens, apparaît en Afrique il y a environ 300 000 ans.
+        enSavoirPlus: >-
+          Les plus anciens fossiles connus de notre espèce viennent de Jebel Irhoud, au Maroc. Tous les
+          humains d'aujourd'hui sont des Homo sapiens.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, portrait en buste légèrement de trois
+            quarts. Une femme Homo sapiens d'Afrique du Nord il y a environ 300 000 ans : visage déjà
+            proche du nôtre, front assez droit, peau brun foncé, cheveux courts et crépus, regard calme.
+            Arrière-plan flou de steppe sèche avec quelques arbustes. Pas de vêtement cousu ; une peau
+            d'animal simple sur une épaule. Ne doit pas figurer : texte, lettre, chiffre, bijou en métal,
+            maquillage moderne, tatouage, objet moderne.
+          alt: Portrait d'une femme Homo sapiens d'il y a 300 000 ans, au visage déjà proche du nôtre.
+      - picto: crane
+        motCle: homme de Néandertal
+        phrases:
+          - Homo sapiens rencontre en Europe l'homme de Néandertal, qui disparaît il y a environ 40 000 ans.
+        enSavoirPlus: >-
+          Ils ont parfois eu des enfants ensemble : beaucoup d'humains d'aujourd'hui gardent un peu d'ADN
+          de Néandertal.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une vallée froide d'Europe, il y a
+            environ 45 000 ans, deux hommes adultes se font face à quelques mètres, debout, calmes et
+            curieux, vus de profil : à gauche un homme de Néandertal (trapu, visage large, nez fort,
+            bourrelet au-dessus des yeux, cheveux roux-brun, vêtements de peaux), à droite un Homo
+            sapiens (plus élancé, front droit, peau plus foncée, vêtements de peaux cousues). Herbe
+            sèche, rochers, ciel gris. Ne doit pas figurer : texte, lettre, chiffre, arme brandie,
+            combat, objet en métal, animal domestique.
+          alt: Un homme de Néandertal et un Homo sapiens se rencontrent face à face dans une vallée froide.
+      - picto: globe
+        motCle: migration
+        phrases:
+          - "Une migration, c'est un déplacement pour aller vivre ailleurs : Homo sapiens peuple ainsi toute la Terre."
+        enSavoirPlus: >-
+          Australie et Europe : il y a plus de 40 000 ans. Amérique : il y a plus de 15 000 ans. Pour
+          atteindre l'Australie, il a fallu traverser la mer.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Il y a environ 50 000 ans, en
+            Asie du Sud-Est : un groupe de six Homo sapiens (adultes et deux enfants, vêtements de peaux
+            légers) pousse un grand radeau de bambous liés vers une mer calme et turquoise ; une île
+            boisée se devine à l'horizon. Lumière du matin. Ne doit pas figurer : texte, lettre,
+            chiffre, voile en tissu, bateau en planches clouées, métal, carte, animal domestique.
+          alt: Un groupe d'Homo sapiens pousse un radeau de bambous vers la mer, une île à l'horizon.
+    questions:
+      - question: Où sont apparus les premiers humains ?
+        reponse: En Afrique, le berceau de l'humanité.
+      - question: Quand et où apparaît Homo sapiens ?
+        reponse: En Afrique, il y a environ 300 000 ans.
+      - question: Qu'est-ce qu'une migration ?
+        reponse: Un déplacement pour aller vivre ailleurs.
+      - question: Quelle autre espèce humaine Homo sapiens rencontre-t-il en Europe ?
+        reponse: L'homme de Néandertal.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Vivre au Paléolithique
+    ensemble:
+      type: mosaique
+    formule: paléolithique = vie nomade
+    cartes:
+      - picto: pas
+        motCle: nomade
+        phrases:
+          - "Les humains du Paléolithique sont nomades : ils se déplacent au fil des saisons."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. En automne, il y a environ
+            15 000 ans, dans une vallée d'Europe de l'Ouest : un groupe de six Homo sapiens (hommes,
+            femmes, deux enfants) marche en file le long d'une rivière, de gauche à droite, chargé de
+            peaux roulées, de paniers et de sagaies. Vêtements de peaux cousues ajustés. Au loin, un
+            troupeau de rennes. Ne doit pas figurer : texte, lettre, chiffre, chien, cheval monté,
+            chariot, roue, objet en métal, maison, champ.
+          alt: Un groupe de chasseurs-cueilleurs marche le long d'une rivière avec ses affaires, des rennes au loin.
+      - picto: lance
+        motCle: chasse
+        phrases:
+          - "Ils chassent le renne, le cheval ou le bison : la viande, la peau et les os servent."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une steppe froide d'Europe, il y a
+            environ 15 000 ans, trois chasseurs Homo sapiens en vêtements de peaux, accroupis derrière
+            des rochers, s'apprêtent à lancer des sagaies vers un petit troupeau de rennes à
+            mi-distance. Un seul moment, sans violence montrée : pas d'animal blessé, pas de sang. Ne
+            doit pas figurer : texte, lettre, chiffre, arc moderne, arme en métal, chien, cheval monté.
+          alt: Trois chasseurs cachés derrière des rochers visent un troupeau de rennes avec des sagaies.
+      - picto: poisson
+        motCle: pêche
+        phrases:
+          - Ils pêchent les poissons des rivières, par exemple avec des harpons.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un pêcheur Homo sapiens d'il y a environ
+            15 000 ans, debout dans une rivière claire et peu profonde jusqu'aux genoux, en vêtements de
+            peaux, tient un harpon à pointe barbelée en bois de renne au-dessus d'un saumon visible dans
+            l'eau. Berges de galets, quelques bouleaux. Ne doit pas figurer : texte, lettre, chiffre,
+            canne à pêche, filet en nylon, hameçon en métal, bateau, objet moderne.
+          alt: Un pêcheur dans une rivière vise un saumon avec un harpon en bois de renne.
+      - picto: baie
+        motCle: cueillette
+        phrases:
+          - Ils ramassent des baies, des noisettes, des racines ou des coquillages, selon la saison.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À la fin de l'été, il y a environ 15 000
+            ans, une femme et un enfant Homo sapiens, en vêtements de peaux, cueillent des baies
+            sauvages sur des buissons bas et les mettent dans un sac en peau ; quelques noisettes dans
+            une main ouverte. Lisière de bois clair. Ne doit pas figurer : texte, lettre, chiffre,
+            panier en plastique, fruit cultivé (pomme, orange, banane), champ, objet moderne.
+          alt: Une femme et un enfant cueillent des baies sauvages dans un sac en peau.
+      - picto: tente
+        motCle: campement
+        phrases:
+          - Ils vivent sous des tentes en peaux ou sous des abris de roche, rarement au fond des grottes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Il y a environ 15 000 ans, un
+            campement de trois tentes coniques en peaux de renne cousues, posées sur des perches, sur une
+            berge plate près d'une rivière ; un feu fume devant la tente du milieu ; deux adultes
+            grattent une peau tendue au sol. Falaise calcaire en arrière-plan. Ne doit pas figurer :
+            texte, lettre, chiffre, toile en tissu, corde synthétique, maison en dur, chien, poterie,
+            métal.
+          alt: Un campement de trois tentes en peaux au bord d'une rivière, avec un feu.
+      - picto: biface
+        motCle: silex
+        phrases:
+          - "Le silex est une roche dure et coupante : on le taille en lames, grattoirs et pointes."
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni beige clair, vue de dessus. Trois outils
+            en silex gris posés côte à côte, bien espacés : à gauche une longue lame fine, au centre un
+            grattoir à bout arrondi, à droite une pointe triangulaire. Éclairage doux, ombres légères.
+            Ne doit pas figurer : texte, lettre, chiffre, règle graduée, étiquette, autre objet.
+          alt: Trois outils en silex posés côte à côte, une lame, un grattoir et une pointe.
+      - picto: propulseur
+        motCle: propulseur
+        phrases:
+          - Le propulseur, souvent en bois de renne, lance la sagaie plus loin et plus fort.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un chasseur Homo sapiens d'il y a environ
+            15 000 ans, de profil, en plein mouvement de lancer : son bras tendu vers l'arrière tient un
+            propulseur (baguette en bois de renne terminée par un crochet) qui pousse l'arrière d'une
+            longue sagaie à pointe de silex. Fond de steppe floue. Ne doit pas figurer : texte, lettre,
+            chiffre, arc, flèche, arme en métal, animal blessé.
+          alt: Un chasseur lance une sagaie avec un propulseur, de profil.
+      - picto: aiguille
+        motCle: aiguille
+        phrases:
+          - Avec une aiguille en os, ils cousent des vêtements de peaux contre le froid.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, gros plan. Les mains d'une personne de la
+            préhistoire cousent deux morceaux de peau avec une fine aiguille en os percée d'un chas et un
+            fil de tendon ; une tunique en peau à moitié assemblée est posée sur ses genoux. Lumière
+            d'un feu, à droite. Ne doit pas figurer : texte, lettre, chiffre, aiguille en métal, fil de
+            coton coloré, ciseaux, dé à coudre, objet moderne.
+          alt: Des mains cousent deux morceaux de peau avec une aiguille en os.
+    questions:
+      - question: Comment se nourrissent les humains du Paléolithique ?
+        reponse: "Par la chasse, la pêche et la cueillette : ce sont des chasseurs-cueilleurs."
+      - question: Pourquoi sont-ils nomades ?
+        reponse: Ils se déplacent pour suivre les animaux et trouver leur nourriture selon les saisons.
+      - question: Avec quoi fabriquent-ils leurs outils ?
+        reponse: Avec de la pierre taillée, surtout le silex, de l'os et du bois de renne.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Pincevent, un campement
+    ensemble:
+      type: mosaique
+    formule: trace = indice du passé
+    cartes:
+      - picto: loupe
+        motCle: archéologue
+        phrases:
+          - L'archéologue fouille le sol avec soin pour retrouver les traces laissées par les humains.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Deux archéologues, une femme et un
+            homme, à genoux sur un chantier de fouille à ciel ouvert au bord d'une rivière, dégagent la
+            terre avec une truelle et un pinceau ; des silex et des os apparaissent dans le sol. Tenues
+            de chantier simples, casquettes. Lumière de jour. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, étiquette écrite, panneau, inscription sur les vêtements.
+          alt: Deux archéologues à genoux dégagent des os et des silex avec une truelle et un pinceau.
+      - picto: lieu
+        motCle: Pincevent
+        phrases:
+          - À Pincevent, au bord de la Seine, des chasseurs de rennes campaient à la fin du Paléolithique.
+        enSavoirPlus: >-
+          Le site est en Seine-et-Marne. Les archéologues le fouillent depuis 1964.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue en légère plongée. Le campement de
+            Pincevent, au bord de la Seine, en automne, à la fin du Paléolithique : herbe jaunie, quelques
+            bouleaux, la rivière en haut de l'image. Placer précisément quatre éléments bien visibles :
+            un foyer (cercle de pierres avec braises et cendres) vers 30 % de la largeur et 62 % de la
+            hauteur ; une tente conique en peaux vers 72 % de la largeur et 38 % de la hauteur ; un tas
+            d'os et de bois de renne vers 14 % de la largeur et 78 % de la hauteur ; des éclats de silex
+            éparpillés autour d'un bloc de silex vers 68 % de la largeur et 88 % de la hauteur. Un seul
+            humain, accroupi près du foyer, qui taille un silex. Ne doit pas figurer : texte, lettre,
+            chiffre, flèche, chien, métal, poterie, maison.
+          alt: Le campement de Pincevent au bord de la Seine, avec un foyer, une tente, des os de renne et des éclats de silex.
+          etiquettes:
+            - texte: foyer
+              x: 30
+              y: 62
+            - texte: tente
+              x: 72
+              y: 38
+            - texte: os de renne
+              x: 14
+              y: 78
+            - texte: éclats de silex
+              x: 68
+              y: 88
+      - picto: feu
+        motCle: foyer
+        phrases:
+          - Les foyers, des cercles de pierres brûlées et de cendres, montrent qu'ils faisaient du feu.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'une fouille, format 4:3 paysage, vue de dessus. Au centre, un ancien
+            foyer dégagé dans le sol : un cercle de pierres rougies et éclatées par la chaleur, avec au
+            milieu une tache noire de cendres et de charbon de bois. Terre beige autour, quelques petits
+            os brûlés. Ne doit pas figurer : texte, lettre, chiffre, règle graduée, étiquette, flamme,
+            outil moderne.
+          alt: Un ancien foyer vu de dessus, un cercle de pierres brûlées autour de cendres noires.
+      - picto: bois
+        motCle: renne
+        phrases:
+          - Les os de renne montrent qu'ils chassaient surtout le renne, en automne, quand les troupeaux passaient.
+        enSavoirPlus: >-
+          Les dents des rennes permettent de connaître la saison de chasse : de septembre à novembre.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un troupeau d'une quinzaine de rennes
+            sauvages traverse à gué une large rivière calme en automne, il y a environ 15 000 ans ; bois
+            bien visibles, pelage gris-brun et blanc, arbres jaunis sur la berge. Aucun humain. Ne doit
+            pas figurer : texte, lettre, chiffre, clôture, collier, harnais, bateau, construction.
+          alt: Un troupeau de rennes traverse une rivière en automne.
+      - picto: eclats
+        motCle: éclat de silex
+        phrases:
+          - Les éclats de silex, qu'on peut recoller entre eux, montrent qu'ils taillaient leurs outils sur place.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni beige clair, vue de dessus. Un bloc de
+            silex gris reconstitué en recollant une douzaine d'éclats qui s'emboîtent comme un puzzle en
+            trois dimensions ; à côté, trois éclats encore séparés montrent leur place. Lumière douce.
+            Ne doit pas figurer : texte, lettre, chiffre, numéro d'inventaire écrit, règle graduée,
+            colle visible.
+          alt: Un bloc de silex reconstitué en recollant ses éclats, comme un puzzle.
+      - picto: tente
+        motCle: tente
+        phrases:
+          - Autour des foyers, la place des objets fait penser à des tentes en peaux.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une tente conique en peaux de renne cousues,
+            tendues sur une dizaine de longues perches de bois, ouverte vers un foyer allumé devant
+            l'entrée ; une femme y entre en se baissant. Berge herbeuse, rivière derrière, ciel
+            d'automne. Ne doit pas figurer : texte, lettre, chiffre, toile en tissu, corde synthétique,
+            métal, motif peint sur la tente.
+          alt: Une tente en peaux de renne sur des perches, ouverte vers un feu.
+    questions:
+      - question: Que trouve-t-on à Pincevent ?
+        reponse: Des foyers, des os de renne, des éclats de silex et des traces de tentes.
+      - question: Que nous apprennent ces traces ?
+        reponse: Ils faisaient du feu, chassaient le renne, taillaient le silex et campaient sous des tentes.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Art et croyances
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: Premières sépultures
+          dates: il y a environ 100 000 ans
+          carte: 1
+        - libelle: Grotte Chauvet
+          dates: il y a environ 36 000 ans
+          carte: 5
+        - libelle: Grotte de Lascaux
+          dates: il y a environ 21 000 ans
+          carte: 6
+    formule: paléolithique = sépultures + art pariétal
+    cartes:
+      - picto: tombe
+        motCle: sépulture
+        phrases:
+          - "Une sépulture est une tombe : il y a environ 100 000 ans, des humains enterrent déjà certains morts."
+        enSavoirPlus: >-
+          À Qafzeh, au Proche-Orient, des morts ont été enterrés avec de l'ocre rouge. Néandertal enterrait
+          aussi des morts. On ne sait pas ce qu'ils croyaient.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, sobre et respectueuse. Il y a environ
+            100 000 ans, à l'entrée d'une grotte du Proche-Orient : trois Homo sapiens adultes, à genoux,
+            déposent de la poudre d'ocre rouge sur une fosse peu profonde déjà recouverte de terre, où
+            l'on devine la forme d'un corps enveloppé dans une peau. Aucun squelette ni corps visible.
+            Lumière de fin de journée. Ne doit pas figurer : texte, lettre, chiffre, croix, pierre
+            tombale taillée, cercueil, métal, poterie.
+          alt: Trois humains à genoux déposent de l'ocre rouge sur une tombe à l'entrée d'une grotte.
+      - picto: collier
+        motCle: parure
+        phrases:
+          - "Colliers de coquillages et de dents percées : ces humains portent des parures."
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni beige, vue de dessus. Un collier de la
+            préhistoire posé en arc de cercle : petits coquillages percés et quelques dents d'animaux
+            percées, enfilés sur un cordon de tendon. Ne doit pas figurer : texte, lettre, chiffre,
+            perle en verre ou en plastique, fermoir en métal, étiquette.
+          alt: Un collier de coquillages et de dents d'animaux percés, enfilés sur un cordon.
+      - picto: main
+        motCle: art pariétal
+        phrases:
+          - L'art pariétal, ce sont les peintures et les gravures faites sur les parois des grottes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une grotte sombre, il y a environ
+            20 000 ans, à la lumière d'une petite lampe à graisse en pierre posée au sol, une artiste
+            Homo sapiens peint au doigt un cheval à l'ocre rouge sur la paroi de calcaire ; un bison
+            noir est déjà peint à côté. On la voit de dos et de trois quarts. Ne doit pas figurer :
+            texte, lettre, chiffre, pinceau moderne, palette de peintre, pot en métal ou en verre,
+            lampe électrique.
+          alt: Une artiste de la préhistoire peint un cheval sur la paroi d'une grotte, éclairée par une lampe à graisse.
+      - picto: goutte
+        motCle: pigment
+        phrases:
+          - "Pour peindre, ils utilisent des couleurs naturelles : l'ocre pour le rouge, le charbon de bois pour le noir."
+        enSavoirPlus: >-
+          Les couleurs sont posées au doigt, avec un tampon, ou soufflées par la bouche autour d'une main.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, sur une pierre plate, vue de dessus. À gauche un
+            bloc d'ocre rouge et un petit tas de poudre rouge ; à droite des morceaux de charbon de bois
+            et un petit tas de poudre noire ; au centre une pierre creuse servant de godet, avec un peu
+            de peinture rouge. Ne doit pas figurer : texte, lettre, chiffre, tube de peinture, pinceau
+            moderne, récipient en verre ou en plastique.
+          alt: De l'ocre rouge et du charbon de bois écrasés en poudre sur une pierre plate.
+      - picto: grotte
+        motCle: Chauvet
+        phrases:
+          - La grotte Chauvet, en Ardèche, est ornée de peintures d'animaux d'il y a environ 36 000 ans.
+        enSavoirPlus: >-
+          On y voit des lions, des rhinocéros, des mammouths et des chevaux. Elle a été découverte en 1994.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'une paroi de grotte ornée dans le style de la grotte Chauvet (sans
+            copier un panneau précis), format 4:3 paysage, éclairage chaud et rasant. Sur une paroi de
+            calcaire beige, au charbon noir : quatre têtes de chevaux superposées, de profil, et un
+            rhinocéros laineux. Ne doit pas figurer : texte, lettre, chiffre, signature, graffiti,
+            humain, projecteur visible, barrière.
+          alt: Une paroi de grotte ornée de têtes de chevaux et d'un rhinocéros dessinés au charbon noir.
+      - picto: grotte
+        motCle: Lascaux
+        phrases:
+          - La grotte de Lascaux, en Dordogne, est ornée de peintures d'animaux d'il y a environ 21 000 ans.
+        enSavoirPlus: >-
+          Certains livres disent 17 000 ou 18 000 ans : les datations récentes la vieillissent. Elle a été
+          découverte en 1940.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'une paroi de grotte ornée dans le style de la grotte de Lascaux (sans
+            copier un panneau précis), format 4:3 paysage, éclairage chaud. Sur une voûte de calcaire
+            blanc-beige : un grand aurochs noir de profil, deux chevaux brun-rouge et un cerf, peints à
+            l'ocre et au noir. Ne doit pas figurer : texte, lettre, chiffre, signature, graffiti,
+            humain, projecteur visible, passerelle.
+          alt: Une voûte de grotte ornée d'un grand aurochs noir, de chevaux brun-rouge et d'un cerf.
+      - picto: gravure
+        motCle: art mobilier
+        phrases:
+          - L'art mobilier, ce sont de petits objets sculptés ou gravés qu'on peut transporter.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage de musée. Un
+            propulseur en bois de renne dont l'extrémité est sculptée en forme de petit animal (un
+            cheval), posé à plat, bien net, au centre. Ne doit pas figurer : texte, lettre, chiffre,
+            vitrine avec étiquette, socle avec inscription, autre objet.
+          alt: Un propulseur en bois de renne dont le bout est sculpté en forme de cheval.
+    questions:
+      - question: Qu'est-ce que l'art pariétal ?
+        reponse: Les peintures et les gravures faites sur les parois des grottes.
+      - question: Cite deux grottes ornées.
+        reponse: Chauvet, en Ardèche, et Lascaux, en Dordogne.
+      - question: Que montrent les sépultures ?
+        reponse: Que des humains prennent soin de leurs morts, il y a déjà environ 100 000 ans.
