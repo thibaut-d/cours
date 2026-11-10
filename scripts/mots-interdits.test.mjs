@@ -18,6 +18,16 @@ describe('mots interdits', () => {
     expect(trouverMotsInterdits('un xzylophone', m)).toEqual([]);
   });
 
+  it('borne correctement un terme qui finit ou commence par une lettre accentuée', () => {
+    const a = chargerMotifs('Zorbé\nÉlbor');
+    expect(trouverMotsInterdits('chez Zorbé ici', a)).toHaveLength(1);
+    expect(trouverMotsInterdits('chez zorbé, puis Élbor.', a)).toHaveLength(1);
+    expect(trouverMotsInterdits('Zorbé', a)).toHaveLength(1);
+    expect(trouverMotsInterdits('Élbor', a)).toHaveLength(1);
+    expect(trouverMotsInterdits('un Zorbéen et un Pélbor', a)).toEqual([]);
+    expect(trouverMotsInterdits('Zorbés', a)).toEqual([]);
+  });
+
   it('attrape le code isolé', () => {
     expect(trouverMotsInterdits('le code XZ', m)).toHaveLength(1);
   });
