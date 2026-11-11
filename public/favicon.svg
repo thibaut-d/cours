@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Une pile de fiches : la fiche du dessus montre une image (paysage) et la pastille de la carte. -->
+  <rect width="64" height="64" rx="14" fill="#8a3b12"/>
+  <rect x="17" y="9" width="36" height="42" rx="5" fill="#d9c9a8" transform="rotate(8 35 30)"/>
+  <rect x="11" y="13" width="36" height="42" rx="5" fill="#fbf7ee"/>
+  <rect x="15" y="17" width="28" height="20" rx="2.5" fill="#1f5f6b"/>
+  <path d="M15 33 l8-9 6 6 4-4 10 10 v1 a2.5 2.5 0 0 1-2.5 2.5 h-23 A2.5 2.5 0 0 1 15 37z" fill="#2f6b2f"/>
+  <circle cx="36" cy="22.5" r="2.6" fill="#fbf7ee"/>
+  <circle cx="20.5" cy="46" r="4" fill="#8a3b12"/>
+  <rect x="27" y="44" width="15" height="4" rx="2" fill="#1e1e1e"/>
+</svg>

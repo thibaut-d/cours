@@ -23,3 +23,10 @@ test('zoom non bloqué', async ({ page }) => {
   const vp = await page.locator('meta[name=viewport]').getAttribute('content');
   expect(vp).not.toMatch(/maximum-scale|user-scalable/);
 });
+
+test("icônes du site : chaque fichier déclaré dans la page existe", async ({ page, request }) => {
+  await page.goto('/cours/');
+  const liens = await page.locator('link[rel="icon"], link[rel="apple-touch-icon"], link[rel="manifest"]').evaluateAll((ls) => ls.map((l) => (l as HTMLLinkElement).href));
+  expect(liens).toHaveLength(4);
+  for (const href of liens) expect((await request.get(href)).status(), href).toBe(200);
+});

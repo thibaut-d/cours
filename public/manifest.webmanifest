@@ -1,0 +1,13 @@
+{
+  "name": "Cours",
+  "short_name": "Cours",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#fbf7ee",
+  "theme_color": "#8a3b12",
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
