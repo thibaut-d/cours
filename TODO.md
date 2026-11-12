@@ -9,8 +9,8 @@ Le premier fichier à lire pour reprendre le travail (Claude ou Codex). Le tenir
   (`docs/superpowers/specs/2026-11-12-navigation-publics-design.md`).
 - **Fait** : socle du site et fiche défilante (plan `docs/superpowers/plans/2026-11-10-socle-et-fiche.md`),
   publication automatique sur GitHub Pages, icône du site.
-- **Leçons** : tout le programme d'histoire de 6e (10 leçons, thèmes 1 à 3) est écrit en brouillon, faits
-  vérifiés par un agent distinct. Toutes les images sont encore à générer (`aGenerer` dans `lecon.yaml`) ;
+- **Leçons** : tout le programme d'histoire (10 leçons) et de géographie (8 leçons) de 6e est écrit en
+  brouillon, faits et chiffres vérifiés par un agent distinct. Toutes les images sont encore à générer (`aGenerer` dans `lecon.yaml`) ;
   les étiquettes des cartes de géographie seront à recaler sur les images générées. Points laissés à
   l'auteur : rapports de vérification résumés dans le message de fin de session du 2026-11-12 ; « Rome, du
   mythe à l'histoire » (34 cartes) pourrait être allégée à environ 26 cartes.
