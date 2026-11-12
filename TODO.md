@@ -9,12 +9,11 @@ Le premier fichier à lire pour reprendre le travail (Claude ou Codex). Le tenir
   (`docs/superpowers/specs/2026-11-12-navigation-publics-design.md`).
 - **Fait** : socle du site et fiche défilante (plan `docs/superpowers/plans/2026-11-10-socle-et-fiche.md`),
   publication automatique sur GitHub Pages, icône du site.
-- **Leçons** (6e, histoire, thème 1 complet), en brouillon, faits vérifiés par un agent distinct :
-  « Les premiers humains », « Vivre au Paléolithique », « La révolution néolithique », « Premiers États,
-  premières écritures ». Leurs images sont encore à générer (`aGenerer` dans `lecon.yaml`) ; les
-  étiquettes des cartes de géographie seront à recaler sur les images générées.
-- **Prochaines leçons** : thème 2 de 6e (« Récits fondateurs, croyances et citoyenneté dans la
-  Méditerranée antique au Ier millénaire av. J.-C. »).
+- **Leçons** : tout le programme d'histoire de 6e (10 leçons, thèmes 1 à 3) est écrit en brouillon, faits
+  vérifiés par un agent distinct. Toutes les images sont encore à générer (`aGenerer` dans `lecon.yaml`) ;
+  les étiquettes des cartes de géographie seront à recaler sur les images générées. Points laissés à
+  l'auteur : rapports de vérification résumés dans le message de fin de session du 2026-11-12 ; « Rome, du
+  mythe à l'histoire » (34 cartes) pourrait être allégée à environ 26 cartes.
 - **Génération d'images par Codex** depuis Claude (`codex exec`) : essai concluant le 2026-11-11.
 
 ## Feuille de route
