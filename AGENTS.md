@@ -78,10 +78,11 @@ Une leçon = un dossier `contenu/<niveau>/<matiere>/<lecon>/` avec `lecon.yaml` 
   cartes et de longueur par niveau (`OBJECTIFS`, `src/lecon/avertissements.ts`) sont des **objectifs, pas des
   règles** : `pnpm valider` avertit ; au-delà, découper en chapitres ou en leçons.
 - **Questions qui peuvent tomber** en fin de chapitre, réponse visible dessous. Pas d'autre exercice.
-- Aucun texte dans une image ; aucun emoji (pictogrammes SVG de `public/pictos/`, en `currentColor`) ; jamais
-  d'italique ni de souligné pour mettre en valeur, seulement le gras.
-- Les visuels qui portent du texte (frise, carte de géographie, schéma) sont **dessinés par le site** à partir
-  des données de la leçon, jamais générés.
+- Aucun emoji (pictogrammes SVG de `public/pictos/`, en `currentColor`) ; jamais d'italique ni de souligné
+  pour mettre en valeur, seulement le gras.
+- Les visuels qui portent du texte (frise, carte de géographie, tableau, schéma simple) sont **de préférence
+  dessinés par le site** à partir des données de la leçon. Un visuel complexe (schéma de SVT avec flèches,
+  infographie dense) peut être une image générée avec texte (§ 7).
 - **Circuit** : écrire la leçon en `statut: brouillon` → images (§ 7) → vérification par un **agent distinct**
   de celui qui a écrit (faits contre sources et programme, orthographe, chaque image regardée) → relecture
   de l'auteur sur le site → `statut: publie` quand l'auteur valide.
@@ -93,13 +94,19 @@ Une leçon = un dossier `contenu/<niveau>/<matiere>/<lecon>/` avec `lecon.yaml` 
   écrit la commande, lance Codex (voir [CLAUDE.md](CLAUDE.md)) et vérifie le résultat.
 - **Commande** : dans `lecon.yaml`, une image à faire est décrite par `aGenerer` (prompt complet et autonome :
   ce que l'image montre exactement, format, ce qui ne doit pas y figurer) et `alt`.
+- **Tout type de visuel** : photo, reconstitution, infographie, schéma. **Le HTML reste préféré** quand il
+  suffit ; pour un visuel complexe, on demande directement l'image à Codex.
 - **Style** : photoréaliste à tous les niveaux, jamais enfantin ; reconstitutions photoréalistes pour le
-  passé. Carte de fiche en 4:3 paysage. Aucun texte, chiffre ou lettre dans l'image.
+  passé. Carte de fiche en 4:3 paysage.
+- **Texte dans une image** (décision du 2026-11-12) : permis seulement dans un schéma ou une infographie,
+  jamais dans une photo ou une reconstitution. Chaque mot est vérifié (une faute → image régénérée) et tout
+  le texte de l'image est repris dans `alt`. Gros caractères, sans empattement, minuscules, peu de mots.
 - **Livraison** : le fichier va dans le dossier de la leçon ; dans `lecon.yaml`, `aGenerer` est remplacé
   par `fichier` (chemin relatif à la leçon) et `credit: generee`, `alt` est conservé. Une leçon publiée ne
   peut plus contenir d'`aGenerer` (le schéma le refuse).
 - **Vérification** : chaque image est regardée par l'agent qui l'a commandée ou par un vérificateur ; elle
-  est refusée (et régénérée) si elle est fausse, anachronique, décorative ou contient du texte.
+  est refusée (et régénérée) si elle est fausse, anachronique, décorative, ou contient du texte non permis
+  ou mal écrit.
 - Images reprises d'un cours fourni : gardées seulement si la licence permet la republication (avec
   `credit: { auteur, licence, url }`), sinon régénérées.
 - L'outillage du lot d'images (format WebP, taille, manifeste des prompts) est le prochain plan : voir

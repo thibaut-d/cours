@@ -78,6 +78,9 @@ Qui lit le site :
 
 ### 4.1 Navigation
 
+> **Remplacé le 2026-11-12** par [la navigation par filtres et les publics](2026-11-12-navigation-publics-design.md)
+> (le « niveau » devient le « public » ; accueil unique avec filtres public et matière).
+
 Accueil → **niveau** (6e, 5e, 4e, 3e, 2de, 1re, Tle, Supérieur) → **matière** → **leçon**.
 - Adresses stables et lisibles : `/6e/histoire/paleolithique/` **[choix]**.
 - Les leçons d'une matière sont dans l'ordre du programme (numéro de chapitre) **[choix]**.
@@ -202,6 +205,9 @@ tension 1). Quand la recherche et une habitude des fiches ChatGPT divergent, la 
 l'essai à un seul élève (R § 9) peut ensuite ajuster.
 
 ## 6. Les images
+
+> **Modifié le 2026-11-12** : une image générée peut porter du texte quand c'est un schéma ou une infographie
+> complexe ; le HTML reste préféré ([détail](2026-11-12-navigation-publics-design.md), § 6).
 
 Le site a besoin de beaucoup d'images. **Codex génère les
 images**, Claude les commande et les vérifie (organisation reprise de Brindilo).

@@ -12,11 +12,15 @@ Le premier fichier à lire pour reprendre le travail (Claude ou Codex). Le tenir
 
 ## Feuille de route
 
+0. **Navigation par filtres et publics** (en cours) : conception
+   `docs/superpowers/specs/2026-11-12-navigation-publics-design.md`.
 1. **Images** : outillage du lot (format WebP, taille, prompts conservés), génération des 35 images des
    leçons pilotes par Codex, vérification image par image, puis relecture de l'auteur.
 2. **Diaporama, PDF et PowerPoint** générés depuis la même leçon (avec notes de l'orateur).
 3. **Recette « créer une leçon »** pas à pas, puis conversion du cours d'introduction au NLP (en anglais).
 4. **Charte graphique** (ci-dessous).
+5. **Infographies** : un type de contenu à part entière (pour les dossiers destinés aux professeurs
+   notamment), en HTML ou en image générée par Codex.
 
 ## Petits défauts repérés
 
