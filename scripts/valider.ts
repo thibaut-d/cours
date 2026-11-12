@@ -2,6 +2,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { dirname, join, relative } from 'node:path';
 import { parse } from 'yaml';
 import { avertissements } from '../src/lecon/avertissements';
+import { libellesIncoherents, type EntreeLecon } from '../src/lecon/catalogue';
 import { leconSchema, type Lecon } from '../src/lecon/schema';
 
 const racine = process.env['CONTENU_DIR'] ?? 'contenu';
@@ -42,6 +43,7 @@ if (fichiers.length === 0) {
 
 let erreurs = 0;
 let nbAvertissements = 0;
+const valides: EntreeLecon[] = [];
 
 for (const fichier of fichiers) {
   const nom = relative(racine, fichier).replaceAll('\\', '/');
@@ -60,6 +62,7 @@ for (const fichier of fichiers) {
         if (!existsSync(join('public', 'pictos', `${p}.svg`))) problemes.push(`pictogramme introuvable : public/pictos/${p}.svg`);
       }
       conseils = avertissements(r.data);
+      valides.push({ id: nom, data: r.data });
     }
   } catch (e) {
     problemes.push(`lecture impossible : ${(e as Error).message}`);
@@ -70,6 +73,11 @@ for (const fichier of fichiers) {
   console.log(nom);
   for (const p of problemes) console.log(`  ERREUR : ${p}`);
   for (const a of conseils) console.log(`  avertissement : ${a}`);
+}
+
+for (const message of libellesIncoherents(valides)) {
+  console.log(`ERREUR : ${message}`);
+  erreurs += 1;
 }
 
 console.log(`\n${fichiers.length} leçon(s), ${erreurs} erreur(s), ${nbAvertissements} avertissement(s).`);

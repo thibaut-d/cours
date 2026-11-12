@@ -1,12 +1,12 @@
 import { describe, expect, it } from 'vitest';
 import { estVisible } from './visibilite';
-import { leconsDeMatiere, matieresDuNiveau, niveauxPresents, slugLecon } from './catalogue';
+import { leconsDeMatiere, libellesIncoherents, matieresDuPublic, publicsPresents, slugLecon } from './catalogue';
 import { leconSchema } from './schema';
 
-const l = (niveau: string, matiere = 'histoire', ordre = 1, titre = 'T', matiereLibelle = 'Histoire') => ({
-  id: `${niveau}/${matiere}/${titre}/lecon`,
+const l = (publicLecon: string, matiere = 'histoire', ordre = 1, titre = 'T', matiereLibelle = 'Histoire') => ({
+  id: `${publicLecon}/${matiere}/${titre}/lecon`,
   data: leconSchema.parse({
-    titre, niveau, matiere, matiereLibelle, ordre, statut: 'publie', sources: [{ libelle: 's' }],
+    titre, public: publicLecon, matiere, matiereLibelle, ordre, statut: 'publie', sources: [{ libelle: 's' }],
     chapitres: [{ titre: 'c', cartes: [{ motCle: 'm' }] }],
   }),
 });
@@ -19,12 +19,17 @@ describe('visibilité', () => {
   });
 });
 describe('catalogue', () => {
-  it('niveauxPresents suit l’ordre officiel', () =>
-    expect(niveauxPresents([l('sup'), l('6e')]).map((n) => n.id)).toEqual(['6e', 'sup']));
+  it('publicsPresents suit l’ordre officiel', () =>
+    expect(publicsPresents([l('superieur'), l('6e')]).map((n) => n.id)).toEqual(['6e', 'superieur']));
   it('leconsDeMatiere trie par ordre', () =>
     expect(leconsDeMatiere([l('6e', 'histoire', 2, 'B'), l('6e', 'histoire', 1, 'Z')], '6e', 'histoire').map((x) => x.data.ordre)).toEqual([1, 2]));
-  it('matieresDuNiveau trie par libellé sans doublon', () =>
-    expect(matieresDuNiveau([l('6e', 'maths', 1, 'a', 'Mathématiques'), l('6e', 'histoire', 1, 'b'), l('6e', 'histoire', 2, 'c'), l('5e', 'svt', 1, 'd', 'SVT')], '6e')
+  it('matieresDuPublic trie par libellé sans doublon', () =>
+    expect(matieresDuPublic([l('6e', 'maths', 1, 'a', 'Mathématiques'), l('6e', 'histoire', 1, 'b'), l('6e', 'histoire', 2, 'c'), l('5e', 'svt', 1, 'd', 'SVT')], '6e')
       .map((m) => m.matiere)).toEqual(['histoire', 'maths']));
+  it('libellesIncoherents signale une matière aux libellés différents', () =>
+    expect(libellesIncoherents([l('6e', 'histoire', 1, 'a', 'Histoire'), l('5e', 'histoire', 1, 'b', 'Histoire-géo'), l('6e', 'maths', 1, 'c', 'Maths')]))
+      .toEqual(['matière « histoire » : libellés différents « Histoire », « Histoire-géo »']));
+  it('libellesIncoherents ne dit rien quand tout concorde', () =>
+    expect(libellesIncoherents([l('6e', 'histoire', 1, 'a'), l('5e', 'histoire', 1, 'b')])).toEqual([]));
   it('slugLecon', () => expect(slugLecon('6e/histoire/paleolithique/lecon')).toBe('paleolithique'));
 });

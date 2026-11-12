@@ -61,6 +61,6 @@ test('frise verticale même sur grand écran, pour ne pas couper les mots', asyn
 });
 
 test('leçon en anglais', async ({ page }) => {
-  await page.goto('/cours/sup/data-sciences/essai-anglais/');
+  await page.goto('/cours/superieur/data-sciences/essai-anglais/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
 });

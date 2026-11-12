@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { leconSchema } from './schema';
 
 const base = {
-  titre: 'Vivre au Paléolithique', niveau: '6e', matiere: 'histoire', matiereLibelle: 'Histoire',
+  titre: 'Vivre au Paléolithique', public: '6e', matiere: 'histoire', matiereLibelle: 'Histoire',
   ordre: 1, statut: 'brouillon', sources: [{ libelle: 'Programme de 6e' }],
   chapitres: [{ titre: 'Chasse', cartes: [{ motCle: 'chasser', image: { aGenerer: 'chasseurs et rennes', alt: 'Des chasseurs' } }] }],
 };

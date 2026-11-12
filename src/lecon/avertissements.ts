@@ -1,4 +1,4 @@
-import { NIVEAUX } from './niveaux';
+import { objectifsDe } from './publics';
 import type { Lecon } from './schema';
 
 export const OBJECTIFS: Record<
@@ -14,8 +14,7 @@ const mots = (s: string) => s.trim().split(/\s+/).filter(Boolean).length;
 const pluriel = (n: number, mot: string) => `${n} ${mot}${n > 1 ? 's' : ''}`;
 
 export function avertissements(lecon: Lecon): string[] {
-  const cycle = NIVEAUX.find((n) => n.id === lecon.niveau)!.cycle;
-  const obj = OBJECTIFS[cycle];
+  const obj = OBJECTIFS[objectifsDe(lecon.public)];
   const messages: string[] = [];
 
   if (mots(lecon.titre) > 6) {

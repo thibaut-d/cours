@@ -8,7 +8,7 @@ import Mosaique from './Mosaique.astro';
 import Questions from './Questions.astro';
 import { libelles } from '../lib/libelles';
 import { lien } from '../lib/lien';
-import { NIVEAUX } from '../lecon/niveaux';
+import { trouverPublic } from '../lecon/publics';
 import type { Lecon } from '../lecon/schema';
 
 interface Props {
@@ -18,7 +18,7 @@ interface Props {
 
 const { id, lecon } = Astro.props;
 const t = libelles(lecon.langue);
-const niveau = NIVEAUX.find((n) => n.id === lecon.niveau)!;
+const publicLecon = trouverPublic(lecon.public);
 ---
 
 <Ecouter langue={lecon.langue} />
@@ -28,14 +28,14 @@ const niveau = NIVEAUX.find((n) => n.id === lecon.niveau)!;
     <FilAriane
       etapes={[
         { libelle: 'Cours', href: lien('?choisir') },
-        { libelle: niveau.libelle, href: lien(`${niveau.id}/`) },
-        { libelle: lecon.matiereLibelle, href: lien(`${niveau.id}/${lecon.matiere}/`) },
+        { libelle: publicLecon.libelle, href: lien(`${publicLecon.id}/`) },
+        { libelle: lecon.matiereLibelle, href: lien(`${publicLecon.id}/${lecon.matiere}/`) },
         { libelle: lecon.titre },
       ]}
     />
   </div>
   <h1>{lecon.titre}</h1>
-  <p class="fiche-niveau">{niveau.libelle} · {lecon.matiereLibelle}</p>
+  <p class="fiche-niveau">{publicLecon.libelle} · {lecon.matiereLibelle}</p>
 </header>
 
 {

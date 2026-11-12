@@ -2,26 +2,26 @@
 import Base from '../../layouts/Base.astro';
 import FilAriane from '../../components/FilAriane.astro';
 import { leconsVisibles } from '../../lib/lecons';
-import { matieresDuNiveau, niveauxPresents } from '../../lecon/catalogue';
+import { matieresDuPublic, publicsPresents } from '../../lecon/catalogue';
 import { lien } from '../../lib/lien';
 
 export async function getStaticPaths() {
   const lecons = await leconsVisibles();
-  return niveauxPresents(lecons).map((n) => ({ params: { niveau: n.id }, props: { niveau: n } }));
+  return publicsPresents(lecons).map((n) => ({ params: { public: n.id }, props: { publicActuel: n } }));
 }
 
-const { niveau } = Astro.props;
-const matieres = matieresDuNiveau(await leconsVisibles(), niveau.id);
+const { publicActuel } = Astro.props;
+const matieres = matieresDuPublic(await leconsVisibles(), publicActuel.id);
 ---
 
-<Base titre={`${niveau.libelle} – Cours`} description={`Les matières de ${niveau.libelle}.`}>
-  <FilAriane etapes={[{ libelle: 'Cours', href: lien('?choisir') }, { libelle: niveau.libelle }]} />
-  <h1 data-niveau={niveau.id}>{niveau.libelle}</h1>
+<Base titre={`${publicActuel.libelle} – Cours`} description={`Les matières de ${publicActuel.libelle}.`}>
+  <FilAriane etapes={[{ libelle: 'Cours', href: lien('?choisir') }, { libelle: publicActuel.libelle }]} />
+  <h1 data-niveau={publicActuel.id}>{publicActuel.libelle}</h1>
   <ul class="tuiles">
     {
       matieres.map((m) => (
         <li>
-          <a class="tuile" href={lien(`${niveau.id}/${m.matiere}/`)}>{m.matiereLibelle}</a>
+          <a class="tuile" href={lien(`${publicActuel.id}/${m.matiere}/`)}>{m.matiereLibelle}</a>
         </li>
       ))
     }

@@ -45,7 +45,7 @@ test('écouter une leçon en anglais : en-GB', async ({ page }) => {
     (window as any).__lu = [];
     window.speechSynthesis.speak = (u: any) => (window as any).__lu.push([u.text, u.lang]);
   });
-  await page.goto('/cours/sup/data-sciences/essai-anglais/');
+  await page.goto('/cours/superieur/data-sciences/essai-anglais/');
   await page.getByRole('button', { name: 'Listen' }).first().click();
   const [[, langue]] = await page.evaluate(() => (window as any).__lu);
   expect(langue).toBe('en-GB');

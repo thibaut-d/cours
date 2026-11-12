@@ -1,10 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import { leconsVisibles } from '../lib/lecons';
-import { niveauxPresents } from '../lecon/catalogue';
+import { publicsPresents } from '../lecon/catalogue';
 import { lien } from '../lib/lien';
 
-const niveaux = niveauxPresents(await leconsVisibles());
+const niveaux = publicsPresents(await leconsVisibles());
 const destinations = Object.fromEntries(niveaux.map((n) => [n.id, lien(`${n.id}/`)]));
 ---
 

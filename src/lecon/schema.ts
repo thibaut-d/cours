@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { IDS_NIVEAUX } from './niveaux';
+import { IDS_PUBLICS } from './publics';
 
 const slug = z.string().regex(/^[a-z0-9-]+$/);
 const texte = z.string().min(1);
@@ -64,7 +64,7 @@ const chapitre = z.object({
 export const leconSchema = z
   .object({
     titre: texte,
-    niveau: z.enum(IDS_NIVEAUX),
+    public: z.enum(IDS_PUBLICS),
     matiere: slug,
     matiereLibelle: z.string(),
     ordre: z.number().int().min(1),
