@@ -8,9 +8,11 @@ interface Props {
   titre: string;
   langue?: 'fr' | 'en';
   description?: string;
+  /** Page de navigation (accueil) : colonne plus large pour une grille de tuiles. */
+  large?: boolean;
 }
 
-const { titre, langue = 'fr', description } = Astro.props;
+const { titre, langue = 'fr', description, large = false } = Astro.props;
 
 // Polices de lecture : Luciole (CC BY 4.0), repli Atkinson Hyperlegible. Servies en local, jamais de CDN.
 // URL dérivées de la base : Astro ne réécrit pas les url() absolues d'un fichier CSS.
@@ -42,10 +44,10 @@ const faces = polices
     <slot name="tete" />
   </head>
   <body>
-    <div class="barre">
+    <div class:list={['barre', { large }]}>
       <Reglages langue={langue} />
     </div>
-    <main>
+    <main class:list={[{ large }]}>
       <slot />
     </main>
   </body>

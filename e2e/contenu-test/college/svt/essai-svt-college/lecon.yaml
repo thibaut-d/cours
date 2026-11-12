@@ -1,0 +1,15 @@
+titre: Leçon d'essai de SVT pour tout le collège
+public: college
+matiere: svt
+matiereLibelle: SVT
+ordre: 1
+statut: publie
+sources:
+  - libelle: Document d'essai
+chapitres:
+  - titre: Chapitre unique
+    cartes:
+      - motCle: graine
+        picto: epi
+        phrases:
+          - Une graine donne une plante.

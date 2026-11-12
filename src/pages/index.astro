@@ -1,38 +1,71 @@
 ---
 import Base from '../layouts/Base.astro';
+import TuileLecon from '../components/TuileLecon.astro';
 import { leconsVisibles } from '../lib/lecons';
-import { publicsPresents } from '../lecon/catalogue';
-import { lien } from '../lib/lien';
+import { boutonsMatieres, boutonsPublics, grouperParMatiere } from '../lecon/filtres';
 
-const niveaux = publicsPresents(await leconsVisibles());
-const destinations = Object.fromEntries(niveaux.map((n) => [n.id, lien(`${n.id}/`)]));
+const lecons = await leconsVisibles();
+const publics = boutonsPublics(lecons);
+const matieres = boutonsMatieres(lecons);
+const groupes = grouperParMatiere(lecons);
+const rangees = [
+  { nom: 'public', titre: 'Public', boutons: publics.map((p) => ({ valeur: p.id, libelle: p.libelle })) },
+  { nom: 'matiere', titre: 'Matière', boutons: matieres.map((m) => ({ valeur: m.matiere, libelle: m.libelle })) },
+];
 ---
 
-<Base titre="Cours" description="Des cours illustrés, faciles à lire.">
+<Base titre="Cours" description="Des cours illustrés, faciles à lire." large>
   <h1>Cours</h1>
   {
-    niveaux.length === 0 ? (
+    lecons.length === 0 ? (
       <p class="chapeau">Aucun cours publié pour l'instant.</p>
     ) : (
       <>
-        <p class="chapeau">Choisis ton niveau.</p>
-        <ul class="tuiles" data-destinations={JSON.stringify(destinations)}>
-          {niveaux.map((n) => (
-            <li>
-              <a class="tuile" href={lien(`${n.id}/`)}>{n.libelle}</a>
-            </li>
+        {/* Masqué sans JavaScript : le script l'affiche. */}
+        <div class="filtres" hidden>
+          {rangees.map((r) => (
+            <div class="filtres-rangee" role="group" aria-labelledby={`filtres-${r.nom}`}>
+              <p class="filtres-titre" id={`filtres-${r.nom}`}>
+                {r.titre}
+              </p>
+              <div class="filtres-boutons">
+                {r.boutons.map((b) => (
+                  <button type="button" class="filtre" aria-pressed="false" data-filtre={r.nom} data-valeur={b.valeur}>
+                    <svg class="filtre-coche" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <rect x="2" y="2" width="20" height="20" rx="3" />
+                      <path d="M6 12.5l4 4 8-9" />
+                    </svg>
+                    {b.libelle}
+                  </button>
+                ))}
+              </div>
+            </div>
           ))}
-        </ul>
+          {/* Combinaison vide : le message vient juste avant « Tout voir ». */}
+          <div class="message-vide" role="status">
+            <p hidden data-message-vide>Aucune leçon ne correspond à ces filtres.</p>
+          </div>
+          <button type="button" class="filtre filtre-tout" data-tout-voir>
+            Tout voir
+          </button>
+        </div>
+
+        {groupes.map((g) => (
+          <section class="groupe-matiere" data-groupe>
+            <h2>{g.libelle}</h2>
+            <ul class="grille-lecons">
+              {g.lecons.map((l) => (
+                <TuileLecon lecon={l} />
+              ))}
+            </ul>
+          </section>
+        ))}
       </>
     )
   }
 </Base>
 
 <script>
-  import { redirigerVersDernierNiveau } from '../scripts/dernier-niveau';
-  const liste = document.querySelector<HTMLElement>('[data-destinations]');
-  if (liste) {
-    const destinations: Record<string, string> = JSON.parse(liste.dataset.destinations ?? '{}');
-    redirigerVersDernierNiveau(Object.keys(destinations), (id) => destinations[id] ?? '');
-  }
+  import { activerFiltres } from '../scripts/filtres-accueil';
+  activerFiltres();
 </script>

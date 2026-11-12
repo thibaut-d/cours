@@ -27,9 +27,8 @@ const publicLecon = trouverPublic(lecon.public);
   <div lang="fr">
     <FilAriane
       etapes={[
-        { libelle: 'Cours', href: lien('?choisir') },
-        { libelle: publicLecon.libelle, href: lien(`${publicLecon.id}/`) },
-        { libelle: lecon.matiereLibelle, href: lien(`${publicLecon.id}/${lecon.matiere}/`) },
+        { libelle: 'Cours', href: lien('') },
+        { libelle: lecon.matiereLibelle, href: lien(`?matiere=${lecon.matiere}`) },
         { libelle: lecon.titre },
       ]}
     />

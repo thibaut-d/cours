@@ -1,0 +1,14 @@
+titre: Leçon d'essai d'intelligence artificielle pour les professeurs
+public: professeurs
+matiere: intelligence-artificielle
+matiereLibelle: Intelligence artificielle
+ordre: 1
+statut: publie
+sources:
+  - libelle: Document d'essai
+chapitres:
+  - titre: Chapitre unique
+    cartes:
+      - motCle: modèle
+        phrases:
+          - Un modèle prédit la suite d'un texte.

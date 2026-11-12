@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets';
+import Picto from './Picto.astro';
+import { resoudreImage } from '../lib/images';
+import { lien } from '../lib/lien';
+import { slugLecon, type EntreeLecon } from '../lecon/catalogue';
+import { publicsCorrespondants } from '../lecon/filtres';
+import { trouverPublic } from '../lecon/publics';
+
+// Tuile de l'accueil : toute la tuile est un lien vers la leçon. Les attributs `data-*` servent aux filtres.
+// Visuel : image de la première carte qui a un fichier, sinon picto sur fond uni, sinon rien.
+interface Props {
+  lecon: EntreeLecon;
+}
+
+const { lecon } = Astro.props;
+const { data } = lecon;
+const cartes = data.chapitres.flatMap((c) => c.cartes);
+const avecFichier = cartes.find((c) => c.image && 'fichier' in c.image);
+const fichier = avecFichier?.image && 'fichier' in avecFichier.image ? avecFichier.image.fichier : undefined;
+const source = fichier ? resoudreImage(lecon.id, fichier) : undefined;
+const picto = source ? undefined : cartes.find((c) => c.picto)?.picto;
+const LARGEUR = 800;
+const largeur = source ? Math.min(LARGEUR, source.width) : LARGEUR;
+const largeurs = [400, 800].filter((l) => l < largeur).concat(largeur);
+// Une colonne sur téléphone, deux puis trois sur grand écran (voir `.grille-lecons`).
+const sizes = '(min-width: 60rem) 23rem, (min-width: 38rem) 50vw, 100vw';
+---
+
+<li data-public={data.public} data-publics={publicsCorrespondants(data.public).join(' ')} data-matiere={data.matiere}>
+  <a class="tuile-lecon" href={lien(`${data.public}/${data.matiere}/${slugLecon(lecon.id)}/`)}>
+    {
+      (source || picto) && (
+        <span class="tuile-visuel">
+          {source ? <Image src={source} alt="" width={largeur} widths={largeurs} sizes={sizes} /> : <Picto nom={picto!} />}
+        </span>
+      )
+    }
+    <span class="tuile-titre" lang={data.langue}>{data.titre}</span>
+    <span class="tuile-etiquettes">
+      <span class="tuile-etiquette">{trouverPublic(data.public).libelle}</span>
+      <span class="tuile-etiquette">{data.matiereLibelle}</span>
+    </span>
+  </a>
+</li>
