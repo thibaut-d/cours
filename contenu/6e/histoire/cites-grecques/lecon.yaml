@@ -1,0 +1,640 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 2 « Récits fondateurs, croyances et citoyenneté dans la
+# Méditerranée antique au Ier millénaire avant J.-C. », sous-thème « Le monde des cités grecques »
+# (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# La fiche Eduscol du thème 2 guide le plan : un monde morcelé en cités, une culture commune (Homère,
+# sanctuaires d'Olympie et de Delphes, polythéisme), puis la citoyenneté athénienne au temps de Périclès
+# (vie politique, défense de la cité, religion civique : Panathénées, Parthénon). Notions : cité,
+# mythologie, démocratie. Le mythe est toujours présenté comme un récit, distinct de l'histoire.
+# Leçon précédente : « Premiers États, premières écritures » (contenu/6e/histoire/premiers-etats).
+# Leçon suivante : « Rome, du mythe à l'histoire » (contenu/6e/histoire/rome).
+titre: Le monde des cités grecques
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 5
+langue: fr
+statut: brouillon
+resume: >-
+  Les Grecs, divisés en cités, partagent une langue, des dieux, des récits et des sanctuaires ; à
+  Athènes naît la démocratie.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 2, « Le monde des cités grecques »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 2 » (mars 2016) :
+      monde politiquement morcelé, univers culturel commun incarné par l'Iliade et l'Odyssée ; monde
+      homérique entre 1200 et 750-720 av. J.-C. ; sanctuaires de Delphes (Apollon, la Pythie) et
+      d'Olympie (jeux dès 776) ; citation d'Hérodote (même langue, mêmes dieux) ; citoyenneté athénienne
+      (vie politique, défense, religion civique), Panathénées, frise du Parthénon au temps de Périclès
+    url: https://eduscol.education.fr/document/16753/download
+  - libelle: >-
+      Eduscol, « Sixième : Le monde des cités grecques », plan de cours (cités parfois rivales, culture
+      partagée, nouveau système politique ; notions cité, mythologie, démocratie)
+    url: https://eduscol.education.fr/document/29107/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Louvre-Lens, dossier pédagogique de l'exposition « Homère » (2019) : auteur incertain, poèmes
+      élaborés et transmis oralement par les aèdes puis mis par écrit ; Iliade (guerre de Troie, colère
+      d'Achille, 24 chants) ; Odyssée (retour d'Ulysse à Ithaque, Polyphème, les sirènes) ; épopées qui
+      mêlent des époques du XVIe au VIIIe siècle av. J.-C. ; cités grecques formées du VIIIe au VIe siècle
+    url: https://www.louvrelens.fr/wp-content/uploads/2018/11/Dossier-pedagogique-Homere_O.pdf
+  - libelle: >-
+      Encyclopædia Universalis, « Jeux olympiques, Grèce antique » : jeux sous le patronage de Zeus,
+      trêve olympique, couronne pour le vainqueur, femmes ni concurrentes ni spectatrices
+    url: https://www.universalis.fr/encyclopedie/jeux-olympiques-grece-antique/
+  - libelle: >-
+      Encyclopædia Universalis, « Delphes » : sanctuaire d'Apollon Pythien, l'oracle le plus prestigieux,
+      la Pythie qui transmet les conseils du dieu
+    url: https://www.universalis.fr/encyclopedie/delphes/
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Zeus » : le plus puissant des dieux, il vit sur l'Olympe, maître
+      de la foudre ; les douze principales divinités de l'Olympe
+    url: https://junior.universalis.fr/encyclopedie/zeus
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Athènes » : l'Acropole, « ville haute », sanctuaire en marbre ;
+      Athéna, déesse de la sagesse, symboles l'olivier et la chouette ; Périclès renforce la démocratie
+    url: https://junior.universalis.fr/encyclopedie/athenes
+  - libelle: >-
+      Pallas, revue d'études antiques, n° 89 (2012), « Les Phocéens et la Gaule » : fondation de
+      Marseille par des Phocéens vers 600 av. J.-C., confirmée par l'archéologie
+    url: https://doaj.org/article/2d391c9bf3a349d6bd9cf92e16c75669
+  - libelle: >-
+      Inrap, communiqué sur la fouille de la carrière de la Corderie à Marseille (2017) : la cité fondée
+      par des marins de Phocée occupe la rive nord du Vieux-Port dès 600 av. J.-C.
+    url: https://www.inrap.fr/sites/inrap.fr/files/atoms/files/cp_carriere_la_corderie_marseille.pdf
+  - libelle: >-
+      Encyclopædia Universalis, « Achèvement de la démocratie athénienne » : Clisthène (vers 508 av.
+      J.-C.) pose les bases de la démocratie ; misthophorie de Périclès ; décisions votées par les citoyens
+    url: https://www.universalis.fr/encyclopedie/achevement-de-la-democratie-athenienne/
+  - libelle: >-
+      Encyclopædia Universalis, « Périclès » (vers 495-429 av. J.-C.) : élu chaque année parmi les dix
+      stratèges, réélu quinze ans de suite
+    url: https://www.universalis.fr/encyclopedie/pericles/
+  - libelle: >-
+      Encyclopædia Universalis, index « Parthénon » : construit par Ictinos de 447 à 438 av. J.-C. pour
+      abriter la statue d'Athéna Parthénos de Phidias ; reconstruction de l'Acropole après 448
+    url: https://www.universalis.fr/encyclopedie/parthenon/
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Démocratie athénienne » : réformes de Clisthène vers 508 av.
+      J.-C. ; l'ecclésia se réunit sur la colline de la Pnyx environ quarante fois par an, vote les lois
+      à main levée et élit les dix stratèges ; depuis 451, la mère du citoyen doit aussi être athénienne ;
+      femmes et étrangers résidant à Athènes exclus de la citoyenneté
+    url: https://junior.universalis.fr/encyclopedie/democratie-athenienne
+  - libelle: >-
+      Encyclopædia Universalis, « Périclès », partie « L'œuvre intérieure » : misthophorie (indemnité)
+      pour les membres du Conseil, les magistrats et les juges de l'Héliée ; tirage au sort des
+      magistrats qui remplace largement l'élection
+    url: https://www.universalis.fr/encyclopedie/pericles/2-l-oeuvre-interieure/
+  - libelle: >-
+      Paul Demont, « Le klérôtérion (“machine à tirer au sort”) et la démocratie athénienne », Bulletin
+      de l'Association Guillaume Budé, 2003 : machine décrite par la Constitution d'Athènes attribuée à
+      Aristote (IVe siècle av. J.-C.) et retrouvée par l'archéologie
+    url: https://www.persee.fr/doc/bude_0004-5527_2003_num_1_1_2095
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Un monde de cités
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: premières cités grecques
+          dates: vers 800 à 700 av. J.-C.
+          carte: 3
+        - libelle: fondation de Marseille
+          dates: vers 600 av. J.-C.
+          carte: 6
+    formule: cité = une ville + ses campagnes + ses citoyens
+    cartes:
+      - picto: globe
+        motCle: monde grec
+        phrases:
+          - "Les Grecs vivent en Grèce, mais aussi sur les côtes de la Méditerranée et de la mer Noire."
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre tout le bassin de la mer
+            Méditerranée et la mer Noire : à gauche le sud de l'Espagne et de la France, au centre
+            l'Italie en forme de botte et la Sicile, au centre droit la Grèce découpée en presqu'îles
+            et entourée de nombreuses îles, à droite la Turquie actuelle, et en haut à droite la mer
+            Noire (centrée vers 82 % de la largeur et 27 % de la hauteur) ; en bas, la côte de l'Afrique
+            du Nord en ocre clair et le delta du Nil en bas à droite. La grande mer Méditerranée en bleu
+            occupe le milieu et le bas de l'image (centrée vers 43 % de la largeur et 58 % de la
+            hauteur). La Grèce est vers 54 % de la largeur et 38 % de la hauteur. De nombreux petits
+            points rouge foncé, bien visibles, marquent les cités grecques sur les côtes : très serrés en
+            Grèce, sur les îles et sur la côte ouest de la Turquie, nombreux dans le sud de l'Italie et
+            en Sicile, plusieurs autour de la mer Noire, quelques-uns sur la côte de Libye et sur la
+            côte sud de la France. Deux points un peu plus gros : l'un pour Athènes, vers 58 % de la
+            largeur et 46 % de la hauteur ; l'autre pour Marseille, vers 17 % de la largeur et 26 % de
+            la hauteur. Couleurs douces et contrastées, côtes nettes. Ne doit pas figurer : texte,
+            lettre, chiffre, nom de lieu, frontière, ville moderne, route, quadrillage, légende, rose
+            des vents, flèche.
+          alt: >-
+            Carte de la Méditerranée et de la mer Noire : des points rouges marquent les cités grecques
+            sur les côtes, de la Grèce jusqu'à Marseille.
+          etiquettes:
+            - texte: mer Méditerranée
+              x: 43
+              y: 60
+            - texte: mer Noire
+              x: 82
+              y: 25
+            - texte: Grèce
+              x: 52
+              y: 34
+            - texte: Athènes
+              x: 58
+              y: 51
+            - texte: Marseille
+              x: 17
+              y: 21
+      - picto: vague
+        motCle: mer et montagnes
+        phrases:
+          - "La Grèce est un pays de montagnes, entouré par la mer : on voyage surtout en bateau."
+        enSavoirPlus: >-
+          Les montagnes séparent les plaines les unes des autres. La mer, elle, relie les côtes et les
+          nombreuses îles.
+        image:
+          aGenerer: >-
+            Photographie réaliste de paysage, format 4:3 paysage, lumière dorée du soir. Une côte de
+            Grèce aujourd'hui : des montagnes sèches et rocheuses plongent dans une mer bleue très
+            claire ; une petite plaine côtière avec des oliviers ; au loin, plusieurs îles montagneuses
+            sur la mer. Aucun humain. Ne doit pas figurer : texte, lettre, chiffre, route, maison
+            moderne, hôtel, bateau à moteur, voilier moderne, éolienne, poteau électrique.
+          alt: Des montagnes rocheuses tombent dans une mer bleue, avec des oliviers et des îles au loin.
+      - picto: ville
+        motCle: cité
+        phrases:
+          - "Une cité, c'est une ville et ses campagnes ; ses habitants se gouvernent eux-mêmes."
+        enSavoirPlus: >-
+          En grec, cité se dit polis. Chaque cité a ses lois, son armée, sa monnaie et un dieu
+          protecteur.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne en légère plongée. Une cité
+            grecque vers 450 av. J.-C. : sur une colline, des temples de pierre à colonnes ; au pied, une
+            ville de maisons basses aux murs blancs et aux toits de tuiles rouges, autour d'une grande
+            place ; un rempart de pierre entoure la ville ; tout autour, des champs de blé, des oliviers
+            et des vignes jusqu'à la mer, où un port abrite quelques navires en bois. Petites silhouettes
+            humaines. Ne doit pas figurer : texte, lettre, chiffre, coupole, clocher, minaret, route
+            goudronnée, véhicule, bâtiment moderne.
+          alt: Une ville grecque avec ses temples sur une colline, ses maisons, son rempart, ses champs et son port.
+      - picto: bouclier
+        motCle: cités rivales
+        phrases:
+          - "Il y a des centaines de cités indépendantes ; elles se font souvent la guerre, comme Athènes et Sparte."
+        enSavoirPlus: >-
+          Mais face à un ennemi venu de loin, comme les Perses au Ve siècle av. J.-C., des cités savent
+          s'unir.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Grèce, Ve siècle av. J.-C. : deux rangs de
+            soldats grecs, des hoplites, s'avancent l'un vers l'autre dans une plaine sèche ; chacun porte
+            un casque de bronze à cimier, une cuirasse, des jambières de bronze, un grand bouclier rond et
+            une longue lance. Poussière, lumière du matin, aucune blessure visible. Ne doit pas figurer :
+            texte, lettre, chiffre, sang, cheval, arme à feu, armure de chevalier, épée moderne, drapeau.
+          alt: Deux rangs de soldats grecs, avec casques, grands boucliers ronds et lances, s'avancent l'un vers l'autre.
+      - picto: bateau
+        motCle: colonie
+        phrases:
+          - "Des Grecs partent en bateau fonder de nouvelles cités au bord de la mer : ce sont des colonies."
+        enSavoirPlus: >-
+          Ils cherchent des terres à cultiver et des lieux pour commercer. La colonie reste liée à la
+          cité d'où viennent ses fondateurs.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers 600 av. J.-C. : un navire grec en bois
+            à voile carrée et à rames, à la proue relevée, s'approche d'une côte rocheuse sauvage ; à bord,
+            des hommes en tuniques, des jarres et des sacs. Sur la plage, quelques premiers colons
+            déchargent des amphores. Mer bleue, ciel clair. Ne doit pas figurer : texte, lettre, chiffre,
+            moteur, voile triangulaire moderne, canon, drapeau, objet en plastique, vêtement moderne.
+          alt: Un navire grec à voile carrée et à rames arrive sur une côte où des colons déchargent des amphores.
+      - picto: lieu
+        motCle: Marseille
+        phrases:
+          - "Vers 600 av. J.-C., des Grecs venus de Phocée fondent Marseille, appelée alors Massalia."
+        enSavoirPlus: >-
+          Phocée est une cité grecque de la côte de la Turquie actuelle. Les fouilles ont retrouvé les
+          traces de la ville grecque autour du Vieux-Port.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue en légère plongée. La colonie grecque
+            de Massalia (Marseille) vers 550 av. J.-C. : au bord d'une calanque abritée, une petite ville
+            de maisons en pierre et en brique crue aux toits plats ou de tuiles, sur des collines
+            blanches et rocheuses couvertes de pins et de garrigue ; quelques navires grecs en bois sont
+            tirés sur la rive ; une petite muraille de pierre protège la ville. Ne doit pas figurer :
+            texte, lettre, chiffre, basilique, église, fort, phare moderne, quai en béton, bateau à
+            moteur, immeuble.
+          alt: La petite ville grecque de Massalia au bord d'une baie, entourée de collines blanches et de pins.
+    questions:
+      - question: Qu'est-ce qu'une cité grecque ?
+        reponse: Une ville et ses campagnes, indépendante, avec ses propres lois.
+      - question: Qu'est-ce qu'une colonie ?
+        reponse: Une nouvelle cité fondée par des Grecs loin de chez eux, au bord de la mer.
+      - question: Quelle ville de France a été fondée par des Grecs ?
+        reponse: Marseille, vers 600 av. J.-C., par des Grecs venus de Phocée.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Ce qui unit les Grecs
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: premiers jeux Olympiques
+          dates: 776 av. J.-C., selon la tradition
+          carte: 10
+        - libelle: Iliade et Odyssée
+          dates: VIIIe siècle av. J.-C.
+          carte: 6
+    formule: Grecs = une langue + des dieux + des récits + des sanctuaires
+    cartes:
+      - picto: groupe
+        motCle: une même culture
+        phrases:
+          - "Les cités sont séparées, mais tous les Grecs parlent la même langue et prient les mêmes dieux."
+        enSavoirPlus: >-
+          L'historien grec Hérodote, au Ve siècle av. J.-C., disait déjà que les Grecs partagent un
+          même sang, une même langue, les mêmes dieux et les mêmes coutumes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un port grec animé vers 450 av. J.-C. :
+            sur le quai de pierre, des Grecs venus de plusieurs cités, hommes en tuniques courtes ou
+            longues et manteaux drapés, discutent et échangent des amphores ; des navires en bois à voile
+            carrée au mouillage ; au fond, un temple à colonnes sur une colline. Ne doit pas figurer :
+            texte, lettre, chiffre, pièce de monnaie en gros plan, drapeau, objet moderne, vêtement
+            moderne.
+          alt: Des Grecs en tuniques discutent sur le quai d'un port, avec des navires et un temple au fond.
+      - picto: temple
+        motCle: polythéisme
+        phrases:
+          - "Les Grecs sont polythéistes : ils croient en plusieurs dieux, qu'ils honorent par des prières et des offrandes."
+        enSavoirPlus: >-
+          Chaque dieu a son temple, sa maison. Devant le temple, sur un autel, on offre des gâteaux, du
+          vin ou des animaux.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Devant un temple grec en marbre à colonnes,
+            vers 450 av. J.-C. : une petite foule d'hommes et de femmes en tuniques et manteaux drapés,
+            certains couronnés de feuillage, se tient autour d'un autel de pierre où brûle un feu ; un
+            prêtre lève les mains vers le ciel ; une jeune fille porte une corbeille de fruits et de
+            gâteaux. Ne doit pas figurer : texte, lettre, chiffre, statue de dieu au premier plan, sang,
+            croix, objet moderne, vêtement moderne.
+          alt: Des Grecs rassemblés autour d'un autel où brûle un feu, devant un temple à colonnes.
+      - picto: montagne
+        motCle: dieux de l'Olympe
+        phrases:
+          - "Selon les mythes, les douze grands dieux vivent sur le mont Olympe ; Zeus est leur roi."
+        enSavoirPlus: >-
+          Zeus est le maître de la foudre. Parmi les autres : Héra, l'épouse de Zeus ; Poséidon, dieu
+          de la mer ; Athéna, déesse de la sagesse ; Apollon, dieu de la musique.
+        image:
+          aGenerer: >-
+            Photographie réaliste de paysage, format 4:3 paysage. Le mont Olympe en Grèce aujourd'hui :
+            un massif de hautes montagnes grises aux sommets enneigés, dont les crêtes percent des nuages
+            blancs ; en bas, des pentes couvertes de forêts de pins. Un orage au loin, avec un éclair dans
+            le ciel. Aucun humain. Ne doit pas figurer : texte, lettre, chiffre, route, refuge, remontée
+            mécanique, antenne, personnage, dieu.
+          alt: Les hauts sommets enneigés du mont Olympe, au-dessus des nuages, avec un éclair au loin.
+      - picto: livre
+        motCle: mythe
+        phrases:
+          - "Un mythe est un récit merveilleux sur les dieux et les héros : ce n'est pas de l'histoire."
+        enSavoirPlus: >-
+          L'historien, lui, cherche des preuves : des ruines, des objets, des textes. Les mythes nous
+          apprennent ce que croyaient les Grecs.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage de musée. Un vase
+            grec à figures noires (une amphore), dans le style des vases d'Athènes vers 520 av. J.-C.,
+            sans copier un vase précis : sur le fond orangé de l'argile, une scène peinte en noir montre
+            le héros Héraclès, vêtu d'une courte tunique, qui lutte à mains nues contre un grand lion.
+            Ne doit pas figurer : texte, lettre, inscription, chiffre, étiquette, socle avec inscription,
+            vitre avec reflet, peau de lion portée par le héros, personnage dévêtu.
+          alt: >-
+            Un vase grec orange et noir, dans le style des vases d'Athènes, peint d'une scène de mythe :
+            le héros Héraclès combat un lion.
+      - picto: lyre
+        motCle: aède
+        phrases:
+          - "Un aède est un poète qui chante, de mémoire, les exploits des héros, en jouant de la lyre."
+        enSavoirPlus: >-
+          Les récits passent d'un aède à l'autre, à l'oral, pendant des siècles, avant d'être écrits.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans la grande salle d'une maison grecque,
+            le soir, vers 700 av. J.-C. : un aède âgé et barbu, en tunique et manteau, assis sur un
+            tabouret, joue de la lyre (un petit instrument à cordes fait d'une carapace de tortue et de
+            deux bras de bois) et chante ; autour d'un grand foyer, des hommes assis sur des sièges de
+            bois l'écoutent. Lumière chaude du feu et de quelques torches. Ne doit pas figurer : texte,
+            lettre, chiffre, guitare, harpe moderne, bougie en cire, livre, papier, banquette pour
+            s'allonger, objet moderne.
+          alt: Un vieux poète joue de la lyre et chante devant des hommes qui l'écoutent, à la lumière du feu.
+      - picto: rouleau
+        motCle: Homère
+        phrases:
+          - "Selon les Grecs, le poète Homère a composé l'Iliade et l'Odyssée, au VIIIe siècle av. J.-C."
+        enSavoirPlus: >-
+          On ne sait pas qui était vraiment Homère. Ces longs poèmes servent à l'éducation des garçons
+          grecs.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni sombre, éclairage de musée. Un buste en
+            marbre blanc d'un vieil homme barbu aux yeux fermés, cheveux bouclés serrés par un bandeau,
+            dans le style des portraits antiques d'Homère (sans copier un buste précis). Ne doit pas
+            figurer : texte, lettre, inscription, chiffre, étiquette, socle avec inscription.
+          alt: Un buste de marbre d'un vieil homme barbu aux yeux fermés, dans le style des portraits d'Homère.
+      - picto: lance
+        motCle: Iliade
+        phrases:
+          - "L'Iliade raconte la guerre de Troie et la colère du héros Achille."
+        enSavoirPlus: >-
+          Les Grecs font le siège de Troie pendant dix ans. Achille tue le Troyen Hector. On ne sait
+          pas si cette guerre a vraiment eu lieu.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage de musée. Un vase
+            grec à figures rouges, dans le style des vases d'Athènes vers 490 av. J.-C., sans copier un
+            vase précis : sur le fond noir, deux guerriers grecs peints en orangé, avec casques à cimier,
+            boucliers ronds et lances, s'affrontent en duel, comme Achille et Hector. Ne doit pas
+            figurer : texte, lettre, inscription, chiffre, sang, étiquette, socle avec inscription.
+          alt: >-
+            Un vase grec noir et orangé, dans le style des vases d'Athènes : deux guerriers s'affrontent,
+            comme Achille et Hector dans l'Iliade.
+      - picto: bateau
+        motCle: Odyssée
+        phrases:
+          - "L'Odyssée raconte le long retour d'Ulysse chez lui, à Ithaque, après la guerre de Troie."
+        enSavoirPlus: >-
+          Son voyage dure dix ans. Il affronte des monstres : le cyclope Polyphème, un géant à un seul
+          œil, et les sirènes.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage de musée. Un vase
+            grec à figures rouges (un vase à eau), dans le style des vases d'Athènes vers 480 av. J.-C.,
+            sans copier un vase précis : sur le fond noir, une scène peinte en orangé montre Ulysse
+            attaché au mât de son navire, ses marins qui rament, et deux sirènes (oiseaux à tête de
+            femme) qui volent autour du navire. Ne doit pas figurer : texte, lettre, inscription,
+            chiffre, étiquette, socle avec inscription.
+          alt: >-
+            Un vase grec, dans le style des vases d'Athènes : Ulysse attaché au mât de son navire, entouré
+            de sirènes à corps d'oiseau.
+      - picto: lieu
+        motCle: sanctuaire
+        phrases:
+          - "Un sanctuaire est un lieu sacré, consacré à un dieu ; des Grecs de toutes les cités y viennent."
+        enSavoirPlus: >-
+          Les deux plus célèbres sont Olympie, le sanctuaire de Zeus, et Delphes, le sanctuaire
+          d'Apollon.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne en légère plongée. Le
+            sanctuaire de Zeus à Olympie vers 450 av. J.-C. : dans une vallée verte bordée de collines
+            boisées et d'une rivière, un enclos sacré planté d'arbres, avec au centre un grand temple
+            dorique en pierre aux colonnes massives, d'autres temples plus petits, des autels, des
+            statues, une rangée de petits bâtiments sur une terrasse et, à côté, un long stade de terre
+            battue. Des pèlerins en tuniques circulent. Ne doit pas figurer : texte, lettre, chiffre,
+            route, parking, touriste, véhicule, bâtiment moderne.
+          alt: Le sanctuaire d'Olympie dans une vallée verte, avec un grand temple, des autels et un stade.
+      - picto: rameau
+        motCle: jeux Olympiques
+        phrases:
+          - "À Olympie, tous les quatre ans, les jeux honorent Zeus ; seuls les hommes grecs libres participent."
+        enSavoirPlus: >-
+          Selon la tradition, les premiers jeux ont lieu en 776 av. J.-C. Le vainqueur reçoit une
+          couronne d'olivier. Pendant les jeux, une trêve protège ceux qui vont à Olympie.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue d'assez loin. L'hippodrome d'Olympie
+            vers 450 av. J.-C. : une course de chars sur une large piste de terre battue ; trois chars
+            légers à deux roues, tirés chacun par quatre chevaux au galop, soulèvent de la poussière ;
+            chaque conducteur, debout dans son char, porte une longue tunique blanche serrée à la taille
+            et tient les rênes. Le long de la piste, sur des talus d'herbe, des spectateurs masculins en
+            tuniques et manteaux drapés regardent la course ; au loin, des collines boisées. Lumière
+            d'été. Ne doit pas figurer : texte, lettre, chiffre, personnage dévêtu, selle, étrier, fer à
+            cheval visible, char de guerre avec armes, gradins en béton, tribune moderne, drapeau, flamme
+            olympique.
+          alt: À Olympie, des chars tirés par quatre chevaux font la course devant des spectateurs assis sur l'herbe.
+      - picto: temple
+        motCle: Delphes
+        phrases:
+          - "À Delphes, sanctuaire d'Apollon, une prêtresse, la Pythie, répond aux questions des Grecs."
+        enSavoirPlus: >-
+          On l'appelle l'oracle de Delphes. Les cités viennent lui demander conseil, par exemple avant de
+          fonder une colonie.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Le sanctuaire d'Apollon à Delphes vers
+            450 av. J.-C., accroché au flanc d'une haute montagne rocheuse : une voie sacrée en lacets
+            monte entre de petits bâtiments de marbre à colonnes et des statues jusqu'à un grand temple
+            dorique sur une terrasse ; des pèlerins en tuniques montent avec des offrandes ; en contrebas,
+            une vallée d'oliviers. Ne doit pas figurer : texte, lettre, chiffre, route, touriste,
+            véhicule, ruine, bâtiment moderne.
+          alt: Le sanctuaire de Delphes au flanc d'une montagne, avec un grand temple et des pèlerins qui montent.
+    questions:
+      - question: Qu'est-ce qui unit les Grecs, malgré leurs cités séparées ?
+        reponse: Une même langue, les mêmes dieux, les mêmes récits et des sanctuaires communs.
+      - question: Quelle est la différence entre un mythe et l'histoire ?
+        reponse: "Un mythe est un récit merveilleux ; l'histoire s'appuie sur des preuves : ruines, objets, textes."
+      - question: Que racontent l'Iliade et l'Odyssée ?
+        reponse: La guerre de Troie, puis le long retour d'Ulysse chez lui, à Ithaque.
+      - question: Pourquoi les Grecs viennent-ils à Olympie ?
+        reponse: Pour honorer Zeus et assister aux jeux Olympiques, tous les quatre ans.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Athènes, la démocratie
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: naissance de la démocratie
+          dates: vers 508 av. J.-C.
+          carte: 2
+        - libelle: Périclès
+          dates: vers 450 av. J.-C.
+          carte: 7
+        - libelle: Parthénon
+          dates: vers 447 à 438 av. J.-C.
+          carte: 10
+    formule: démocratie = le pouvoir aux citoyens
+    cartes:
+      - picto: ville
+        motCle: Athènes
+        phrases:
+          - "Au Ve siècle av. J.-C., Athènes est l'une des cités les plus riches et les plus puissantes."
+        enSavoirPlus: >-
+          Elle a un grand port, Le Pirée, et une flotte de navires de guerre. Elle compte peut-être
+          250 000 habitants.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne lointaine. Athènes vers
+            430 av. J.-C. : au centre, la colline rocheuse de l'Acropole couronnée de temples de marbre
+            blanc ; autour, une grande ville de maisons basses aux toits de tuiles, une vaste place
+            publique avec des portiques à colonnes ; un rempart entoure la ville ; au loin, de longs murs
+            relient la ville à la mer et au port. Ne doit pas figurer : texte, lettre, chiffre, ville
+            moderne, immeuble, route goudronnée, véhicule, coupole, clocher.
+          alt: Athènes vue de loin, avec la colline de l'Acropole et ses temples au milieu de la ville.
+      - picto: groupe
+        motCle: démocratie
+        phrases:
+          - "Démocratie veut dire « pouvoir du peuple » : à Athènes, ce sont les citoyens qui décident ensemble."
+        enSavoirPlus: >-
+          La démocratie athénienne commence vers 508 av. J.-C., avec les réformes de Clisthène. Les
+          citoyens votent eux-mêmes, sans élire de députés.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur l'agora, la grande place d'Athènes, vers
+            450 av. J.-C. : un groupe d'hommes grecs adultes, barbus, en tuniques et manteaux drapés,
+            discutent avec animation à l'ombre d'un portique à colonnes ; l'un parle en tendant la main,
+            les autres écoutent. Ne doit pas figurer : texte, lettre, chiffre, femme, papier, livre,
+            urne moderne, objet moderne, vêtement moderne.
+          alt: Des citoyens athéniens en tuniques discutent sur la grande place, à l'ombre d'un portique.
+      - picto: personne
+        motCle: citoyen
+        phrases:
+          - "Un citoyen est un homme adulte, né d'un père et d'une mère athéniens ; il vote et défend sa cité."
+        enSavoirPlus: >-
+          La règle du père et de la mère athéniens date de 451 av. J.-C. Le citoyen participe aussi aux
+          fêtes religieuses de la cité.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, portrait à mi-corps. Un citoyen athénien
+            vers 450 av. J.-C., d'une quarantaine d'années, barbe courte et cheveux bouclés, vêtu d'un
+            himation (grand manteau de laine drapé sur l'épaule) par-dessus une tunique, debout sur
+            l'agora ; derrière lui, flous, un portique et l'Acropole. Ne doit pas figurer : texte,
+            lettre, chiffre, toge romaine, couronne, bijou moderne, objet moderne.
+          alt: Un citoyen athénien barbu, vêtu d'un grand manteau drapé, debout sur la grande place d'Athènes.
+      - picto: personne
+        motCle: non-citoyens
+        phrases:
+          - "Les femmes, les étrangers, appelés métèques, et les esclaves ne sont pas citoyens : ils ne votent pas."
+        enSavoirPlus: >-
+          Les citoyens sont une minorité : les historiens estiment qu'ils sont environ un habitant sur
+          dix.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une rue d'Athènes vers 450 av. J.-C. :
+            à gauche, devant une maison, deux femmes athéniennes en longues tuniques drapées filent la
+            laine ; au centre, un artisan étranger, un métèque, travaille dans son atelier de potier
+            ouvert sur la rue ; à droite, un esclave porte une lourde jarre sur l'épaule. Ne doit pas
+            figurer : texte, lettre, chiffre, chaîne, fouet, violence, objet moderne, vêtement moderne.
+          alt: Dans une rue d'Athènes, deux femmes filent la laine, un potier étranger travaille et un esclave porte une jarre.
+      - picto: main
+        motCle: assemblée
+        phrases:
+          - "Les citoyens se réunissent en assemblée sur la colline de la Pnyx ; ils votent les lois à main levée."
+        enSavoirPlus: >-
+          L'assemblée s'appelle l'ecclésia. Elle décide aussi de la guerre et de la paix. Plusieurs
+          milliers de citoyens y viennent.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Athènes vers 450 av. J.-C., sur la colline
+            de la Pnyx : une foule de plusieurs milliers d'hommes grecs en manteaux drapés, assis et
+            debout sur une pente en demi-cercle, lève la main pour voter ; en bas, un orateur parle depuis
+            une tribune taillée dans le rocher ; au loin, l'Acropole et ses temples. Ne doit pas figurer :
+            texte, lettre, chiffre, femme, bulletin de vote, urne moderne, micro, objet moderne.
+          alt: Une foule de citoyens lève la main pour voter sur une colline, face à un orateur, avec l'Acropole au loin.
+      - picto: jeton
+        motCle: tirage au sort
+        phrases:
+          - "Beaucoup de responsables, comme les juges du tribunal, sont tirés au sort parmi les citoyens."
+        enSavoirPlus: >-
+          Ainsi, chaque citoyen peut un jour exercer une charge. Il reçoit une petite indemnité : même
+          les plus pauvres peuvent participer.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Athènes vers 350 av. J.-C. : devant un
+            bâtiment public à colonnes, des citoyens en manteaux drapés observent une grande stèle de
+            pierre percée de rangées de petites fentes, une machine à tirer au sort, où sont glissées de
+            petites plaquettes de bronze ; un fonctionnaire fait tomber des billes noires et blanches par
+            un tube. Ne doit pas figurer : texte, lettre, chiffre, dé à jouer, papier, urne en verre,
+            objet moderne.
+          alt: Des citoyens regardent une machine de pierre qui sert à tirer au sort les juges.
+      - picto: bouclier
+        motCle: Périclès
+        phrases:
+          - "Vers 450 av. J.-C., Périclès dirige Athènes : les citoyens l'élisent chef de l'armée, stratège, chaque année."
+        enSavoirPlus: >-
+          Il est réélu quinze ans de suite. Grand orateur, il fait embellir Athènes et construire les
+          temples de l'Acropole.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni sombre, éclairage de musée. Un buste en
+            marbre blanc d'un homme barbu au visage calme, coiffé d'un casque grec relevé sur le front,
+            dans le style des portraits antiques de Périclès (sans copier un buste précis). Ne doit pas
+            figurer : texte, lettre, inscription, chiffre, étiquette, socle avec inscription.
+          alt: Un buste de marbre d'un homme barbu coiffé d'un casque relevé, dans le style des portraits de Périclès.
+      - picto: lance
+        motCle: défendre la cité
+        phrases:
+          - "En cas de guerre, le citoyen combat : soldat à pied, l'hoplite, ou rameur sur un navire."
+        enSavoirPlus: >-
+          L'hoplite paie lui-même son armure. Les citoyens plus pauvres rament sur les trières, les navires
+          de guerre d'Athènes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers 480 av. J.-C., sur une mer calme : une
+            trière grecque, long navire de guerre en bois noir, avec trois rangs de rames de chaque côté
+            et un éperon de bronze à l'avant, file à toute vitesse ; sur le pont, quelques hoplites avec
+            casques de bronze et boucliers ronds. Ne doit pas figurer : texte, lettre, chiffre, canon,
+            moteur, voile triangulaire, drapeau, objet moderne.
+          alt: Un long navire de guerre grec à trois rangs de rames, avec des soldats sur le pont.
+      - picto: temple
+        motCle: Acropole
+        phrases:
+          - "L'Acropole est la colline sacrée d'Athènes : on y bâtit des temples en marbre pour les dieux."
+        enSavoirPlus: >-
+          Acropole veut dire « ville haute ». Après les guerres contre les Perses, Périclès la fait
+          reconstruire.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, lumière du soir. La colline rocheuse
+            de l'Acropole d'Athènes vue de loin, avec le Parthénon en ruine, sans toit, au sommet, sous un
+            ciel orangé ; au pied, des arbres. Ne doit pas figurer : texte, lettre, chiffre, grue,
+            échafaudage, panneau, drapeau, touristes en gros plan, immeuble au premier plan.
+          alt: La colline de l'Acropole aujourd'hui, avec les ruines du Parthénon au sommet.
+      - picto: temple
+        motCle: Parthénon
+        phrases:
+          - "De 447 à 438 av. J.-C., les Athéniens bâtissent sur l'Acropole le Parthénon, le temple d'Athéna."
+        enSavoirPlus: >-
+          À l'intérieur se dressait une immense statue d'Athéna, couverte d'or et d'ivoire, faite par le
+          sculpteur Phidias.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Le Parthénon tout neuf vers 430 av. J.-C.,
+            sur l'Acropole d'Athènes : un grand temple de marbre blanc à colonnes doriques, avec son toit
+            intact ; le fronton et la frise portent des sculptures peintes de couleurs vives (bleu, rouge),
+            discrètes ; devant, quelques Athéniens en manteaux drapés. Ciel bleu. Ne doit pas figurer :
+            texte, lettre, chiffre, ruine, échafaudage, grue, touriste, objet moderne.
+          alt: Le Parthénon tout neuf, un grand temple de marbre blanc à colonnes, avec son toit et ses sculptures peintes.
+      - picto: tissu
+        motCle: Athéna
+        phrases:
+          - "Athéna est la déesse protectrice d'Athènes ; chaque année, la cité l'honore par une grande fête, les Panathénées."
+        enSavoirPlus: >-
+          Une procession monte sur l'Acropole pour offrir à la déesse un vêtement tissé, le péplos. La
+          frise du Parthénon montre cette procession.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, éclairage rasant de musée. Une longue plaque de
+            marbre sculptée en bas-relief, dans le style de la frise du Parthénon (sans copier une plaque
+            précise) : une file de jeunes femmes en longues tuniques plissées marchent lentement en
+            procession, portant des vases et des corbeilles ; deux hommes barbus les accueillent. Marbre
+            blanc un peu doré par le temps. Ne doit pas figurer : texte, lettre, inscription, chiffre,
+            étiquette, panneau, visiteur.
+          alt: >-
+            Un bas-relief de marbre, dans le style de la frise du Parthénon : des jeunes femmes en longues
+            tuniques marchent en procession.
+    questions:
+      - question: Qu'est-ce que la démocratie ?
+        reponse: Le pouvoir du peuple ; à Athènes, ce sont les citoyens qui décident.
+      - question: Qui est citoyen à Athènes ?
+        reponse: Un homme adulte, né d'un père et d'une mère athéniens.
+      - question: Qui n'est pas citoyen à Athènes ?
+        reponse: Les femmes, les étrangers (les métèques) et les esclaves.
+      - question: À quoi sert le Parthénon ?
+        reponse: C'est le temple de la déesse Athéna, protectrice d'Athènes, sur l'Acropole.

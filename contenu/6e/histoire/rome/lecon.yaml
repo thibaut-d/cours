@@ -1,0 +1,761 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 2 « Récits fondateurs, croyances et citoyenneté dans la
+# Méditerranée antique au Ier millénaire avant J.-C. », sous-thème « Rome du mythe à l'histoire »
+# (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Question du programme : comment le mythe de sa fondation permet-il à Rome d'asseoir sa domination, et
+# comment est-il mis en scène ? La leçon suit la fiche Eduscol : le mythe (Énée, Romulus, Tite-Live,
+# Virgile), sa confrontation avec l'archéologie, puis la République jusqu'à Auguste, qui se sert du mythe.
+# L'empire et la paix romaine sont pour le thème 3 (autre leçon) : Auguste sert ici de charnière.
+# Leçon précédente : « Le monde des cités grecques » (contenu/6e/histoire/cites-grecques).
+# Leçon suivante : « La naissance du monothéisme juif » (contenu/6e/histoire/monotheisme-juif).
+titre: Rome, du mythe à l'histoire
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 6
+langue: fr
+statut: brouillon
+resume: >-
+  Le mythe de Romulus et Rémus, ce que montrent les archéologues, puis la République romaine, ses
+  conquêtes et Auguste, le premier empereur.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 2, « Rome du mythe à l'histoire » : distinguer histoire
+      et fiction, confronter les récits aux découvertes archéologiques ; « comment le mythe de sa
+      fondation permet-il à Rome d'asseoir sa domination et comment est-il mis en scène ? »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 2 » (mars 2016) :
+      Énée et Virgile, Romulus fils de Mars, 21 avril 753 av. J.-C., Tite-Live sceptique ; site peuplé dès
+      le Xe siècle av. J.-C., transformation au VIIIe siècle, muraille du VIIIe siècle découverte en 1988 ;
+      le mythe glorifie la domination de Rome ; repère « VIIIe siècle av. J.-C. : fondation de Rome »
+    url: https://eduscol.education.fr/document/16753/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Tite-Live, Histoire romaine, livre I (préface : récits « embellis par les fictions de la poésie » ;
+      la louve, Faustulus, les vautours, Rémus qui saute le mur), traduction Nisard, Bibliotheca Classica
+      Selecta (UCLouvain)
+    url: http://bcs.fltr.ucl.ac.be/LIV/I.html
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Rome antique » : selon la tradition, fondation en 753 av. J.-C.
+      par Romulus, fils de Mars, descendant d'Énée ; occupation dense du site au milieu du VIIIe siècle
+      av. J.-C. ; villages sur sept collines au-dessus d'un marécage ; Tarquin, dernier roi étrusque,
+      chassé en 509 ; deux consuls élus pour un an ; guerres puniques ; Alésia 52 ; Égypte 30 ; Octave
+      devient Auguste en 27 av. J.-C.
+    url: https://junior.universalis.fr/encyclopedie/rome-antique
+  - libelle: >-
+      Encyclopædia Universalis Junior, « République romaine » : citoyens, magistrats et Sénat ; comices ;
+      magistrats élus pour un an ; les consuls dirigent l'armée ; le Forum, un marais assaini par Tarquin
+      l'Ancien vers 600 av. J.-C. ; destruction de Carthage en 146 av. J.-C.
+    url: https://junior.universalis.fr/encyclopedie/republique-romaine
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Guerres puniques » : de 264 à 146 av. J.-C., Rome contre
+      Carthage pour la Méditerranée occidentale ; Rome a achevé la conquête de l'Italie
+    url: https://junior.universalis.fr/encyclopedie/guerres-puniques
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Étrusques » : un peuple d'Italie qui influença beaucoup les
+      premiers temps de Rome
+    url: https://junior.universalis.fr/encyclopedie/etrusques
+  - libelle: >-
+      Encyclopædia Universalis, « Rome et Empire romain — La République » : de 509 à 27 av. J.-C. ; Sénat,
+      magistrats et peuple se partagent le pouvoir ; récit romancé de la chute des rois
+    url: https://www.universalis.fr/encyclopedie/rome-et-empire-romain-la-republique/
+  - libelle: >-
+      Encyclopædia Universalis, « Énée » : prince troyen, fils d'Aphrodite (Vénus) et d'Anchise ;
+      l'Énéide de Virgile légitime la politique d'Auguste ; la famille de César descend d'Iule, fils d'Énée
+    url: https://www.universalis.fr/encyclopedie/enee/
+  - libelle: >-
+      Encyclopædia Universalis, « César » : conquête de la Gaule, guerre civile, dictateur, tué par des
+      sénateurs le 15 mars 44 av. J.-C. ; Octave, son petit-neveu, fondateur de la monarchie impériale
+    url: https://www.universalis.fr/encyclopedie/cesar/
+  - libelle: >-
+      Encyclopædia Universalis, « Auguste (63 av. J.-C. – 14 apr. J.-C.) » : par son testament de
+      septembre 45 av. J.-C., César fait d'Octave son héritier et l'adopte (« C. Julius Caesar
+      Octavianus ») ; nommé Augustus en 27 av. J.-C.
+    url: https://www.universalis.fr/encyclopedie/caius-julius-caesar-octavianus-augustus-auguste/
+  - libelle: >-
+      Hérodote.net, « 16 janvier 27 av. J.-C. : Octave devient Auguste » : « petit-neveu et fils
+      adoptif de Jules César » ; le surnom d'Augustus, « habituellement réservé aux divinités »
+    url: https://www.herodote.net/16_janvier_27_av_J_C-evenement--270116.php
+  - libelle: >-
+      Hérodote.net, « Grandeur de la République romaine » : « le Sénat républicain est composé
+      d'anciens magistrats nommés à vie » ; légions de 4 000 à 5 000 hommes
+    url: https://www.herodote.net/Grandeur_de_la_Republique_romaine-synthese-132.php
+  - libelle: >-
+      Encyclopædia Universalis, « Civilisation romaine (notions de base) — La citoyenneté romaine » :
+      droits politiques du citoyen (voter, être élu) ; femmes, étrangers et esclaves tenus à l'écart
+    url: https://www.universalis.fr/encyclopedie/civilisation-romaine/3-la-citoyennete-romaine/
+  - libelle: >-
+      C. Rosillo-López et S. Lacorte (dir.), Cives Romanae. Roman Women as Citizens during the
+      Republic, Prensas de la Universidad de Zaragoza, 2024 : les femmes romaines libres sont
+      citoyennes, sans vote ni magistrature
+    url: https://puz.unizar.es/2999-cives-romanae-roman-women-as-citizens-during-the-republic.html
+  - libelle: >-
+      Parco archeologico del Colosseo, « Casa Romuli, maquette d'une cabane et du village » : traces de
+      cabanes creusées dans la roche du Palatin, trous de poteaux, urnes funéraires en forme de cabane
+    url: https://colosseo.it/en/opere/casa-romuli-reconstructed-model-of-hut-and-village/
+  - libelle: >-
+      British Museum, didrachme d'argent de Rome, vers 269-266 av. J.-C. : la louve allaite Romulus et
+      Rémus (objet 1867,0101.31)
+    url: https://www.britishmuseum.org/collection/object/C_1867-0101-31
+  - libelle: >-
+      Store norske leksikon, « Senatus populusque Romanus » : « le Sénat et le peuple romain », devise de
+      Rome, encore dans les armoiries de la ville
+    url: https://snl.no/Senatus_populusque_Romanus
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Le mythe de la fondation
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: fondation de Rome, selon la légende
+          dates: 753 av. J.-C.
+          carte: 6
+        - libelle: Tite-Live et Virgile écrivent le mythe
+          dates: vers 25 av. J.-C., plus de 700 ans après
+          carte: 8
+    formule: mythe = un récit, pas une preuve
+    cartes:
+      - picto: globe
+        motCle: Rome
+        phrases:
+          - Rome est une ville d'Italie, au bord d'un fleuve, le Tibre, près de la mer Méditerranée.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre l'Italie et les mers autour :
+            en haut, la chaîne des Alpes enneigées en arc, de 15 % à 70 % de la largeur, vers 10 % de la
+            hauteur ; la péninsule italienne verte et brune, en forme de botte, descend en diagonale du
+            haut vers le bas à droite, de 45 % de la largeur et 20 % de la hauteur jusqu'à 70 % de la
+            largeur et 75 % de la hauteur ; les Apennins, montagnes plus claires, la traversent sur sa
+            longueur. Un fleuve bleu fin, le Tibre, descend des montagnes vers la côte ouest et rejoint
+            la mer vers 44 % de la largeur et 49 % de la hauteur ; un petit point rouge foncé bien
+            visible marque Rome sur ce fleuve, un peu à l'intérieur des terres, vers 46 % de la largeur
+            et 47 % de la hauteur. À gauche et en bas, la mer bleue (centrée vers 30 % de la largeur et
+            65 % de la hauteur) ; la Sicile en bas, vers 58 % de la largeur et 88 % de la hauteur ; la
+            Corse et la Sardaigne à gauche, vers 22 % de la largeur et 45 à 65 % de la hauteur. Couleurs
+            douces et contrastées, côtes nettes. Ne doit pas figurer : texte, lettre, chiffre, nom de
+            lieu, frontière, ville moderne, route, quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte de l'Italie, en forme de botte, entre les Alpes et la mer Méditerranée, avec le Tibre et
+            la ville de Rome.
+          etiquettes:
+            - texte: Alpes
+              x: 42
+              y: 8
+            - texte: Italie
+              x: 60
+              y: 40
+            - texte: Tibre
+              x: 52
+              y: 42
+            - texte: Rome
+              x: 46
+              y: 53
+            - texte: mer Méditerranée
+              x: 30
+              y: 75
+      - picto: livre
+        motCle: mythe
+        phrases:
+          - Un mythe est un récit très ancien, avec des dieux et des héros, qui explique les origines.
+        enSavoirPlus: >-
+          Un mythe n'est pas une preuve. L'historien le compare aux traces trouvées par les
+          archéologues.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une maison romaine vers 50 av. J.-C.,
+            sous la lumière douce d'une cour intérieure à colonnes : un grand-père romain aux cheveux
+            gris, en tunique de laine, assis sur un banc de pierre, raconte une histoire avec de grands
+            gestes à trois enfants assis à ses pieds, qui l'écoutent bouche bée ; un rouleau de papyrus
+            fermé est posé près de lui. Ne doit pas figurer : texte, lettre, chiffre, livre relié,
+            lunettes, vêtement moderne, objet moderne.
+          alt: Un grand-père romain raconte une histoire à trois enfants, dans la cour d'une maison romaine.
+      - picto: bateau
+        motCle: Énée
+        phrases:
+          - Selon le mythe, Énée, un prince de Troie, fuit sa ville en flammes et arrive en Italie.
+        enSavoirPlus: >-
+          Troie est la ville de la guerre racontée dans l'Iliade. Selon le mythe, Énée est le fils de la
+          déesse Vénus.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'une peinture murale romaine antique (fresque), dans le style des
+            fresques de Pompéi (sans copier une œuvre précise), format 4:3 paysage, un peu usée par le
+            temps. Elle montre une scène du mythe : un guerrier en tunique courte et cape porte sur ses
+            épaules un vieil homme barbu et tient par la main un petit garçon ; derrière eux, une ville
+            aux remparts de pierre brûle sous un ciel orange. Couleurs de fresque : ocre, rouge, vert
+            pâle. Ne doit pas figurer : texte, lettre, chiffre, signature, cadre doré, armure moderne,
+            arme à feu.
+          alt: >-
+            Une fresque de style romain : un guerrier porte un vieil homme sur ses épaules et tient un
+            enfant par la main, devant une ville en flammes.
+      - picto: groupe
+        motCle: Romulus et Rémus
+        phrases:
+          - Selon le mythe, Romulus et Rémus, des descendants d'Énée, sont des jumeaux, fils du dieu Mars.
+        enSavoirPlus: >-
+          Selon le mythe, un roi jaloux veut les faire mourir : les deux bébés sont abandonnés au bord du
+          Tibre.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien.
+            Au bord d'un fleuve en crue, dans les roseaux, au pied d'un grand figuier : un panier d'osier
+            échoué sur la berge boueuse, où dorment deux bébés jumeaux emmaillotés dans un tissu de laine
+            écrue. Lumière du matin, brume sur l'eau, collines vertes au loin. Ne doit pas figurer :
+            texte, lettre, chiffre, maison, pont, bateau, objet moderne, couleur vive.
+          alt: Deux bébés jumeaux dans un panier d'osier, échoué dans les roseaux au bord d'un fleuve.
+      - picto: louve
+        motCle: louve
+        phrases:
+          - Selon le mythe, une louve trouve les bébés au bord du fleuve et les nourrit de son lait.
+        enSavoirPlus: Ensuite, selon le mythe, un berger, Faustulus, les recueille et les élève.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, éclairage rasant de musée. Un bas-relief en marbre
+            blanc un peu usé, dans le style des sculptures romaines antiques (sans copier une œuvre
+            précise) : une louve debout, la tête tournée vers l'arrière, allaite deux bébés assis sous
+            elle ; un arbre et des rochers derrière. Fond de salle sombre. Ne doit pas figurer : texte,
+            lettre, chiffre, inscription, étiquette, socle moderne, visiteur.
+          alt: >-
+            Un bas-relief de marbre de style romain : une louve allaite deux bébés, Romulus et Rémus selon
+            le mythe.
+      - picto: lieu
+        motCle: fondation
+        phrases:
+          - Selon la légende, Romulus fonde Rome en 753 av. J.-C., sur une colline, le Palatin.
+        enSavoirPlus: >-
+          Plus tard, des auteurs romains comptent les années à partir de cette date. Les historiens
+          l'appellent « la date légendaire », car elle vient du mythe.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien.
+            Sur une colline herbeuse au-dessus d'un fleuve et d'une plaine humide : un jeune homme brun en
+            tunique de laine et cape de berger, un bâton à la main, regarde des bergers qui creusent une
+            tranchée et empilent des pierres pour faire un premier mur autour de la colline. Quelques
+            cabanes au toit de paille. Lumière de fin de journée. Ne doit pas figurer : texte, lettre,
+            chiffre, bâtiment de pierre taillée, colonne, outil en métal brillant, objet moderne.
+          alt: Un jeune berger regarde des hommes creuser une tranchée et poser des pierres autour d'une colline.
+      - picto: couronne
+        motCle: Rémus
+        phrases:
+          - Selon le mythe, Romulus tue son frère Rémus, devient le premier roi et donne son nom à Rome.
+        enSavoirPlus: >-
+          Selon Tite-Live, Rémus a sauté par-dessus le nouveau mur de son frère pour se moquer de lui.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien.
+            Devant un petit village de cabanes au toit de paille, sur une colline : un jeune homme brun,
+            vêtu d'une tunique et d'une cape de laine rouge sombre, debout et grave, est acclamé par des
+            bergers et des paysans qui lèvent les bras. Aucune violence, aucun blessé. Ne doit pas
+            figurer : texte, lettre, chiffre, couronne en or à pointes, armure en fer, épée, sang, objet
+            moderne.
+          alt: Un jeune chef, debout devant un village de cabanes, est acclamé par des bergers.
+      - picto: rouleau
+        motCle: Tite-Live
+        phrases:
+          - "L'historien romain Tite-Live raconte ce mythe plus de 700 ans après : il n'y croit pas tout à fait."
+        enSavoirPlus: >-
+          Il écrit que ces vieux récits sont « embellis par les fictions de la poésie », et non fondés sur
+          des preuves.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Rome, vers 25 av. J.-C., dans une pièce
+            claire aux murs peints en rouge et ocre : un homme d'environ quarante ans, rasé, en tunique
+            blanche, assis à une table de bois, écrit sur un long rouleau de papyrus avec un roseau
+            taillé ; d'autres rouleaux sont rangés dans des niches du mur. Lumière d'une fenêtre. Ne doit
+            pas figurer : lettre de notre alphabet, chiffre, livre relié, plume d'oiseau, lunettes,
+            bougie moderne, objet moderne.
+          alt: Un Romain écrit sur un long rouleau de papyrus, dans une pièce aux murs peints.
+      - picto: lyre
+        motCle: Énéide
+        phrases:
+          - "Le poète Virgile raconte le long voyage d'Énée dans un grand poème : l'Énéide."
+        enSavoirPlus: >-
+          Virgile l'écrit à l'époque d'Auguste, le premier empereur ; il meurt en 19 av. J.-C. avant de
+          l'avoir fini.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Rome, vers 20 av. J.-C., dans un jardin
+            entouré de colonnes : un poète romain mince, en toge blanche, debout, lit à voix haute un
+            rouleau de papyrus déroulé devant quelques auditeurs en toge assis sur des bancs de pierre.
+            Lumière douce de fin d'après-midi, lauriers et cyprès. Ne doit pas figurer : lettre de notre
+            alphabet, chiffre, livre relié, micro, lunettes, objet moderne.
+          alt: Un poète romain en toge lit un rouleau de papyrus à voix haute devant quelques auditeurs.
+      - picto: piece
+        motCle: symbole
+        phrases:
+          - "Vers 270 av. J.-C., Rome fabrique des pièces avec la louve et les jumeaux : le mythe devient un symbole."
+        enSavoirPlus: >-
+          Un symbole est une image que tout le monde reconnaît. La louve représente encore Rome
+          aujourd'hui.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, gros plan, fond de velours bleu nuit, éclairage de
+            musée. Une petite pièce de monnaie en argent de la Rome antique, un peu usée, dans le style des
+            pièces romaines de vers 270 av. J.-C. (sans copier une pièce précise) : en relief, une louve
+            debout, la tête tournée vers l'arrière, allaite deux petits enfants sous elle. Ne doit pas
+            figurer : texte, lettre, inscription, chiffre, étiquette, euro, pièce moderne.
+          alt: Une pièce d'argent romaine où l'on voit une louve qui allaite deux enfants.
+      - picto: drapeau
+        motCle: puissance
+        phrases:
+          - "Selon ce mythe, les dieux ont choisi Rome : elle aurait donc le droit de dominer."
+        enSavoirPlus: >-
+          Le mythe rend les Romains fiers de leur ville. Il leur sert à expliquer et à justifier leurs
+          conquêtes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Rome, vers 150 av. J.-C. : un défilé de
+            soldats romains victorieux, avec des casques de bronze et des boucliers ovales, monte une rue
+            pavée vers un grand temple aux colonnes peintes, sur une colline ; une foule de citoyens en
+            toge blanche les acclame. Ciel bleu. Ne doit pas figurer : texte, lettre, chiffre, drapeau
+            moderne, arme à feu, armure de chevalier, objet moderne.
+          alt: Des soldats romains victorieux défilent vers un temple, acclamés par la foule.
+    questions:
+      - question: Que raconte le mythe de la fondation de Rome ?
+        reponse: >-
+          Les jumeaux Romulus et Rémus sont nourris par une louve ; Romulus fonde Rome en 753 av. J.-C. et
+          tue son frère.
+      - question: Qui est Énée, selon le mythe ?
+        reponse: Un prince de Troie qui fuit sa ville et arrive en Italie, l'ancêtre des Romains.
+      - question: À quoi sert ce mythe pour les Romains ?
+        reponse: À montrer que les dieux ont choisi Rome et qu'elle a le droit de dominer.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Ce que montre l'archéologie
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: premiers villages sur les collines
+          dates: vers 1 000 av. J.-C.
+          carte: 3
+        - libelle: mur autour du Palatin
+          dates: vers 750 av. J.-C.
+          carte: 7
+        - libelle: rois étrusques, le Forum
+          dates: vers 600 av. J.-C.
+          carte: 11
+    formule: histoire = des textes + des traces vérifiées
+    cartes:
+      - picto: truelle
+        motCle: archéologue
+        phrases:
+          - Les archéologues fouillent le sol de Rome pour trouver les traces des premiers habitants.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur une colline de Rome, au milieu de
+            ruines anciennes et de pins parasols : deux archéologues à genoux dans une fouille, un homme
+            et une femme en vêtements de travail et chapeaux de soleil, dégagent la terre avec une petite
+            truelle et un pinceau ; des seaux et une brouette autour. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, panneau, étiquette écrite, touriste.
+          alt: Deux archéologues fouillent la terre avec une truelle et un pinceau, parmi des ruines à Rome.
+      - picto: montagne
+        motCle: collines
+        phrases:
+          - Rome naît sur sept collines, au-dessus d'une plaine pleine de marais, au bord du Tibre.
+        enSavoirPlus: Le Palatin est l'une de ces collines. Il est près du fleuve.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue en hauteur. Le site de Rome vers
+            800 av. J.-C. : plusieurs collines vertes et boisées au bord d'un fleuve brun qui fait une
+            courbe ; entre les collines, une plaine humide avec des marais, des roseaux et des flaques ;
+            sur le haut de deux collines, de petits groupes de cabanes rondes au toit de paille, avec de
+            fines fumées. Aucun bâtiment de pierre. Ne doit pas figurer : texte, lettre, chiffre, temple,
+            colonne, mur de pierre taillée, route pavée, pont, objet moderne.
+          alt: Des collines vertes au bord d'un fleuve, avec des marais entre elles et de petits villages de cabanes.
+      - picto: lieu
+        motCle: villages
+        phrases:
+          - Vers 1 000 av. J.-C., des paysans et des bergers vivent déjà sur les collines, bien avant 753 av. J.-C.
+        enSavoirPlus: >-
+          Les archéologues le savent grâce à des tombes et à des objets en terre cuite retrouvés sur le
+          site.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur une colline au-dessus du Tibre, vers
+            900 av. J.-C. : un petit village de cabanes au toit de paille ; une femme moud du grain sur
+            une pierre plate, un homme rentre un petit troupeau de moutons et de chèvres, des enfants
+            jouent près d'un feu. Vêtements de laine simples, brun et écru. Ne doit pas figurer : texte,
+            lettre, chiffre, maison en pierre, tuile, colonne, outil en métal brillant, objet moderne.
+          alt: Un petit village de cabanes sur une colline, avec des paysans, des moutons et des enfants.
+      - picto: loupe
+        motCle: trous de poteaux
+        phrases:
+          - Sur le Palatin, on a trouvé dans la roche les trous des poteaux de petites cabanes.
+        enSavoirPlus: >-
+          Les poteaux de bois tenaient les murs et le toit. Le bois a disparu, mais les trous sont restés.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en légère plongée. Dans une
+            fouille archéologique en plein air, une surface de roche volcanique tendre, brun-jaune, où
+            l'on voit nettement une rangée de trous ronds creusés dans la roche, disposés en ovale, et
+            une petite rigole autour : les traces d'une cabane disparue. Une truelle et un pinceau posés
+            au bord. Lumière douce. Ne doit pas figurer : texte, lettre, chiffre, panneau, étiquette,
+            règle graduée avec chiffres, personne, logo.
+          alt: Une rangée de trous ronds creusés dans la roche, en ovale, là où se dressaient les poteaux d'une cabane.
+      - picto: maison
+        motCle: cabane
+        phrases:
+          - Les cabanes ont des murs de branches et de terre, et un toit de paille.
+        enSavoirPlus: Une cabane n'a qu'une seule pièce, avec un feu au milieu pour cuire et se chauffer.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur le Palatin vers 750 av. J.-C. : une
+            cabane ovale aux murs de branches tressées couvertes de terre beige, avec un épais toit de
+            paille à deux pentes qui descend bas, une porte basse en bois et un petit auvent ; une
+            femme en tunique de laine est assise devant la porte et file la laine ; d'autres cabanes
+            semblables derrière. Ne doit pas figurer : texte, lettre, chiffre, mur de pierre, tuile,
+            fenêtre vitrée, cheminée, objet moderne.
+          alt: Une cabane ovale aux murs de terre et au toit de paille, avec une femme qui file la laine devant.
+      - picto: pot
+        motCle: urne
+        phrases:
+          - Des urnes en forme de cabane, où l'on mettait les cendres des morts, montrent ces maisons.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris clair, éclairage de musée. Une urne
+            funéraire en terre cuite brun foncé, d'environ 30 centimètres, dans le style des urnes-cabanes
+            du Latium (sans copier un objet précis) : une petite maison ronde avec un toit en pente qui
+            imite la paille, une porte rectangulaire sur le devant et de petits reliefs sur le toit. Ne
+            doit pas figurer : texte, lettre, chiffre, étiquette, socle avec inscription, objet moderne.
+          alt: Une urne en terre cuite en forme de petite cabane ronde, avec un toit et une porte.
+      - picto: mur
+        motCle: mur
+        phrases:
+          - "Vers 750 av. J.-C., un mur entoure le Palatin : les villages grandissent et commencent à s'unir."
+        enSavoirPlus: >-
+          Ce mur a été découvert en 1988. Certains l'appellent « mur de Romulus », mais rien ne prouve qui
+          l'a bâti.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur le Palatin vers 750 av. J.-C. : un
+            mur bas fait de blocs de pierre grossiers et de terre, avec une palissade de bois au-dessus,
+            fait le tour du haut de la colline ; à l'intérieur, des toits de paille de cabanes ; dehors,
+            la pente herbeuse descend vers une plaine humide. Ne doit pas figurer : texte, lettre,
+            chiffre, tour crénelée, château, pierre taillée régulière, porte monumentale, objet moderne.
+          alt: Un mur bas de pierres et de terre surmonté d'une palissade, autour d'une colline couverte de cabanes.
+      - picto: balance
+        motCle: mythe ou histoire ?
+        phrases:
+          - La date du mythe est proche de ce que montrent les fouilles, mais rien ne prouve que Romulus ait existé.
+        enSavoirPlus: >-
+          Le mythe garde peut-être un souvenir lointain. Mais l'historien ne croit que ce qu'il peut
+          vérifier.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur une grande table de bois clair,
+            dans un atelier d'archéologie : à gauche, un rouleau de papyrus ancien à moitié déroulé,
+            couvert de lignes d'écriture trop petites et floues pour être lues ; à droite, des morceaux
+            de poterie brune et une petite urne en terre cuite sortis d'une fouille ; une main tient une
+            loupe au-dessus des poteries. Ne doit pas figurer : lettre lisible, chiffre, étiquette écrite,
+            logo, écran.
+          alt: Sur une table, un vieux rouleau écrit d'un côté, des morceaux de poterie de fouille de l'autre, et une loupe.
+      - picto: couronne
+        motCle: rois
+        phrases:
+          - Selon la tradition, sept rois gouvernent Rome, de Romulus jusqu'en 509 av. J.-C.
+        enSavoirPlus: >-
+          Rome a sans doute bien eu des rois. Mais leur nombre, leurs noms et leurs dates restent
+          incertains.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Rome vers 550 av. J.-C., devant un temple
+            de bois et de briques au toit de tuiles orné de statues de terre cuite peintes : un roi barbu,
+            vêtu d'une toge pourpre brodée, assis sur un siège pliant en ivoire, écoute des habitants ;
+            près de lui, deux gardes portent des faisceaux (paquets de baguettes de bois liés). Ne doit
+            pas figurer : texte, lettre, chiffre, couronne européenne à pointes, armure en fer, objet
+            moderne.
+          alt: Un roi en toge pourpre, assis sur un siège pliant, écoute des habitants devant un temple.
+      - picto: temple
+        motCle: Étrusques
+        phrases:
+          - Les derniers rois de Rome viennent des Étrusques, un peuple riche voisin, au nord de Rome.
+        enSavoirPlus: >-
+          Les Étrusques ont de grandes villes et de beaux temples. Ils influencent beaucoup les débuts de
+          Rome.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans une salle de musée sombre et sobre. Une grande
+            sculpture étrusque en terre cuite peinte, dans le style des couvercles de sarcophages
+            étrusques du VIe siècle av. J.-C. (sans copier une œuvre précise) : un homme et une femme
+            souriants, allongés côte à côte comme à un banquet, accoudés sur des coussins, aux longs
+            cheveux tressés. Éclairage de vitrine doux. Ne doit pas figurer : texte, lettre, chiffre,
+            étiquette, panneau, visiteur, logo.
+          alt: >-
+            Une sculpture étrusque en terre cuite : un homme et une femme allongés côte à côte, souriants,
+            comme à un banquet.
+      - picto: ville
+        motCle: Forum
+        phrases:
+          - "Vers 600 av. J.-C., on retire l'eau du marais entre les collines : il devient le Forum, la grande place."
+        enSavoirPlus: >-
+          Avec les rois étrusques, Rome devient une vraie ville : des temples, des rues et des maisons
+          aux toits de tuiles.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue en légère plongée. Rome vers
+            550 av. J.-C. : au fond d'une vallée entre des collines, une grande place de terre battue,
+            traversée par un large canal de pierre qui évacue l'eau ; autour, des maisons aux toits de
+            tuiles et un temple de style étrusque, en bois et briques, aux couleurs vives ; des gens en
+            tunique y marchent et vendent des marchandises. Ne doit pas figurer : texte, lettre, chiffre,
+            colonne de marbre blanc, arc de triomphe, coupole, objet moderne.
+          alt: Une grande place entre des collines, avec un canal, un temple coloré et des maisons à toits de tuiles.
+    questions:
+      - question: Qu'ont trouvé les archéologues sur le Palatin ?
+        reponse: Les traces de cabanes (des trous de poteaux) et un mur construit vers 750 av. J.-C.
+      - question: Romulus a-t-il vraiment existé ?
+        reponse: >-
+          On ne le sait pas : les fouilles montrent des villages à cette époque, mais aucune preuve de
+          Romulus.
+      - question: Qui sont les derniers rois de Rome ?
+        reponse: Des rois étrusques. Le dernier, Tarquin, est chassé en 509 av. J.-C., selon la tradition.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: De la République à l'empereur
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: début de la République
+          dates: 509 av. J.-C., selon la tradition
+          carte: 1
+        - libelle: destruction de Carthage
+          dates: 146 av. J.-C.
+          carte: 8
+        - libelle: mort de César
+          dates: 44 av. J.-C.
+          carte: 10
+        - libelle: Auguste, premier empereur
+          dates: 27 av. J.-C.
+          carte: 11
+    formule: République = des citoyens + des magistrats élus + le Sénat
+    cartes:
+      - picto: drapeau
+        motCle: République
+        phrases:
+          - "En 509 av. J.-C., selon la tradition, les Romains chassent leur roi : c'est le début de la République."
+        enSavoirPlus: >-
+          Ce dernier roi s'appelle Tarquin. République vient du latin res publica : « la chose
+          publique ».
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Rome vers 509 av. J.-C. : par une porte de
+            la ville, un roi en toge pourpre et sa famille quittent la ville sur un char tiré
+            par deux chevaux, l'air furieux ; une foule de Romains en tuniques et toges de laine les
+            regarde partir et lève les bras. Ne doit pas figurer : texte, lettre, chiffre, drapeau,
+            arme à feu, couronne européenne à pointes, objet moderne.
+          alt: Un roi en toge pourpre quitte Rome sur un char, sous les cris d'une foule.
+      - picto: main
+        motCle: citoyen
+        phrases:
+          - "Seuls les hommes citoyens votent les lois et élisent les magistrats ; ils servent aussi dans l'armée."
+        enSavoirPlus: >-
+          Les femmes nées de citoyens sont citoyennes, mais elles ne votent pas et ne sont pas élues. Les
+          esclaves ne sont pas citoyens. Les plus riches ont plus de poids dans les votes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Rome, vers 150 av. J.-C., sur une grande
+            place en plein air : des centaines de citoyens romains, des hommes adultes en toge blanche de
+            laine, rassemblés par groupes, lèvent la main pour voter ; sur une estrade de bois, un
+            magistrat en toge bordée de pourpre les regarde. Ne doit pas figurer : texte, lettre,
+            chiffre, bulletin de papier, urne en verre, femme, enfant, objet moderne.
+          alt: Des citoyens romains en toge blanche, rassemblés sur une place, lèvent la main pour voter.
+      - picto: personne
+        motCle: magistrats
+        phrases:
+          - Les magistrats gouvernent la cité ; ils sont élus par les citoyens pour un an seulement.
+        enSavoirPlus: >-
+          Chacun a sa tâche : les finances, la ville, la justice, ou le commandement de l'armée.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Rome, vers 150 av. J.-C., sur le Forum :
+            un magistrat romain d'âge mûr, rasé, en toge blanche bordée d'une bande pourpre, assis sur un
+            siège pliant en ivoire posé sur une estrade, écoute deux citoyens qui se disputent devant
+            lui ; un secrétaire note sur une tablette de cire. Bâtiments à colonnes derrière. Ne doit pas
+            figurer : lettre de notre alphabet, chiffre, papier, stylo, objet moderne.
+          alt: Un magistrat romain en toge, assis sur un siège pliant, écoute deux citoyens sur le Forum.
+      - picto: casque
+        motCle: consuls
+        phrases:
+          - Les deux consuls sont les magistrats les plus importants ; ils commandent l'armée.
+        enSavoirPlus: >-
+          Ils sont deux, et seulement pour un an : ainsi, aucun ne peut devenir un nouveau roi.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une rue de Rome vers 150 av. J.-C. : deux
+            hommes d'âge mûr en toge blanche bordée de pourpre marchent côte à côte ; devant eux, une file
+            de gardes en tunique porte sur l'épaule des faisceaux (paquets de baguettes de bois liés par
+            des lanières rouges) ; les passants s'écartent. Ne doit pas figurer : texte, lettre, chiffre,
+            hache moderne, drapeau, objet moderne.
+          alt: Deux consuls en toge marchent dans une rue de Rome, précédés de gardes qui portent des paquets de baguettes.
+      - picto: colonne
+        motCle: Sénat
+        phrases:
+          - "Le Sénat réunit d'anciens magistrats, membres à vie, souvent riches : il conseille les consuls."
+        enSavoirPlus: >-
+          Les sénateurs viennent surtout des grandes familles. Dans les faits, ce sont eux qui dirigent
+          Rome.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Rome, vers 100 av. J.-C., dans une grande
+            salle haute et rectangulaire au sol de marbre : des dizaines de sénateurs âgés en toge blanche
+            à large bande pourpre sont assis sur des gradins de bois de chaque côté ; l'un d'eux, debout au
+            milieu, parle avec un geste de la main. Lumière de hautes fenêtres. Ne doit pas figurer :
+            texte, lettre, chiffre, micro, pupitre moderne, drapeau, objet moderne.
+          alt: Des sénateurs romains en toge, assis sur des gradins, écoutent l'un d'eux qui parle debout.
+      - picto: groupe
+        motCle: SPQR
+        phrases:
+          - "Les lettres SPQR veulent dire « le Sénat et le peuple romain » : c'est la devise de Rome."
+        enSavoirPlus: >-
+          En latin : Senatus Populusque Romanus. Ces lettres sont encore aujourd'hui dans les armoiries de
+          la ville de Rome.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur le Forum de Rome vers 100 av. J.-C. :
+            sur les marches d'un bâtiment de pierre à colonnes, un groupe de sénateurs en toge à bande
+            pourpre ; en bas, face à eux, une grande foule de citoyens en toge blanche et en tunique ; les
+            deux groupes se regardent et l'un des sénateurs salue la foule de la main. Ne doit pas
+            figurer : texte, lettre, chiffre, inscription, drapeau, objet moderne.
+          alt: Des sénateurs sur les marches d'un bâtiment et, en face, une foule de citoyens romains.
+      - picto: bouclier
+        motCle: légion
+        phrases:
+          - "Les citoyens forment l'armée, en légions : vers 270 av. J.-C., Rome a conquis presque toute l'Italie."
+        enSavoirPlus: >-
+          Une légion compte plusieurs milliers de soldats, bien entraînés et bien organisés.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Des soldats romains de la République, vers
+            200 av. J.-C., marchent en rangs serrés sur une route de campagne italienne : casques de bronze
+            arrondis avec un petit bouton au sommet, grands boucliers ovales en bois peint, plaque de bronze
+            sur la poitrine ou cotte de mailles, javelots sur l'épaule, tunique rouge, sandales. Collines
+            et cyprès. Ne doit pas figurer : texte, lettre, chiffre, inscription sur les boucliers,
+            drapeau, cheval, arme à feu, armure de chevalier.
+          alt: Des soldats romains en rangs, avec des casques de bronze, des boucliers ovales et des javelots.
+      - picto: feu
+        motCle: Carthage
+        phrases:
+          - Rome bat Carthage, sa grande rivale en Méditerranée, et la détruit en 146 av. J.-C.
+        enSavoirPlus: >-
+          Ces guerres durent de 264 à 146 av. J.-C. Le général carthaginois Hannibal envahit l'Italie,
+          mais il est vaincu en 202 av. J.-C.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large vu depuis la mer. En 146 av. J.-C.,
+            la ville de Carthage, sur la côte de l'actuelle Tunisie, brûle : de hautes fumées noires
+            montent au-dessus des maisons blanches et des murs du port ; au premier plan, des navires de
+            guerre romains à rames et à une voile carrée, sur une mer calme. Aucun corps, aucun blessé. Ne
+            doit pas figurer : texte, lettre, chiffre, drapeau, canon, bateau à moteur, objet moderne.
+          alt: La ville de Carthage en feu, vue depuis la mer où se trouvent des navires de guerre romains.
+      - picto: globe
+        motCle: Méditerranée
+        phrases:
+          - Vers 50 av. J.-C., Rome domine presque tout le tour de la mer Méditerranée.
+        enSavoirPlus: >-
+          Les pays conquis deviennent des provinces. Ils paient des impôts et envoient à Rome des
+          richesses et des esclaves.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre tout le bassin de la mer
+            Méditerranée : la mer bleue occupe le centre, de 15 % à 85 % de la largeur. À gauche,
+            l'Espagne, ocre et verte (centrée vers 12 % de la largeur et 32 % de la hauteur) ; en haut à
+            gauche, la Gaule verte (vers 26 % de la largeur et 14 % de la hauteur) ; au centre, la
+            péninsule italienne en forme de botte descend de 40 % de la largeur et 15 % de la hauteur
+            jusqu'à 52 % de la largeur et 45 % de la hauteur, avec la Sicile à sa pointe, vers 47 % de la
+            largeur et 50 % de la hauteur ; un petit point rouge foncé bien visible marque Rome sur la
+            côte ouest de l'Italie, vers 44 % de la largeur et 30 % de la hauteur. Au sud, la côte
+            d'Afrique du Nord, désert ocre, traverse toute l'image vers 55 à 65 % de la hauteur ; un petit
+            point rouge foncé marque Carthage sur un cap, vers 39 % de la largeur et 53 % de la hauteur.
+            La Grèce, péninsule découpée, vers 62 % de la largeur et 38 % de la hauteur ; en bas à droite,
+            l'Égypte et le delta vert du Nil, vers 78 % de la largeur et 75 % de la hauteur. Couleurs
+            douces et contrastées, côtes nettes. Ne doit pas figurer : texte, lettre, chiffre, nom de
+            lieu, frontière, ville moderne, route, quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte de la mer Méditerranée avec l'Espagne, la Gaule, l'Italie et Rome, la Grèce, Carthage en
+            Afrique du Nord et l'Égypte.
+          etiquettes:
+            - texte: Espagne
+              x: 12
+              y: 32
+            - texte: Gaule
+              x: 26
+              y: 12
+            - texte: Rome
+              x: 44
+              y: 26
+            - texte: Grèce
+              x: 63
+              y: 36
+            - texte: Carthage
+              x: 37
+              y: 58
+            - texte: Égypte
+              x: 78
+              y: 84
+            - texte: mer Méditerranée
+              x: 58
+              y: 50
+      - picto: rameau
+        motCle: César
+        phrases:
+          - "Jules César, un général, conquiert la Gaule, puis prend tous les pouvoirs : il est tué en 44 av. J.-C."
+        enSavoirPlus: >-
+          Des sénateurs le tuent à coups de poignard, car ils pensent qu'il veut devenir roi.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, portrait en buste. Un général romain vers
+            50 av. J.-C., d'environ cinquante ans : visage mince et ridé, rasé, cheveux courts clairsemés
+            sur le front, regard décidé ; il porte une cuirasse de bronze et une cape rouge ; arrière-plan
+            flou d'un camp militaire romain avec des tentes de cuir. Ne doit pas figurer : texte, lettre,
+            chiffre, couronne européenne, médaille, arme à feu, objet moderne.
+          alt: Portrait d'un général romain au visage mince, en cuirasse et cape rouge, devant un camp militaire.
+      - picto: couronne
+        motCle: Auguste
+        phrases:
+          - En 27 av. J.-C., Octave, le fils adoptif de César, devient Auguste, le premier empereur.
+        enSavoirPlus: >-
+          Auguste est un surnom réservé jusque-là aux dieux. Il garde le Sénat et les consuls, mais il décide de tout : la
+          République est finie.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans une salle de musée claire. Une statue de marbre
+            blanc d'un empereur romain jeune, debout, dans le style de l'Auguste de Prima Porta (sans
+            copier l'original) : cuirasse sculptée, cape drapée autour de la taille, le bras droit levé
+            comme pour parler à ses soldats, pieds nus. Éclairage doux. Ne doit pas figurer : texte,
+            lettre, chiffre, étiquette, panneau, visiteur, logo.
+          alt: Une statue de marbre d'un empereur romain en cuirasse, le bras levé, dans le style de l'Auguste de Prima Porta.
+      - picto: livre
+        motCle: mythe et pouvoir
+        phrases:
+          - "Auguste dit descendre d'Énée : il se sert du mythe pour montrer que les dieux l'ont choisi."
+        enSavoirPlus: >-
+          La famille de César dit descendre d'Iule, le fils d'Énée. Virgile écrit l'Énéide à l'époque
+          d'Auguste.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, éclairage rasant de musée. Un grand bas-relief en
+            marbre blanc de style romain de l'époque d'Auguste (sans copier une œuvre précise) : un héros
+            barbu en tunique et cape porte un vieil homme sur ses épaules et tient un petit garçon par la
+            main ; une guirlande de feuilles sculptée au-dessus. Fond de salle sombre. Ne doit pas
+            figurer : texte, lettre, chiffre, inscription, étiquette, visiteur.
+          alt: >-
+            Un bas-relief de marbre de style romain : un héros porte un vieil homme sur ses épaules et tient
+            un enfant par la main, comme Énée dans le mythe.
+    questions:
+      - question: Qu'est-ce que la République romaine ?
+        reponse: Un régime sans roi, de 509 à 27 av. J.-C. ; les citoyens élisent des magistrats, avec le Sénat.
+      - question: Que veut dire SPQR ?
+        reponse: « Le Sénat et le peuple romain ».
+      - question: Qui vote à Rome ?
+        reponse: >-
+          Les citoyens hommes. Les femmes citoyennes ne votent pas, et les esclaves ne sont pas
+          citoyens.
+      - question: Qui est le premier empereur romain, et en quelle année ?
+        reponse: Auguste, en 27 av. J.-C.

@@ -1,0 +1,692 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 3 « L'empire romain dans le monde antique », sous-thème
+# « Conquêtes, paix romaine et romanisation » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# La fiche Eduscol du thème 3 demande : incarner le pouvoir impérial (Auguste, culte impérial, Trajan),
+# l'armée qui maintient l'ordre et protège, le repère « Ier-IIe siècles : la pax romana », et une démarche
+# inductive pour la romanisation à partir d'une cité (forum, thermes, théâtres) ; ici, Nîmes, Arles et Lyon.
+# La conquête de la Gaule (vue en CM1) tient en quatre cartes au chapitre 1, avant Auguste (ordre des dates).
+# Leçon précédente : « La naissance du monothéisme juif » (thème 2) ; la leçon « Rome, du mythe à
+# l'histoire » s'arrête à Auguste, premier empereur en 27 av. J.-C. : celle-ci commence là.
+# Leçon suivante : « Des chrétiens dans l'empire » (contenu/6e/histoire/chretiens).
+titre: Conquêtes et paix romaine
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 8
+langue: fr
+statut: brouillon
+resume: >-
+  Un empereur pour un immense empire autour de la Méditerranée, la conquête de la Gaule, l'armée et la
+  paix romaine, puis la romanisation : villes, monuments, routes, latin et citoyenneté.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 3, « Conquêtes, paix romaine et romanisation »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 3 : L'empire
+      romain dans le monde antique » (mars 2016) : Auguste empereur en 27 av. J.-C., culte impérial,
+      Rome ravitaillée en blé d'Égypte et d'Afrique, armée qui maintient l'ordre et protège, Trajan
+      premier empereur non italien et dernier conquérant, romanisation (forum, thermes, théâtres, Arles),
+      citoyenneté étendue jusqu'à l'édit de Caracalla en 212, repère « Ier-IIe siècles : pax romana »
+    url: https://eduscol.education.fr/document/16756/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Eduscol, « Sixième : la romanisation à travers l'exemple de Nîmes » (amphithéâtre, loisirs et vie
+      de la cité)
+    url: https://eduscol.education.fr/document/29110/download
+  - libelle: >-
+      Encyclopædia Universalis, « Alésia » : défaite de Vercingétorix en 52 av. J.-C., connue surtout par
+      le récit de César (Guerre des Gaules, livre VII)
+    url: https://www.universalis.fr/encyclopedie/alesia/
+  - libelle: >-
+      Encyclopædia Universalis, « Vercingétorix » : chef arverne, encerclé à Alésia par les fossés et les
+      machines de siège romaines, appelle une armée de secours gauloise
+    url: https://www.universalis.fr/encyclopedie/vercingetorix/
+  - libelle: >-
+      Inrap, communiqué « Jules César et la guerre des Gaules » : la conquête revue par l'archéologie,
+      achevée par le siège d'Alésia
+    url: https://www.inrap.fr/sites/inrap.fr/files/atoms/files/cp_jules_cesar.pdf
+  - libelle: Encyclopædia Universalis, « Trajan » (empereur de 98 à 117, né en Hispanie)
+    url: https://www.universalis.fr/encyclopedie/trajan/
+  - libelle: >-
+      Unesco, « Frontières de l'Empire romain » : le limes du IIe siècle, environ 5 000 km de murs,
+      fossés, forts et tours de guet ; mur d'Hadrien, 118 km, commencé en 122
+    url: https://whc.unesco.org/fr/list/430/
+  - libelle: Encyclopædia Universalis, articles sur le limes (frontière fortifiée entre Rhin et Danube, de 80 à 180)
+    url: https://www.universalis.fr/encyclopedie/limes/
+  - libelle: >-
+      London Museum, « Boudica, rebel queen of the Iceni » : révolte de la reine Boudicca contre Rome vers
+      60-61, Londres incendiée
+    url: https://www.londonmuseum.org.uk/collections/london-stories/boudica-rebel-queen-iceni/
+  - libelle: >-
+      Larousse, « Lyon » : colonie de Lugdunum fondée en 43 av. J.-C. par Munatius Plancus, puis capitale
+      de la Gaule lyonnaise
+    url: https://www.larousse.fr/encyclopedie/ville/Lyon/130800
+  - libelle: Musée Lugdunum (Lyon), musée et théâtres romains de Fourvière
+    url: https://lugdunum.grandlyon.com/
+  - libelle: >-
+      Unesco, « La Maison Carrée de Nîmes » (inscrite en 2023) : temple romain du début du Ier siècle, au
+      forum de la colonie de Nemausus, lié au culte impérial
+    url: https://whc.unesco.org/fr/list/1569/
+  - libelle: Ministère de la Culture, « Inscription de la Maison Carrée de Nîmes sur la Liste du patrimoine mondial »
+    url: https://www.culture.gouv.fr/fr/presse/communiques-de-presse/Inscription-de-la-Maison-Carree-de-Nimes-sur-la-Liste-du-patrimoine-mondial-de-l-UNESCO
+  - libelle: >-
+      Unesco, « Pont du Gard (aqueduc romain) » : pont de l'aqueduc d'environ 50 km qui amenait l'eau
+      jusqu'à Nîmes
+    url: https://whc.unesco.org/fr/list/344/
+  - libelle: >-
+      Ministère de la Culture, base Mérimée, « Aqueduc romain de Nîmes (pont du Gard) » : construit au
+      Ier siècle, vers 40-80
+    url: https://pop.culture.gouv.fr/notice/merimee/IA30003018
+  - libelle: >-
+      Unesco, « Arles, monuments romains et romans » : amphithéâtre, théâtre antique, cryptoportiques
+      (Ier siècle av. J.-C. – Ier siècle apr. J.-C.), thermes de Constantin
+    url: https://whc.unesco.org/fr/list/164/
+  - libelle: Unesco, « Théâtre antique et ses abords et "Arc de triomphe" d'Orange »
+    url: https://whc.unesco.org/fr/list/163/
+  - libelle: Encyclopædia Universalis, « Voies romaines »
+    url: https://www.universalis.fr/encyclopedie/voies-romaines/
+  - libelle: >-
+      Encyclopædia Universalis, « Édit de Caracalla, en bref » : en 212, la citoyenneté romaine est
+      accordée à tous les hommes libres de l'Empire, sauf les « déditices »
+    url: https://www.universalis.fr/encyclopedie/edit-de-caracalla-en-bref/
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Conquérir un empire, le gouverner
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: conquête de la Gaule
+          dates: de 58 à 51 av. J.-C.
+          carte: 4
+        - libelle: Alésia
+          dates: 52 av. J.-C.
+          carte: 6
+        - libelle: Auguste, premier empereur
+          dates: 27 av. J.-C.
+          carte: 7
+        - libelle: empire le plus grand, sous Trajan
+          dates: vers 117
+          carte: 11
+    formule: empire = un empereur + un immense territoire + de nombreux peuples
+    cartes:
+      - picto: globe
+        motCle: empire romain
+        phrases:
+          - "L'empire romain entoure toute la mer Méditerranée : les Romains l'appellent « notre mer »."
+        enSavoirPlus: >-
+          Il s'étend de la Bretagne (l'Angleterre actuelle) jusqu'à l'Égypte, et de l'Hispanie (l'Espagne)
+          jusqu'à la Syrie.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre l'Europe, l'Afrique du Nord et
+            le Proche-Orient autour de la mer Méditerranée, du Portugal à gauche jusqu'à la Syrie et à
+            l'Égypte à droite, de l'Écosse en haut jusqu'au Sahara en bas. La mer Méditerranée, en bleu,
+            occupe le centre et le bas du milieu de l'image ; la mer Noire est en haut à droite (vers
+            80 % de la largeur et 39 % de la hauteur). Toutes les terres de l'empire romain vers l'an
+            117 sont recouvertes d'une teinte rouge brique légère et transparente, qui laisse voir le
+            relief : la Bretagne jusqu'au nord de l'Angleterre (en haut à gauche, vers 15 % de la largeur
+            et 15 % de la hauteur), l'Espagne et le Portugal (vers 11 % de la largeur et 47 % de la
+            hauteur), la France (vers 23 % de la largeur et 30 % de la hauteur), l'Italie au centre (vers
+            41 % de la largeur et 42 % de la hauteur), la Grèce (vers 58 % de la largeur et 50 % de la
+            hauteur), la Turquie, le littoral de la Syrie, l'Égypte le long du Nil (en bas à droite, vers
+            73 % de la largeur et 83 % de la hauteur) et toute la côte d'Afrique du Nord ; au nord, la
+            teinte s'arrête au Rhin et au Danube. Les terres hors de l'empire (Écosse, Germanie au-delà du
+            Rhin et du Danube, Sahara, Arabie) gardent leurs couleurs naturelles, sans teinte ; seule
+            exception au nord du Danube, la Dacie (la Roumanie actuelle) est teintée en rouge. Un petit
+            point rouge foncé bien visible marque Rome, sur la côte ouest de l'Italie, vers 41 % de la
+            largeur et 42 % de la hauteur. Couleurs douces et contrastées, côtes nettes. Ne doit pas
+            figurer : texte, lettre, chiffre, nom de lieu, frontière moderne, ville moderne, route,
+            quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte de l'empire romain vers 117, en rouge, tout autour de la mer Méditerranée : de la Bretagne
+            à l'Égypte, avec Rome au centre.
+          etiquettes:
+            - texte: mer Méditerranée
+              x: 51
+              y: 62
+            - texte: Rome
+              x: 41
+              y: 49
+            - texte: Gaule
+              x: 23
+              y: 30
+            - texte: Bretagne
+              x: 15
+              y: 15
+            - texte: Hispanie
+              x: 11
+              y: 47
+            - texte: Grèce
+              x: 58
+              y: 50
+            - texte: Égypte
+              x: 73
+              y: 83
+      - picto: lance
+        motCle: conquêtes
+        phrases:
+          - Rome a conquis toutes ces terres par la guerre, peu à peu, pendant plusieurs siècles.
+        enSavoirPlus: >-
+          D'abord l'Italie, puis les côtes de la Méditerranée, avant même qu'il y ait un empereur. Les
+          peuples vaincus doivent payer un impôt à Rome.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers 100 av. J.-C., une armée romaine
+            débarque sur une plage de la Méditerranée : des navires de guerre à rames et à voile carrée,
+            proues en bois, sont tirés sur le sable ; des colonnes de soldats romains (casque de bronze
+            rond à crête de crin, cotte de mailles, grand bouclier ovale ou rectangulaire bombé, javelots)
+            descendent à terre et se mettent en rangs. Collines sèches et oliviers derrière. Ne doit pas
+            figurer : texte, lettre, chiffre, inscription sur les boucliers, arme à feu, armure de
+            chevalier, drapeau moderne, bateau à moteur.
+          alt: Une armée romaine débarque de ses navires sur une plage et se met en rangs.
+      - picto: groupe
+        motCle: Gaulois
+        phrases:
+          - Avant les Romains, la Gaule est partagée entre des dizaines de peuples gaulois, souvent rivaux.
+        enSavoirPlus: >-
+          Les Gaulois sont des paysans, des artisans et des guerriers. Certains vivent dans de grandes
+          villes fortifiées sur des collines, les oppidums.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un oppidum gaulois vers 60 av. J.-C. : sur
+            une colline, une ville entourée d'un haut rempart de terre, de pierres et de poutres ; à
+            l'intérieur, des maisons rectangulaires en bois et torchis aux toits de chaume ; devant la
+            porte, des Gaulois en braies et tuniques colorées, avec des capes à carreaux, des
+            moustaches, menant une charrette tirée par des bœufs. Ne doit pas figurer : texte, lettre,
+            chiffre, casque à ailes, casque à cornes, hutte ronde de dessin animé, objet moderne.
+          alt: Une ville gauloise fortifiée sur une colline, avec ses maisons au toit de chaume et des Gaulois à la porte.
+      - picto: personne
+        motCle: Jules César
+        phrases:
+          - De 58 à 51 av. J.-C., le général romain Jules César conquiert toute la Gaule.
+        enSavoirPlus: >-
+          Le sud de la Gaule était déjà romain. César raconte lui-même cette guerre dans un livre : c'est
+          notre source principale, mais il se donne le beau rôle.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Jules César vers 55 av. J.-C., dans un camp
+            militaire romain en Gaule : homme d'environ quarante-cinq ans, mince, visage maigre, front
+            dégarni, cheveux courts, imberbe, cuirasse de métal et manteau rouge de général ; il examine
+            des plans de bataille avec deux officiers, devant des tentes de cuir alignées. Ne doit pas
+            figurer : texte, lettre, chiffre, carte écrite, couronne de laurier dorée, armure médiévale,
+            objet moderne.
+          alt: Jules César, général romain en manteau rouge, prépare la guerre avec ses officiers dans un camp.
+      - picto: bouclier
+        motCle: Vercingétorix
+        phrases:
+          - En 52 av. J.-C., le chef gaulois Vercingétorix unit de nombreux peuples contre César.
+        enSavoirPlus: >-
+          Il bat d'abord César à Gergovie, près de Clermont-Ferrand. On ne connaît pas son vrai visage : le
+          casque à ailes est une invention bien plus tardive.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, scène imaginée. Un jeune chef gaulois vers
+            52 av. J.-C., à cheval devant une foule de guerriers gaulois qui lèvent leurs lances et leurs
+            boucliers ovales en bois peints : il porte une cotte de mailles, une cape, des braies, un
+            torque d'or au cou, des cheveux longs et une moustache ; tête nue ou casque de bronze simple
+            et arrondi. Ne doit pas figurer : texte, lettre, chiffre, casque à ailes, casque à cornes,
+            armure de chevalier, drapeau, objet moderne.
+          alt: Scène imaginée d'un chef gaulois à cheval devant ses guerriers ; on ne connaît pas le vrai visage de Vercingétorix.
+      - picto: lieu
+        motCle: Alésia
+        phrases:
+          - En 52 av. J.-C., César encercle Alésia ; les Gaulois, affamés, finissent par se rendre.
+        enSavoirPlus: >-
+          César entoure la ville de fossés, de pièges et de palissades. Vercingétorix est emmené
+          prisonnier à Rome. La Gaule devient romaine.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne. Le siège d'Alésia en 52 av.
+            J.-C. : au centre, une colline au sommet plat où se trouve une ville gauloise ; tout autour,
+            dans la plaine, deux longues lignes parallèles de fortifications romaines en bois et en terre
+            (fossés, palissade de pieux, tours de guet régulières), l'une tournée vers la colline, l'autre
+            vers l'extérieur, qui encerclent complètement la colline, et des camps romains
+            rectangulaires entre les deux. Paysage de Bourgogne vert, rivières. Ne doit pas figurer :
+            texte, lettre, chiffre, flèche dessinée, statue, village moderne, route goudronnée.
+          alt: Vue d'en haut d'une colline avec une ville gauloise, encerclée par une double ligne de fossés et de tours romaines.
+      - picto: couronne
+        motCle: empereur
+        phrases:
+          - "Depuis Auguste, en 27 av. J.-C., un empereur dirige l'empire : il a tous les pouvoirs."
+        enSavoirPlus: >-
+          Il commande l'armée, fait les lois, rend la justice et décide des impôts. Il fait aussi
+          construire des monuments partout.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une grande salle d'un palais de Rome au
+            IIe siècle, aux murs de marbre de couleur et aux colonnes : un empereur romain d'une
+            quarantaine d'années, barbe courte, couronne de laurier verte, toge pourpre, assis sur un
+            siège surélevé, écoute un messager venu d'une province qui lui tend une tablette de bois
+            fermée ; autour de lui, des sénateurs en toge blanche bordée de pourpre et deux soldats de sa
+            garde. Ne doit pas figurer : texte, lettre, chiffre, inscription, couronne d'or de roi
+            médiéval, trône doré moderne, drapeau, objet moderne.
+          alt: >-
+            Un empereur romain en toge pourpre, assis dans son palais, écoute un messager, entouré de
+            sénateurs et de soldats.
+      - picto: ville
+        motCle: Rome
+        phrases:
+          - "Rome est la capitale : c'est la plus grande ville de l'empire, où vit l'empereur."
+        enSavoirPlus: >-
+          Des bateaux y apportent le blé d'Égypte et d'Afrique pour nourrir ses habitants. Les empereurs
+          la couvrent de monuments.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne en légère plongée. Rome au
+            IIe siècle : une immense ville dense de toits en tuiles rouges, d'immeubles de briques et de
+            temples blancs à colonnes ; au centre, les grandes places des forums entourées de portiques ;
+            l'amphithéâtre du Colisée, ovale, intact ; le Tibre qui serpente avec des ponts de pierre et
+            des bateaux. Collines vertes avec des pins parasols. Ne doit pas figurer : texte, lettre,
+            chiffre, coupole d'église, clocher, croix, véhicule moderne, ruine.
+          alt: Vue d'en haut de Rome dans l'Antiquité, avec ses temples, ses forums, le Colisée et le Tibre.
+      - picto: temple
+        motCle: culte impérial
+        phrases:
+          - Dans tout l'empire, on prie pour l'empereur et on l'honore presque comme un dieu.
+        enSavoirPlus: >-
+          C'est le culte impérial : on bâtit des temples pour Rome et pour l'empereur. Après sa mort, il
+          est souvent déclaré dieu. Ce culte aide à unir l'empire.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une ville romaine de Gaule au Ier
+            siècle, devant un temple à colonnes en pierre blanche : un prêtre en toge blanche, un pan de
+            la toge posé sur la tête, verse de l'encens dans un petit autel de pierre où brûle un feu ; à
+            côté, une grande statue de marbre d'un empereur en toge. Des habitants en tuniques et capes
+            colorées regardent, en silence. Ne doit pas figurer : texte, lettre, chiffre, inscription,
+            animal sacrifié, sang, croix, objet moderne.
+          alt: Un prêtre romain brûle de l'encens sur un autel, près d'une statue de l'empereur, devant un temple.
+      - picto: drapeau
+        motCle: provinces
+        phrases:
+          - "L'empire est découpé en provinces : chacune est dirigée par un gouverneur choisi à Rome."
+        enSavoirPlus: >-
+          Le gouverneur fait respecter l'ordre, rend la justice et surveille la levée des impôts.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une ville romaine de province au
+            IIe siècle, sur une estrade de pierre devant un bâtiment à colonnes : un gouverneur romain en
+            toge blanche bordée de pourpre, assis sur un siège pliant, écoute deux habitants qui lui
+            présentent une affaire ; derrière lui, deux soldats romains et un secrétaire avec des
+            tablettes de bois fermées. Ne doit pas figurer : texte, lettre, chiffre, inscription,
+            couronne, drapeau, objet moderne.
+          alt: Un gouverneur romain en toge, assis sur une estrade, écoute des habitants, entouré de soldats.
+      - picto: sablier
+        motCle: Trajan
+        phrases:
+          - Vers 117, sous l'empereur Trajan, l'empire est le plus grand de toute son histoire.
+        enSavoirPlus: >-
+          Trajan est né en Hispanie : c'est le premier empereur qui ne vient pas d'Italie. À Rome, une
+          haute colonne raconte ses guerres.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, ciel bleu. À Rome, le fût de la
+            colonne Trajane, une colonne de marbre sculptée d'une longue bande de reliefs en spirale
+            (soldats, bateaux, forteresses), vue en contre-plongée ; on voit les reliefs de près ; le
+            sommet de la colonne (et sa statue), la base et ses inscriptions sont hors du cadre. Ne doit pas figurer : texte, lettre,
+            chiffre, inscription, panneau, touriste, grue, échafaudage.
+          alt: La colonne Trajane à Rome, couverte de sculptures en spirale qui racontent les guerres de Trajan.
+      - picto: groupe
+        motCle: peuples
+        phrases:
+          - "L'empire réunit des peuples très différents : Gaulois, Grecs, Égyptiens, Juifs, Bretons, Africains…"
+        enSavoirPlus: >-
+          On parle surtout latin à l'ouest, grec à l'est, et beaucoup de langues locales. Chaque peuple
+          garde aussi ses dieux.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur le quai d'un grand port romain de la
+            Méditerranée au IIe siècle, des gens de tout l'empire se croisent : des marins grecs, un
+            marchand égyptien en lin blanc, un Gaulois en braies et cape à carreaux, une femme romaine en
+            longue robe, des porteurs qui déchargent des amphores d'un navire à voile ; tous ont des
+            visages, des peaux et des vêtements différents. Ne doit pas figurer : texte, lettre, chiffre,
+            inscription, drapeau, bateau à moteur, conteneur, objet moderne.
+          alt: Sur le quai d'un port romain, des gens venus de tout l'empire, aux vêtements différents, déchargent des amphores.
+    questions:
+      - question: Autour de quelle mer s'étend l'empire romain ?
+        reponse: Autour de la mer Méditerranée, que les Romains appellent « notre mer ».
+      - question: Qui conquiert la Gaule, et quand ?
+        reponse: Le général romain Jules César, de 58 à 51 av. J.-C.
+      - question: Que se passe-t-il à Alésia en 52 av. J.-C. ?
+        reponse: César assiège Alésia et le chef gaulois Vercingétorix doit se rendre.
+      - question: Quels pouvoirs a l'empereur ?
+        reponse: Tous les pouvoirs ; il commande l'armée, fait les lois, rend la justice et décide des impôts.
+      - question: Qu'est-ce que le culte impérial ?
+        reponse: Les prières et les cérémonies pour honorer l'empereur, presque comme un dieu.
+      - question: Quand l'empire romain est-il le plus grand ?
+        reponse: Vers 117, sous l'empereur Trajan.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Protéger l'empire, garder la paix
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: paix romaine
+          dates: Ier et IIe siècles
+          carte: 3
+        - libelle: révolte de Boudicca
+          dates: vers 60
+          carte: 4
+        - libelle: mur d'Hadrien
+          dates: commencé en 122
+          carte: 6
+    formule: paix romaine = une armée forte + des frontières gardées
+    cartes:
+      - picto: drapeau
+        motCle: légion
+        phrases:
+          - "L'armée romaine est faite de légions : chacune compte environ 5 000 soldats bien entraînés."
+        enSavoirPlus: >-
+          L'armée compte aussi des soldats venus des provinces, les auxiliaires. Après 25 ans de service,
+          ils deviennent citoyens romains.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une légion romaine du IIe siècle marche en
+            rangs serrés sur une route pavée, vue de trois quarts : des centaines de légionnaires
+            identiques, casque de métal, armure de lamelles de fer, grand bouclier rectangulaire rouge
+            bombé ; en tête, un porte-enseigne tient une hampe surmontée d'un aigle de métal doré aux
+            ailes ouvertes. Campagne verte. Ne doit pas figurer : texte, lettre, chiffre, inscription,
+            drapeau moderne, cheval monté en armure, arme à feu, objet moderne.
+          alt: Une légion romaine marche en rangs sur une route, derrière un soldat qui porte une enseigne en forme d'aigle.
+      - picto: casque
+        motCle: légionnaire
+        phrases:
+          - Le légionnaire est un soldat citoyen romain ; il sert pendant 20 à 25 ans.
+        enSavoirPlus: >-
+          Il marche, construit des routes et des camps, et se bat. À la fin de son service, il reçoit de
+          l'argent ou une terre.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, portrait en pied. Un légionnaire romain du
+            IIe siècle, debout de face : casque de fer avec couvre-joues et couvre-nuque, armure de
+            lamelles de fer sur les épaules et la poitrine, tunique rouge, grand bouclier rectangulaire
+            bombé rouge, courte épée (glaive) à la ceinture, javelot (pilum) à la main, sandales cloutées.
+            Fond flou de camp militaire. Ne doit pas figurer : texte, lettre, chiffre, inscription sur le
+            bouclier, cape de super-héros, armure de chevalier, objet moderne.
+          alt: Un légionnaire romain debout, avec son casque, son armure, son grand bouclier rouge, son épée et son javelot.
+      - picto: soleil
+        motCle: paix romaine
+        phrases:
+          - "Aux Ier et IIe siècles, il n'y a presque plus de guerres dans l'empire : c'est la paix romaine."
+        enSavoirPlus: >-
+          En latin : pax romana. Les guerres ont surtout lieu aux frontières. Le commerce et les villes se
+          développent.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. La campagne de Gaule au IIe siècle, un jour
+            calme : une route pavée bordée de cyprès traverse des champs de blé et des vignes ; un
+            marchand conduit un chariot chargé d'amphores tiré par des bœufs ; au loin, une grande ferme
+            romaine aux murs blancs et toits de tuiles rouges. Ne doit pas figurer : texte, lettre,
+            chiffre, soldat, arme, tracteur, poteau électrique, objet moderne.
+          alt: Une campagne paisible, avec une route où passe un chariot chargé d'amphores, et une ferme romaine.
+      - picto: feu
+        motCle: révoltes
+        phrases:
+          - Des peuples se révoltent contre Rome, comme les Bretons de la reine Boudicca vers 60.
+        enSavoirPlus: >-
+          L'armée romaine écrase la révolte. En Judée aussi, les Juifs se révoltent en 66 ; en 70, les
+          Romains détruisent le Temple de Jérusalem.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. En Bretagne (l'Angleterre actuelle) vers
+            l'an 60 : une reine bretonne aux longs cheveux roux, en tunique colorée, cape et torque d'or,
+            debout sur un char à deux roues tiré par deux chevaux, lève la main devant une foule de
+            guerriers bretons armés de lances et de boucliers ovales. Ciel gris, plaine. Pas de combat
+            montré. Ne doit pas figurer : texte, lettre, chiffre, sang, corps, faux aux roues du char,
+            casque à ailes, armure de chevalier, objet moderne.
+          alt: La reine bretonne Boudicca, debout sur son char, devant ses guerriers révoltés contre Rome.
+      - picto: mur
+        motCle: limes
+        phrases:
+          - "Aux frontières, le limes protège l'empire : des forts, des tours de guet, des fossés, parfois un mur."
+        enSavoirPlus: >-
+          Au IIe siècle, il mesure environ 5 000 kilomètres. Les soldats y surveillent les peuples de
+          l'autre côté, mais aussi le commerce.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Le limes de Germanie au IIe siècle, en
+            lisière de forêt : une longue palissade de troncs de bois pointus suivie d'un fossé, une tour
+            de guet carrée en pierre et bois à deux étages, où deux soldats romains regardent vers la
+            forêt sombre ; un peu plus loin, un petit fort rectangulaire. Ne doit pas figurer : texte,
+            lettre, chiffre, inscription, barbelés, béton, objet moderne.
+          alt: Une frontière romaine en forêt, avec une palissade de bois, un fossé et une tour de guet.
+      - picto: lieu
+        motCle: mur d'Hadrien
+        phrases:
+          - Vers 122, l'empereur Hadrien fait construire un mur de 118 kilomètres, au nord de l'Angleterre actuelle.
+        enSavoirPlus: >-
+          Il protège la province de Bretagne. Tout le long, il y a des forts et des tours. On peut encore
+          le voir aujourd'hui.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Le mur d'Hadrien dans le nord de
+            l'Angleterre : un mur de pierres grises, bas et épais, qui suit la crête d'une colline verte
+            et descend dans les vallons jusqu'à l'horizon ; ciel nuageux, herbe rase. Ne doit pas
+            figurer : texte, lettre, chiffre, panneau, touriste, mouton au premier plan, route, véhicule.
+          alt: Le mur d'Hadrien aujourd'hui, un mur de pierres grises qui suit les collines vertes du nord de l'Angleterre.
+    questions:
+      - question: Qu'est-ce qu'un légionnaire ?
+        reponse: Un soldat citoyen romain, qui sert pendant 20 à 25 ans dans une légion.
+      - question: Qu'est-ce que la paix romaine ?
+        reponse: "Aux Ier et IIe siècles, une longue période presque sans guerres dans l'empire."
+      - question: À quoi sert le limes ?
+        reponse: À protéger les frontières de l'empire, avec des forts, des tours et des murs.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: La romanisation
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: fondation de Lugdunum (Lyon)
+          dates: 43 av. J.-C.
+          carte: 2
+        - libelle: Maison carrée de Nîmes
+          dates: début du Ier siècle
+          carte: 4
+        - libelle: pont du Gard
+          dates: Ier siècle
+          carte: 8
+        - libelle: édit de Caracalla
+          dates: "212"
+          carte: 12
+    formule: romanisation = vivre à la romaine + parler latin + devenir citoyen
+    cartes:
+      - picto: main
+        motCle: romanisation
+        phrases:
+          - "Peu à peu, les peuples conquis adoptent la façon de vivre des Romains : c'est la romanisation."
+        enSavoirPlus: >-
+          Personne ne les y oblige vraiment : les plus riches y trouvent des avantages et donnent
+          l'exemple.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans la cour à colonnes d'une riche maison
+            gallo-romaine au IIe siècle, une famille gauloise vit à la romaine : le père en toge blanche,
+            la mère en longue robe et manteau drapé, deux enfants ; des lits de repas, des plats de
+            céramique rouge brillante et des amphores de vin ; un sol de mosaïque à motifs géométriques.
+            Ne doit pas figurer : texte, lettre, chiffre, inscription, fourchette, verre moderne, objet
+            moderne.
+          alt: Une famille gauloise riche, habillée à la romaine, dans la cour à colonnes de sa maison.
+      - picto: ville
+        motCle: ville romaine
+        phrases:
+          - "Rome fonde des villes sur son modèle, comme Lugdunum, aujourd'hui Lyon, en 43 av. J.-C."
+        enSavoirPlus: >-
+          Les rues droites s'y croisent comme sur un quadrillage. Lugdunum devient la capitale des
+          Gaules.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne en plongée. Lugdunum (Lyon) au
+            IIe siècle : sur une colline, une ville romaine aux rues droites qui se croisent à angle
+            droit, maisons aux toits de tuiles rouges, un forum, un théâtre en demi-cercle adossé à la
+            pente ; en bas, la rivière (la Saône) qui rejoint un grand fleuve (le Rhône). Ne doit pas
+            figurer : texte, lettre, chiffre, basilique chrétienne, clocher, pont moderne, objet moderne.
+          alt: Vue d'en haut de Lugdunum, une ville romaine aux rues droites, avec son théâtre, sur une colline au-dessus des fleuves.
+      - picto: colonne
+        motCle: forum
+        phrases:
+          - "Au centre, le forum est une grande place : on y discute, on y achète, on y prie."
+        enSavoirPlus: >-
+          Autour, il y a des temples, des boutiques et la basilique, un grand bâtiment où l'on rend la
+          justice.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Le forum d'une ville romaine de Gaule au IIe
+            siècle : une grande place dallée entourée de galeries à colonnes, avec un temple sur un haut
+            podium au fond ; des habitants en tuniques et en toges discutent, des marchands vendent sous
+            les portiques. Ne doit pas figurer : texte, lettre, chiffre, inscription, enseigne écrite,
+            église, objet moderne.
+          alt: Le forum d'une ville romaine, une grande place entourée de colonnes, avec un temple au fond et des passants.
+      - picto: temple
+        motCle: Maison carrée
+        phrases:
+          - "À Nîmes, la Maison carrée est un temple romain, dédié à deux petits-fils d'Auguste."
+        enSavoirPlus: >-
+          Elle date du début du Ier siècle et se dressait sur le forum. Elle est si bien conservée qu'on la
+          visite encore.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, ciel bleu. La Maison carrée de Nîmes
+            : un temple romain rectangulaire en pierre blonde, posé sur un haut podium, avec un escalier
+            en façade et six colonnes corinthiennes à l'avant, vu de trois quarts ; place dallée devant.
+            Ne doit pas figurer : texte, lettre, chiffre, inscription, panneau, touriste, voiture,
+            échafaudage.
+          alt: La Maison carrée de Nîmes aujourd'hui, un temple romain en pierre avec ses colonnes et son escalier.
+      - picto: goutte
+        motCle: thermes
+        phrases:
+          - "Aux thermes, de grands bains publics, on se lave, on nage, on fait du sport et on discute."
+        enSavoirPlus: >-
+          On passe d'une salle froide à une salle tiède, puis à une salle chaude, chauffée par en
+          dessous.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. L'intérieur de thermes romains au IIe
+            siècle : une grande salle voûtée aux murs peints, un bassin d'eau chaude fumante, des
+            hommes en pagne qui se baignent ou discutent assis sur le bord ; la lumière tombe d'une
+            fenêtre haute. Personne n'est nu. Ne doit pas figurer : texte, lettre, chiffre, inscription,
+            robinet, carrelage moderne, maillot de bain moderne, objet moderne.
+          alt: Des hommes se baignent et discutent dans le bassin chaud d'une grande salle de thermes romains.
+      - picto: arene
+        motCle: amphithéâtre
+        phrases:
+          - "Dans l'amphithéâtre, comme les arènes de Nîmes ou d'Arles, on regarde des combats de gladiateurs."
+        enSavoirPlus: >-
+          Ces spectacles sont gratuits : ils sont souvent payés par les riches de la ville, pour se faire
+          aimer.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, ciel bleu, vue en hauteur. Les arènes
+            de Nîmes, un amphithéâtre romain ovale en pierre blonde, très bien conservé : deux étages
+            d'arcades à l'extérieur, et à l'intérieur des gradins de pierre tout autour d'une piste de
+            sable. Vide. Ne doit pas figurer : texte, lettre, chiffre, panneau, publicité, tribune
+            moderne, toit, voiture, foule.
+          alt: Les arènes de Nîmes aujourd'hui, un amphithéâtre romain ovale avec ses gradins de pierre autour de la piste.
+      - picto: masque
+        motCle: théâtre
+        phrases:
+          - Au théâtre, assis sur des gradins en demi-cercle, on regarde des pièces comiques ou tragiques.
+        enSavoirPlus: >-
+          Les acteurs portent des masques. Le théâtre romain d'Orange, avec son immense mur de scène,
+          existe encore.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, ciel bleu. Le théâtre antique
+            d'Orange, vu depuis le haut des gradins : des gradins de pierre en demi-cercle descendent vers
+            la scène ; en face se dresse un immense mur de scène en pierre, très haut, avec des niches et
+            une grande statue d'empereur au centre. Vide. Ne doit pas figurer : texte, lettre, chiffre,
+            panneau, projecteur, tribune moderne, foule, toit de verre.
+          alt: Le théâtre romain d'Orange aujourd'hui, avec ses gradins en demi-cercle et son immense mur de scène.
+      - picto: aqueduc
+        motCle: aqueduc
+        phrases:
+          - "Un aqueduc amène l'eau des sources jusqu'à la ville : le pont du Gard alimentait Nîmes."
+        enSavoirPlus: >-
+          L'eau coule toute seule, dans un canal en pente très douce, sur environ 50 kilomètres. Le pont
+          du Gard date du Ier siècle.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Le pont du Gard au-dessus de la
+            rivière du Gardon : un grand pont romain en pierre blonde à trois étages d'arches, les plus
+            grandes en bas, une rangée de petites arches tout en haut ; eau verte, rochers et arbres sur
+            les rives, ciel bleu. Ne doit pas figurer : texte, lettre, chiffre, panneau, touriste, bateau
+            à moteur, voiture.
+          alt: Le pont du Gard, un pont romain en pierre à trois étages d'arches au-dessus d'une rivière.
+      - picto: route
+        motCle: voies romaines
+        phrases:
+          - "Des routes pavées, les voies romaines, relient les villes : soldats, marchands et messagers y circulent."
+        enSavoirPlus: >-
+          Elles sont droites et solides, faites de plusieurs couches de pierres. Des bornes indiquent les
+          distances.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une voie romaine en Gaule au IIe siècle :
+            une route droite pavée de grandes dalles de pierre, légèrement bombée, bordée de fossés, qui
+            file jusqu'à l'horizon à travers la campagne ; un cavalier, un chariot tiré par des mules et
+            des voyageurs à pied y circulent ; au bord, une borne cylindrique en pierre, lisse. Ne doit
+            pas figurer : texte, lettre, chiffre, inscription sur la borne, goudron, panneau, poteau,
+            véhicule moderne.
+          alt: Une voie romaine pavée, toute droite, où circulent un cavalier, un chariot et des voyageurs.
+      - picto: livre
+        motCle: latin
+        phrases:
+          - "Le latin, la langue de Rome, se répand en Gaule : le français vient en grande partie du latin."
+        enSavoirPlus: >-
+          Les enfants des familles riches apprennent à lire et à écrire en latin. Les lois et les
+          inscriptions sont en latin.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une petite école dans une ville
+            gallo-romaine au IIe siècle, sous un portique ouvert sur la rue : un maître assis sur une
+            chaise haute tient un rouleau ; devant lui, quatre garçons et filles assis sur des tabourets
+            tiennent des tablettes de bois enduites de cire, vues de profil, avec un stylet. Ne doit pas
+            figurer : texte, lettre, chiffre, inscription, écriture lisible, papier, livre relié, stylo,
+            tableau noir, objet moderne.
+          alt: Un maître et des élèves gallo-romains, avec des tablettes de cire, dans une petite école ouverte sur la rue.
+      - picto: groupe
+        motCle: Gallo-Romains
+        phrases:
+          - "Les Gaulois deviennent des Gallo-Romains : ils mélangent leurs traditions et celles des Romains."
+        enSavoirPlus: >-
+          À la campagne, on parle encore longtemps gaulois. On honore à la fois des dieux gaulois et des
+          dieux romains.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un marché dans une petite ville
+            gallo-romaine au IIe siècle : des paysans gaulois en braies, capes à capuchon et moustaches
+            vendent des fromages, des poules et des tissus à carreaux ; à côté, des citadins en toge et
+            en tunique à la romaine ; derrière, des maisons aux toits de tuiles et une petite rue pavée.
+            Ne doit pas figurer : texte, lettre, chiffre, inscription, enseigne écrite, casque à ailes,
+            objet moderne.
+          alt: Un marché gallo-romain où des paysans gaulois en cape et des citadins en toge se mêlent.
+      - picto: balance
+        motCle: citoyenneté
+        phrases:
+          - En 212, l'empereur Caracalla fait citoyens romains presque tous les habitants libres de l'empire.
+        enSavoirPlus: >-
+          Avant, la citoyenneté était donnée peu à peu : aux soldats, aux riches des villes. Les esclaves,
+          eux, ne sont pas citoyens.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur le forum d'une ville romaine de
+            province en 212 : un magistrat en toge, debout sur une tribune de pierre, lit à voix haute un
+            rouleau devant une foule nombreuse et variée (Gaulois en cape, Grecs, Africains, femmes et
+            hommes, jeunes et vieux) qui écoute attentivement. Ne doit pas figurer : texte, lettre,
+            chiffre, inscription, écriture lisible sur le rouleau, micro, drapeau, objet moderne.
+          alt: Sur un forum, un magistrat lit une décision de l'empereur devant une foule venue de tout l'empire.
+    questions:
+      - question: Qu'est-ce que la romanisation ?
+        reponse: Les peuples conquis adoptent peu à peu la façon de vivre, la langue et les lois des Romains.
+      - question: Cite trois monuments d'une ville romaine.
+        reponse: "Par exemple : le forum, un temple, les thermes, l'amphithéâtre, le théâtre, l'aqueduc."
+      - question: À quoi sert un aqueduc ?
+        reponse: À amener l'eau des sources jusqu'à la ville.
+      - question: Que décide l'empereur Caracalla en 212 ?
+        reponse: Il fait citoyens romains presque tous les habitants libres de l'empire.

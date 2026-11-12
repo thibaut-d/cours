@@ -1,0 +1,654 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 3 « L'empire romain dans le monde antique », sous-thème « Les
+# relations de l'empire romain avec les autres mondes anciens : l'ancienne route de la soie et la Chine des
+# Han » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# La fiche Eduscol demande de ne pas réduire le sous-thème à une comparaison des deux empires : la leçon
+# présente la Chine des Han (chapitre 1), puis les routes et les intermédiaires (chapitre 2), puis ce que
+# Romains et Chinois savent les uns des autres et ce qu'ils échangent (chapitre 3).
+# Leçon précédente : « Des chrétiens dans l'empire » (contenu/6e/histoire/chretiens).
+# Dernière leçon d'histoire de 6e : pas de leçon suivante.
+titre: Rome et la Chine des Han
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 10
+langue: fr
+statut: brouillon
+resume: >-
+  La Chine des Han, un empire aussi grand que Rome, la soie et les routes qui la transportent, et ce que
+  Romains et Chinois échangent sans presque jamais se rencontrer.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 3, « Les relations de l'empire romain avec les autres
+      mondes anciens : l'ancienne route de la soie et la Chine des Han »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 3 : L'empire romain
+      dans le monde antique » (mars 2016) : Han de 202 av. J.-C. à 220 avec une interruption, État
+      centralisé et lettrés, papier, Wudi (141-87 av. J.-C., ailleurs « -140 / -87 »), soie contre verreries, tissus et tapis
+      romains, contacts directs rares et surtout connus par des sources chinoises, intermédiaires, savoirs
+      réciproques ; repère « IIe siècle av. J.-C. - IIe siècle apr. J.-C. : la Chine impériale des Han »
+    url: https://eduscol.education.fr/document/16756/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Encyclopædia Universalis, « Routes de la soie » : Han (206 av. J.-C.-220 apr. J.-C.), nom donné au
+      XIXe siècle par Ferdinand von Richthofen, Zhang Qian envoyé par Wudi, chevaux « célestes » du
+      Ferghana, Parthes intermédiaires, soie très chère à Rome et lois somptuaires du Sénat, les Romains
+      croient que la soie est une laine produite par un arbre au pays des Sères, déclin au IIIe siècle
+    url: https://www.universalis.fr/encyclopedie/routes-de-la-soie/
+  - libelle: >-
+      Encyclopædia Universalis, « Routes de la soie (repères chronologiques) » : départ de Zhang Qian en
+      139 av. J.-C., retour à Chang'an en 126 ; commanderie de Dunhuang en 117 av. J.-C. ; bouddhisme
+      venu de l'empire kouchan au Ier siècle
+    url: https://www.universalis.fr/encyclopedie/routes-de-la-soie-reperes-chronologiques/
+  - libelle: >-
+      Encyclopædia Universalis, « Wudi (Wou-ti), empereur de Chine (140-87 av. J.-C.) » : offensive contre
+      les Xiongnu, nomades du nord
+    url: https://www.universalis.fr/encyclopedie/wudi-wou-ti-empereur-de-chine/
+  - libelle: >-
+      Encyclopædia Universalis, média « La Chine des Han » : guerres contre les Xiongnu, Grande Muraille
+      prolongée vers l'ouest
+    url: https://www.universalis.fr/media/la-chine-des-han-an050020/
+  - libelle: >-
+      Encyclopædia Universalis, « Papier — des origines à la mécanisation » : papier apparu en Chine sans
+      doute à la fin du IIIe siècle av. J.-C. ; Caï Lun, chef des ateliers impériaux, en fixe la
+      fabrication en 105 (bambou, écorce de mûrier, lin, chanvre)
+    url: https://www.universalis.fr/encyclopedie/papier/2-des-origines-a-la-mecanisation/
+  - libelle: >-
+      Encyclopædia Britannica, « China — The Han dynasty » : recensement de l'an 2, environ 12 millions de
+      foyers et 58 à 60 millions de personnes
+    url: https://www.britannica.com/place/China/The-practice-of-government
+  - libelle: >-
+      Encyclopædia Britannica, « tian » : les souverains chinois sont traditionnellement appelés « Fils du
+      Ciel » (tianzi), leur pouvoir venant du Ciel
+    url: https://www.britannica.com/topic/tian
+  - libelle: >-
+      UNESCO, Patrimoine mondial, « Routes de la soie : le réseau de routes du corridor de Chang'an-Tian-shan »
+      (de Chang'an et Luoyang à l'Asie centrale, mission de Zhang Qian, villes d'oasis)
+    url: https://whc.unesco.org/fr/list/1442
+  - libelle: >-
+      UNESCO, Patrimoine mondial, « La Grande Muraille » : murs construits du IIIe siècle av. J.-C. au
+      XVIIe siècle ; tronçons en terre battue des Han dans le Gansu ; tronçons maçonnés célèbres de
+      l'époque Ming
+    url: https://whc.unesco.org/fr/list/438
+  - libelle: >-
+      Hou Hanshu (Livre des Han postérieurs, Ve siècle), chapitre sur les Contrées de l'Ouest, traduction
+      anglaise de John E. Hill, publiée sur le site Silk Road Seattle (université de Washington) : Da Qin et ses villes aux murs de pierre ; Gan
+      Ying en 97, découragé par des marins parthes (trois mois de mer, ou deux ans si les vents sont
+      mauvais) ; les Parthes bloquent la route pour garder le commerce
+      de la soie ; en 166, envoyés du roi Andun (Marc Aurèle) arrivés par le Rinan avec ivoire, corne de
+      rhinocéros et écaille de tortue
+    url: https://depts.washington.edu/silkroad/texts/hhshu/hou_han_shu.html
+  - libelle: Pline l'Ancien, Histoire naturelle, livre VI, 54 (les Sères et la « laine » des arbres)
+  - libelle: >-
+      Krisztina Hoppál (groupe de recherche sur la route de la soie, université Eötvös Loránd de
+      Budapest), « Rome and China: Endpoints of the Ancient Silk Roads », revue Orientations, 2022 : verres romains du Ier siècle
+      retrouvés en Chine, dont une tombe des Han de l'Est à Luoyang ; verres romains réservés au plus haut rang de la société chinoise
+    url: https://orientations.com.hk/highlights/rome-and-china-endpoints-of-the-ancient-silk-roads
+  - libelle: >-
+      British Museum, pièce d'or (aureus) d'Auguste, 27 av. J.-C., trouvée sans doute à Pudukottai, dans le
+      sud de l'Inde
+    url: https://www.britishmuseum.org/collection/object/C_1898-0803-4
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: La Chine des Han
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: dynastie des Han
+          dates: de 206 av. J.-C. à 220 apr. J.-C.
+          carte: 2
+        - libelle: règne de Wudi
+          dates: de 141 à 87 av. J.-C.
+          carte: 3
+        - libelle: papier de Cai Lun
+          dates: vers 105 apr. J.-C.
+          carte: 7
+    formule: empire des Han = un empereur + des fonctionnaires lettrés
+    cartes:
+      - picto: globe
+        motCle: deux empires
+        phrases:
+          - "Vers l'an 100, deux immenses empires existent : l'empire romain à l'ouest, la Chine des Han à l'est."
+        enSavoirPlus: >-
+          Plus de 7 000 kilomètres de montagnes, de déserts et de mers les séparent. En l'an 2, la Chine
+          compte environ 58 millions d'habitants ; l'empire romain, sans doute à peu près autant.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre l'Europe, l'Afrique du Nord et
+            l'Asie, de l'océan Atlantique (bord gauche) à l'océan Pacifique (bord droit). À gauche, la mer
+            Méditerranée en bleu, allongée, centrée vers 18 % de la largeur et 36 % de la hauteur ; l'Italie
+            en forme de botte vers 14 % de la largeur et 30 % de la hauteur. Tout le pourtour de la
+            Méditerranée est légèrement teinté de rouge transparent : c'est l'empire romain, de la Grande-Bretagne,
+            de la Gaule et de l'Espagne jusqu'à la Syrie et à l'Égypte. Au centre, les déserts et les hautes montagnes d'Asie centrale, en
+            ocre et en blanc ; en bas au centre, la pointe de l'Inde et l'océan Indien en bleu, vers 58 %
+            de la largeur et 80 % de la hauteur. À droite, la Chine est légèrement teintée de jaune doré
+            transparent, du désert à l'ouest jusqu'à la mer à l'est, centrée vers 82 % de la largeur et
+            42 % de la hauteur ; un fleuve jaune-brun sinueux la traverse. Deux petits points rouge foncé
+            bien visibles : Rome, vers 14 % de la largeur et 30 % de la hauteur, et Chang'an, vers 80 % de
+            la largeur et 40 % de la hauteur. Couleurs douces et contrastées, côtes nettes. Ne doit pas
+            figurer : texte, lettre, chiffre, nom de lieu, frontière moderne, ville moderne, route,
+            quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte de l'Europe et de l'Asie : l'empire romain autour de la mer Méditerranée, à gauche, et la
+            Chine des Han, à droite, avec Rome et Chang'an, la première capitale des Han.
+          etiquettes:
+            - texte: empire romain
+              x: 20
+              y: 22
+            - texte: Rome
+              x: 12
+              y: 36
+            - texte: mer Méditerranée
+              x: 24
+              y: 40
+            - texte: Inde
+              x: 60
+              y: 62
+            - texte: océan Indien
+              x: 56
+              y: 86
+            - texte: Chine des Han
+              x: 84
+              y: 52
+            - texte: Chang'an
+              x: 80
+              y: 34
+      - picto: drapeau
+        motCle: dynastie des Han
+        phrases:
+          - "Une dynastie est une famille d'empereurs : les Han gouvernent la Chine de 206 av. J.-C. à 220 apr. J.-C."
+        enSavoirPlus: >-
+          Certains livres disent 202 av. J.-C., l'année où le premier empereur Han prend ce titre. Le règne
+          des Han est coupé quelques années au début du Ier siècle.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un village de la Chine des Han, vers 100 av.
+            J.-C., sur un plateau de terre jaune (le lœss) près du fleuve Jaune : des maisons basses aux murs
+            de terre tassée et aux toits de tuiles grises ; devant, un paysan chinois en tunique de chanvre
+            beige, cheveux noués en chignon, laboure un champ de millet avec une charrue tirée par un bœuf ;
+            une femme porte un panier ; collines jaunes en terrasses au loin. Ne doit pas figurer : texte,
+            lettre, caractère chinois, chiffre, pagode, toit très recourbé, rizière en montagne, chapeau
+            conique moderne, vêtement moderne, poteau électrique, tracteur.
+          alt: Un paysan chinois laboure un champ avec un bœuf, devant un village aux toits de tuiles grises.
+      - picto: couronne
+        motCle: empereur
+        phrases:
+          - "L'empereur a tous les pouvoirs ; les Chinois l'appellent le « Fils du Ciel »."
+        enSavoirPlus: >-
+          Pour les Chinois, le Ciel lui donne le droit de gouverner. Le plus célèbre est Wudi, qui règne de
+          141 à 87 av. J.-C. : il agrandit beaucoup l'empire, vers l'ouest et vers le sud.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une grande salle de palais de la Chine des
+            Han, vers 100 av. J.-C., aux colonnes de bois laqué rouge et noir : l'empereur est assis sur une
+            estrade, vêtu d'une longue robe noire et rouge à larges manches, coiffé d'une couronne plate en
+            forme de planchette d'où pendent des rangs de petites perles devant et derrière ; devant lui, des
+            fonctionnaires en robes sombres sont agenouillés, tenant une fine tablette de bambou. Ne doit pas
+            figurer : texte, lettre, caractère chinois, chiffre, Cité interdite, toit doré, natte
+            mandchoue, porcelaine bleue et blanche, objet moderne.
+          alt: >-
+            Un empereur chinois en robe noire et rouge, coiffé d'une couronne à perles, assis sur une estrade
+            devant des fonctionnaires agenouillés.
+      - picto: personne
+        motCle: lettrés
+        phrases:
+          - "Des fonctionnaires instruits, les lettrés, dirigent l'empire pour l'empereur : ils font payer les impôts et rendent la justice."
+        enSavoirPlus: >-
+          Sous Wudi, on choisit certains fonctionnaires d'après leur connaissance des livres de Confucius, un
+          sage chinois. Ils écrivent au pinceau sur des lamelles de bambou.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans un bureau de la Chine des Han, vers 100 av.
+            J.-C. : un fonctionnaire lettré, homme d'âge mûr, en robe sombre à larges manches, petit bonnet
+            noir sur un chignon, assis à genoux devant une table basse, écrit avec un pinceau à l'encre noire
+            sur des lamelles de bambou attachées par des ficelles ; d'autres rouleaux de lamelles sont
+            empilés à côté. Les signes tracés sont de petits caractères anciens, vus de loin, illisibles.
+            Lumière douce d'une fenêtre en bois ajouré. Ne doit pas figurer : lettre de notre alphabet,
+            chiffre arabe, caractère chinois net ou lisible, feuille de papier moderne, livre relié, lunettes, objet moderne.
+          alt: Un fonctionnaire chinois écrit au pinceau sur des lamelles de bambou attachées ensemble.
+      - picto: ville
+        motCle: Chang'an
+        phrases:
+          - "Chang'an, la capitale des Han, est une immense ville entourée de hauts murs de terre."
+        enSavoirPlus: >-
+          Elle abrite les palais de l'empereur ; c'est aujourd'hui la ville de Xi'an. Plus tard, vers l'an
+          25, les Han installent leur capitale à Luoyang, plus à l'est.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne en légère plongée. La ville de
+            Chang'an en Chine vers 100 av. J.-C. : de hauts remparts droits en terre tassée beige, percés de
+            portes surmontées de pavillons en bois aux toits de tuiles grises ; à l'intérieur, de larges
+            avenues droites qui se croisent, des quartiers de maisons aux toits de tuiles, et de grands
+            palais posés sur de hautes terrasses de terre ; une rivière et des champs autour. Ne doit pas
+            figurer : texte, lettre, caractère chinois, chiffre, pagode, muraille en briques, toit doré,
+            immeuble, route goudronnée, véhicule.
+          alt: Vue d'en haut d'une immense ville entourée de remparts de terre, avec de grandes avenues et des palais.
+      - picto: mur
+        motCle: Grande Muraille
+        phrases:
+          - "Les Han allongent la Grande Muraille vers l'ouest contre les attaques des cavaliers du nord, les Xiongnu."
+        enSavoirPlus: >-
+          Cette muraille est faite de terre tassée, avec des tours de guet. La muraille en pierre que
+          visitent les touristes est bien plus récente.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans le désert du nord-ouest de la Chine, vers
+            100 av. J.-C. : un long mur bas en couches de terre tassée et de roseaux, couleur sable, file en
+            ligne droite jusqu'à l'horizon ; une tour de guet carrée en terre se dresse près du mur, avec un
+            feu de signal allumé au sommet ; deux soldats chinois des Han, en tunique rouge sombre et
+            armure de petites plaques, avec des arbalètes, montent la garde. Ne doit pas figurer : texte,
+            lettre, caractère chinois, chiffre, mur en briques ou en pierre taillée, créneaux, touriste,
+            route, véhicule, arme à feu.
+          alt: Un long mur de terre dans le désert, avec une tour de guet et deux soldats chinois.
+      - picto: rouleau
+        motCle: papier
+        phrases:
+          - "Vers 105, Cai Lun, un fonctionnaire de l'empereur, améliore la fabrication du papier, une invention chinoise."
+        enSavoirPlus: >-
+          Le papier existait déjà avant lui : il fixe la bonne façon de le faire, avec de l'écorce, du
+          chanvre et de vieux chiffons. Beaucoup de livres disent qu'il l'a inventé.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un atelier de papier en Chine, vers l'an 100 :
+            un artisan chinois en tunique de chanvre, manches relevées, sort d'une grande cuve d'eau
+            laiteuse un cadre de bois tendu d'un fin tamis, couvert d'une mince couche de pâte blanche ; à
+            côté, des feuilles de papier blanc, vierges, sèchent collées contre un mur. Lumière du jour.
+            Ne doit pas figurer : texte, lettre, caractère chinois, chiffre, signe écrit sur les feuilles,
+            machine, métal brillant, objet en plastique, vêtement moderne.
+          alt: Un artisan chinois sort d'une cuve un cadre couvert de pâte à papier ; des feuilles sèchent au mur.
+      - picto: balance
+        motCle: points communs
+        phrases:
+          - "Comme Rome, la Chine des Han a un empereur, une armée, des fonctionnaires, des routes et des villes."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, image coupée en deux moitiés côte à côte par un
+            mince trait blanc vertical. À gauche, l'empire romain vers l'an 100 : une route pavée de grosses
+            dalles traverse la campagne, des soldats romains en armure de plaques, avec un grand bouclier
+            rouge rectangulaire, marchent vers une ville aux murs de pierre et aux toits de tuiles rouges. À
+            droite, la Chine des Han à la même époque : une route de terre bordée d'arbres, des soldats
+            chinois en tunique rouge sombre avec des lances marchent vers une ville aux remparts de terre et
+            aux toits de tuiles grises. Ne doit pas figurer : texte, lettre, caractère chinois, chiffre,
+            panneau, borne avec inscription, véhicule, arme à feu, objet moderne.
+          alt: >-
+            Deux scènes côte à côte : à gauche, des soldats romains sur une route pavée ; à droite, des
+            soldats chinois sur une route de terre, chacun vers une ville.
+    questions:
+      - question: Qui dirige la Chine des Han ?
+        reponse: Un empereur, le « Fils du Ciel », aidé par des fonctionnaires lettrés.
+      - question: Quelle invention chinoise Cai Lun améliore-t-il vers 105 ?
+        reponse: Le papier.
+      - question: Cite deux points communs entre l'empire romain et la Chine des Han.
+        reponse: Tous deux ont un empereur, une armée, des fonctionnaires, des routes et des villes.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: L'ancienne route de la soie
+    ensemble:
+      type: mosaique
+    formule: route de la soie = des pistes + des routes de mer + des intermédiaires
+    cartes:
+      - picto: tissu
+        motCle: soie
+        phrases:
+          - "La soie est un tissu doux et brillant, fait avec le fil du cocon d'une chenille, le ver à soie."
+        enSavoirPlus: >-
+          Le ver à soie mange des feuilles de mûrier. Pour faire son cocon, il fabrique un fil très fin et
+          très long.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, gros plan, fond de bois sombre. À gauche, quelques
+            cocons de ver à soie blancs et ovales posés sur des feuilles vertes de mûrier, avec une chenille
+            blanche ; au centre, un écheveau de fil de soie écrue brillante ; à droite, un tissu de soie
+            rouge et un tissu de soie bleu, souples et brillants, à moitié pliés. Lumière douce de côté. Ne
+            doit pas figurer : texte, lettre, chiffre, étiquette, emballage, objet en plastique, machine.
+          alt: Des cocons de ver à soie sur des feuilles de mûrier, un écheveau de fil et des tissus de soie brillants.
+      - picto: cle
+        motCle: secret
+        phrases:
+          - "Les Chinois gardent le secret de la soie : les Romains croient qu'elle pousse sur des arbres."
+        enSavoirPlus: >-
+          Les Romains imaginent une sorte de laine que l'on peigne sur les feuilles. Ils ne savent rien du
+          ver à soie.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une cour d'une maison chinoise de l'époque
+            des Han, vers l'an 100 : deux femmes chinoises en robes de chanvre, cheveux en chignon, plongent
+            des cocons de ver à soie dans une bassine d'eau chaude et enroulent les fils sur un dévidoir en
+            bois ; à côté, de grands paniers plats en bambou pleins de feuilles de mûrier. Ne doit pas
+            figurer : texte, lettre, caractère chinois, chiffre, machine, métal brillant, objet en plastique,
+            vêtement moderne.
+          alt: Deux femmes chinoises déroulent le fil des cocons de ver à soie dans une bassine d'eau chaude.
+      - picto: lieu
+        motCle: route de la soie
+        phrases:
+          - "La route de la soie, ce sont plusieurs pistes qui relient la Chine à la Méditerranée."
+        enSavoirPlus: >-
+          Ce nom a été inventé au XIXe siècle par un savant allemand. Les marchands de l'Antiquité ne
+          l'utilisaient pas.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre de l'Italie (à gauche) à la Chine
+            (à droite). À gauche, la mer Méditerranée en bleu, centrée vers 18 % de la largeur et 36 % de la
+            hauteur, avec l'Italie en forme de botte vers 12 % de la largeur et 30 % de la hauteur ; en
+            dessous, l'Égypte et le Nil vers 26 % de la largeur et 50 % de la hauteur, puis la mer Rouge qui
+            descend vers le sud-est. Au centre, les plateaux de l'Iran en ocre (vers 42 % de la largeur et
+            38 % de la hauteur), puis les montagnes enneigées et les vallées de l'Afghanistan (vers 56 % de
+            la largeur et 32 % de la hauteur). En bas au centre, l'Inde en pointe vers 60 % de la largeur et
+            62 % de la hauteur, entourée de l'océan Indien bleu. À droite, un grand désert de sable entouré
+            de montagnes, puis les plaines vertes et jaunes de la Chine. Un trait pointillé rouge foncé,
+            bien visible, relie la Chine à la Méditerranée par la terre : il part d'un point rouge foncé à
+            Chang'an (vers 84 % de la largeur et 40 % de la hauteur), longe le bord du désert, traverse les
+            montagnes, l'Iran et rejoint la côte de la Méditerranée en Syrie. Un trait pointillé bleu foncé
+            relie par la mer l'Égypte, la mer Rouge et la côte ouest de l'Inde. Un petit point rouge foncé
+            marque Rome. Couleurs douces et contrastées, côtes nettes. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, frontière moderne, ville moderne, route moderne, quadrillage, légende,
+            rose des vents, flèche.
+          alt: >-
+            Carte de Rome à la Chine : une piste traverse l'Asie de Chang'an jusqu'à la Méditerranée, en
+            passant chez les Kouchans et les Parthes, et une route de mer relie l'Égypte à l'Inde.
+          etiquettes:
+            - texte: Rome
+              x: 10
+              y: 24
+            - texte: Égypte
+              x: 25
+              y: 56
+            - texte: Parthes
+              x: 42
+              y: 30
+            - texte: Kouchans
+              x: 56
+              y: 24
+            - texte: Inde
+              x: 62
+              y: 54
+            - texte: océan Indien
+              x: 52
+              y: 84
+            - texte: Chang'an
+              x: 86
+              y: 34
+      - picto: pas
+        motCle: Zhang Qian
+        phrases:
+          - "Vers 139 av. J.-C., l'empereur Wudi envoie Zhang Qian vers l'ouest : il découvre les peuples d'Asie centrale."
+        enSavoirPlus: >-
+          Il cherche des alliés contre les Xiongnu et ne revient qu'après treize ans de voyage. On le
+          considère comme le fondateur de la route de la soie.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers 130 av. J.-C., dans les montagnes d'Asie
+            centrale : Zhang Qian, envoyé chinois de l'empereur, barbu, en robe de voyage chinoise sombre et
+            bonnet noir, avance à cheval en tenant un long bâton de bambou orné de touffes de crin rouge, le
+            signe de sa mission ; derrière lui, quelques compagnons et des chevaux de bât. Vallée herbeuse,
+            sommets enneigés. Ne doit pas figurer : texte, lettre, caractère chinois, chiffre, drapeau
+            moderne, étrier (inconnu à cette époque), arme à feu, objet moderne.
+          alt: Un envoyé chinois à cheval, tenant un long bâton orné de crin rouge, traverse une vallée de montagne.
+      - picto: chameau
+        motCle: caravane
+        phrases:
+          - "Les marchands voyagent en caravanes : de longues files de chameaux chargés de marchandises."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 100, dans un désert de dunes d'Asie
+            centrale : une longue file de chameaux à deux bosses, chargés de gros ballots de tissu enveloppés
+            de toile et de sacs, avance sur une piste ; des marchands d'Asie centrale, en tunique et bonnet
+            de feutre, marchent à côté. Lumière dorée de fin d'après-midi, montagnes au loin. Ne doit pas
+            figurer : texte, lettre, chiffre, dromadaire à une bosse, route goudronnée, véhicule, vêtement
+            moderne, objet en plastique.
+          alt: Une longue file de chameaux à deux bosses, chargés de ballots, traverse un désert de dunes.
+      - picto: goutte
+        motCle: oasis
+        phrases:
+          - "Dans le désert, les caravanes s'arrêtent dans les oasis : des villes vertes autour d'un point d'eau."
+        enSavoirPlus: >-
+          Par exemple Dunhuang, à l'entrée de la Chine, où les Han installent un poste militaire vers
+          117 av. J.-C.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, légère plongée. Vers l'an 100, une oasis au bord
+            d'un grand désert d'Asie : des peupliers et des champs verts irrigués par de petits canaux, des
+            maisons en terre beige aux toits plats, une grande cour où se reposent des chameaux à deux
+            bosses ; tout autour, des dunes de sable et des montagnes nues. Ne doit pas figurer : texte,
+            lettre, chiffre, mosquée, minaret, coupole, route goudronnée, véhicule, poteau électrique.
+          alt: Une oasis verte avec des arbres, des champs et des maisons de terre, au milieu du désert.
+      - picto: main
+        motCle: intermédiaires
+        phrases:
+          - "Personne ne fait tout le voyage : chaque marchand, un intermédiaire, revend la soie au suivant."
+        enSavoirPlus: >-
+          Entre la Chine et les Parthes, la soie traverse l'empire des Kouchans, dans l'Afghanistan et le
+          Pakistan d'aujourd'hui. Chaque intermédiaire prend sa part.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 100, sur un marché d'une ville d'Asie
+            centrale : un marchand chinois en robe sombre tend un rouleau de soie rouge brillante à un
+            marchand d'Asie centrale en tunique et bonnet de feutre, qui le touche pour vérifier sa qualité ;
+            entre eux, une petite balance en bronze et des ballots ; chameaux à l'arrière-plan. Ne doit pas
+            figurer : texte, lettre, caractère chinois, chiffre, billet, pièce avec inscription lisible,
+            objet en plastique, vêtement moderne.
+          alt: Sur un marché, un marchand chinois tend un rouleau de soie rouge à un marchand d'Asie centrale.
+      - picto: bouclier
+        motCle: Parthes
+        phrases:
+          - "Les Parthes, ennemis de Rome, tiennent le passage en Perse et gardent pour eux le commerce de la soie."
+        enSavoirPlus: >-
+          Leur empire s'étend sur l'Iran et l'Irak d'aujourd'hui. Selon un livre chinois, ils empêchent les
+          Romains d'aller jusqu'en Chine.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 100, sur un plateau sec d'Iran : deux
+            cavaliers parthes, barbus, cheveux longs retenus par un bandeau, en tunique et larges pantalons
+            brodés, montent des chevaux bais ; l'un tire à l'arc vers l'arrière en se retournant sur sa
+            selle ; au loin, une caravane de chameaux passe sous leur surveillance. Ne doit pas figurer :
+            texte, lettre, chiffre, étrier, armure de chevalier, épée moderne, arme à feu, drapeau.
+          alt: Deux cavaliers parthes avec des arcs surveillent une caravane qui passe au loin.
+      - picto: bateau
+        motCle: route de la mer
+        phrases:
+          - "Des navires partent aussi d'Égypte romaine vers l'Inde, poussés par de grands vents réguliers, la mousson."
+        enSavoirPlus: >-
+          Ils partent des ports de la mer Rouge. En Inde, les marchands romains achètent du poivre, des
+          pierres précieuses et de la soie venue de Chine.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 100, en pleine mer : un gros navire
+            de commerce romain en bois, à la coque ronde, avec une grande voile carrée beige gonflée par le
+            vent, avance sur une mer bleu sombre aux vagues moyennes ; des amphores et des marins en tunique
+            courte sur le pont. Ciel lumineux avec quelques nuages. Ne doit pas figurer : texte, lettre,
+            chiffre, moteur, cheminée, hélice, drapeau, voile triangulaire moderne, bouée en plastique.
+          alt: Un navire de commerce romain à voile carrée navigue en pleine mer.
+      - picto: sac
+        motCle: luxe
+        phrases:
+          - "À Rome, la soie coûte très cher : seuls les riches peuvent s'habiller avec ce tissu."
+        enSavoirPlus: >-
+          Elle vient de très loin et passe par beaucoup d'intermédiaires. Le Sénat de Rome essaie même de
+          limiter son usage.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 100, dans une riche maison romaine aux
+            murs peints de rouge et d'ocre : une dame romaine, coiffure bouclée relevée, essaie un voile de
+            soie fine et transparente couleur safran, qui brille à la lumière ; une autre femme tient le
+            tissu et l'admire. Mosaïque au sol, jardin à colonnes au fond. Ne doit pas figurer : texte,
+            lettre, chiffre, miroir moderne, bijou moderne, vêtement moderne, objet en plastique.
+          alt: Dans une riche maison romaine, une dame essaie un voile de soie transparent et brillant.
+    questions:
+      - question: Pourquoi parle-t-on de « route de la soie » ?
+        reponse: Parce que la soie de Chine est la marchandise la plus célèbre qui voyage sur ces routes.
+      - question: Comment les marchandises voyagent-elles entre la Chine et Rome ?
+        reponse: Sur des pistes, en caravanes de chameaux, et par la mer, en bateau.
+      - question: Pourquoi la soie coûte-t-elle si cher à Rome ?
+        reponse: Elle vient de très loin, et chaque intermédiaire prend sa part.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Deux mondes qui se connaissent mal
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: le bouddhisme arrive en Chine
+          dates: Ier siècle apr. J.-C.
+          carte: 8
+        - libelle: voyage de Gan Ying
+          dates: en 97
+          carte: 3
+        - libelle: envoyés romains en Chine
+          dates: en 166
+          carte: 4
+    formule: échanges = des marchandises + des idées
+    cartes:
+      - picto: groupe
+        motCle: Sères
+        phrases:
+          - "Les Romains appellent les Chinois les « Sères », le peuple de la soie, sans bien les connaître."
+        enSavoirPlus: >-
+          Pline l'Ancien, un savant romain du Ier siècle, croit qu'ils récoltent la soie sur les arbres de
+          leurs forêts.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 70, dans une bibliothèque romaine
+            aux étagères pleines de rouleaux : un savant romain âgé, en toge blanche, assis à une table,
+            regarde avec curiosité un morceau de soie bleue brillante qu'il tient entre ses doigts ; un
+            rouleau de papyrus déroulé devant lui, couvert de lignes fines vues de loin, illisibles. Lumière
+            d'une lampe à huile. Ne doit pas figurer : lettre lisible, chiffre, livre relié, lunettes,
+            plume d'oiseau, objet moderne.
+          alt: Un savant romain en toge observe avec curiosité un morceau de soie bleue, devant des rouleaux.
+      - picto: groupe
+        motCle: Da Qin
+        phrases:
+          - "Les Chinois appellent l'empire romain « Da Qin » : ils en entendent parler par des marchands."
+        enSavoirPlus: >-
+          Un livre d'histoire chinois le décrit comme un grand pays riche, aux villes entourées de murs de
+          pierre.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 100, dans une salle de bois d'un
+            bâtiment officiel de la Chine des Han : un fonctionnaire chinois en robe sombre, assis à genoux,
+            écoute un marchand d'Asie centrale en tunique et bonnet de feutre, qui fait un geste lointain de
+            la main comme pour raconter un pays très éloigné ; un scribe chinois prend des notes au pinceau
+            sur des lamelles de bambou ; les signes tracés sont minuscules, vus de loin, flous et
+            illisibles. Ne doit pas figurer : lettre de notre alphabet, chiffre arabe, caractère chinois net
+            ou lisible, carte dessinée, objet moderne.
+          alt: Un fonctionnaire chinois écoute un marchand venu de loin raconter ce qu'il sait d'un pays lointain.
+      - picto: pas
+        motCle: Gan Ying
+        phrases:
+          - "En 97, l'envoyé chinois Gan Ying atteint une mer à l'ouest, mais renonce à aller jusqu'à Rome."
+        enSavoirPlus: >-
+          Selon un livre chinois, des marins parthes lui disent que la traversée peut durer deux ans. Il fait
+          demi-tour.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. En 97, sur un rivage sec du Proche-Orient : un
+            envoyé chinois des Han, en robe de voyage sombre et bonnet noir, regarde la mer immense ; à côté
+            de lui, un marin parthe barbu, en tunique, montre l'horizon de la main ; une barque en bois est
+            tirée sur le sable. Ciel lumineux. Ne doit pas figurer : texte, lettre, caractère chinois,
+            chiffre, bateau à moteur, phare, bâtiment moderne, objet moderne.
+          alt: Un envoyé chinois regarde la mer, pendant qu'un marin lui montre l'horizon.
+      - picto: drapeau
+        motCle: envoyés de Rome
+        phrases:
+          - "En 166, selon un livre chinois, des envoyés de l'empereur romain arrivent par la mer à la cour des Han."
+        enSavoirPlus: >-
+          Ils offrent de l'ivoire et des carapaces de tortue. Aucun texte romain n'en parle : c'étaient
+          peut-être des marchands.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. En 166, dans une grande salle de palais de la
+            Chine des Han aux colonnes de bois laqué rouge et noir : trois voyageurs venus de l'empire romain,
+            en tuniques claires et manteaux, barbus, cheveux courts, offrent une défense d'éléphant en
+            ivoire et une grande carapace de tortue ; des fonctionnaires chinois en robes sombres les
+            regardent ; l'empereur, assis au fond sur une estrade, est flou. Ne doit pas figurer : texte,
+            lettre, caractère chinois, chiffre, armure de légionnaire, aigle romaine, Cité interdite, toit
+            doré, objet moderne.
+          alt: Des voyageurs venus de l'empire romain offrent une défense d'ivoire et une carapace de tortue à la cour chinoise.
+      - picto: pot
+        motCle: verre
+        phrases:
+          - "Des vases en verre fabriqués dans l'empire romain arrivent jusqu'en Chine : on en retrouve dans des tombes."
+        enSavoirPlus: >-
+          Par exemple à Luoyang, dans une tombe de l'époque des Han. En Chine, ce verre est un objet rare,
+          réservé aux plus riches.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage de vitrine de musée.
+            Deux petits récipients en verre soufflé dans le style du verre romain du Ier siècle (sans copier
+            un objet précis) : une coupe ronde bleu-vert translucide et un petit flacon à long col, légèrement
+            irisés par le temps. Ne doit pas figurer : texte, lettre, chiffre, étiquette, socle avec
+            inscription, verre moderne parfaitement lisse, objet en plastique.
+          alt: Une coupe et un petit flacon en verre bleu-vert, dans le style du verre romain.
+      - picto: piece
+        motCle: or
+        phrases:
+          - "Pour payer la soie, le poivre et les pierres précieuses, des pièces d'or romaines partent vers l'Orient."
+        enSavoirPlus: >-
+          On a retrouvé dans le sud de l'Inde des pièces d'or romaines à l'image de l'empereur Auguste.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, gros plan, fond de terre brune comme sur une fouille.
+            Une dizaine de pièces d'or romaines anciennes, rondes et un peu usées, à moitié sorties de la
+            terre : sur certaines, on devine le profil d'une tête d'homme. Le bord des pièces est usé, sans
+            aucune lettre lisible. Lumière chaude. Ne doit pas figurer : lettre lisible, chiffre, pièce
+            moderne, billet, étiquette, main avec gant, objet en plastique.
+          alt: Des pièces d'or romaines anciennes à moitié sorties de la terre, avec le profil d'un empereur.
+      - picto: cheval
+        motCle: chevaux célestes
+        phrases:
+          - "Les Chinois veulent aussi les grands chevaux d'Asie centrale, qu'ils appellent les « chevaux célestes »."
+        enSavoirPlus: >-
+          Ils viennent de la vallée du Ferghana. Les Han envoient des caravanes chargées de soie pour les
+          obtenir.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers 100 av. J.-C., dans une vallée verte d'Asie
+            centrale entourée de montagnes : des éleveurs d'Asie centrale, en tunique et bonnet de feutre,
+            mènent trois grands chevaux élancés à la robe dorée et brillante vers un groupe de voyageurs
+            chinois en robes sombres, accompagnés de chameaux chargés de ballots de soie. Ne doit pas
+            figurer : texte, lettre, caractère chinois, chiffre, selle moderne, étrier (inconnu à cette époque),
+            clôture moderne, objet moderne.
+          alt: Des éleveurs d'Asie centrale amènent de grands chevaux dorés à des voyageurs chinois venus avec de la soie.
+      - picto: temple
+        motCle: bouddhisme
+        phrases:
+          - "Les idées voyagent aussi : le bouddhisme, une religion née en Inde, arrive en Chine par ces routes."
+        enSavoirPlus: >-
+          Il arrive au Ier siècle apr. J.-C., en passant par l'empire des Kouchans. Des moines traduisent
+          ses livres en chinois.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Vers l'an 150, sur une piste au bord du désert,
+            à l'entrée de la Chine : deux moines bouddhistes venus d'Asie centrale, crâne rasé, en robes
+            ocre drapées sur une épaule, marchent avec une caravane de chameaux ; l'un porte sur son dos un
+            paquet de manuscrits enveloppés dans un tissu. Montagnes au loin, lumière du matin. Ne doit pas
+            figurer : texte, lettre, caractère, chiffre, statue, temple moderne, drapeau, objet moderne.
+          alt: Deux moines bouddhistes en robes ocre marchent avec une caravane de chameaux, au bord du désert.
+      - picto: globe
+        motCle: deux mondes reliés
+        phrases:
+          - "Rome et la Chine ne se rencontrent presque jamais, mais les routes de la soie relient leurs deux mondes."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, image coupée en deux moitiés côte à côte par un
+            mince trait blanc vertical. À gauche, à Rome vers l'an 100 : une riche Romaine en tunique claire
+            déplie un tissu de soie rouge brillante venu de Chine. À droite, en Chine des Han à la même
+            époque : un riche Chinois en robe sombre à larges manches lève à la lumière une coupe en verre
+            bleu-vert venue de l'empire romain. Ne doit pas figurer : texte, lettre, caractère chinois,
+            chiffre, carte, flèche, objet moderne.
+          alt: >-
+            Deux scènes côte à côte : à Rome, une femme déplie un tissu de soie chinoise ; en Chine, un homme
+            regarde une coupe en verre romaine.
+    questions:
+      - question: Comment les Romains appellent-ils les Chinois ?
+        reponse: Les Sères, le « peuple de la soie ».
+      - question: Les Romains et les Chinois se rencontrent-ils souvent ?
+        reponse: "Presque jamais : ils se connaissent surtout par les marchands et les intermédiaires."
+      - question: Qu'est-ce qui voyage sur les routes de la soie ?
+        reponse: "Des marchandises, comme la soie, le poivre, le verre et l'or, et des idées, comme le bouddhisme."

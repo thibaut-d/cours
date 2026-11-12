@@ -1,0 +1,628 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 3 « L'empire romain dans le monde antique », sous-thème
+# « Des chrétiens dans l'empire » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Fiche Eduscol du thème 3 : partir des communautés chrétiennes et de Paul, montrer la lente séparation
+# d'avec le judaïsme, les persécutions (Néron, Dioclétien), puis Constantin, Nicée et l'édit de
+# Thessalonique (380) ; démarche historienne, ne pas présenter le christianisme de façon statique.
+# Repère : Ier-IVe siècles, les débuts du christianisme.
+# Ton : ce que l'historien établit (sources) est distinct de ce que croient les chrétiens
+# (« les chrétiens croient que… »).
+# Leçon précédente : « Conquêtes et paix romaine » (contenu/6e/histoire/empire-romain).
+# Leçon suivante : « Rome et la Chine des Han » (contenu/6e/histoire/route-de-la-soie).
+titre: Des chrétiens dans l'empire
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 9
+langue: fr
+statut: brouillon
+resume: >-
+  Jésus, un Juif de Galilée mort vers 30, ses disciples, la diffusion du christianisme dans les villes de
+  l'empire romain, les persécutions, puis la tolérance (313) et la religion officielle (380).
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 3, « L'empire romain dans le monde antique », sous-thème
+      « Des chrétiens dans l'empire »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 3 » (mars 2016) :
+      lettres de Paul, plus anciens documents sur les communautés se réclamant de Jésus ; Paul citoyen
+      romain, sans doute mort sous Néron ; lente séparation d'avec le judaïsme (révolte de 66, prise de
+      Jérusalem en 70) ; refus du culte impérial ; persécutions sous Néron et Dioclétien ; Constantin et
+      le concile de Nicée (325) ; édit de Thessalonique (380) ; Théodose et l'évêque Ambroise ; repère
+      « Ier-IVe siècles : les débuts du christianisme »
+    url: https://eduscol.education.fr/document/16756/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Encyclopédie Larousse, « Jésus ou Jésus-Christ » : enfance à Nazareth en Galilée ; mort
+      probablement en 30 (30 ou 33) ; crucifié sous Ponce Pilate, préfet de Judée de 26 à 36 ; Tacite,
+      Annales XV, 44 : le Christ « livré au supplice par Ponce Pilate », chrétiens accusés par Néron de
+      l'incendie de Rome en 64
+    url: https://www.larousse.fr/encyclopedie/personnage/J%C3%A9sus/125884
+  - libelle: >-
+      Encyclopédie Larousse, « évangile » : quatre Évangiles écrits en grec, probablement entre 70 et 100 ;
+      canon du Nouveau Testament établi du IIe au IVe siècle
+    url: https://www.larousse.fr/encyclopedie/divers/%C3%A9vangile/50134
+  - libelle: >-
+      Mélanie Adda (IREL, EPHE), bibliographie et repères « Bible, canon, Bible chrétienne » : Évangiles de
+      Matthieu et de Luc vers 80-90, de Jean vers 95-100
+    url: https://irel.ephe.psl.eu/sites/default/files/2026-05/lettres-et-faits-religieux-bibliographie-bible-canon-bible-chretienne-adda.pdf
+  - libelle: >-
+      Encyclopædia Universalis, « Christianisme » : né dans le judaïsme ; nom de « chrétiens » donné aux
+      disciples vers 44, à Antioche ; présent à Rome dès 61 ; persécutions impériales
+    url: https://www.universalis.fr/encyclopedie/christianisme/
+  - libelle: >-
+      Ville de Lyon, « Amphithéâtre romain des Trois Gaules » : en 177, 48 chrétiens condamnés, la plupart
+      exécutés dans cet amphithéâtre, dont Blandine
+    url: https://www.lyon.fr/lieu/antiquite/amphitheatre-romain-des-trois-gaules
+  - libelle: >-
+      Encyclopædia Universalis, « Catacombes » : des cimetières souterrains ; l'idée de refuges des
+      premiers chrétiens est sans fondement ; premiers hypogées au IIIe siècle, grandes catacombes
+      surtout aux IVe et Ve siècles
+    url: https://www.universalis.fr/encyclopedie/catacombes/
+  - libelle: >-
+      Renaud Rochette, « Constantin, empereur d'un empire qui se christianise », fiche pédagogique de
+      l'IREL (EPHE) : bataille du pont Milvius (312), rencontre de Constantin et Licinius à Milan (313),
+      texte de l'édit de Milan d'après Eusèbe (liberté pour les chrétiens et pour tous de suivre la
+      religion de leur choix), chrisme « formé des deux premières lettres du nom du Christ » en grec,
+      concile de Nicée (325) et Credo, Théodose impose le christianisme nicéen en 380 puis prend des
+      mesures contre les cultes traditionnels dans les années 390
+    url: https://irel.ephe.psl.eu/sites/default/files/2026-06/fiche-constantin.pdf
+  - libelle: >-
+      Encyclopædia Universalis, « Bataille du pont Milvius (312) » : selon certains auteurs, Constantin
+      fait inscrire un signe chrétien, le chrisme, sur les étendards de son armée (Lactance parle des
+      boucliers)
+    url: https://www.universalis.fr/encyclopedie/bataille-du-pont-milvius/
+  - libelle: >-
+      Encyclopædia Universalis, « Théodose Ier le Grand » : l'édit de Thessalonique (380) fait du
+      christianisme la religion officielle ; Ambroise, évêque de Milan, oblige l'empereur à faire
+      pénitence après le massacre de Thessalonique
+    url: https://www.universalis.fr/encyclopedie/theodose-ier-le-grand/
+  - libelle: >-
+      Code théodosien, XVI, 10, 12 (8 novembre 392) : Théodose interdit tous les sacrifices aux dieux,
+      publics ou privés (base Judaism and Rome, CNRS)
+    url: https://heurist.huma-num.fr/heurist/judaism_and_rome/view/1024
+  - libelle: >-
+      Ministère de la Culture, Trésor de la cathédrale d'Amiens, glossaire, « Chrisme » : « monogramme
+      constitué des deux premières lettres du nom du Christ en grec : X (khi) et P (rhô) »
+    url: https://tresor-cathedrale-amiens.culture.gouv.fr/fr/glossaire/chrisme
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Jésus et ses disciples
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: mort de Jésus
+          dates: vers 30 ap. J.-C.
+          carte: 3
+        - libelle: les Évangiles
+          dates: écrits vers 70 à 100
+          carte: 7
+    formule: chrétien = croit que Jésus est le Christ
+    cartes:
+      - picto: lieu
+        motCle: Judée
+        phrases:
+          - "Au Ier siècle, la Judée est une province de l'empire romain, où vivent surtout des Juifs."
+        enSavoirPlus: >-
+          On appelle aussi cette région la Palestine. Sa grande ville est Jérusalem, avec le Temple des
+          Juifs.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne en légère plongée. Jérusalem
+            vers l'an 30 : une ville aux maisons de pierre claire aux toits plats, serrées sur des
+            collines sèches, entourée de remparts ; au centre, sur une immense esplanade rectangulaire
+            bordée de portiques à colonnes, un grand temple aux murs de pierre blanche et aux décors
+            dorés. Oliviers sur les collines autour, ciel clair. Ne doit pas figurer : texte, lettre,
+            chiffre, coupole, dôme doré, minaret, clocher, croix, véhicule, objet moderne.
+          alt: Vue d'en haut de Jérusalem au temps de Jésus, avec ses remparts et le grand temple au centre.
+      - picto: personne
+        motCle: Jésus
+        phrases:
+          - Jésus est un Juif de Galilée, au nord de la Judée ; il parcourt la région en parlant de Dieu.
+        enSavoirPlus: >-
+          Il a grandi à Nazareth. Ses disciples sont des gens qui le suivent et écoutent son enseignement.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Le bord du lac de Tibériade, en Galilée,
+            vers l'an 30 : un petit village de pêcheurs aux maisons basses en pierres sombres ; deux
+            barques de bois tirées sur la plage de galets ; des pêcheurs en tuniques de laine beige
+            réparent leurs filets ; collines vertes et brunes de l'autre côté du lac, lumière douce du
+            matin. Personnes vues de loin, aucune ne se distingue. Ne doit pas figurer : texte, lettre,
+            chiffre, auréole, croix, bateau à moteur, vêtement moderne, objet en plastique.
+          alt: Un village de pêcheurs au bord du lac de Tibériade, en Galilée, la région où vit Jésus.
+      - picto: croix
+        motCle: crucifixion
+        phrases:
+          - "Vers 30, à Jérusalem, le gouverneur romain Ponce Pilate le condamne à mourir sur une croix."
+        enSavoirPlus: >-
+          La crucifixion est une peine romaine très dure, donnée aux esclaves et aux révoltés. Les
+          chrétiens font de la croix leur signe.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Jérusalem, vers l'an 30 : un gouverneur
+            romain assis sur une chaise pliante en ivoire, posée sur une haute estrade de pierre, rend
+            un jugement ; il porte une tunique blanche et un manteau rouge sombre drapé sur l'épaule ; à
+            ses côtés, deux soldats romains en tunique, casque de métal et bouclier ovale ; en bas, une petite
+            foule d'habitants vus de dos. Ne doit pas figurer : texte, lettre, chiffre, croix, sang,
+            violence, auréole, armure médiévale, objet moderne.
+          alt: Un gouverneur romain en toge rend un jugement sur une estrade de pierre, entouré de soldats.
+      - picto: loupe
+        motCle: sources
+        phrases:
+          - "Peu de textes non chrétiens parlent de Jésus : l'historien romain Tacite le cite en une phrase."
+        enSavoirPlus: >-
+          Vers 115, Tacite écrit que le Christ a été exécuté par Ponce Pilate. Vers 93, l'historien juif
+          Flavius Josèphe parle aussi de Jésus en quelques lignes. Le reste vient des textes chrétiens.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans une bibliothèque ancienne aux
+            étagères de bois sombre, une historienne assise à une table, vue de trois quarts, observe à
+            la loupe un vieux livre manuscrit ouvert, dont les pages jaunies sont floues et illisibles ;
+            lampe de bureau à la lumière chaude. Ne doit pas figurer : texte lisible, lettre, chiffre,
+            titre, étiquette, panneau, logo, écran.
+          alt: Une historienne étudie à la loupe un vieux manuscrit dans une bibliothèque.
+      - picto: tombe
+        motCle: Messie
+        phrases:
+          - Ses disciples croient qu'il est ressuscité, qu'il est le fils de Dieu et le Messie, en grec le Christ.
+        enSavoirPlus: >-
+          Ressuscité veut dire revenu à la vie. Le Messie est l'envoyé de Dieu que des Juifs attendent.
+          C'est une croyance : l'historien ne peut pas la vérifier.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, lumière du soir. Un tombeau juif du Ier siècle
+            creusé dans une paroi de calcaire clair, près de Jérusalem : une petite entrée carrée
+            sombre, et à côté une grosse pierre ronde et plate, comme une meule, qui servait à la
+            fermer ; quelques herbes sèches et un olivier. Aucun humain. Ne doit pas figurer : texte,
+            lettre, chiffre, croix, auréole, lumière surnaturelle, ange, barrière moderne, panneau.
+          alt: Un tombeau juif du Ier siècle creusé dans la roche, avec une grosse pierre ronde pour le fermer.
+      - picto: groupe
+        motCle: chrétiens
+        phrases:
+          - Ceux qui croient que Jésus est le Christ sont appelés les chrétiens.
+        enSavoirPlus: >-
+          Ce nom apparaît vers 44 à Antioche, une grande ville de l'empire. Les premiers chrétiens se
+          réunissent dans des maisons.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au Ier siècle, dans la pièce principale
+            d'une maison d'une ville de l'empire romain, éclairée par des lampes à huile en terre cuite :
+            une douzaine d'hommes, de femmes et d'enfants en tuniques simples partagent un repas de
+            pain et de vin autour d'une table basse, et écoutent un homme âgé qui parle. Ne doit pas
+            figurer : texte, lettre, chiffre, auréole, croix, statue, verre moderne, bougie moderne,
+            objet moderne.
+          alt: Une famille et des voisins partagent un repas dans une maison romaine, éclairée par des lampes à huile.
+      - picto: livre
+        motCle: Évangiles
+        phrases:
+          - "Les Évangiles racontent la vie de Jésus selon les premiers chrétiens ; ils sont écrits vers 70 à 100."
+        enSavoirPlus: >-
+          Il y en a quatre : selon Marc, Matthieu, Luc et Jean. Ils sont écrits en grec, des dizaines
+          d'années après la mort de Jésus.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage de musée. Un
+            fragment de papyrus brun clair, très ancien, aux bords déchirés, dans le style des plus
+            anciens papyrus chrétiens (sans copier un papyrus précis) : on y devine quelques lignes
+            d'écriture grecque ancienne à l'encre brune, très effacées, trop petites et abîmées pour être
+            lues. Ne doit pas figurer : lettre de notre alphabet, chiffre, mot lisible, étiquette,
+            socle avec inscription, objet moderne.
+          alt: Un très vieux fragment de papyrus, avec des restes d'écriture grecque presque effacés.
+      - picto: rouleau
+        motCle: Nouveau Testament
+        phrases:
+          - "Les chrétiens réunissent les Évangiles et d'autres textes, comme les lettres de Paul : c'est le Nouveau Testament."
+        enSavoirPlus: >-
+          La liste de ces textes se fixe peu à peu, du IIe au IVe siècle. Les chrétiens gardent aussi la
+          Bible des Juifs, qu'ils appellent l'Ancien Testament.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans une salle de musée sombre. Un très ancien
+            livre manuscrit fermé, de l'Antiquité tardive, posé à plat dans une vitrine : une couverture
+            de bois recouverte de cuir brun usé, des lanières de fermeture ; à côté, un rouleau de
+            parchemin roulé. Éclairage doux de vitrine. Ne doit pas figurer : texte, lettre, chiffre,
+            titre sur la couverture, croix dorée, étiquette, panneau, visiteur.
+          alt: Un très vieux livre fermé à couverture de cuir et un rouleau de parchemin, dans une vitrine de musée.
+    questions:
+      - question: Qui est Jésus ?
+        reponse: Un Juif de Galilée, mort sur une croix à Jérusalem vers 30, condamné par le Romain Ponce Pilate.
+      - question: Que croient les chrétiens ?
+        reponse: Que Jésus est le fils de Dieu, le Messie (le Christ), et qu'il est ressuscité.
+      - question: Que sont les Évangiles ?
+        reponse: Des textes qui racontent la vie de Jésus selon les premiers chrétiens, écrits vers 70 à 100.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Une religion qui se répand
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: voyages de Paul
+          dates: vers 45 à 60
+          carte: 2
+        - libelle: persécution de Néron
+          dates: en 64
+          carte: 7
+        - libelle: martyrs de Lyon
+          dates: en 177
+          carte: 8
+    formule: persécution = punir des gens à cause de leur religion
+    cartes:
+      - picto: pas
+        motCle: apôtres
+        phrases:
+          - "Après la mort de Jésus, ses disciples, les apôtres, partent annoncer son message."
+        enSavoirPlus: Apôtre veut dire « envoyé ». Selon les chrétiens, Pierre est le premier d'entre eux.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au Ier siècle, deux voyageurs en tunique
+            et manteau de laine, sandales aux pieds, bâton à la main et sac de toile à l'épaule,
+            marchent sur une large voie romaine pavée de grandes dalles, au milieu de collines sèches
+            plantées d'oliviers ; une borne de pierre au bord de la route, une ville au loin. Vus de
+            dos. Ne doit pas figurer : texte, lettre, chiffre, inscription sur la borne, auréole, croix,
+            véhicule, objet moderne.
+          alt: Deux voyageurs marchent sur une voie romaine pavée, au milieu des oliviers.
+      - picto: personne
+        motCle: Paul
+        phrases:
+          - "Paul, un Juif qui est aussi citoyen romain, voyage de ville en ville pour fonder des groupes de chrétiens."
+        enSavoirPlus: >-
+          Il voyage par les routes et par la mer : en Asie Mineure, en Grèce, puis jusqu'à Rome. On pense
+          qu'il y meurt sous Néron.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au Ier siècle, un navire marchand romain en
+            bois, avec une grande voile carrée beige et une coque ventrue, navigue sur la mer
+            Méditerranée bleue près d'une côte rocheuse de Grèce ; quelques passagers en tuniques sont
+            assis sur le pont parmi des amphores. Ne doit pas figurer : texte, lettre, chiffre, moteur,
+            hélice, drapeau, canon, objet moderne.
+          alt: Un navire marchand romain à voile carrée, avec des passagers, navigue sur la Méditerranée.
+      - picto: rouleau
+        motCle: lettres de Paul
+        phrases:
+          - "Paul écrit des lettres à ces groupes, vers 50 : ce sont les plus anciens textes chrétiens."
+        enSavoirPlus: >-
+          Ces lettres sont plus anciennes que les Évangiles. Elles montrent que des groupes de chrétiens
+          existent déjà dans plusieurs villes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au Ier siècle, dans une pièce simple aux
+            murs blanchis, éclairée par une fenêtre : un homme en tunique, assis, dicte une lettre à un
+            secrétaire qui écrit à l'encre avec un roseau sur une feuille de papyrus posée sur une
+            planchette ; une lampe à huile et un encrier en terre cuite sur la table. Les signes sur le
+            papyrus sont trop petits pour être lus. Ne doit pas figurer : lettre de notre alphabet,
+            chiffre, mot lisible, plume d'oiseau, papier moderne, livre relié, auréole, objet moderne.
+          alt: Un homme dicte une lettre à un secrétaire qui écrit sur un papyrus avec un roseau.
+      - picto: main
+        motCle: judaïsme
+        phrases:
+          - "Paul accueille aussi des non-Juifs : peu à peu, les chrétiens se séparent du judaïsme."
+        enSavoirPlus: >-
+          Les premiers chrétiens sont des Juifs : comme eux, ils croient en un seul Dieu. En 70, les Romains détruisent le Temple de Jérusalem.
+          Ensuite, juifs et chrétiens suivent des chemins différents.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au Ier siècle, dans la cour d'une maison
+            d'une ville grecque de l'empire romain : un petit groupe mêlé d'hommes et de femmes, certains
+            habillés à la manière juive (manteau à franges), d'autres à la manière grecque (tunique et
+            himation drapé), écoutent ensemble un voyageur qui parle. Lumière de fin d'après-midi,
+            colonnes de pierre simples. Ne doit pas figurer : texte, lettre, chiffre, auréole, croix,
+            étoile à six branches, objet moderne.
+          alt: Des Juifs et des Grecs écoutent ensemble un voyageur dans la cour d'une maison.
+      - picto: ville
+        motCle: villes
+        phrases:
+          - Le christianisme se répand d'abord dans les villes, le long des routes et des mers de l'empire.
+        enSavoirPlus: >-
+          Vers 300, il y a des chrétiens dans tout l'empire, mais ils restent une minorité, surtout dans
+          les campagnes.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre la mer Méditerranée tout
+            entière, de l'Espagne à gauche jusqu'à la côte du Liban et d'Israël à droite. La mer, bleue,
+            occupe le milieu et le bas de l'image ; la France est en haut à gauche, l'Italie en forme de
+            botte descend vers 38 % de la largeur et 30 à 50 % de la hauteur ; la Grèce est vers 60 % de
+            la largeur et 48 % de la hauteur ; la Turquie occupe le haut à droite ; la côte africaine
+            longe le bas de l'image, avec le delta vert du Nil en bas à droite, vers 79 % de la largeur
+            et 82 % de la hauteur. Huit petits points rouge foncé bien visibles marquent des villes :
+            vers 88 % de la largeur et 77 % de la hauteur ; vers 91 % et 59 % ; vers 71 % et 52 % ;
+            vers 61 % et 52 % ; vers 37 % et 36 % ; vers 20 % et 21 % ; vers 77 % et 79 % ; vers 32 %
+            et 56 %. Couleurs douces et contrastées, côtes nettes. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, frontière, ville moderne, route, quadrillage, légende, rose des vents,
+            flèche.
+          alt: >-
+            Carte de la Méditerranée avec des villes où vivent les premiers chrétiens : Jérusalem,
+            Antioche, Éphèse, Corinthe, Rome, Lyon, Alexandrie et Carthage.
+          etiquettes:
+            - texte: Jérusalem
+              x: 88
+              y: 72
+            - texte: Antioche
+              x: 91
+              y: 54
+            - texte: Éphèse
+              x: 71
+              y: 47
+            - texte: Corinthe
+              x: 59
+              y: 57
+            - texte: Rome
+              x: 37
+              y: 31
+            - texte: Lyon
+              x: 20
+              y: 16
+            - texte: Alexandrie
+              x: 75
+              y: 86
+            - texte: Carthage
+              x: 32
+              y: 62
+            - texte: mer Méditerranée
+              x: 50
+              y: 70
+      - picto: couronne
+        motCle: culte de l'empereur
+        phrases:
+          - Les chrétiens refusent d'honorer l'empereur comme un dieu et de faire des sacrifices aux dieux de Rome.
+        enSavoirPlus: >-
+          Un sacrifice est une offrande faite aux dieux : de l'encens, du vin ou un animal. Pour les
+          Romains, refuser est une faute grave.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Sur le forum d'une ville romaine, au
+            IIe siècle : devant la statue de marbre d'un empereur en toge, posée sur un socle, un petit
+            autel de pierre où brûle de l'encens ; des habitants en toge et en tunique s'avancent pour
+            jeter des grains d'encens dans le feu ; à l'écart, un homme et une femme restent immobiles,
+            les mains vides. Ne doit pas figurer : texte, lettre, chiffre, inscription sur le socle,
+            auréole, croix, sang, objet moderne.
+          alt: Des habitants brûlent de l'encens devant la statue d'un empereur ; un homme et une femme restent à l'écart.
+      - picto: feu
+        motCle: persécution
+        phrases:
+          - "En 64, après un grand incendie à Rome, l'empereur Néron accuse les chrétiens et en fait tuer."
+        enSavoirPlus: >-
+          Les persécutions ne sont pas continues : pendant longtemps, les chrétiens vivent souvent en paix,
+          puis un empereur ou un gouverneur les fait poursuivre.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, de nuit. Rome en 64 : vue de loin, depuis
+            une colline, un grand incendie ravage des quartiers d'immeubles de briques et de bois aux
+            toits de tuiles ; hautes flammes orange et fumée noire sous le ciel sombre ; au premier plan,
+            des habitants en tuniques regardent, inquiets. Ne doit pas figurer : texte, lettre, chiffre,
+            victime, corps, sang, camion de pompiers, objet moderne.
+          alt: De nuit, un grand incendie ravage des quartiers de Rome, devant des habitants inquiets.
+      - picto: bouclier
+        motCle: martyr
+        phrases:
+          - "Un martyr est tué pour sa foi : à Lyon, en 177, Blandine meurt dans l'amphithéâtre."
+        enSavoirPlus: >-
+          Blandine est une jeune esclave chrétienne. Cette année-là, 48 chrétiens de Lyon sont condamnés.
+          On le sait par une lettre recopiée par un auteur chrétien.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, lumière douce. Les ruines d'un
+            petit amphithéâtre romain dégagé par les archéologues au pied d'une colline, dans une ville
+            française : quelques gradins bas en pierre, l'arène ovale en terre battue, des arbres autour
+            et des immeubles anciens au loin. Aucun humain. Ne doit pas figurer : texte, lettre,
+            chiffre, panneau, voiture, affiche, logo.
+          alt: Les ruines d'un amphithéâtre romain dans une ville, comme celui de Lyon où meurt Blandine.
+      - picto: grotte
+        motCle: catacombes
+        phrases:
+          - "À Rome, les chrétiens enterrent leurs morts dans des catacombes, des cimetières creusés sous terre."
+        enSavoirPlus: >-
+          Ce ne sont pas des cachettes pour se protéger : ce sont des tombes. On les creuse surtout à
+          partir du IIIe siècle.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage. Une galerie étroite d'une catacombe de Rome,
+            creusée dans la roche tendre brun-ocre : sur les deux parois, plusieurs rangées de niches
+            rectangulaires superposées, certaines fermées par des plaques de pierre, d'autres vides ;
+            éclairage doux et chaud qui se perd dans le fond du couloir. Aucun humain. Ne doit pas
+            figurer : texte, lettre, chiffre, ossements, crâne, squelette, lampe électrique visible,
+            touriste, panneau.
+          alt: Une galerie de catacombe creusée dans la roche, avec des niches pour les tombes sur les murs.
+      - picto: poisson
+        motCle: poisson
+        phrases:
+          - "Le poisson est un signe des chrétiens : en grec, les lettres du mot poisson rappellent Jésus Christ."
+        enSavoirPlus: >-
+          En grec, poisson se dit « ichthus ». Chaque lettre est le début d'un mot : « Jésus Christ, fils de
+          Dieu, sauveur ».
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, gros plan, éclairage rasant. Une plaque de marbre
+            blanc usé d'une tombe chrétienne des catacombes de Rome, dans le style du IIIe siècle (sans
+            copier une plaque précise) : on y voit seulement deux poissons simples gravés en creux,
+            l'un face à l'autre, et une ancre gravée entre eux. Ne doit pas figurer : texte, lettre,
+            inscription, chiffre, croix, étiquette, objet moderne.
+          alt: Une plaque de marbre avec deux poissons et une ancre gravés, signes des premiers chrétiens.
+    questions:
+      - question: Qui est Paul ?
+        reponse: Un Juif citoyen romain qui voyage dans l'empire pour fonder des groupes de chrétiens.
+      - question: Où le christianisme se répand-il d'abord ?
+        reponse: Dans les villes de l'empire romain, autour de la Méditerranée.
+      - question: Pourquoi les chrétiens sont-ils persécutés ?
+        reponse: Parce qu'ils refusent d'honorer l'empereur comme un dieu et de sacrifier aux dieux de Rome.
+      - question: Qu'est-ce qu'un martyr ?
+        reponse: Un chrétien tué parce qu'il refuse de renoncer à sa foi, comme Blandine à Lyon en 177.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: De persécutée à officielle
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: grande persécution
+          dates: en 303
+          carte: 1
+        - libelle: édit de Milan
+          dates: en 313
+          carte: 4
+        - libelle: concile de Nicée
+          dates: en 325
+          carte: 6
+        - libelle: religion officielle
+          dates: en 380
+          carte: 8
+        - libelle: cultes païens interdits
+          dates: en 392
+          carte: 9
+    formule: persécutée (303), puis tolérée (313), puis religion officielle (380)
+    cartes:
+      - picto: feu
+        motCle: grande persécution
+        phrases:
+          - "En 303, l'empereur Dioclétien lance la plus grande persécution : églises détruites, livres brûlés, chrétiens tués."
+        enSavoirPlus: >-
+          Elle dure plusieurs années, surtout dans l'est de l'empire. Mais les chrétiens sont déjà trop
+          nombreux pour disparaître.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au début du IVe siècle, dans la rue d'une
+            ville romaine : des soldats romains en tunique, casque de fer et manteau jettent dans un feu
+            des livres de parchemin et des rouleaux sortis d'une maison ; des habitants regardent de
+            loin, inquiets. Ne doit pas figurer : texte, lettre, chiffre, corps, sang, croix, auréole,
+            arme à feu, objet moderne.
+          alt: Des soldats romains brûlent des livres et des rouleaux dans la rue, devant des habitants inquiets.
+      - picto: couronne
+        motCle: Constantin
+        phrases:
+          - "En 312, Constantin bat son rival près de Rome : il devient le seul empereur en Occident."
+        enSavoirPlus: >-
+          Constantin se rapproche des chrétiens. Il se fait baptiser, c'est-à-dire devenir chrétien, juste
+          avant de mourir, en 337.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans la cour d'un musée. Une tête de statue
+            colossale en marbre blanc, plus haute qu'un homme, dans le style de la statue géante de
+            Constantin à Rome (sans copier l'original) : visage d'empereur rasé, grands yeux levés vers
+            le ciel, cheveux courts en frange ; posée sur un socle de pierre, devant un mur ancien.
+            Ne doit pas figurer : texte, lettre, chiffre, inscription, étiquette, visiteur, logo.
+          alt: Une immense tête de statue en marbre d'un empereur romain, dans le style de celle de Constantin.
+      - picto: chrisme
+        motCle: chrisme
+        phrases:
+          - "Le chrisme réunit les deux premières lettres du mot Christ en grec : c'est un signe chrétien."
+        enSavoirPlus: >-
+          Selon des auteurs chrétiens, Constantin fait mettre un signe chrétien sur les boucliers ou les
+          étendards de ses soldats avant sa victoire de 312.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, vue de dessus. Un médaillon rond de mosaïque
+            romaine du IVe siècle, posé au sol : sur un fond de petits cubes blancs, un grand chrisme
+            en cubes rouge sombre, seul au centre. Le chrisme est un symbole chrétien fait de deux
+            lettres grecques superposées et de même hauteur : un khi, en forme de grand X, et un rhô,
+            en forme de P, dont le trait vertical passe exactement par le croisement du X et dont la
+            boucle arrondie est en haut à droite. Une bordure tressée en cubes ocre et noirs fait le
+            tour du médaillon. Ne doit pas figurer : visage, buste, personnage, animal, aucune autre
+            lettre que le X et le P du chrisme, alpha, oméga, chiffre, mot, inscription, étiquette,
+            objet moderne.
+          alt: Un médaillon de mosaïque romaine avec un grand chrisme, le signe formé des deux premières lettres grecques de Christ.
+      - picto: balance
+        motCle: tolérance
+        phrases:
+          - "En 313, à Milan, Constantin et Licinius laissent chacun pratiquer la religion qu'il veut : c'est la tolérance."
+        enSavoirPlus: >-
+          Cette décision s'appelle l'édit de Milan. Les chrétiens retrouvent leurs biens et peuvent prier
+          sans se cacher.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une rue d'une ville romaine vers 320 : à
+            gauche, un temple romain à colonnes où des habitants apportent des offrandes ; à droite, une
+            grande maison dont la porte est ouverte, où entrent des familles chrétiennes en tuniques ;
+            tout le monde se croise calmement dans la rue. Lumière du matin. Ne doit pas figurer :
+            texte, lettre, chiffre, inscription, croix géante, auréole, soldat, objet moderne.
+          alt: Dans une rue romaine, des habitants vont au temple et des chrétiens entrent dans leur lieu de réunion, calmement.
+      - picto: personne
+        motCle: évêque
+        phrases:
+          - "Chaque communauté chrétienne est dirigée par un évêque ; tous les chrétiens ensemble forment l'Église."
+        enSavoirPlus: >-
+          Au IVe siècle, les évêques deviennent puissants. Ambroise, évêque de Milan, oblige même
+          l'empereur Théodose à demander pardon pour un massacre.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au IVe siècle, dans une grande salle de
+            réunion chrétienne aux murs clairs : un évêque âgé, barbe grise, vêtu d'une longue tunique
+            blanche et d'un manteau, assis sur un siège de pierre au fond de la salle, parle à des
+            fidèles, hommes et femmes en tuniques, debout devant lui. Lampes à huile suspendues. Ne
+            doit pas figurer : texte, lettre, chiffre, auréole, mitre pointue, crosse dorée, vitrail,
+            bougie moderne, objet moderne.
+          alt: Un évêque âgé, assis au fond d'une salle, parle à des chrétiens debout devant lui.
+      - picto: groupe
+        motCle: concile de Nicée
+        phrases:
+          - "En 325, à Nicée, Constantin réunit les évêques pour fixer ce que les chrétiens doivent croire."
+        enSavoirPlus: >-
+          Cette réunion s'appelle un concile. Les évêques y écrivent le Credo, qui veut dire « je crois »
+          en latin.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. En 325, dans une grande salle de palais
+            romain aux colonnes de marbre : plusieurs dizaines d'évêques âgés, barbus, en longues
+            tuniques et manteaux clairs, assis sur des bancs de chaque côté ; au fond, sur un siège
+            surélevé, un empereur en manteau pourpre et diadème de perles les écoute. Ne doit pas
+            figurer : texte, lettre, chiffre, auréole, mitre pointue, vitrail, couronne européenne,
+            objet moderne.
+          alt: Des évêques assis en rangs dans une salle de palais, devant l'empereur Constantin.
+      - picto: temple
+        motCle: basilique
+        phrases:
+          - "Les chrétiens bâtissent de grandes églises, les basiliques, comme la première basilique Saint-Pierre de Rome."
+        enSavoirPlus: >-
+          Constantin fait commencer cette basilique vers 320. Elle a été remplacée au XVIe siècle par
+          celle que l'on voit aujourd'hui.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. L'intérieur de la première basilique
+            Saint-Pierre de Rome au IVe siècle : une immense salle très longue, avec une large nef
+            centrale bordée de deux rangées de colonnes de marbre antiques, un plafond plat en charpente
+            de bois, de hautes fenêtres qui laissent entrer la lumière ; au fond, une abside arrondie.
+            Quelques fidèles en tuniques. Ne doit pas figurer : texte, lettre, chiffre, coupole,
+            vitrail, banc moderne, chaise, lustre électrique, objet moderne.
+          alt: L'intérieur d'une immense basilique, avec deux rangées de colonnes et un plafond en bois.
+      - picto: couronne
+        motCle: religion officielle
+        phrases:
+          - "En 380, l'empereur Théodose fait du christianisme la religion officielle de l'empire."
+        enSavoirPlus: >-
+          Cette décision s'appelle l'édit de Thessalonique. En moins de cent ans, le christianisme est
+          passé de religion persécutée à religion de l'État.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond sombre de musée. Un grand plat rond en
+            argent, dans le style du missorium de Théodose (sans copier l'original) : au centre, un
+            empereur romain de la fin du IVe siècle, assis sous un fronton porté par des colonnes, avec
+            un diadème et un nimbe rond, entouré de deux autres empereurs plus petits et de soldats à
+            boucliers ; le tout en relief brillant. Ne doit pas figurer : lettre de notre alphabet,
+            chiffre, étiquette, visiteur, objet moderne.
+          alt: Un grand plat en argent, comme celui de l'empereur Théodose, où un empereur est assis entre deux autres empereurs et des soldats.
+      - picto: main
+        motCle: païens
+        phrases:
+          - "En 392, Théodose interdit les sacrifices aux anciens dieux ; les chrétiens appellent païens ceux qui les honorent."
+        enSavoirPlus: >-
+          Des temples sont fermés ou détruits. Les Juifs, eux, gardent le droit de pratiquer leur
+          religion.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À la fin du IVe siècle, un temple romain à
+            colonnes de marbre, aux grandes portes de bronze fermées ; devant les marches, un autel de
+            pierre éteint, couvert de poussière et de feuilles mortes ; la place est vide, ciel gris.
+            Ne doit pas figurer : texte, lettre, chiffre, inscription, panneau, croix, personnage,
+            objet moderne.
+          alt: Un temple romain aux portes fermées, avec devant lui un autel éteint couvert de feuilles mortes.
+    questions:
+      - question: Que décident Constantin et Licinius en 313 ?
+        reponse: "La tolérance : chacun, chrétiens compris, peut pratiquer la religion qu'il veut (édit de Milan)."
+      - question: Que se passe-t-il en 380 ?
+        reponse: L'empereur Théodose fait du christianisme la religion officielle de l'empire.
+      - question: Qui dirige une communauté chrétienne au IVe siècle ?
+        reponse: Un évêque.

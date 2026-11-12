@@ -1,0 +1,657 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 2 « Récits fondateurs, croyances et citoyenneté dans la
+# Méditerranée antique au Ier millénaire avant J.-C. », sous-thème « La naissance du monothéisme juif dans
+# un monde polythéiste » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# La fiche Eduscol demande de confronter des épisodes de la Bible aux sources archéologiques, en partant de
+# la prise de Jérusalem (587 av. J.-C.) et de l'exil à Babylone, moment où l'on passe d'un dieu préféré
+# (monolâtrie) à un seul Dieu (monothéisme) et où l'on met les textes par écrit ; puis de passer à la Genèse,
+# étudiée aussi en français (récits de création, déluge).
+# Leçon précédente : « Rome, du mythe à l'histoire » (contenu/6e/histoire/rome).
+# Leçon suivante : « Conquêtes, paix romaine et romanisation » (contenu/6e/histoire/empire-romain).
+titre: La naissance du monothéisme juif
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 7
+langue: fr
+statut: brouillon
+resume: >-
+  Les Hébreux et leurs voisins aux nombreux dieux, l'exil à Babylone et l'idée d'un seul Dieu, la Bible
+  hébraïque et les débuts du judaïsme.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 2 : « Quand et dans quels contextes a lieu la naissance
+      du monothéisme juif ? » ; récits bibliques mis en relation avec les découvertes archéologiques
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 2 » (mars 2016) :
+      monolâtrie puis monothéisme au moment de l'exil ; deux royaumes d'Israël et de Juda attestés par
+      l'archéologie ; prise de Jérusalem en 587, exil de 587 à 539, retour en 538 ; Bible écrite du VIIe
+      siècle av. J.-C. au début de notre ère ; déluge de Gilgamesh comparé à celui de Noé ; Genèse
+    url: https://eduscol.education.fr/document/16753/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Stéphanie Laithier, « Le judaïsme en bref », fiche pédagogique de l'IREL (École pratique des hautes
+      études) : Torah, cinq premiers livres de la Bible écrits sur plusieurs siècles ; Temple détruit au
+      VIe siècle av. J.-C., reconstruit, détruit par les Romains en 70 ; Hébreux, Israélites, Juifs
+    url: https://irel.ephe.psl.eu/sites/default/files/2026-05/fiche-le-judaisme-en-bref.pdf
+  - libelle: >-
+      Thomas Römer, Collège de France, cours « Le dieu Yhwh : ses origines, ses cultes, sa transformation
+      en dieu unique » (2011) : dieu national d'Israël et de Juda, puis dieu unique
+    url: https://www.college-de-france.fr/fr/agenda/cours/le-dieu-yhwh-ses-origines-ses-cultes-sa-transformation-en-dieu-unique
+  - libelle: >-
+      Encyclopædia Universalis, « Chute du royaume de Juda » : deux royaumes après Salomon, vers 930 av.
+      J.-C. selon la Bible ; Samarie capitale d'Israël, Jérusalem capitale de Juda ; Israël détruit par
+      l'Assyrie en 722 ; Jérusalem prise en 597 puis détruite avec le Temple ; exil à Babylone
+    url: https://www.universalis.fr/encyclopedie/chute-du-royaume-de-juda/
+  - libelle: >-
+      Encyclopædia Universalis, « Stèle de Mésha » : basalte noir, IXe siècle av. J.-C., roi de Moab et
+      son dieu Kamosh ; cite Israël, le roi Omri et Yahvé (plus ancienne attestation de ce nom) ; au Louvre
+    url: https://www.universalis.fr/encyclopedie/stele-de-mesha/
+  - libelle: >-
+      Encyclopædia Universalis, « Temple de Jérusalem » : premier Temple connu seulement par la Bible,
+      détruit par Nabuchodonosor ; reconstruction plus modeste sous Darius, vers 520 av. J.-C.
+    url: https://www.universalis.fr/encyclopedie/temple-de-jerusalem/
+  - libelle: >-
+      Encyclopædia Universalis, « Judaïsme — Histoire des Hébreux », l'époque classique : après l'édit de
+      Cyrus, des convois d'exilés rentrent en terre d'Israël
+    url: https://www.universalis.fr/encyclopedie/judaisme-histoire-des-hebreux/2-l-epoque-classique-antique-540-av-j-c-125-apr-j-c/
+  - libelle: >-
+      British Museum, le cylindre de Cyrus : récit de la prise de Babylone par Cyrus en 539 av. J.-C. ; il dit
+      que des peuples déportés ont pu rentrer chez eux (les Judéens n'y sont pas nommés)
+    url: https://www.britishmuseum.org/collection/object/W_1880-0617-1941
+  - libelle: >-
+      Encyclopædia Universalis, « Babylone » : capitale aux nombreux temples, Marduk dieu protecteur de la
+      ville, le dieu de la lune Sîn
+    url: https://www.universalis.fr/encyclopedie/babylone/
+  - libelle: >-
+      Université de Tel-Aviv et Autorité des antiquités d'Israël (2026), fouilles du parking Givati, Cité
+      de David : poutres brûlées lors de la destruction de Jérusalem par les Babyloniens (586 av. J.-C.)
+    url: https://english.tau.ac.il/node/3967
+  - libelle: >-
+      Biblical Archaeology Review (mars 1976), « Found in Jerusalem: Remains of the Babylonian Siege » :
+      pointes de flèches trouvées dans les cendres, au pied d'une tour du rempart, par Nahman Avigad
+      (université hébraïque de Jérusalem) dans le quartier juif en 1975
+    url: https://library.biblicalarchaeology.org/article/found-in-jerusalem-remains-of-the-babylonian-siege/
+  - libelle: >-
+      Lawrence H. Schiffman, « From Text to Tradition » (1991), chapitre sur le second Temple (Center for
+      Online Judaic Studies) : travaux repris sous Darius, Temple achevé en 515 av. J.-C.
+    url: https://cojs.org/the_second_temple-_lawrence_h-_schiffman-_from_text_to_tradition-_ktav_publishing_house-_hoboken-_nj-_1991/
+  - libelle: >-
+      Encyclopædia Universalis, « Abraham » : selon la Genèse, il part d'Ur pour Canaan ; promesse d'une
+      terre et d'une descendance innombrable
+    url: https://www.universalis.fr/encyclopedie/abraham/
+  - libelle: >-
+      BnF, Essentiels, « Tablette du Déluge » (onzième tablette de l'Épopée de Gilgamesh)
+    url: https://essentiels.bnf.fr/fr/image/6e8cf944-54ff-455c-96bc-e38450de6fb0-tablette-deluge
+  - libelle: >-
+      Leon Levy Dead Sea Scrolls Digital Library (Autorité des antiquités d'Israël) : manuscrits de
+      Qumrân, du IIIe siècle av. J.-C. au Ier siècle, plus de mille ans plus vieux que les autres manuscrits
+      bibliques connus ; surtout en hébreu, sur parchemin
+    url: https://www.deadseascrolls.org.il/learn-about-the-scrolls/introduction
+  - libelle: >-
+      Encyclopædia Universalis, « Sabbat » : septième jour, jour du repos, du vendredi soir au samedi soir ;
+      lien avec le récit de la Création ; il soude la communauté après la destruction du Temple
+    url: https://www.universalis.fr/encyclopedie/sabbat/
+  - libelle: >-
+      Encyclopædia Universalis, « Synagogue » : assemblée puis bâtiment de prière ; peut-être dès l'exil,
+      attestée en Égypte au IIIe siècle av. J.-C.
+    url: https://www.universalis.fr/encyclopedie/synagogue/
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Un petit peuple, beaucoup de dieux
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: royaumes d'Israël et de Juda
+          dates: vers 850 av. J.-C.
+          carte: 4
+        - libelle: fin du royaume d'Israël
+          dates: 722 av. J.-C.
+          carte: 8
+    formule: polythéisme = plusieurs dieux
+    cartes:
+      - picto: globe
+        motCle: Hébreux
+        phrases:
+          - "Les Hébreux sont un petit peuple du Proche-Orient, installé entre la mer Méditerranée et le désert."
+        enSavoirPlus: >-
+          La Bible appelle leur pays Canaan. Leurs grands voisins sont l'Égypte à l'ouest et la
+          Mésopotamie à l'est.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre le Proche-Orient et l'Égypte
+            d'aujourd'hui. En haut à gauche, la mer Méditerranée en bleu, centrée vers 20 % de la largeur
+            et 30 % de la hauteur ; sa côte est remonte du sud au nord vers 37 % de la largeur. En bas à
+            gauche, le désert d'Égypte en ocre clair, traversé du sud au nord par le Nil, mince ruban
+            bleu bordé d'une bande verte, qui s'ouvre en delta sur la Méditerranée vers 30 % de la
+            largeur et 50 % de la hauteur. Au centre, un grand désert ocre. À droite, deux fleuves bleus
+            descendent des montagnes du nord vers le golfe Persique, en bas à droite : l'Euphrate part du
+            haut vers 55 % de la largeur et passe vers 75 % de la largeur et 36 % de la hauteur ; le
+            Tigre part du haut vers 68 % de la largeur et passe vers 85 % de la largeur et 40 % de la
+            hauteur ; ils se rejoignent vers 90 % de la largeur et 55 % de la hauteur. Deux petits points
+            rouge foncé bien visibles : l'un près de la côte, dans des collines vertes et brunes, vers
+            42 % de la largeur et 42 % de la hauteur, juste à l'ouest d'un petit lac bleu allongé (la mer
+            Morte) ; l'autre sur l'Euphrate, vers 75 % de la largeur et 36 % de la hauteur. Couleurs
+            douces et contrastées, côtes nettes. Ne doit pas figurer : texte, lettre, chiffre, nom de
+            lieu, frontière, ville moderne, route, quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte du Proche-Orient : la mer Méditerranée et l'Égypte à gauche, Jérusalem près de la côte,
+            Babylone en Mésopotamie à droite.
+          etiquettes:
+            - texte: mer Méditerranée
+              x: 20
+              y: 30
+            - texte: Égypte
+              x: 18
+              y: 68
+            - texte: Jérusalem
+              x: 42
+              y: 48
+            - texte: Mésopotamie
+              x: 70
+              y: 22
+            - texte: Babylone
+              x: 75
+              y: 42
+      - picto: dieux
+        motCle: polythéisme
+        phrases:
+          - "Autour des Hébreux, chaque peuple honore plusieurs dieux et déesses : c'est le polythéisme."
+        enSavoirPlus: >-
+          « Poly » veut dire plusieurs, « théisme » vient d'un mot grec qui veut dire dieu. Les Moabites,
+          voisins des Hébreux, honorent par exemple le dieu Kamosh.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans une vitrine de musée sombre, éclairage doux.
+            Cinq statuettes antiques du Proche-Orient, vers 1 000 av. J.-C., dans le style des statuettes
+            cananéennes et phéniciennes (sans copier d'objets précis), posées côte à côte sur un socle
+            gris uni : deux petits dieux debout en bronze vert-de-gris, le bras droit levé, coiffés d'un
+            bonnet pointu ; un dieu assis sur un trône ; deux déesses en terre cuite beige, les mains sur
+            la poitrine. Ne doit pas figurer : texte, lettre, chiffre, étiquette, panneau, visiteur,
+            statue grecque ou romaine, croix, objet moderne.
+          alt: Cinq statuettes antiques de dieux et de déesses du Proche-Orient, en bronze et en terre cuite, dans une vitrine.
+      - picto: feu
+        motCle: Yahvé
+        phrases:
+          - Les Hébreux honorent surtout leur dieu, Yahvé, mais d'abord sans dire que les autres dieux n'existent pas.
+        enSavoirPlus: >-
+          Les historiens appellent cela la monolâtrie : on préfère un dieu, sans nier les autres.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans les collines de Juda, vers 800 av.
+            J.-C., au bord d'un village de maisons en pierre aux toits plats : une famille d'Hébreux
+            (un homme barbu, une femme, deux enfants), en tuniques de laine simples, dépose des galettes
+            de pain et une petite jarre d'huile sur un autel de pierres brutes en plein air, sous un
+            olivier. Lumière du matin, collines sèches et terrasses d'oliviers. Aucune statue de dieu.
+            Ne doit pas figurer : texte, lettre, chiffre, croix, étoile à six branches, bougie, objet en
+            métal brillant, vêtement moderne.
+          alt: Une famille d'Hébreux dépose du pain et de l'huile sur un autel de pierres, dans les collines.
+      - picto: couronne
+        motCle: Israël et Juda
+        phrases:
+          - "Vers 850 av. J.-C., il existe deux royaumes hébreux : Israël au nord, Juda au sud."
+        enSavoirPlus: >-
+          La capitale d'Israël est Samarie, celle de Juda est Jérusalem. Selon la Bible, avant eux, les rois
+          David et Salomon régnaient sur un seul royaume.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre le sud du Levant aujourd'hui,
+            entre la mer et la vallée du Jourdain. À gauche, sur un gros tiers de l'image, la mer
+            Méditerranée en bleu, avec une côte presque droite qui va du haut vers 36 % de la largeur au
+            bas vers 30 % de la largeur. Au centre, des collines vertes au nord et brunes au sud. À
+            droite, une vallée étroite : un petit lac bleu en haut vers 64 % de la largeur et 15 % de la
+            hauteur, d'où descend une rivière bleue sinueuse (le Jourdain) jusqu'à un lac allongé bleu
+            foncé (la mer Morte), de 58 % à 82 % de la hauteur, vers 66 % de la largeur. Au-delà à
+            droite, un plateau ocre. Deux petits points rouge foncé bien visibles : l'un vers 48 % de la
+            largeur et 36 % de la hauteur, l'autre vers 54 % de la largeur et 62 % de la hauteur. Ne doit
+            pas figurer : texte, lettre, chiffre, nom de lieu, frontière, ville moderne, route,
+            quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte des deux royaumes hébreux : Israël au nord, avec Samarie, et Juda au sud, avec
+            Jérusalem, entre la mer Méditerranée et le Jourdain.
+          etiquettes:
+            - texte: mer Méditerranée
+              x: 16
+              y: 45
+            - texte: Israël
+              x: 50
+              y: 22
+            - texte: Samarie
+              x: 48
+              y: 42
+            - texte: Juda
+              x: 46
+              y: 80
+            - texte: Jérusalem
+              x: 54
+              y: 68
+            - texte: Jourdain
+              x: 74
+              y: 38
+            - texte: mer Morte
+              x: 78
+              y: 72
+      - picto: mur
+        motCle: Jérusalem
+        phrases:
+          - "Jérusalem, la capitale du royaume de Juda, est une ville entourée de remparts, sur des collines."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue en légère plongée. Jérusalem vers 700
+            av. J.-C. : une ville de maisons en pierre claire aux toits plats, serrées sur une colline
+            allongée, entourée d'un épais rempart de pierre avec des tours ; en haut de la colline, un
+            grand bâtiment rectangulaire en pierre (le Temple) et un palais ; autour, des vallées
+            profondes, des terrasses d'oliviers et de vignes. Lumière dorée du soir. Ne doit pas figurer :
+            texte, lettre, chiffre, coupole dorée, minaret, clocher, croix, ville moderne, route
+            goudronnée, véhicule.
+          alt: La ville de Jérusalem sur sa colline, entourée de remparts, avec un grand bâtiment en haut.
+      - picto: temple
+        motCle: Temple
+        phrases:
+          - À Jérusalem, le Temple est le grand sanctuaire de Yahvé ; les prêtres y offrent des animaux en sacrifice.
+        enSavoirPlus: >-
+          Selon la Bible, le roi Salomon l'a fait bâtir. On le connaît seulement par des textes : les
+          archéologues n'en ont retrouvé aucun reste.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, imaginée d'après les descriptions de la
+            Bible (sans copier une maquette existante). Le Temple de Jérusalem vers 700 av. J.-C. : un
+            haut bâtiment rectangulaire en pierre de taille claire, avec un porche à l'entrée encadré de
+            deux grandes colonnes de bronze ; devant, une cour dallée avec un grand autel de pierre d'où
+            monte une fumée ; des prêtres en robes de lin blanc ; des gens apportent des moutons. Ciel
+            bleu. Ne doit pas figurer : texte, lettre, chiffre, statue, coupole, croix, étoile à six
+            branches, colonne grecque à chapiteau sculpté, objet moderne, sang.
+          alt: Reconstitution imaginée du Temple de Jérusalem, d'après la Bible, avec sa cour et son autel.
+      - picto: loupe
+        motCle: stèle de Mésha
+        phrases:
+          - Une stèle gravée il y a environ 2 850 ans par un roi voisin nomme le royaume d'Israël et Yahvé.
+        enSavoirPlus: >-
+          Le roi Mésha de Moab y fête ses victoires sur Israël, grâce à son dieu Kamosh. C'est la plus
+          ancienne trace écrite du nom de Yahvé. La stèle est au musée du Louvre.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans une salle de musée sombre et sobre. Une
+            stèle de basalte noir, d'environ un mètre de haut, arrondie en haut, dans le style de la
+            stèle de Mésha (sans copier l'original) : elle a été cassée puis recollée, on voit des
+            morceaux plus clairs ; sa face est couverte de lignes horizontales régulières de petits
+            signes d'un ancien alphabet du Proche-Orient, gravés en creux, usés et illisibles à cette
+            distance. Éclairage de vitrine doux. Ne
+            doit pas figurer : lettre de notre alphabet, chiffre arabe, étiquette, panneau, visiteur,
+            logo.
+          alt: >-
+            Une stèle de pierre noire couverte de lignes de signes gravés, dans le style de la stèle de
+            Mésha.
+      - picto: bouclier
+        motCle: Assyriens
+        phrases:
+          - "En 722 av. J.-C., les Assyriens, un puissant peuple de Mésopotamie, détruisent le royaume d'Israël."
+        enSavoirPlus: >-
+          Beaucoup d'habitants sont déportés, c'est-à-dire emmenés de force loin de chez eux. Le royaume de
+          Juda reste seul.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, éclairage rasant de musée. Un grand bas-relief de
+            pierre grise, dans le style des palais assyriens vers 700 av. J.-C. (sans copier un relief
+            précis) : à gauche, des soldats assyriens barbus, casqués, avec lances, arcs et grands
+            boucliers, attaquent une ville aux remparts crénelés sur une colline ; à droite, des familles
+            vaincues partent à pied avec leurs bagages et un chariot tiré par des bœufs. Ne doit pas
+            figurer : texte, lettre de notre alphabet, chiffre arabe, étiquette, visiteur, sang, corps
+            mutilé.
+          alt: >-
+            Un bas-relief de pierre dans le style assyrien : des soldats attaquent une ville et des
+            familles vaincues partent à pied.
+    questions:
+      - question: Qu'est-ce que le polythéisme ?
+        reponse: Le fait d'honorer plusieurs dieux.
+      - question: Quels sont les deux royaumes hébreux ?
+        reponse: Israël au nord, avec Samarie, et Juda au sud, avec Jérusalem.
+      - question: Quel est le grand sanctuaire de Yahvé ?
+        reponse: Le Temple de Jérusalem.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: L'exil à Babylone
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: prise de Jérusalem et exil
+          dates: 587 av. J.-C.
+          carte: 1
+        - libelle: Cyrus prend Babylone
+          dates: 539 av. J.-C.
+          carte: 6
+        - libelle: Temple rebâti
+          dates: de 520 à 515 av. J.-C.
+          carte: 7
+    formule: monothéisme = un seul Dieu
+    cartes:
+      - picto: mur
+        motCle: prise de Jérusalem
+        phrases:
+          - "En 587 av. J.-C., Nabuchodonosor, roi de Babylone, prend Jérusalem et détruit le Temple."
+        enSavoirPlus: >-
+          Certains livres disent 586 av. J.-C. À Jérusalem, les archéologues ont retrouvé des poutres
+          brûlées et des pointes de flèches dans des couches de cendres de cette époque.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Jérusalem en 587 av. J.-C., vue
+            de loin depuis une colline voisine : une brèche s'ouvre dans le rempart de pierre, des
+            fumées noires montent de la ville et du grand bâtiment en haut de la colline ; au premier
+            plan, des soldats babyloniens de dos, en tuniques longues, avec lances et boucliers ronds,
+            regardent la ville. Pas de combat montré, pas de blessé. Ne doit pas figurer : texte,
+            lettre, chiffre, sang, cadavre, coupole, minaret, croix, canon, arme à feu, objet moderne.
+          alt: Des soldats babyloniens regardent Jérusalem, dont le rempart est percé et d'où monte de la fumée.
+      - picto: pas
+        motCle: exil
+        phrases:
+          - "Une partie des habitants de Juda est emmenée de force à Babylone : c'est l'exil."
+        enSavoirPlus: >-
+          Ce sont surtout la famille du roi, les prêtres et les familles riches. L'exil dure environ 50 ans.
+          Les habitants de Juda s'appellent les Judéens : le mot « juif » vient de là.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Vers 587 av. J.-C., sur une
+            piste poussiéreuse au bord d'un grand fleuve bordé de palmiers : une longue file de familles
+            judéennes (hommes, femmes, enfants), en tuniques de laine, marche avec des ballots sur le dos
+            et quelques ânes chargés ; des soldats babyloniens à lances les accompagnent. Lumière
+            chaude, poussière. Ne doit pas figurer : texte, lettre, chiffre, chaîne en métal, fouet,
+            blessé, chameau, véhicule, objet moderne.
+          alt: Une longue file de familles de Juda marche vers Babylone, encadrée par des soldats.
+      - picto: ville
+        motCle: Babylone
+        phrases:
+          - Babylone est une immense ville, avec des temples pour beaucoup de dieux, comme Marduk, son protecteur.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Babylone vers 570 av. J.-C. : une immense
+            porte fortifiée couverte de briques vernissées bleu vif, décorée de rangées de taureaux et
+            de dragons jaunes et blancs en relief, dans le style de la porte d'Ishtar ; une large
+            avenue pavée y mène, bordée de murs bleus à lions en relief ; des habitants en tuniques
+            longues marchent sur l'avenue ; une haute tour à étages (ziggourat) au loin. Ne doit pas
+            figurer : texte, lettre, chiffre, coupole, minaret, croix, touriste, objet moderne.
+          alt: Une immense porte de Babylone couverte de briques bleues, avec des taureaux et des dragons.
+      - picto: un
+        motCle: monothéisme
+        phrases:
+          - "En exil, des Judéens affirment que leur Dieu est le seul Dieu : c'est le monothéisme."
+        enSavoirPlus: >-
+          « Mono » veut dire un seul. Pour eux, ce Dieu unique a créé le monde ; les dieux des autres
+          peuples n'existent pas.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Près de Babylone, vers 550 av. J.-C., au
+            bord d'un canal d'eau calme bordé de saules et de palmiers : un petit groupe de Judéens en
+            exil (hommes et femmes, tuniques et manteaux de laine) est assis dans l'herbe et écoute un
+            vieil homme qui lit à voix haute un rouleau de cuir. Lumière douce du soir. Aucune statue.
+            Ne doit pas figurer : texte, lettre, chiffre, signe écrit lisible, croix, étoile à six
+            branches, bougie, objet moderne.
+          alt: Des Judéens en exil, assis au bord d'un canal près de Babylone, écoutent un homme lire un rouleau.
+      - picto: rouleau
+        motCle: écrire pour se souvenir
+        phrases:
+          - Pour ne pas oublier, des Judéens rassemblent et écrivent leurs récits, leurs lois et leurs prières.
+        enSavoirPlus: >-
+          Ces textes donnent un sens au malheur : selon eux, le peuple n'avait pas assez respecté son
+          Dieu. Beaucoup de livres de la Bible prennent forme à ce moment-là.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une pièce aux murs de briques de terre,
+            à Babylone vers 550 av. J.-C. : trois scribes judéens barbus, en tuniques de laine, assis
+            sur des nattes, écrivent à l'encre noire avec des roseaux taillés sur de longs rouleaux de
+            cuir clair posés sur leurs genoux ; des rouleaux fermés sont rangés dans des jarres de terre
+            cuite. Lumière d'une petite fenêtre. Les rouleaux portent des lignes de petits signes d'un
+            ancien alphabet, flous et illisibles. Ne doit pas figurer : lettre de notre alphabet,
+            chiffre arabe, livre relié, papier blanc, plume d'oiseau, bougie, lunettes, objet moderne.
+          alt: Trois scribes judéens écrivent sur de longs rouleaux, dans une pièce en briques.
+      - picto: couronne
+        motCle: Cyrus
+        phrases:
+          - "En 539 av. J.-C., Cyrus, roi des Perses, prend Babylone ; il permet aux exilés de rentrer."
+        enSavoirPlus: >-
+          Des convois de Judéens rentrent à Jérusalem à partir de 538 av. J.-C. D'autres restent à
+          Babylone.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Vers 538 av. J.-C., sur une
+            route de collines sèches, une caravane de familles judéennes revient vers Jérusalem : des
+            gens à pied, des ânes chargés de ballots et de jarres, des enfants qui courent ; au loin,
+            sur une colline, les restes d'une ville en ruine entourée de murs effondrés. Lumière du
+            matin, ciel clair. Ne doit pas figurer : texte, lettre, chiffre, soldat qui frappe,
+            chameau monté par un soldat, véhicule, objet moderne.
+          alt: Une caravane de familles judéennes revient vers Jérusalem en ruine, avec des ânes chargés.
+      - picto: temple
+        motCle: Temple rebâti
+        phrases:
+          - Vers 520 av. J.-C., les Judéens rebâtissent le Temple de Jérusalem, plus modeste que le premier.
+        enSavoirPlus: >-
+          Les travaux se terminent vers 515 av. J.-C. Ce Temple sera agrandi, puis détruit par les Romains
+          en 70 après J.-C.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Jérusalem vers 520 av. J.-C. : des ouvriers
+            judéens en tuniques courtes montent les murs d'un bâtiment rectangulaire simple en pierres
+            claires, au sommet d'une colline, avec des échafaudages en bois et des cordes ; des pierres
+            taillées attendent au sol ; quelques maisons en ruine autour. Ne doit pas figurer : texte,
+            lettre, chiffre, grue en métal, outil moderne, coupole, croix, colonne grecque, objet
+            moderne.
+          alt: Des ouvriers rebâtissent un simple bâtiment de pierre, le nouveau Temple, en haut de Jérusalem.
+    questions:
+      - question: Que se passe-t-il en 587 av. J.-C. ?
+        reponse: Le roi de Babylone prend Jérusalem, détruit le Temple et emmène des habitants en exil.
+      - question: Qu'est-ce que le monothéisme ?
+        reponse: La croyance en un seul Dieu.
+      - question: Pourquoi l'exil à Babylone est-il un moment important ?
+        reponse: "Les Judéens y affirment qu'il n'y a qu'un seul Dieu et mettent par écrit leurs textes."
+      - question: Qui permet aux exilés de rentrer à Jérusalem ?
+        reponse: Cyrus, le roi des Perses, après avoir pris Babylone en 539 av. J.-C.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: La Bible et le judaïsme
+    ensemble:
+      type: mosaique
+    formule: judaïsme = un seul Dieu + la Torah + le sabbat
+    cartes:
+      - picto: livre
+        motCle: Bible hébraïque
+        phrases:
+          - La Bible hébraïque est un ensemble de livres écrits en hébreu pendant plus de 700 ans.
+        enSavoirPlus: >-
+          On l'écrit environ de 700 av. J.-C. jusqu'au début de notre ère. Les chrétiens la reprennent et
+          l'appellent l'Ancien Testament.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé. Plusieurs rouleaux anciens
+            en parchemin brun clair, de tailles différentes, posés côte à côte sur une table de bois
+            sombre ; deux sont un peu ouverts et montrent des colonnes de petites lettres hébraïques
+            carrées à l'encre noire, vues de loin, minuscules et floues : aucun mot ne peut être lu. Éclairage doux de côté. Ne doit pas
+            figurer : lettre de notre alphabet, chiffre arabe, mot lisible, grosse lettre nette, livre relié,
+            étiquette, croix, objet moderne.
+          alt: Plusieurs rouleaux anciens en parchemin, dont deux ouverts sur des colonnes d'écriture hébraïque.
+      - picto: loupe
+        motCle: manuscrits de la mer Morte
+        phrases:
+          - Les plus vieux manuscrits de la Bible, trouvés près de la mer Morte, ont plus de 2 000 ans.
+        enSavoirPlus: >-
+          Des bergers les découvrent dans des grottes vers 1947. Ils sont écrits surtout sur du parchemin,
+          une peau d'animal préparée.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage. À l'intérieur d'une grotte de roche beige dans le
+            désert, près de la mer Morte : deux hautes jarres cylindriques en terre cuite avec leur
+            couvercle, posées sur le sol ; à côté, un rouleau de parchemin brun très abîmé, à moitié
+            sorti d'une jarre, son écriture effacée et illisible. Lumière qui entre par l'ouverture de la grotte, on aperçoit au loin
+            l'eau bleue de la mer Morte. Ne doit pas figurer : texte, lettre de notre alphabet, chiffre,
+            personne, lampe moderne, outil moderne.
+          alt: Dans une grotte du désert, des jarres en terre cuite et un vieux rouleau de parchemin.
+      - picto: rouleau
+        motCle: Torah
+        phrases:
+          - "Les cinq premiers livres de la Bible forment la Torah : des récits et des lois."
+        enSavoirPlus: >-
+          Torah veut dire « enseignement » ou « loi ». C'est le cœur de la Bible pour les juifs.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, gros plan. Un rouleau de la Torah en parchemin
+            beige, ouvert entre deux poignées de bois tourné, posé à plat sur un tissu de velours bleu
+            foncé ; on voit deux colonnes de lettres hébraïques carrées à l'encre noire, minuscules et
+            floues (faible profondeur de champ) : aucun mot ne peut être lu. Lumière chaude. Ne doit pas
+            figurer : lettre de notre alphabet, chiffre arabe, mot lisible, grosse lettre nette, main,
+            croix, objet moderne.
+          alt: Un rouleau de la Torah ouvert entre deux poignées de bois, avec des colonnes d'écriture hébraïque.
+      - picto: soleil
+        motCle: Genèse
+        phrases:
+          - "Selon la Genèse, le premier livre de la Bible, Dieu crée le monde en six jours."
+        enSavoirPlus: >-
+          Selon ce récit, Dieu se repose le septième jour. Les scientifiques expliquent autrement l'origine
+          du monde et des humains : voir la leçon sur les premiers humains.
+        image:
+          aGenerer: >-
+            Photographie réaliste de paysage, format 4:3 paysage, lumière du lever du soleil. Une côte
+            sauvage : la mer calme, une plage, des collines couvertes d'arbres et de fleurs, des oiseaux
+            dans le ciel, des poissons visibles dans l'eau claire au premier plan, quelques animaux
+            sauvages au loin (cerfs). Aucun humain. Ne doit pas figurer : texte, lettre, chiffre, bateau,
+            route, bâtiment, personnage, silhouette divine, rayon surnaturel, objet moderne.
+          alt: Un paysage au lever du soleil, avec la mer, des plantes et des animaux, comme dans le récit de la Création.
+      - picto: vague
+        motCle: déluge
+        phrases:
+          - Selon la Bible, Dieu envoie un déluge, une immense inondation ; Noé sauve sa famille et les animaux.
+        enSavoirPlus: >-
+          Selon ce récit, Noé les sauve dans un grand bateau, l'arche. Un récit de déluge très proche existe dans l'Épopée de Gilgamesh, écrite en Mésopotamie bien
+          avant la Bible.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien.
+            Une grande arche en bois brun, longue et haute comme une maison flottante, sans voile ni mât,
+            flotte sur une eau immense et grise qui couvre tout jusqu'à l'horizon ; ciel d'orage qui
+            s'éclaircit, un rayon de soleil ; une colombe blanche vole vers l'arche. Personne n'est
+            visible. Ne doit pas figurer : texte, lettre, chiffre, arc-en-ciel, navire à voiles, moteur,
+            personnage, objet moderne.
+          alt: Scène imaginée du récit du déluge, une grande arche en bois flotte sur une eau immense.
+      - picto: pas
+        motCle: Abraham
+        phrases:
+          - "Selon la Bible, Dieu fait une alliance avec Abraham : il lui promet une terre et un grand peuple."
+        enSavoirPlus: >-
+          Une alliance est un accord avec des promesses. Selon la Genèse, Abraham part de la ville d'Ur
+          pour Canaan ; sa descendance sera aussi nombreuse que les étoiles.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien.
+            La nuit, dans des collines désertiques : un vieux berger barbu, en manteau de laine rayé, vu
+            de dos, lève la tête vers un ciel rempli d'étoiles ; derrière lui, des tentes noires en
+            poils de chèvre et un troupeau de moutons couchés. Ne doit pas figurer : texte, lettre,
+            chiffre, auréole, lumière surnaturelle, silhouette divine, objet moderne, avion, satellite.
+          alt: Scène imaginée du récit d'Abraham, un berger regarde un ciel plein d'étoiles devant ses tentes.
+      - picto: montagne
+        motCle: Moïse
+        phrases:
+          - Selon la Bible, Moïse fait sortir d'Égypte les Hébreux, qui y étaient esclaves.
+        enSavoirPlus: >-
+          Ce récit s'appelle l'Exode, c'est-à-dire la sortie. Selon lui, les Hébreux marchent ensuite dans
+          le désert pendant 40 ans.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien,
+            plan large. Une longue colonne de familles en tuniques et manteaux de laine, avec des
+            enfants, des ânes chargés et des troupeaux de moutons et de chèvres, marche à travers un
+            désert de sable et de rochers vers des montagnes rouges ; derrière eux, au loin, des
+            palmiers et la vallée verte d'un fleuve. Ne doit pas figurer : texte, lettre, chiffre, mer
+            qui s'ouvre, lumière surnaturelle, chameau, pyramide, objet moderne.
+          alt: Scène imaginée de l'Exode, une longue colonne de familles et de troupeaux traverse le désert.
+      - picto: tables
+        motCle: Tables de la Loi
+        phrases:
+          - "Selon la Bible, sur le mont Sinaï, Dieu donne à Moïse les Tables de la Loi : dix commandements."
+        enSavoirPlus: >-
+          Par exemple : n'honorer qu'un seul Dieu, respecter le jour du repos, ne pas tuer, ne pas voler.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien.
+            Deux tables de pierre grise, rectangulaires et arrondies en haut, posées debout côte à côte
+            contre un rocher, au sommet d'une montagne de granit rouge et désertique ; à l'arrière-plan,
+            d'autres sommets rouges sous un ciel bleu. Les tables sont lisses, sans aucune inscription.
+            Ne doit pas figurer : texte, lettre, chiffre, signe gravé, personnage, éclair, lumière
+            surnaturelle, objet moderne.
+          alt: Scène imaginée, deux tables de pierre arrondies en haut, au sommet d'une montagne rouge.
+      - picto: oeil
+        motCle: récit ou histoire
+        phrases:
+          - "On n'a trouvé aucune trace d'Abraham ni de Moïse hors de la Bible : ces récits ne sont pas prouvés."
+        enSavoirPlus: >-
+          À partir des deux royaumes, l'archéologie confirme certains faits racontés par la Bible. Pour
+          les croyants, ces récits gardent un sens fort : ils disent qui est leur peuple.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur un chantier de fouilles
+            archéologiques dans des collines sèches, une archéologue à genoux dégage au pinceau le bas
+            d'un vieux mur de pierre ; à côté, des seaux, une truelle, des tessons de poterie posés sur
+            une bâche ; un autre archéologue prend des notes. Ne doit pas figurer : texte, lettre de
+            notre alphabet, chiffre arabe, logo, panneau, drapeau.
+          alt: Une archéologue dégage au pinceau un vieux mur de pierre, sur un chantier de fouilles.
+      - picto: bougie
+        motCle: sabbat
+        phrases:
+          - "Le sabbat est le jour du repos des juifs, le septième jour : du vendredi soir au samedi soir."
+        enSavoirPlus: >-
+          Il rappelle que, selon la Genèse, Dieu s'est reposé le septième jour. Loin du Temple, il aide les
+          juifs à rester unis.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un vendredi soir dans l'Antiquité, vers
+            400 av. J.-C., dans une maison judéenne en pierre : une famille (parents, grands-parents,
+            enfants), en tuniques de laine, est assise autour d'un repas simple (pains ronds, olives,
+            dattes, une cruche de vin) ; deux petites lampes à huile en terre cuite sont allumées sur
+            la table. Lumière chaude et calme. Ne doit pas figurer : texte, lettre, chiffre, bougie en
+            cire, chandelier en métal, électricité, verre, assiette moderne, objet moderne.
+          alt: Une famille judéenne de l'Antiquité partage un repas du soir, éclairée par deux lampes à huile.
+      - picto: maison
+        motCle: synagogue
+        phrases:
+          - La synagogue est le lieu où les juifs se réunissent pour prier et lire la Torah.
+        enSavoirPlus: >-
+          Synagogue est un mot grec qui veut dire « assemblée ». Les plus anciennes traces connues ont plus
+          de 2 000 ans.
+        image:
+          aGenerer: >-
+            Photographie réaliste de site archéologique, format 4:3 paysage. Les ruines d'une synagogue
+            antique en pierre de basalte sombre, dans le style des synagogues de Galilée au Ier siècle
+            (sans copier un site précis) : une salle rectangulaire sans toit, entourée sur quatre côtés
+            de gradins de pierre où l'on s'asseyait, quelques bases de colonnes au milieu ; collines
+            vertes et ciel bleu autour. Personne. Ne doit pas figurer : texte, lettre, chiffre, panneau,
+            barrière moderne, touriste, croix.
+          alt: Les ruines d'une synagogue antique en pierre, avec des gradins tout autour d'une salle.
+      - picto: chandelier
+        motCle: judaïsme
+        phrases:
+          - "Le judaïsme est la religion des juifs : un seul Dieu, la Torah, le sabbat."
+        enSavoirPlus: >-
+          C'est la plus ancienne des religions monothéistes. Le chandelier à sept branches, la menorah,
+          en est un symbole très ancien.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, vue de dessus. Un sol en mosaïque antique de
+            petites pierres colorées (ocre, brun, blanc, noir), dans le style des mosaïques de
+            synagogues antiques (sans copier une œuvre précise) : au centre, un grand chandelier à sept
+            branches (menorah) aux flammes rouges, encadré de deux palmes ; une bordure de motifs
+            géométriques. Ne doit pas figurer : texte, lettre, chiffre, inscription, personnage, croix,
+            objet moderne.
+          alt: Une mosaïque antique qui montre un chandelier à sept branches, la menorah.
+    questions:
+      - question: Qu'est-ce que la Torah ?
+        reponse: Les cinq premiers livres de la Bible, avec des récits et des lois.
+      - question: Quel récit de la Bible ressemble à un récit de l'Épopée de Gilgamesh ?
+        reponse: Le déluge, avec Noé et son arche.
+      - question: Que sont les Tables de la Loi, selon la Bible ?
+        reponse: Les dix commandements que Dieu donne à Moïse sur le mont Sinaï.
+      - question: Qu'est-ce que le sabbat ?
+        reponse: Le jour du repos des juifs, du vendredi soir au samedi soir.
