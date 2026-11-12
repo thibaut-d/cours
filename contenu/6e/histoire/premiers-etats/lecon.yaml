@@ -1,0 +1,609 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 1 « La longue histoire de l'humanité et des migrations »,
+# sous-thème « Premiers États, premières écritures » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Le programme place ce sous-thème dans l'Orient ancien : Égypte ou Mésopotamie ; la leçon montre les deux,
+# la Mésopotamie pour les villes et l'écriture, l'Égypte pour le fonctionnement de l'État (fiche Eduscol).
+# Leçon précédente : « La révolution néolithique » (contenu/6e/histoire/neolithique).
+# Suite : thème 2, « Récits fondateurs, croyances et citoyenneté dans la Méditerranée antique » (à écrire).
+titre: Premiers États, premières écritures
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 4
+langue: fr
+statut: brouillon
+resume: >-
+  Les premières villes de Mésopotamie, l'invention de l'écriture à Uruk et l'Égypte des pharaons, un
+  des premiers États.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 1, « Premiers États, premières écritures » (Orient
+      ancien : Égypte ou Mésopotamie)
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 1 » (mars 2016) :
+      ville, État et écriture ; Uruk devenue une ville vers 3 500 av. J.-C. ; le « roi-prêtre » ;
+      tablettes comptables ; écriture réservée aux scribes ; repère « premières écritures vers -3 500 »
+    url: https://eduscol.education.fr/document/16750/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      BnF, Essentiels, « Naissance, vie et mort du cunéiforme » : écriture née entre 3 500 et 3 300 av.
+      J.-C., plus anciens documents vers 3 300, Uruk site de référence, argile, calame de roseau
+    url: https://essentiels.bnf.fr/fr/livres-et-ecritures/les-systemes-ecriture/4ab92041-e146-4582-b101-2d12bf3502b3-ecritures-en-mesopotamie/article/c510245e-aed6-4749-90e6-6cc397e659f6-naissance-vie-et-mort-cuneiforme
+  - libelle: >-
+      BnF, Passerelles, « La Mésopotamie, berceau de l'écriture » : jetons pour compter, tablettes
+      d'argile, roseau taillé, signes en forme de clous, usages (comptes, droit, Gilgamesh)
+    url: https://passerelles.essentiels.bnf.fr/fr/article/1cf1ad73-2680-45c4-b15e-58f2f8605ec2-mesopotamie-berceau-ecriture
+  - libelle: >-
+      BnF, Essentiels, « Les écritures égyptiennes » : hiéroglyphes vers 3 200-3 150 av. J.-C., signes
+      qui notent des mots et des sons, papyrus, scribes
+    url: https://essentiels.bnf.fr/fr/livres-et-ecritures/les-systemes-ecriture/bdf7550f-78f9-497f-85c5-e21c1dcadf2b-ecritures-dans-egypte-et-nubie-antiques/article/5e7565a9-2bfa-48fa-b313-0b0085e07840-ecritures-egyptiennes
+  - libelle: >-
+      Encyclopædia Universalis, « Mésopotamie — l'écriture cunéiforme » : écriture inventée à Uruk par des
+      administrateurs du temple, d'abord outil de gestion
+    url: https://www.universalis.fr/encyclopedie/mesopotamie-l-ecriture-cuneiforme/
+  - libelle: >-
+      Encyclopædia Universalis, « Uruk » : le site devient une véritable ville à l'époque d'Uruk
+      (vers 3 700-3 100 av. J.-C.), quartier de l'Eanna, centre politique et religieux
+    url: https://www.universalis.fr/encyclopedie/uruk/
+  - libelle: >-
+      Encyclopædia Universalis, « Gilgamesh » : roi d'Uruk vers 2 500 av. J.-C., héros de la première
+      épopée, avec Enkidu
+    url: https://www.universalis.fr/encyclopedie/gilgamesh/
+  - libelle: >-
+      BnF, Essentiels, « Tablette du Déluge » (onzième tablette de l'Épopée de Gilgamesh)
+    url: https://essentiels.bnf.fr/fr/image/6e8cf944-54ff-455c-96bc-e38450de6fb0-tablette-deluge
+  - libelle: >-
+      Musée du Louvre, « Le Code de Hammurabi » : stèle de basalte noir de plus de 2,25 m, vers
+      1 750 av. J.-C., le roi devant le dieu Shamash, près de 280 décisions de justice
+    url: https://www.louvre.fr/le-code-de-hammurabi
+  - libelle: >-
+      Encyclopædia Universalis, « Mésopotamie — premier peuplement » : le sud est une zone aride, où
+      l'agriculture n'est possible que grâce à l'irrigation
+    url: https://www.universalis.fr/encyclopedie/mesopotamie-premier-peuplement/
+  - libelle: >-
+      BnF, Passerelles, « La ziggurat d'Ur » : fin du IIIe millénaire av. J.-C., immense construction à
+      étages en briques, sans doute religieuse
+    url: https://passerelles.essentiels.bnf.fr/fr/chronologie/construction/195c9d1f-7c07-47db-9d1e-69e3d1a2f117-ziggurat-ur
+  - libelle: >-
+      Musée du Louvre, dossier « L'Égypte, un don du Nil » (2026) : crue d'été, limons fertiles, orge et
+      blé, irrigation, Ounsou, scribe comptable des grains
+    url: https://api-www.louvre.fr/sites/default/files/2026-10/DOSSIER_PARCOURS_NIL.pdf
+  - libelle: Musée du Louvre, « Le scribe accroupi » (Ancien Empire, vers 2 600-2 350 av. J.-C.)
+    url: https://collections.louvre.fr/ark:/53355/cl010006582
+  - libelle: "British Museum, « Early Egypt » : l'Égypte unifiée sous un seul roi vers 3 100 av. J.-C."
+    url: https://www.britishmuseum.org/collection/galleries/early-egypt
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Égypte ancienne, période prédynastique » : selon la tradition,
+      Narmer unifie les deux royaumes sous une seule couronne
+    url: https://junior.universalis.fr/encyclopedie/egypte-ancienne-periode-predynastique
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Pharaon » : souverains au pouvoir absolu, qui édictent les lois,
+      contrôlent les terres et leurs ressources et entretiennent une armée
+    url: https://junior.universalis.fr/encyclopedie/pharaon
+  - libelle: >-
+      Encyclopædia Universalis Junior, « Égypte ancienne, Ancien Empire » : le pharaon est secondé par un
+      vizir qui contrôle une puissante administration centrale ; gouverneurs de provinces (nomes)
+    url: https://junior.universalis.fr/encyclopedie/egypte-ancienne-ancien-empire
+  - libelle: >-
+      Sally L. D. Katary, « Land Tenure (to the End of the Ptolemaic Period) », UCLA Encyclopedia of
+      Egyptology, 2012 : les ressources de la terre sont la principale base de l'impôt de l'État ;
+      impôt prélevé sur la récolte, archives du « Grenier de Pharaon »
+    url: https://escholarship.org/uc/item/1nr1d3s9
+  - libelle: >-
+      Encyclopædia Universalis Junior, « La pyramide de Khéops » (vers 2 550 av. J.-C., tombe du pharaon,
+      à Gizeh)
+    url: https://junior.universalis.fr/document/la-pyramide-de-kheops
+  - libelle: BnF, Passerelles, « La pyramide de Khéops » (Ancien Empire, environ 146 m de haut à l'origine)
+    url: https://passerelles.essentiels.bnf.fr/fr/chronologie/construction/e4b39b6a-0ebe-412d-8154-e39c3f994ff6-pyramide-kheops
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Les premières villes
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: Uruk
+          dates: devient une ville vers 3 500 av. J.-C.
+          carte: 4
+        - libelle: ziggourat d'Ur
+          dates: vers 2 100 av. J.-C.
+          carte: 8
+    formule: cité-État = une ville + ses campagnes + un roi
+    cartes:
+      - picto: globe
+        motCle: Orient ancien
+        phrases:
+          - "Les premiers États naissent en Orient : en Mésopotamie et en Égypte, près de grands fleuves."
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre le Proche-Orient et l'Égypte
+            d'aujourd'hui : en haut à gauche la mer Méditerranée en bleu (centrée vers 22 % de la
+            largeur et 30 % de la hauteur) ; à gauche le désert d'Égypte en ocre clair, traversé du sud
+            au nord par le Nil, un mince ruban bleu bordé d'une étroite bande verte qui s'élargit en
+            delta sur la Méditerranée (le fleuve passe vers 34 % de la largeur et 72 % de la hauteur) ;
+            la mer Rouge en bas, au centre ; à droite, deux fleuves bleus qui descendent des montagnes
+            du nord vers le golfe Persique, en bas à droite. L'Euphrate, à l'ouest, part du haut de
+            l'image vers 52 % de la largeur, passe vers 60 % de la largeur et 18 % de la hauteur, puis
+            vers 76 % de la largeur et 33 % de la hauteur. Le Tigre, à l'est, part du haut vers 70 % de
+            la largeur, passe vers 76 % de la largeur et 14 % de la hauteur, puis vers 84 % de la
+            largeur et 33 % de la hauteur. Les deux fleuves se rejoignent vers 90 % de la largeur et
+            44 % de la hauteur, juste avant le golfe. Entre eux s'étend une plaine verte et brune,
+            centrée vers 74 % de la largeur et 26 % de la hauteur. Un petit point rouge foncé bien
+            visible marque Uruk, tout près de l'Euphrate, vers 84 % de la largeur et 40 % de la hauteur.
+            Couleurs douces et contrastées, côtes nettes. Ne doit pas figurer : texte, lettre, chiffre,
+            nom de lieu, frontière, ville moderne, route, quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte du Proche-Orient : la mer Méditerranée, l'Égypte et le Nil à gauche, la Mésopotamie
+            entre le Tigre et l'Euphrate à droite, avec la ville d'Uruk.
+          etiquettes:
+            - texte: mer Méditerranée
+              x: 22
+              y: 30
+            - texte: Égypte
+              x: 17
+              y: 58
+            - texte: Nil
+              x: 34
+              y: 72
+            - texte: Euphrate
+              x: 60
+              y: 18
+            - texte: Tigre
+              x: 76
+              y: 14
+            - texte: Mésopotamie
+              x: 74
+              y: 26
+            - texte: Uruk
+              x: 84
+              y: 48
+      - picto: lieu
+        motCle: Mésopotamie
+        phrases:
+          - "Mésopotamie veut dire « entre les fleuves » : c'est la plaine du Tigre et de l'Euphrate."
+        enSavoirPlus: >-
+          Cette plaine se trouve aujourd'hui surtout en Irak. Les fleuves y apportent l'eau et une terre
+          fertile.
+        image:
+          aGenerer: >-
+            Photographie réaliste de paysage, format 4:3 paysage, lumière du matin. Le sud de l'Irak
+            aujourd'hui : une large plaine plate et sèche, traversée par un grand fleuve brun et calme
+            (l'Euphrate) ; sur ses rives, une bande de palmiers dattiers et de roseaux verts ; au-delà,
+            la terre beige jusqu'à l'horizon, sous un grand ciel bleu pâle. Aucun humain. Ne doit pas
+            figurer : texte, lettre, chiffre, route, pont, véhicule, poteau électrique, bâtiment
+            moderne, bateau à moteur.
+          alt: Une plaine plate et sèche traversée par un grand fleuve bordé de palmiers.
+      - picto: goutte
+        motCle: irrigation
+        phrases:
+          - "Il pleut peu : les paysans creusent des canaux pour amener l'eau des fleuves jusqu'aux champs."
+        enSavoirPlus: On appelle cela l'irrigation. On y cultive surtout l'orge, une céréale.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. En Mésopotamie, vers 3 500 av. J.-C. : un
+            canal d'eau rectiligne creusé dans la terre amène l'eau d'un fleuve vers des champs d'orge
+            verte, divisés par de petites rigoles. Deux paysans sumériens (hommes, torse nu, pagne de
+            laine, crâne rasé ou cheveux courts) ouvrent une petite digue de terre avec une houe en bois
+            pour laisser passer l'eau. Palmiers dattiers au loin, ciel clair. Ne doit pas figurer :
+            texte, lettre, chiffre, outil en fer, tuyau, pompe, tracteur, vêtement moderne.
+          alt: Deux paysans ouvrent une petite digue de terre pour que l'eau d'un canal arrose un champ d'orge.
+      - picto: ville
+        motCle: Uruk
+        phrases:
+          - "Vers 3 500 av. J.-C., Uruk devient une ville : des milliers d'habitants y vivent."
+        enSavoirPlus: >-
+          Une ville est bien plus grande qu'un village : on y trouve de grands monuments et beaucoup de
+          métiers.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne en légère plongée. La ville
+            d'Uruk en Mésopotamie vers 3 200 av. J.-C. : des centaines de maisons basses aux toits plats,
+            en briques de terre crue beiges, serrées le long de ruelles ; au centre, de grands bâtiments
+            sur des terrasses surélevées ; des canaux et des palmiers dattiers autour ; des champs verts
+            jusqu'au fleuve à l'horizon. Quelques petites silhouettes humaines dans les rues. Ne doit
+            pas figurer : texte, lettre, chiffre, coupole, minaret, colonne grecque, toit en tuiles,
+            verre, roue de voiture moderne, véhicule.
+          alt: Vue d'en haut d'une grande ville en briques de terre, avec des maisons serrées et de grands bâtiments au centre.
+      - picto: temple
+        motCle: temple
+        phrases:
+          - Au centre d'Uruk se dressent d'immenses bâtiments pour les dieux et pour ceux qui gouvernent.
+        enSavoirPlus: >-
+          Les archéologues les appellent des temples, mais on ne sait pas toujours à quoi servait chaque
+          bâtiment.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À Uruk, vers 3 200 av. J.-C. : un immense
+            bâtiment blanc posé sur une haute terrasse de briques de terre crue, avec un long escalier
+            droit au milieu ; ses murs sont rythmés de niches verticales régulières ; des gens en
+            tuniques et pagnes de laine montent l'escalier en portant des paniers et des jarres.
+            Lumière de fin d'après-midi. Ne doit pas figurer : texte, lettre, chiffre, colonne grecque,
+            coupole, statue géante, verre, métal brillant, objet moderne.
+          alt: Un immense bâtiment blanc sur une haute terrasse de briques, avec des gens qui montent un grand escalier.
+      - picto: couronne
+        motCle: roi
+        phrases:
+          - "Un roi dirige la ville : il commande l'armée, rend la justice et fait bâtir les temples."
+        enSavoirPlus: >-
+          À Uruk, les images montrent un chef que les historiens appellent le « roi-prêtre » : il est aussi
+          au service des dieux.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Un roi sumérien vers 2 500 av. J.-C., debout
+            devant les murs de briques de sa ville : barbe noire, longs cheveux noués, bonnet rond, jupe
+            de laine à mèches (kaunakès), un bâton de commandement à la main ; derrière lui, deux soldats
+            avec des lances et des boucliers rectangulaires. Il regarde des ouvriers qui portent des
+            briques. Ne doit pas figurer : texte, lettre, chiffre, couronne européenne en or à pointes,
+            cape rouge, armure en fer, épée moderne, cheval monté.
+          alt: Un roi de Mésopotamie, barbu et vêtu d'une jupe de laine, entouré de deux soldats devant sa ville.
+      - picto: drapeau
+        motCle: cité-État
+        phrases:
+          - "Une cité-État, c'est une ville et ses campagnes, avec son propre roi : Uruk, Ur ou Lagash."
+        enSavoirPlus: >-
+          Les cités-États de Mésopotamie sont souvent rivales et se font la guerre pour l'eau et les
+          terres.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue aérienne lointaine. En Mésopotamie, vers
+            2 500 av. J.-C. : au centre, une ville entourée d'un rempart de briques de terre crue, avec un
+            grand bâtiment en terrasse au milieu ; tout autour, des champs verts et beiges découpés par
+            des canaux droits, quelques petits villages de maisons basses et des palmiers ; un fleuve
+            traverse le paysage. Ne doit pas figurer : texte, lettre, chiffre, frontière dessinée, route
+            goudronnée, pont moderne, véhicule.
+          alt: Une ville entourée d'un rempart, au milieu de ses champs, de ses canaux et de ses villages.
+      - picto: ziggourat
+        motCle: ziggourat
+        phrases:
+          - "La ziggourat est une immense tour à étages, en briques, sans doute faite pour honorer les dieux."
+        enSavoirPlus: >-
+          La ziggourat d'Ur a été bâtie vers 2 100 av. J.-C. par le roi Ur-Nammu. On ne sait pas tout de
+          son usage.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. La ziggourat d'Ur en Mésopotamie vers
+            2 100 av. J.-C. : une immense tour pleine en briques de terre crue, faite de trois grandes
+            terrasses empilées de plus en plus petites, avec trois longs escaliers droits qui se
+            rejoignent devant ; un petit sanctuaire au sommet. Ciel bleu, palmiers et maisons basses au
+            pied. Ne doit pas figurer : texte, lettre, chiffre, pyramide égyptienne pointue, coupole,
+            minaret, échafaudage moderne, touriste, véhicule.
+          alt: Une immense tour en briques faite de terrasses empilées, avec de longs escaliers, la ziggourat d'Ur.
+    questions:
+      - question: Où se trouve la Mésopotamie ?
+        reponse: Entre deux fleuves, le Tigre et l'Euphrate, surtout dans l'Irak d'aujourd'hui.
+      - question: Pourquoi les paysans creusent-ils des canaux ?
+        reponse: "Parce qu'il pleut peu : les canaux amènent l'eau des fleuves jusqu'aux champs."
+      - question: Qu'est-ce qu'une cité-État ?
+        reponse: Une ville et les campagnes autour, dirigées par un roi.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: L'invention de l'écriture
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: écriture à Uruk
+          dates: vers 3 300 av. J.-C., début de l'histoire
+          carte: 5
+        - libelle: hiéroglyphes en Égypte
+          dates: vers 3 200 av. J.-C.
+          carte: 6
+        - libelle: code de Hammurabi
+          dates: vers 1 750 av. J.-C.
+          carte: 9
+    formule: écriture = début de l'histoire
+    cartes:
+      - picto: jeton
+        motCle: compter
+        phrases:
+          - "Avant l'écriture, on compte les biens avec de petits jetons d'argile : un jeton pour un mouton."
+        enSavoirPlus: >-
+          Ces jetons ont des formes différentes selon ce qu'ils comptent : boules, cônes, disques. Ils
+          aident à se souvenir.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni beige clair, vue de dessus. Une
+            quinzaine de petits jetons d'argile cuite de Mésopotamie, de quelques centimètres, beige et
+            brun clair : des boules, des cônes, des disques plats et des petits cylindres, posés en
+            petits groupes bien séparés. Éclairage doux de musée. Ne doit pas figurer : texte, lettre,
+            chiffre, étiquette, règle graduée, pièce de monnaie, objet en plastique.
+          alt: De petits jetons d'argile en forme de boules, de cônes et de disques, posés en groupes.
+      - picto: tablette
+        motCle: tablette d'argile
+        phrases:
+          - "On dessine ensuite des signes sur une petite plaque d'argile molle : c'est une tablette."
+        enSavoirPlus: >-
+          L'argile sèche au soleil et devient dure. Les premiers signes sont des dessins simples :
+          un épi, une tête de bœuf.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage rasant de musée.
+            Une petite tablette d'argile brun clair, à peu près carrée et bombée, dans le style des
+            tablettes comptables d'Uruk vers 3 300 av. J.-C. (sans copier une tablette précise) : on y
+            voit des encoches rondes et allongées enfoncées dans l'argile pour les nombres, et quelques
+            petits dessins tracés en creux (un épi, une tête de bœuf, un vase). Ne doit pas figurer :
+            texte, lettre de notre alphabet, chiffre arabe, étiquette, socle avec inscription.
+          alt: >-
+            Une petite tablette d'argile avec des encoches pour compter et de petits dessins en creux,
+            dans le style des premières tablettes d'Uruk.
+      - picto: calame
+        motCle: cunéiforme
+        phrases:
+          - "On écrit en enfonçant un roseau taillé, le calame, dans l'argile : les signes ont des formes de clous."
+        enSavoirPlus: >-
+          Cunéiforme veut dire « en forme de clou ». Peu à peu, les dessins deviennent des groupes de
+          petits clous.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, gros plan. Une main adulte tient un calame (une
+            tige de roseau taillée en pointe triangulaire) et l'enfonce dans une tablette d'argile humide
+            brun-rouge ; sur la tablette, plusieurs lignes de petits signes cunéiformes en forme de clous
+            et de coins. Lumière chaude de côté. Ne doit pas figurer : texte, lettre de notre alphabet,
+            chiffre arabe, stylo, crayon, montre, bague, ongles vernis.
+          alt: Une main enfonce un roseau taillé dans une tablette d'argile couverte de petits signes en forme de clous.
+      - picto: personne
+        motCle: scribe
+        phrases:
+          - Le scribe sait lire et écrire ; il a appris pendant des années, à l'école des scribes.
+        enSavoirPlus: >-
+          L'écriture compte des centaines de signes : très peu de gens savent écrire. Les scribes
+          travaillent pour le roi et les temples.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. En Mésopotamie, vers 2 000 av. J.-C., dans
+            une pièce aux murs de briques de terre : un scribe adulte, crâne rasé, vêtu d'une tunique de
+            laine, assis, écrit sur une tablette d'argile avec un calame ; à côté de lui, deux garçons
+            élèves recopient des signes sur leurs propres tablettes. Des tablettes sèchent sur une
+            étagère de bois. Lumière d'une porte ouverte. Ne doit pas figurer : texte, lettre de notre
+            alphabet, chiffre arabe, papier, livre relié, plume d'oiseau, encrier, objet moderne.
+          alt: Un scribe et deux élèves écrivent sur des tablettes d'argile dans une pièce en briques.
+      - picto: sablier
+        motCle: histoire
+        phrases:
+          - "Vers 3 300 av. J.-C., à Uruk, on invente l'écriture : la préhistoire se termine, l'histoire commence."
+        enSavoirPlus: >-
+          Les plus anciens écrits connus viennent d'Uruk. L'écriture naît peu à peu entre 3 500 et 3 300
+          av. J.-C. : beaucoup de livres disent « vers 3 500 ».
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans une salle de musée calme et
+            sombre, une historienne, vue de trois quarts, se penche avec une loupe sur une petite
+            tablette d'argile couverte de signes cunéiformes, posée dans une vitrine éclairée. Ne doit
+            pas figurer : texte, lettre de notre alphabet, chiffre arabe, étiquette écrite, panneau,
+            logo, écran.
+          alt: Une historienne observe à la loupe une tablette d'argile couverte de signes, dans un musée.
+      - picto: oeil
+        motCle: hiéroglyphes
+        phrases:
+          - "Vers 3 200 av. J.-C., les Égyptiens inventent leur écriture : les hiéroglyphes, de petits dessins."
+        enSavoirPlus: >-
+          Certains hiéroglyphes représentent un mot, d'autres un son. Ils sont souvent gravés ou peints
+          sur les murs des tombes et des temples.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, éclairage rasant. Un mur de calcaire d'un tombeau
+            égyptien, dans le style de l'Ancien Empire (sans copier un mur précis), couvert de colonnes
+            de hiéroglyphes sculptés en léger relief et peints : une chouette, un œil, une main, un
+            serpent, une vague d'eau, un oiseau, des pains, en ocre, bleu, vert et noir. Ne doit pas
+            figurer : lettre de notre alphabet, chiffre arabe, graffiti, signature, panneau moderne,
+            vitre.
+          alt: Un mur de pierre couvert de hiéroglyphes peints, une chouette, un œil, une main, un serpent.
+      - picto: rouleau
+        motCle: papyrus
+        phrases:
+          - "Les Égyptiens écrivent aussi sur du papyrus, une feuille faite avec une plante du Nil."
+        enSavoirPlus: >-
+          On coupe la tige en fines bandes, on les croise et on les presse. Le scribe écrit à l'encre,
+          avec un roseau.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Au bord du Nil, dans l'Égypte ancienne : à
+            l'arrière-plan, un épais fourré de papyrus aux hautes tiges vertes et aux têtes en ombelles ;
+            au premier plan, un artisan égyptien en pagne de lin blanc pose des bandes fines de tige de
+            papyrus croisées en deux couches sur une pierre plate ; à côté, une feuille de papyrus beige
+            déjà sèche, vierge. Ne doit pas figurer : texte, lettre, chiffre, signe écrit sur la feuille,
+            papier moderne, outil en métal brillant, objet moderne.
+          alt: Un artisan égyptien croise des bandes de tige de papyrus pour fabriquer une feuille, devant des papyrus.
+      - picto: livre
+        motCle: Gilgamesh
+        phrases:
+          - "L'Épopée de Gilgamesh raconte les aventures d'un roi d'Uruk : c'est l'un des plus anciens récits écrits."
+        enSavoirPlus: >-
+          Gilgamesh et son ami Enkidu combattent des monstres ; puis Gilgamesh cherche à ne jamais mourir.
+          Le récit est écrit sur des tablettes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, comme une scène imaginée d'un récit ancien.
+            Dans une forêt sombre de très grands cèdres, deux héros de Mésopotamie avancent côte à côte,
+            vus de trois quarts : Gilgamesh, roi barbu aux longs cheveux noirs bouclés, en jupe de laine,
+            une hache de bronze à la main ; Enkidu, plus sauvage, aux cheveux longs et au corps
+            musclé, vêtu d'une peau de bête. Lumière qui perce entre les arbres. Ne doit pas figurer :
+            texte, lettre, chiffre, armure en fer, épée moderne, casque à cornes, cheval, monstre
+            sanglant.
+          alt: Scène imaginée de l'Épopée de Gilgamesh, le roi Gilgamesh et son ami Enkidu marchent dans une forêt de cèdres.
+      - picto: balance
+        motCle: loi
+        phrases:
+          - "Vers 1 750 av. J.-C., le roi Hammurabi de Babylone fait graver ses décisions de justice sur une stèle."
+        enSavoirPlus: >-
+          On l'appelle le code de Hammurabi : près de 280 décisions, en écriture cunéiforme. La stèle est
+          au musée du Louvre.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans une salle de musée sombre et sobre. Une haute
+            stèle de basalte noir et poli, arrondie en haut, dans le style du code de Hammurabi (sans
+            copier l'original) : en haut, un relief montre un roi debout face à un dieu assis sur un
+            trône ; en dessous, des colonnes serrées de petits signes cunéiformes gravés. Éclairage de
+            vitrine doux. Ne doit pas figurer : lettre de notre alphabet, chiffre arabe, étiquette,
+            panneau, visiteur, logo.
+          alt: >-
+            Une haute stèle de pierre noire, dans le style du code de Hammurabi : un roi face à un dieu, et
+            dessous des lignes de signes gravés.
+    questions:
+      - question: Où et quand l'écriture est-elle inventée ?
+        reponse: En Mésopotamie, à Uruk, vers 3 300 av. J.-C.
+      - question: À quoi sert d'abord l'écriture ?
+        reponse: "À compter et à gérer les richesses : récoltes, troupeaux, objets."
+      - question: Pourquoi dit-on que l'écriture marque le début de l'histoire ?
+        reponse: Parce qu'à partir d'elle, on connaît le passé aussi grâce à des textes.
+      - question: Qu'est-ce que le code de Hammurabi ?
+        reponse: Une stèle où le roi Hammurabi a fait graver ses décisions de justice, vers 1 750 av. J.-C.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: L'Égypte des pharaons
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: unification de l'Égypte
+          dates: vers 3 100 av. J.-C.
+          carte: 3
+        - libelle: pyramide de Khéops
+          dates: vers 2 550 av. J.-C.
+          carte: 8
+    formule: État = un territoire + un pouvoir + des lois + des impôts + une armée
+    cartes:
+      - picto: lieu
+        motCle: Nil
+        phrases:
+          - "L'Égypte est un pays de désert : on vit le long du Nil, un fleuve très long."
+        image:
+          aGenerer: >-
+            Photographie réaliste de paysage, format 4:3 paysage, vue en hauteur. La vallée du Nil en
+            Haute-Égypte : au centre, le fleuve bleu ; sur chaque rive, une étroite bande de champs verts
+            et de palmiers ; de chaque côté, le désert de sable et de rochers ocre commence d'un coup.
+            Lumière du matin. Ne doit pas figurer : texte, lettre, chiffre, ville moderne, route,
+            véhicule, bateau à moteur, poteau électrique, barrage.
+          alt: Le Nil coule entre deux étroites bandes vertes de champs, au milieu du désert.
+      - picto: vague
+        motCle: crue
+        phrases:
+          - "Chaque été, le Nil déborde : il laisse une boue fertile, le limon, où poussent le blé et l'orge."
+        enSavoirPlus: >-
+          Les Égyptiens creusent aussi des canaux. Si la crue est trop faible, la récolte manque et c'est
+          la famine.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans l'Égypte ancienne, à la fin de l'été,
+            la crue du Nil : l'eau brune a recouvert les champs plats jusqu'au pied du désert ; seuls
+            dépassent un village de maisons en briques de terre posé sur une butte, des palmiers et une
+            digue où marchent deux paysans en pagne de lin blanc. Ne doit pas figurer : texte, lettre,
+            chiffre, bateau à moteur, route, pont moderne, vêtement moderne, maison en béton.
+          alt: L'eau du Nil en crue recouvre les champs ; un village sur une butte et des palmiers dépassent.
+      - picto: couronne
+        motCle: unification
+        phrases:
+          - "Vers 3 100 av. J.-C., un roi réunit la Haute et la Basse-Égypte en un seul royaume."
+        enSavoirPlus: >-
+          Selon la tradition, ce premier roi s'appelle Narmer. Ensuite, le pharaon porte une double couronne,
+          signe des deux Égypte réunies.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, portrait en buste. Un roi égyptien de la première
+            dynastie, vers 3 000 av. J.-C., vu de trois quarts, portant la double couronne d'Égypte (une haute couronne
+            blanche en forme de quille emboîtée dans une couronne rouge plus large à l'arrière), une
+            barbe postiche courte et étroite, un collier simple ; peau brune ; arrière-plan flou de
+            bords du Nil. Ne doit pas figurer : texte, lettre, hiéroglyphe, chiffre, couronne
+            européenne, bijou moderne, vêtement moderne.
+          alt: Un roi égyptien coiffé de la double couronne blanche et rouge.
+      - picto: personne
+        motCle: pharaon
+        phrases:
+          - "Le pharaon est le roi d'Égypte : il a tous les pouvoirs et on le croit proche des dieux."
+        enSavoirPlus: >-
+          Il commande l'armée, fait les lois, rend la justice et fait construire les temples.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans une grande salle à colonnes d'un
+            palais égyptien de l'Ancien Empire, un pharaon assis sur un trône, coiffé du némès (coiffe de
+            tissu rayé bleu et or), barbe postiche, tenant la crosse (un court bâton recourbé) et le
+            fouet croisés sur la poitrine ; devant lui, deux fonctionnaires et un scribe s'inclinent. Ne doit pas figurer :
+            texte, lettre, hiéroglyphe, chiffre, verre, tapis moderne, objet moderne.
+          alt: Un pharaon coiffé du némès, assis sur son trône, devant qui s'inclinent des fonctionnaires.
+      - picto: calame
+        motCle: scribe
+        phrases:
+          - "Au service du pharaon, les scribes comptent les récoltes, les troupeaux et les ouvriers."
+        enSavoirPlus: >-
+          Le Louvre expose une célèbre statue de scribe assis en tailleur, vieille d'environ 4 500 ans.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans l'Égypte ancienne, devant un grenier
+            en briques de terre : un scribe assis en tailleur, en pagne de lin blanc, écrit sur un
+            rouleau de papyrus posé sur ses genoux avec un roseau ; à côté de lui, des paysans versent
+            du grain doré dans de grands sacs, qu'un autre homme mesure avec un boisseau en bois. Ne
+            doit pas figurer : lettre de notre alphabet, chiffre arabe, balance moderne, sac en
+            plastique, objet en métal brillant, objet moderne.
+          alt: Un scribe assis en tailleur écrit sur un papyrus pendant que des paysans versent du grain dans des sacs.
+      - picto: sac
+        motCle: impôt
+        phrases:
+          - "Les paysans doivent donner une part de leur récolte au pharaon : c'est l'impôt."
+        enSavoirPlus: >-
+          Le grain est rangé dans de grands greniers. Il nourrit les ouvriers, les soldats et les
+          fonctionnaires.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Dans l'Égypte ancienne, après la moisson :
+            une file de paysans égyptiens en pagne de lin porte des paniers et des sacs de grain vers un
+            grand grenier en briques de terre aux toits en coupoles ; un fonctionnaire en pagne blanc
+            surveille à l'entrée. Ciel bleu, palmiers. Ne doit pas figurer : texte, lettre, chiffre,
+            pièce de monnaie, billet, objet en métal brillant, objet moderne.
+          alt: Des paysans égyptiens portent des sacs de grain vers un grand grenier, surveillés par un fonctionnaire.
+      - picto: bouclier
+        motCle: armée
+        phrases:
+          - Le pharaon a une armée de soldats pour défendre le pays et faire la guerre.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une troupe de soldats égyptiens de l'Ancien
+            Empire marche en rangs sur une piste au bord du désert : peau brune, pagne de lin blanc,
+            pieds nus, chacun avec une lance à pointe de cuivre et un grand bouclier en bois couvert de
+            peau de vache, arrondi en haut. Ne doit pas figurer : texte, lettre, chiffre, char à
+            chevaux, cheval, armure en fer, casque à plumes, épée moderne, arme à feu.
+          alt: Des soldats égyptiens en pagne marchent en rangs avec des lances et des boucliers en peau de vache.
+      - picto: pyramide
+        motCle: pyramide
+        phrases:
+          - "Vers 2 550 av. J.-C., le pharaon Khéops fait bâtir à Gizeh une immense pyramide : c'est son tombeau."
+        enSavoirPlus: >-
+          Elle mesurait environ 146 mètres de haut. Il a fallu des milliers d'ouvriers, organisés par
+          l'État, pendant des années.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. La grande pyramide de Khéops à
+            Gizeh vers 2 550 av. J.-C., juste terminée : faces lisses en calcaire blanc brillant au
+            soleil, pointe intacte, posée sur le plateau de sable au bord du désert ; au premier plan,
+            des ouvriers égyptiens en pagne tirent un gros bloc de pierre sur un traîneau en bois.
+            Ne doit pas figurer : texte, lettre, chiffre, sphinx abîmé, touriste, chameau, route,
+            ville moderne, grue, machine.
+          alt: La pyramide de Khéops toute neuve, en calcaire blanc, avec des ouvriers qui tirent un bloc de pierre.
+      - picto: drapeau
+        motCle: État
+        phrases:
+          - "Un État, c'est un territoire dirigé par un pouvoir, avec des lois, des impôts et une armée."
+        enSavoirPlus: >-
+          L'Égypte des pharaons et les cités-États de Mésopotamie sont parmi les premiers États. Les
+          scribes les aident à tout gérer.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large en légère plongée. L'Égypte
+            ancienne vers 2 500 av. J.-C. : la vallée verte du Nil s'étend jusqu'à l'horizon ; au premier
+            plan, sur une estrade, un pharaon coiffé du némès regarde le pays, entouré d'un scribe et de
+            deux soldats ; en contrebas, des champs, un grenier, un village, et des bateaux à voile
+            carrée sur le fleuve. Ne doit pas figurer : texte, lettre, hiéroglyphe, chiffre, drapeau,
+            frontière dessinée, route, objet moderne.
+          alt: Un pharaon, entouré d'un scribe et de soldats, regarde la vallée du Nil avec ses champs et ses villages.
+    questions:
+      - question: Pourquoi la crue du Nil est-elle importante ?
+        reponse: Elle dépose le limon, une boue fertile qui permet de cultiver dans le désert.
+      - question: Qu'est-ce qu'un État ?
+        reponse: Un territoire dirigé par un pouvoir, avec des lois, des impôts et une armée.
+      - question: Que fait un scribe au service du pharaon ?
+        reponse: Il écrit et compte les récoltes, les impôts, les troupeaux et les ouvriers.
+      - question: À quoi sert la pyramide de Khéops ?
+        reponse: C'est le tombeau du pharaon Khéops.

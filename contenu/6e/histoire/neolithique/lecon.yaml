@@ -1,0 +1,613 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, thème 1 « La longue histoire de l'humanité et des migrations »,
+# sous-thème « La "révolution" néolithique » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Leçon précédente : « Vivre au Paléolithique » (contenu/6e/histoire/paleolithique).
+# Leçon suivante : « Premiers États, premières écritures » (contenu/6e/histoire/premiers-etats).
+titre: La révolution néolithique
+public: 6e
+matiere: histoire
+matiereLibelle: Histoire
+ordre: 3
+langue: fr
+statut: brouillon
+resume: >-
+  Les premiers agriculteurs et éleveurs du Croissant fertile, la vie au village, l'arrivée de
+  l'agriculture en France et les mégalithes.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, thème 1, « La "révolution" néolithique »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Histoire 6e, thème 1 » (mars 2016) :
+      une « révolution » lente, Proche-Orient, diffusion par migrations, sédentarisation, conflits,
+      inégalités, repère « à partir de -10 000 », chasseurs-cueilleurs et agriculteurs qui coexistent
+    url: https://eduscol.education.fr/document/16750/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Inrap, le Néolithique : origine au Proche-Orient, courant méditerranéen dans le sud de la France
+      entre 5 900 et 5 600 av. J.-C., courant danubien en Alsace vers 5 500 av. J.-C., hache polie et
+      céramique, premières sépultures mégalithiques vers 4 500 av. J.-C.
+    url: https://multimedia.inrap.fr/archeologie-preventive/periode/7/Neolithique
+  - libelle: >-
+      Inrap, « Bienvenue au Néolithique » : un nouveau mode de vie (premiers villages au Proche-Orient
+      vers 12 500 av. J.-C., avant l'agriculture), domestication du blé, de l'orge, de la chèvre et du
+      mouton
+    url: https://www.inrap.fr/magazine/bienvenue-au-neolithique/une-periode-revolutionnaire/un-nouveau-mode-de-vie
+  - libelle: >-
+      Inrap, « Bienvenue au Néolithique » : villages et maisons (dans la moitié nord de la France, vers
+      5 000 av. J.-C., maisons longues de bois et de terre, jusqu'à 45 m)
+    url: https://www.inrap.fr/magazine/bienvenue-au-neolithique/le-neolithique-au-quotidien/villages-et-maisons
+  - libelle: >-
+      Inrap, « Bienvenue au Néolithique » : les objets de tous les jours (tissage du lin, pièces de tissu
+      petites et précieuses)
+    url: https://www.inrap.fr/magazine/bienvenue-au-neolithique/le-neolithique-au-quotidien/les-objets-de-tous-les-jours
+  - libelle: >-
+      Inrap, Cavalaire (Var) : le Néolithique atteint les côtes de Provence et du Languedoc vers 5 800
+      avant notre ère (poteries « cardiales »)
+    url: https://www.inrap.fr/cavalaire-var-la-plus-ancienne-maison-neolithique-de-provence-19749
+  - libelle: >-
+      Musée d'Archéologie nationale, histoire de l'usage des textiles : premiers tissus au Néolithique
+      (lin, chanvre, ortie)
+    url: https://musee-archeologienationale.fr/histoire-de-lusage-des-textiles-et-revolution-de-lage-du-bronze-en-europe
+  - libelle: >-
+      Ministère de la Culture, archéologie aérienne : il y a environ 7 000 ans, les premiers agriculteurs
+      arrivent d'Europe centrale dans le nord de la France, où vivent encore des chasseurs-cueilleurs
+    url: https://archeologie.culture.gouv.fr/archeologie-aerienne/en/between-5000-and-2800-bce-human-settlement
+  - libelle: >-
+      Université Paris Cité, « 7 000 ans d'histoire démographique en France » (paléogénétique : premiers
+      agriculteurs d'origine anatolienne, mélange avec les chasseurs-cueilleurs)
+    url: https://u-paris.fr/7-000-ans-dhistoire-demographique-en-france/
+  - libelle: UNESCO, site néolithique de Çatal Höyük (occupé d'environ 7 400 à 6 200 av. J.-C.)
+    url: https://whc.unesco.org/fr/list/1405
+  - libelle: >-
+      Encyclopædia Universalis, « Préhistoire anatolienne — la civilisation de Çatal Hüyük » (maisons
+      collées, sans porte, entrée par le toit)
+    url: https://www.universalis.fr/encyclopedie/prehistoire-anatolienne/4-la-civilisation-de-catal-huyuk/
+  - libelle: >-
+      Encyclopædia Universalis, « Néolithique » (pierre polie, céramique, tissage, monuments funéraires)
+    url: https://www.universalis.fr/encyclopedie/neolithique/
+  - libelle: >-
+      CNRS, Année des géosciences : l'Holocène, période tempérée actuelle, commence il y a environ
+      11 700 ans, à la fin de la dernière glaciation
+    url: https://anneedesgeosciences.cnrs.fr/actualite/decryptage/pourquoi-parler-danthropocene/
+  - libelle: >-
+      Ministère de la Culture, les mégalithes du Morbihan : tombes dolméniques (sépultures collectives,
+      dès le milieu du Ve millénaire av. J.-C.), alignements de Carnac, tumulus Saint-Michel
+    url: https://archeologie.culture.gouv.fr/megalithes/fr/tombes-dolmeniques
+  - libelle: Ministère de la Culture, les mégalithes du Morbihan — « Une armée de pierres » (alignements)
+    url: https://archeologie.culture.gouv.fr/megalithes/fr/une-armee-de-pierres
+  - libelle: >-
+      Ministère de la Culture, les mégalithes du Morbihan — le tumulus Saint-Michel (haches polies et
+      perles, milieu du Ve millénaire av. J.-C.)
+    url: https://archeologie.culture.gouv.fr/megalithes/fr/le-tumulus-saint-michel
+  - libelle: >-
+      Dossier de presse de la candidature UNESCO « Mégalithes de Carnac et des rives du Morbihan » (2024) :
+      près de 3 000 menhirs à Carnac, sur environ 4 km
+    url: https://baiedequiberon.bzh/sites/default/files/2024-06/Dossier%20de%20presse%20-%20Candidature%20UNESCO.pdf
+  - libelle: >-
+      Préfecture du Morbihan, communiqué du 12 juillet 2025 (publié par le ministère de la Culture) :
+      inscription des mégalithes de Carnac et des rives du Morbihan au patrimoine mondial de l'UNESCO
+    url: https://www.culture.gouv.fr/fr/Media/inscription-des-megalithes-de-carnac-et-des-rives-du-morbihan-a-l-unesco
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Les premiers paysans
+    ensemble:
+      type: mosaique
+    formule: néolithique = agriculture + élevage
+    cartes:
+      - picto: soleil
+        motCle: réchauffement
+        phrases:
+          - "Vers 10 000 av. J.-C., la dernière glaciation se termine : le climat devient plus doux."
+        enSavoirPlus: >-
+          Les glaciers fondent et le niveau de la mer monte. Les forêts s'étendent là où il y avait de la
+          steppe froide.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Au printemps, il y a environ
+            12 000 ans, au Proche-Orient : des collines douces couvertes d'herbe verte et de grandes
+            touffes de blé et d'orge sauvages en épis, quelques chênes et pistachiers épars, un ruisseau
+            au fond de la vallée, ciel bleu et lumière chaude. Une famille de quatre chasseurs-cueilleurs
+            (deux adultes, deux enfants), en vêtements de peaux et de fibres, marche au loin sur un
+            sentier. Ne doit pas figurer : texte, lettre, chiffre, champ cultivé en rangs, clôture,
+            maison, animal domestique, objet en métal, neige.
+          alt: Des collines vertes du Proche-Orient couvertes de blé sauvage, au printemps, avec une famille au loin.
+      - picto: lieu
+        motCle: Croissant fertile
+        phrases:
+          - Le Croissant fertile est une région du Proche-Orient en forme d'arc, aux terres riches et arrosées.
+        enSavoirPlus: >-
+          Il va de la côte de la Méditerranée jusqu'aux fleuves Tigre et Euphrate, en Mésopotamie
+          (aujourd'hui Israël, Jordanie, Liban, Syrie, Turquie du Sud-Est, Irak et Iran de l'Ouest).
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, rendu d'image satellite réaliste et lumineuse, format 4:3
+            paysage, vue du dessus, nord en haut, sans aucun texte. Cadrage : de l'île de Chypre (bord
+            gauche) au golfe Persique (bord droit), du sud de la Turquie (bord haut) au nord de la
+            péninsule Arabique (bord bas). La mer Méditerranée en bleu occupe la partie gauche, vers 15 %
+            de la largeur et 50 % de la hauteur ; le golfe Persique en bleu en bas à droite. Les fleuves
+            Euphrate et Tigre, bien visibles en bleu foncé, descendent des montagnes de Turquie vers le
+            golfe Persique : l'Euphrate passe vers 45 % de la largeur et 35 % de la hauteur, le Tigre
+            vers 66 % de la largeur et 42 % de la hauteur. Une large bande vert clair translucide en
+            forme d'arc (un croissant) suit la côte de la Méditerranée orientale, remonte au pied des
+            montagnes du sud de la Turquie, puis redescend le long du Tigre jusqu'au golfe Persique. Le
+            désert en ocre clair au centre et en bas. Laisser une zone dégagée en haut au centre, vers 45 %
+            de la largeur et 10 % de la hauteur, pour une étiquette. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, frontière, ville, route, légende, rose des vents, échelle.
+          alt: >-
+            Carte du Proche-Orient : un arc de terres vertes, le Croissant fertile, va de la Méditerranée
+            au golfe Persique en suivant l'Euphrate et le Tigre.
+          etiquettes:
+            - texte: Croissant fertile
+              x: 45
+              y: 10
+            - texte: mer Méditerranée
+              x: 14
+              y: 52
+            - texte: Euphrate
+              x: 45
+              y: 35
+            - texte: Tigre
+              x: 66
+              y: 42
+      - picto: epi
+        motCle: agriculture
+        phrases:
+          - "Les humains sèment des graines de blé et d'orge, puis récoltent les épis : c'est l'agriculture."
+        enSavoirPlus: >-
+          Ils cultivent aussi des lentilles et des pois. Ils gardent les plus beaux grains pour les semer
+          l'année suivante.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 10 000 ans, au Proche-Orient,
+            dans un petit champ de blé doré irrégulier au pied d'une colline : deux agriculteurs, un homme
+            et une femme aux vêtements simples de peau et de tissu grossier, coupent les épis avec des
+            faucilles en bois garnies de petites lames de silex et les déposent dans un panier tressé.
+            Ne doit pas figurer : texte, lettre, chiffre, faux ou faucille en métal, tracteur, charrue,
+            animal de trait, clôture en fil, épouvantail.
+          alt: Deux agriculteurs coupent des épis de blé avec des faucilles en bois et en silex.
+      - picto: chevre
+        motCle: élevage
+        phrases:
+          - "Ils élèvent des chèvres et des moutons, puis des bœufs et des porcs, pour la viande et le lait."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 9 000 ans, sur une pente
+            herbeuse du Proche-Orient, un jeune berger aux vêtements de peau, avec un bâton, garde un
+            petit troupeau de chèvres et de moutons à la laine courte et brune (races anciennes, cornes
+            visibles) ; derrière lui, un enclos rond fait de branches entrelacées. Lumière du matin. Ne
+            doit pas figurer : texte, lettre, chiffre, mouton blanc à laine épaisse, chien de berger,
+            clôture en fil de fer, cloche en métal, collier, bâtiment moderne.
+          alt: Un jeune berger garde un troupeau de chèvres et de moutons près d'un enclos de branches.
+      - picto: main
+        motCle: domestiquer
+        phrases:
+          - Domestiquer, c'est garder et faire se reproduire des plantes ou des animaux sauvages, pour s'en servir.
+        enSavoirPlus: >-
+          Au fil des générations, ils changent : le mouton vient du mouflon sauvage, le bœuf de l'aurochs,
+          le porc du sanglier.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, deux animaux côte à côte dans un pré, à la même
+            échelle, de profil : à gauche un mouflon sauvage (pelage brun-roux, grandes cornes enroulées,
+            selle claire sur le flanc), à droite une brebis d'une race ancienne rustique, plus petite, à
+            toison brune. Fond de colline herbeuse flou. Ne doit pas figurer : texte, lettre, chiffre,
+            étiquette, clôture, boucle d'oreille de marquage, humain.
+          alt: Un mouflon sauvage aux grandes cornes à côté d'une brebis, son descendant domestiqué.
+      - picto: sac
+        motCle: producteur
+        phrases:
+          - "Ils ne vivent plus seulement de la chasse et de la cueillette : ils produisent leur nourriture."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 8 500 ans, au Proche-Orient,
+            devant une maison de terre crue au toit plat, une femme et un homme posent le fruit de leur
+            travail sur une natte : des épis de blé, un panier de grains d'orge, des lentilles, une
+            jarre de lait et une chèvre attachée à côté. Ne doit pas figurer : texte, lettre, chiffre,
+            objet en métal, fruit moderne (pomme, orange, banane, tomate), bouteille, sac en plastique.
+          alt: Un couple d'agriculteurs devant sa maison, avec des épis, des grains, des lentilles et une chèvre.
+      - picto: sablier
+        motCle: « révolution » lente
+        phrases:
+          - On parle de « révolution », mais ce changement a pris des milliers d'années.
+        enSavoirPlus: >-
+          C'est pour cela qu'on met des guillemets autour du mot « révolution » : c'est plutôt une lente
+          évolution.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large, au Proche-Orient. Une même
+            vallée montrée en deux moitiés côte à côte, séparées par un fondu doux : à gauche, un
+            campement de huttes de branches et des chasseurs-cueilleurs ramassant des céréales sauvages ;
+            à droite, le même endroit bien plus tard, avec un village de maisons en terre crue, de petits
+            champs de blé et un troupeau de chèvres. Mêmes collines au fond des deux côtés. Ne doit pas
+            figurer : texte, lettre, chiffre, flèche, horloge, objet en métal, ligne nette de séparation.
+          alt: La même vallée avant et après, d'un campement de chasseurs-cueilleurs à un village d'agriculteurs.
+    questions:
+      - question: Où et quand apparaissent l'agriculture et l'élevage ?
+        reponse: Au Proche-Orient, dans le Croissant fertile, vers 10 000 av. J.-C.
+      - question: Qu'est-ce que domestiquer ?
+        reponse: Garder et faire se reproduire des plantes ou des animaux sauvages, pour s'en servir.
+      - question: Pourquoi met-on « révolution » entre guillemets ?
+        reponse: Parce que ce changement a été très lent, sur des milliers d'années.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Vivre au village
+    ensemble:
+      type: mosaique
+    formule: sédentaire = vivre toujours au même endroit
+    cartes:
+      - picto: maison
+        motCle: sédentaire
+        phrases:
+          - "Les agriculteurs deviennent sédentaires : ils vivent toute l'année au même endroit, près de leurs champs."
+        enSavoirPlus: >-
+          Au Proche-Orient, les premiers villages sont même un peu plus anciens que l'agriculture : vers
+          12 500 av. J.-C.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Il y a environ 9 000 ans, au
+            Proche-Orient, un petit village de huit maisons rectangulaires en briques de terre crue au toit
+            plat, serrées les unes contre les autres, entouré de petits champs de blé et d'orge ; de la
+            fumée sort d'un toit ; des gens travaillent devant les maisons. Ne doit pas figurer : texte,
+            lettre, chiffre, tuile, vitre, objet en métal, route pavée, roue, chariot, cheval.
+          alt: Un petit village de maisons en terre crue entouré de champs de céréales.
+      - picto: ville
+        motCle: Çatal Höyük
+        phrases:
+          - "Çatal Höyük, en Turquie, est un gros village : on entre dans les maisons par le toit."
+        enSavoirPlus: >-
+          Les maisons sont collées les unes aux autres, sans rue et sans porte. Le village est habité
+          d'environ 7 400 à 6 200 av. J.-C.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue en légère plongée. Il y a environ
+            8 500 ans, en Anatolie (Turquie actuelle), un grand village de maisons en briques de terre
+            crue collées les unes aux autres, sans rues ni portes, avec des toits plats en terrasse à
+            des hauteurs différentes ; des habitants marchent sur les toits ; au premier plan, une
+            personne descend dans sa maison par une échelle en bois plantée dans une ouverture carrée du
+            toit. Plaine verte et montagne au loin. Ne doit pas figurer : texte, lettre, chiffre, porte,
+            fenêtre vitrée, objet en métal, roue, animal de trait.
+          alt: Un village aux maisons collées, sans rue ; une personne descend dans sa maison par une échelle posée sur le toit.
+      - picto: maison
+        motCle: maison longue
+        phrases:
+          - Vers 5 000 av. J.-C., dans le nord de la France, des maisons longues en bois mesurent jusqu'à 45 m.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 7 000 ans, dans une vallée
+            boisée du nord de la France, une grande maison longue et étroite (environ 35 mètres) aux murs
+            de clayonnage enduits de terre, sur une charpente de poteaux de bois, couverte d'un haut toit
+            de chaume à deux pentes ; deux autres maisons semblables derrière ; un petit champ de blé
+            devant et une famille qui travaille. Ne doit pas figurer : texte, lettre, chiffre, fenêtre
+            vitrée, cheminée en briques, tuile, objet en métal, clôture en fil.
+          alt: Une très longue maison en bois, en terre et au toit de chaume, au milieu d'une vallée boisée.
+      - picto: hache
+        motCle: pierre polie
+        phrases:
+          - "Ils frottent une pierre sur une roche dure pour la rendre lisse : c'est la pierre polie."
+        enSavoirPlus: >-
+          Néolithique veut dire « pierre nouvelle », à cause de ces haches polies.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, gros plan. Les mains d'un artisan du
+            Néolithique, assis par terre, frottent une lame de hache en pierre verte sur une grande dalle
+            de grès mouillée, creusée par l'usure ; à côté, une hache déjà polie, lisse et brillante,
+            emmanchée dans un manche en bois. Ne doit pas figurer : texte, lettre, chiffre, outil en
+            métal, gant, papier de verre, objet moderne.
+          alt: Des mains polissent une lame de hache en pierre sur une dalle de grès ; à côté, une hache polie emmanchée.
+      - picto: arbre
+        motCle: défricher
+        phrases:
+          - "Avec leurs haches polies, ils abattent les arbres pour faire des champs : ils défrichent la forêt."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 7 000 ans, à la lisière
+            d'une forêt de chênes en Europe, deux hommes abattent un arbre avec des haches en pierre polie
+            emmanchées dans du bois ; derrière eux, une clairière déjà dégagée, avec des souches et un
+            petit champ semé. Ne doit pas figurer : texte, lettre, chiffre, hache ou scie en métal,
+            tronçonneuse, vêtement moderne, animal de trait.
+          alt: Deux hommes abattent un chêne avec des haches en pierre polie, pour agrandir un champ.
+      - picto: pot
+        motCle: poterie
+        phrases:
+          - Ils façonnent l'argile et la cuisent au feu pour faire des poteries, qui gardent et cuisent les aliments.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une potière du Néolithique, assise par
+            terre devant sa maison, monte un grand pot en empilant des boudins d'argile et lisse la paroi
+            avec ses doigts ; à côté, trois pots déjà cuits, brun-gris, au fond arrondi, décorés de
+            petites impressions faites avec un coquillage. Ne doit pas figurer : texte, lettre, chiffre,
+            tour de potier, peinture vive, vernis brillant, objet en métal, motif moderne.
+          alt: Une potière monte un pot avec des boudins d'argile, à côté de pots déjà cuits.
+      - picto: tissu
+        motCle: tissage
+        phrases:
+          - "Ils filent le lin, une plante, puis le tissent : le tissu est encore rare et précieux."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. À l'intérieur d'une maison néolithique en
+            bois, une femme assise file des fibres de lin beige avec un fuseau en bois lesté d'une
+            fusaïole en terre cuite ; à côté, un petit métier à tisser vertical en bois, aux fils tendus
+            par des poids en terre cuite, avec une bande de tissu de lin écru commencée. Lumière d'un feu.
+            Ne doit pas figurer : texte, lettre, chiffre, rouet, fil coloré vif, tissu à motifs, objet
+            en métal, machine.
+          alt: Une femme file du lin avec un fuseau, à côté d'un petit métier à tisser en bois.
+      - picto: meule
+        motCle: meule
+        phrases:
+          - "Sur une meule en pierre, on écrase les grains pour faire de la farine, puis des galettes."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Une femme du Néolithique, à genoux, pousse
+            d'avant en arrière une pierre allongée sur une grande pierre plate et creuse posée au sol, et
+            écrase des grains de blé ; une farine grossière beige s'accumule au bord ; à côté, des galettes cuisent
+            sur une pierre chaude près d'un feu. Ne doit pas figurer : texte, lettre, chiffre, moulin à
+            roue, objet en métal, pain moderne en baguette, sac en tissu imprimé.
+          alt: Une femme écrase des grains sur une meule en pierre ; des galettes cuisent à côté.
+    questions:
+      - question: Que veut dire sédentaire ?
+        reponse: Vivre toute l'année au même endroit.
+      - question: Cite deux techniques nouvelles du Néolithique.
+        reponse: La pierre polie et la poterie (aussi le tissage).
+      - question: Pourquoi les agriculteurs deviennent-ils sédentaires ?
+        reponse: Ils restent près de leurs champs et de leurs troupeaux, qu'il faut surveiller toute l'année.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: L'agriculture gagne l'Europe
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: Croissant fertile
+          dates: vers 10 000 av. J.-C.
+          carte: 1
+        - libelle: sud de la France
+          dates: vers 5 800 av. J.-C.
+          carte: 3
+        - libelle: Alsace
+          dates: vers 5 500 av. J.-C.
+          carte: 4
+    formule: diffusion = l'agriculture se répand
+    cartes:
+      - picto: globe
+        motCle: diffusion
+        phrases:
+          - L'agriculture se diffuse, c'est-à-dire se répand, du Proche-Orient jusqu'à l'Europe en plusieurs milliers d'années.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, rendu d'image satellite réaliste et lumineuse, format 4:3
+            paysage, vue du dessus, nord en haut, sans aucun texte. Cadrage : de l'océan Atlantique et du
+            Portugal (bord gauche) à l'Iran (bord droit), de l'Afrique du Nord (bord bas) au sud de la
+            Scandinavie (bord haut). La mer Méditerranée en bleu au centre-bas, vers 47 % de la largeur et
+            76 % de la hauteur. Le fleuve Danube visible en bleu foncé, du sud de l'Allemagne à la mer
+            Noire, bien visible en Hongrie vers 47 % de la largeur et 40 % de la hauteur. Une zone vert vif en forme d'arc au Proche-Orient, vers 83 % de la largeur et 80 % de
+            la hauteur. Deux larges flèches orange semi-transparentes partent de cette zone verte : la
+            première longe les côtes nord de la Méditerranée (Grèce, Italie) jusqu'au sud de la France ;
+            la seconde traverse la Grèce puis remonte la vallée du Danube jusqu'à l'est de la France. La
+            France vers 20 % de la largeur et 42 % de la hauteur. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, frontière, ville, légende, rose des vents, échelle.
+          alt: >-
+            Carte de l'Europe et du Proche-Orient : deux flèches partent du Croissant fertile, l'une le
+            long de la Méditerranée, l'autre par le Danube, jusqu'en France.
+          etiquettes:
+            - texte: Croissant fertile
+              x: 83
+              y: 88
+            - texte: mer Méditerranée
+              x: 47
+              y: 84
+            - texte: Danube
+              x: 47
+              y: 36
+            - texte: France
+              x: 20
+              y: 42
+      - picto: pas
+        motCle: migration
+        phrases:
+          - "Des familles d'agriculteurs migrent : elles emportent graines et animaux vers de nouvelles terres."
+        enSavoirPlus: >-
+          L'étude de l'ADN des squelettes montre que les premiers agriculteurs de France descendent de
+          paysans venus d'Anatolie, en Turquie actuelle.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Il y a environ 7 500 ans, dans
+            une vallée boisée d'Europe, une famille d'agriculteurs du Néolithique (trois adultes, deux
+            enfants) marche sur un sentier de gauche à droite ; ils portent des paniers et des sacs de
+            grains, une poterie, une hache polie ; ils poussent devant eux quelques chèvres, moutons et
+            une vache. Ne doit pas figurer : texte, lettre, chiffre, cheval monté, chariot, roue, objet en
+            métal, route.
+          alt: Une famille d'agriculteurs voyage avec des paniers de grains, des chèvres, des moutons et une vache.
+      - picto: pirogue
+        motCle: par la mer
+        phrases:
+          - "Certains longent la Méditerranée en bateau : ils arrivent dans le sud de la France vers 5 800 av. J.-C."
+        enSavoirPlus: >-
+          On reconnaît leurs poteries à leur décor, imprimé avec le bord d'un coquillage, le cardium. On
+          les appelle « cardiales ».
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 7 800 ans, sur une mer
+            Méditerranée calme, une longue pirogue taillée dans un seul tronc d'arbre, menée à la pagaie
+            par quatre personnes, longe une côte rocheuse boisée ; à bord, deux chèvres, un mouton, des
+            paniers de grains et des poteries. Lumière du matin. Ne doit pas figurer : texte, lettre,
+            chiffre, voile, rame en métal, bateau en planches clouées, port, phare, maison moderne.
+          alt: Une longue pirogue à pagaies longe une côte de la Méditerranée, chargée de chèvres et de paniers.
+      - picto: fleche
+        motCle: par le Danube
+        phrases:
+          - D'autres remontent la vallée du Danube, un grand fleuve d'Europe, et arrivent en Alsace vers 5 500 av. J.-C.
+        enSavoirPlus: >-
+          Ils atteignent le Bassin parisien un peu plus tard, vers 5 000 av. J.-C.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, plan large. Il y a environ 7 500 ans, une
+            large vallée de fleuve en Europe centrale, bordée de forêts : sur la rive, un groupe
+            d'agriculteurs avance avec quelques vaches et chèvres le long de l'eau ; au loin, une maison
+            longue au toit de chaume dans une clairière. Ne doit pas figurer : texte, lettre, chiffre,
+            pont, bateau à voile, route, ville, objet en métal, cheval monté.
+          alt: Des agriculteurs et leurs bêtes avancent le long d'un grand fleuve bordé de forêts.
+      - picto: groupe
+        motCle: côte à côte
+        phrases:
+          - "Pendant des siècles, agriculteurs et derniers chasseurs-cueilleurs vivent côte à côte, puis se mélangent."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 7 000 ans, au bord d'une
+            rivière en France, une rencontre paisible : à gauche, deux chasseurs-cueilleurs en vêtements
+            de peaux, avec un arc et des poissons ; à droite, deux agriculteurs devant une poterie remplie
+            de grains ; ils échangent du poisson contre des grains. Calme, curieux, sans violence. Ne doit
+            pas figurer : texte, lettre, chiffre, arme brandie, combat, objet en métal, pièce de monnaie.
+          alt: Des chasseurs-cueilleurs échangent du poisson contre des grains avec des agriculteurs, au bord d'une rivière.
+      - picto: personne
+        motCle: population
+        phrases:
+          - "Avec plus de nourriture, les familles ont plus d'enfants : la population augmente."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 6 500 ans, en France, la
+            place d'un village néolithique animé : une vingtaine de personnes de tous âges, dont beaucoup
+            d'enfants qui jouent, devant des maisons longues en bois au toit de chaume ; des femmes
+            écrasent du grain, un homme rentre avec des chèvres. Ne doit pas figurer : texte, lettre,
+            chiffre, objet en métal, vêtement moderne, roue, cheval.
+          alt: La place d'un village néolithique pleine de monde, avec beaucoup d'enfants.
+    questions:
+      - question: Comment l'agriculture arrive-t-elle en France ?
+        reponse: Par des migrations d'agriculteurs, le long de la Méditerranée et par la vallée du Danube.
+      - question: Vers quand arrive-t-elle dans le sud de la France ?
+        reponse: Vers 5 800 av. J.-C.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Une société qui change
+    ensemble:
+      type: mosaique
+    formule: mégalithe = monument de grandes pierres
+    cartes:
+      - picto: pot
+        motCle: réserves
+        phrases:
+          - "Ils gardent une partie des récoltes dans des silos et des grandes jarres : ce sont des réserves."
+        enSavoirPlus: >-
+          Un silo est un trou creusé dans le sol pour stocker les grains.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 7 000 ans, devant une
+            maison néolithique en bois, sous l'avancée du toit, une rangée de grandes jarres en terre cuite brune remplies
+            de grains de blé ; un homme verse des grains depuis un panier dans une jarre ; à côté, une
+            fosse ronde creusée dans le sol, à moitié remplie de grains, avec son couvercle de pierre à côté. Ne doit pas
+            figurer : texte, lettre, chiffre, sac en toile imprimée, objet en métal, étagère moderne.
+          alt: Devant une maison, de grandes jarres et une fosse creusée dans le sol, remplies de grains de blé.
+      - picto: balance
+        motCle: inégalités
+        phrases:
+          - "Certains ont plus de terres, de bêtes et de réserves que d'autres : des inégalités apparaissent."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 6 500 ans, dans un village
+            néolithique : à gauche, une grande maison longue en bois avec de nombreuses jarres de grains
+            et un troupeau de vaches et de chèvres dans un enclos ; à droite, une petite cabane avec
+            seulement deux poteries et une chèvre. Mêmes lumière et saison. Ne doit pas figurer : texte,
+            lettre, chiffre, objet en métal, pièce de monnaie, vêtement moderne.
+          alt: Une grande maison avec beaucoup de grains et de bêtes à côté d'une petite cabane qui n'a presque rien.
+      - picto: couronne
+        motCle: chef
+        phrases:
+          - "Certains morts sont enterrés avec de longues haches polies et des colliers : sans doute des chefs."
+        enSavoirPlus: >-
+          À Carnac, le tumulus Saint-Michel, vers 4 500 av. J.-C., contenait des haches en pierre polie
+          très précieuses et des perles.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni gris foncé, éclairage de musée. Trois
+            longues lames de haches en pierre polie vert sombre, très fines et brillantes, posées côte
+            à côte en éventail, et un collier de perles de pierre vert clair en arc devant elles. Ne doit
+            pas figurer : texte, lettre, chiffre, étiquette, vitrine avec inscription, objet en métal,
+            squelette.
+          alt: Trois longues haches en pierre polie verte et un collier de perles vertes, comme dans une tombe de chef.
+      - picto: bouclier
+        motCle: conflits
+        phrases:
+          - Pour défendre leurs terres et leurs réserves, des villages s'entourent de fossés et de palissades.
+        enSavoirPlus: >-
+          La violence existait déjà avant, mais les guerres pour contrôler un territoire deviennent plus
+          fréquentes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage, vue en légère plongée. Il y a environ 6 000
+            ans, en France, un village néolithique de maisons en bois au toit de chaume, entouré d'un
+            fossé creusé dans la terre et d'une haute palissade de troncs pointus, avec une seule entrée
+            étroite ; deux hommes montent la garde à l'entrée avec des arcs. Calme, aucun combat. Ne doit
+            pas figurer : texte, lettre, chiffre, mur en pierre de château, tour, objet en métal, armure,
+            cheval.
+          alt: Un village entouré d'un fossé et d'une palissade de troncs, gardé à l'entrée.
+      - picto: menhir
+        motCle: menhir
+        phrases:
+          - Un menhir est une grande pierre dressée par les hommes du Néolithique.
+        enSavoirPlus: >-
+          Le mot vient du breton : « men » veut dire pierre et « hir » veut dire longue. On ne sait pas
+          bien à quoi servaient les menhirs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un grand menhir de granite gris,
+            haut d'environ 5 mètres, seul et dressé dans une lande de bruyère et d'ajoncs en Bretagne,
+            sous un ciel nuageux ; une personne de dos, en vêtements d'aujourd'hui sobres, à quelques
+            mètres, donne l'échelle. Ne doit pas figurer : texte, lettre, chiffre, panneau, clôture,
+            logo, inscription sur la pierre, voiture.
+          alt: Un grand menhir de granite, dressé seul dans une lande de Bretagne, à côté d'une personne qui paraît petite.
+      - picto: dolmen
+        motCle: dolmen
+        phrases:
+          - "Un dolmen est une tombe collective, pour plusieurs morts : une grande dalle posée sur des pierres dressées."
+        enSavoirPlus: >-
+          À l'origine, la plupart des dolmens étaient recouverts d'un tas de terre ou de pierres, un
+          tumulus. Les plus anciens ont environ 6 500 ans.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un dolmen en Bretagne : une grande
+            dalle de granite plate posée horizontalement sur quatre pierres dressées, formant une
+            chambre basse et sombre, au milieu d'une prairie, sous un ciel clair. Ne doit pas figurer :
+            texte, lettre, chiffre, panneau, clôture, graffiti, personne, voiture.
+          alt: Un dolmen, une grande dalle de pierre posée sur des pierres dressées, dans une prairie.
+      - picto: lieu
+        motCle: Carnac
+        phrases:
+          - À Carnac, en Bretagne, près de 3 000 menhirs sont alignés en longues files sur environ 4 km.
+        enSavoirPlus: >-
+          Ils ont été dressés au Néolithique, il y a plus de 5 000 ans. Depuis 2025, les mégalithes de
+          Carnac sont classés au patrimoine mondial de l'UNESCO.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en légère hauteur. Les
+            alignements de menhirs de Carnac en Bretagne : des centaines de pierres de granite gris
+            dressées en plusieurs longues files parallèles qui s'éloignent jusqu'à l'horizon, dans une
+            lande d'herbe rase, les plus grandes au premier plan, les plus petites au loin. Lumière douce
+            de fin d'après-midi. Ne doit pas figurer : texte, lettre, chiffre, panneau, voiture, route,
+            touriste, maison moderne.
+          alt: Des centaines de menhirs alignés en longues files dans une lande, à Carnac.
+      - picto: groupe
+        motCle: mégalithe
+        phrases:
+          - Pour dresser ces pierres de plusieurs tonnes, il faut beaucoup de monde et quelqu'un qui organise.
+        enSavoirPlus: >-
+          « Méga » veut dire grand et « lithe » veut dire pierre. Les menhirs et les dolmens sont des
+          mégalithes.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 6 500 ans, en Bretagne, une
+            trentaine d'hommes et de femmes du Néolithique tirent avec des cordes de fibres un énorme bloc
+            de granite posé sur des rondins de bois ; un homme, un peu à l'écart, guide le travail d'un
+            geste du bras. Lande et ciel nuageux. Ne doit pas figurer : texte, lettre, chiffre, roue,
+            poulie, animal de trait, outil en métal, machine.
+          alt: Une trentaine de personnes tirent un énorme bloc de pierre posé sur des rondins, guidées par un homme.
+    questions:
+      - question: Qu'est-ce qu'un menhir ? Qu'est-ce qu'un dolmen ?
+        reponse: Un menhir est une grande pierre dressée. Un dolmen est une tombe faite de dalles posées sur des pierres dressées.
+      - question: Comment la société change-t-elle au Néolithique ?
+        reponse: Il y a des réserves, des inégalités, des chefs et plus de conflits.
+      - question: Où voit-on de nombreux menhirs en France ?
+        reponse: À Carnac, en Bretagne.

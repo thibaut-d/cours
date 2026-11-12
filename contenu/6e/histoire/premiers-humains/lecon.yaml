@@ -54,10 +54,10 @@ chapitres:
           dates: d'il y a plus de 3 millions d'années à 10 000 av. J.-C.
           carte: 3
         - libelle: néolithique
-          dates: de 10 000 av. J.-C. à 3 500 av. J.-C.
+          dates: à partir de 10 000 av. J.-C.
           carte: 6
         - libelle: écriture
-          dates: vers 3 500 av. J.-C., début de l'histoire
+          dates: vers 3 300 av. J.-C., début de l'histoire
           carte: 7
     formule: préhistoire = avant l'écriture
     cartes:
@@ -148,10 +148,11 @@ chapitres:
       - picto: tablette
         motCle: écriture
         phrases:
-          - "Vers 3 500 av. J.-C., l'écriture est inventée en Mésopotamie : la préhistoire se termine, l'histoire commence."
+          - "Vers 3 300 av. J.-C., l'écriture est inventée en Mésopotamie : la préhistoire se termine, l'histoire commence."
         notes: >-
           Pas d'image : une image de l'écriture montrerait des signes écrits, ce que la règle « aucun
-          texte dans une image » interdit. Le picto suffit. Date : repère Eduscol (« vers -3 500 »).
+          texte dans une image » interdit. Le picto suffit. Date : plus anciens écrits d'Uruk (BnF), comme la leçon
+          « Premiers États, premières écritures » ; ancien repère Eduscol : « vers -3 500 ».
     questions:
       - question: Qu'est-ce que la préhistoire ?
         reponse: La très longue période avant l'invention de l'écriture.
