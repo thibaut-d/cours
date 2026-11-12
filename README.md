@@ -19,6 +19,12 @@ https://thibaut-d.github.io/cours/ : mis à jour automatiquement à chaque push 
 (vérifications, tests, puis publication). Pendant la phase de relecture, les brouillons sont publiés aussi
 (`APERCU: '1'` dans `.github/workflows/publier.yml`) pour être relus en direct sur le site.
 
+## Écrire une leçon
+
+Un dossier `contenu/<public>/<matiere>/<lecon>/` avec un `lecon.yaml`. Le champ `public` dit à qui s'adresse la
+leçon (une classe, un cycle, `professeurs` ou `tout-public`) ; la page d'accueil la classe par matière et la
+filtre par public. Détails dans [AGENTS.md](AGENTS.md) § 6.
+
 ## Relire un brouillon sur téléphone
 
 ```

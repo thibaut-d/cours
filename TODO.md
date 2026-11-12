@@ -2,8 +2,11 @@
 
 Le premier fichier à lire pour reprendre le travail (Claude ou Codex). Le tenir à jour en fin de session.
 
-## Où on en est (2026-11-11)
+## Où on en est (2026-11-12)
 
+- **Navigation faite** : page d'accueil unique avec toutes les leçons, filtres par public et par matière
+  (retenus dans le navigateur et dans l'adresse), champ `public` à la place de `niveau`
+  (`docs/superpowers/specs/2026-11-12-navigation-publics-design.md`).
 - **Fait** : socle du site et fiche défilante (plan `docs/superpowers/plans/2026-11-10-socle-et-fiche.md`),
   publication automatique sur GitHub Pages, icône du site.
 - **Leçons** : « Les premiers humains » et « Vivre au Paléolithique » (6e, histoire), en brouillon, faits
@@ -12,8 +15,6 @@ Le premier fichier à lire pour reprendre le travail (Claude ou Codex). Le tenir
 
 ## Feuille de route
 
-0. **Navigation par filtres et publics** (en cours) : conception
-   `docs/superpowers/specs/2026-11-12-navigation-publics-design.md`.
 1. **Images** : outillage du lot (format WebP, taille, prompts conservés), génération des 35 images des
    leçons pilotes par Codex, vérification image par image, puis relecture de l'auteur.
 2. **Diaporama, PDF et PowerPoint** générés depuis la même leçon (avec notes de l'orateur).

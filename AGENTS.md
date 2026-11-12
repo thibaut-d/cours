@@ -7,7 +7,8 @@ ici : un agent ne doit jamais avoir besoin des fichiers propres à l'autre.
 ## 1. Le projet
 
 Un site statique de cours très visuels, publié sur https://thibaut-d.github.io/cours/ (GitHub Pages, dépôt
-public `thibaut-d/cours`). Navigation niveau (6e → supérieur) → matière → leçon. Chaque leçon est une fiche
+public `thibaut-d/cours`). Chaque leçon a un **public** (une classe, un cycle, les professeurs ou tout public) et une matière. La page
+d'accueil montre toutes les leçons, avec des filtres par public et par matière. Chaque leçon est une fiche
 qui défile, **une idée par carte** : une image, un mot-clé, une phrase courte.
 
 **Lecteur de référence : un lecteur dyslexique, à tous les niveaux**, y compris pour les cours du supérieur
@@ -67,15 +68,20 @@ message contient un terme de `prive/mots-interdits.txt`. Ne jamais les contourne
 
 ## 6. Écrire une leçon
 
-Une leçon = un dossier `contenu/<niveau>/<matiere>/<lecon>/` avec `lecon.yaml` (schéma :
-`src/lecon/schema.ts`) et ses images. Modèles : les deux leçons de `contenu/6e/histoire/`.
+Une leçon = un dossier `contenu/<public>/<matiere>/<lecon>/` avec `lecon.yaml` (schéma :
+`src/lecon/schema.ts`) et ses images. Adresse : `/cours/<public>/<matiere>/<lecon>/`. Le champ `public` de
+`lecon.yaml` remplace l'ancien `niveau`. Valeurs (`src/lecon/publics.ts`) : classes `cp`, `ce1`, `ce2`, `cm1`,
+`cm2`, `6e`, `5e`, `4e`, `3e`, `2de`, `1re`, `tle` ; cycles `primaire`, `college`, `lycee`, `superieur` ;
+à part `professeurs`, `tout-public`. Deux leçons de même `matiere` partagent le même `matiereLibelle`
+(`pnpm valider` échoue sinon). Sur l'accueil, une classe montre aussi les leçons de son cycle. Modèles : les deux leçons de `contenu/6e/histoire/`.
 
 - **Entrées** : fichiers de `sources/` ou d'un dossier désigné par l'auteur (scans, fiches A4, PowerPoint), ou
   un sujet seul : chercher alors ce que le **programme officiel** attend à ce niveau (Bulletin officiel,
   Eduscol) et garder ces sources dans `sources:` de la leçon. Supérieur : l'ordre et les intitulés de l'auteur.
 - **Langue** : celle du cours d'origine (`langue: fr` ou `en`), sans traduction.
 - **Une idée par carte**, mots-clés en **minuscules grasses**, phrases courtes. Les objectifs de nombre de
-  cartes et de longueur par niveau (`OBJECTIFS`, `src/lecon/avertissements.ts`) sont des **objectifs, pas des
+  cartes et de longueur par public (`OBJECTIFS`, `src/lecon/avertissements.ts` ; une classe ou un cycle suit son cycle,
+  le primaire suit le collège, `professeurs` et `tout-public` suivent le supérieur) sont des **objectifs, pas des
   règles** : `pnpm valider` avertit ; au-delà, découper en chapitres ou en leçons.
 - **Questions qui peuvent tomber** en fin de chapitre, réponse visible dessous. Pas d'autre exercice.
 - Aucun emoji (pictogrammes SVG de `public/pictos/`, en `currentColor`) ; jamais d'italique ni de souligné
