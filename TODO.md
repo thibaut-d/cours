@@ -9,8 +9,12 @@ Le premier fichier à lire pour reprendre le travail (Claude ou Codex). Le tenir
   (`docs/superpowers/specs/2026-11-12-navigation-publics-design.md`).
 - **Fait** : socle du site et fiche défilante (plan `docs/superpowers/plans/2026-11-10-socle-et-fiche.md`),
   publication automatique sur GitHub Pages, icône du site.
-- **Leçons** : « Les premiers humains » et « Vivre au Paléolithique » (6e, histoire), en brouillon, faits
-  vérifiés ; leurs 35 images sont encore à générer (`aGenerer` dans `lecon.yaml`).
+- **Leçons** (6e, histoire, thème 1 complet), en brouillon, faits vérifiés par un agent distinct :
+  « Les premiers humains », « Vivre au Paléolithique », « La révolution néolithique », « Premiers États,
+  premières écritures ». Leurs images sont encore à générer (`aGenerer` dans `lecon.yaml`) ; les
+  étiquettes des cartes de géographie seront à recaler sur les images générées.
+- **Prochaines leçons** : thème 2 de 6e (« Récits fondateurs, croyances et citoyenneté dans la
+  Méditerranée antique au Ier millénaire av. J.-C. »).
 - **Génération d'images par Codex** depuis Claude (`codex exec`) : essai concluant le 2026-11-11.
 
 ## Feuille de route
