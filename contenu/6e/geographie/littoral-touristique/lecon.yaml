@@ -1,0 +1,605 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 3 « Habiter les littoraux », sous-thème
+# « Littoral touristique » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Étude de cas : La Grande-Motte (façade méditerranéenne, station créée par l'État) ; autre exemple hors de
+# France, comme le demande la fiche Eduscol : Cancún (Mexique, Caraïbes) ; puis les notions générales.
+# Leçon précédente : « Un littoral industrialo-portuaire » (contenu/6e/geographie/littoral-portuaire).
+# Leçon suivante : « La répartition de la population mondiale » (contenu/6e/geographie/population-mondiale).
+titre: Un littoral touristique
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 6
+langue: fr
+statut: brouillon
+resume: >-
+  La Grande-Motte, station balnéaire créée par l'État, puis Cancún au Mexique : les habitants, les
+  touristes, les emplois, et la protection des littoraux.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020) — classe de
+      sixième, géographie, thème 3 « Habiter les littoraux » : littoral industrialo-portuaire, littoral
+      touristique
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 3 : Habiter les
+      littoraux » (mars 2016) : littoralisation, station, front de mer, aéroports, conflits d'usage, loi
+      Littoral, Conservatoire du littoral ; choisir des études de cas pas toutes en France
+    url: https://eduscol.education.fr/document/16783/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Ministère de la Culture (Drac Occitanie), « La mission Racine, les nouvelles stations balnéaires du
+      golfe du Lion » (2018) : mission créée le 18 juin 1963, démoustication, routes, ports, Jean
+      Balladur et les pyramides de La Grande-Motte, label Patrimoine du XXe siècle en 2010
+    url: https://www.culture.gouv.fr/Media/Regions/Drac-Occitanie/Files/Doc-Actu/Doc-Actu-2018/La-Grande-Motte/Depliant-Mission-Racine
+  - libelle: >-
+      Ville et office de tourisme de La Grande-Motte, « Mémento tourisme 2026 » : 8 508 habitants
+      (recensement Insee 2022), 7 km de plages, port de 1 600 anneaux, environ 90 000 lits touristiques
+      et 6,4 millions de nuitées en 2025 (juillet et août : 49 %), 15 345 résidences secondaires pour
+      5 237 résidences principales
+    url: https://www.lagrandemotte.com/wp-content/uploads/2026/06/LGM_MEMENTO_TOURISME_2026.pdf
+  - libelle: >-
+      Insee Analyses Occitanie n° 171 (octobre 2026), « Le littoral d'Occitanie : vieillissement de la
+      population, parc de logements en mutation » : résidences secondaires et locations saisonnières
+      concurrencent les résidents à l'année ; 4 actifs sur 10 du littoral n'y habitent pas en 2023
+    url: https://www.insee.fr/fr/statistiques/9068446
+  - libelle: >-
+      Pôle-relais lagunes méditerranéennes, recul stratégique au lido du Petit et Grand Travers (site du
+      Conservatoire du littoral entre Carnon et La Grande-Motte) : route de bord de plage supprimée
+    url: https://pole-lagunes.org/recul-strategique-reamenagement-du-lido-du-petit-et-grand-travers-34
+  - libelle: >-
+      Ville de Cancún (municipalité de Benito Juárez), « Welcome to Cancun » : projet de la Banque du
+      Mexique (Fonatur), site presque désert, plan de 1968, première pierre en 1970, hôtels entre la mer
+      et la lagune, mangroves
+    url: https://todo.cancun.gob.mx/assets/pdf/welcome.pdf
+  - libelle: >-
+      O. Castillo Pavón et A. J. Villar Calvo, « La conformación del espacio urbano de Cancún : una
+      aproximación al estudio de la segregación socio-espacial », revue Quivera (université autonome de
+      l'État de Mexico), 2011 : moins de 2 500 habitants au départ, ville voulue par l'État mexicain,
+      employés des hôtels logés en périphérie, ville très inégale
+    url: https://quivera.uaemex.mx/article/download/10156/8328/
+  - libelle: >-
+      Ecosur (centre public de recherche du Mexique), prise de position sur la mangrove de Tajamar
+      (janvier 2016) : environ 58 hectares de mangrove détruits à Cancún pour un projet immobilier ; les
+      mangroves protègent les côtes des ouragans et de l'érosion
+    url: https://www.ecosur.mx/wp-content/uploads/2016/01/Ecosur_PronunciamientoTajamar.pdf
+  - libelle: >-
+      Martell et al., « How Effective Were the Beach Nourishments at Cancun? », Journal of Marine Science
+      and Engineering, 2020 : plages de Cancún rechargées en 2006 et en 2009 (environ 8 millions de m³
+      de sable) après les ouragans
+    url: https://www.mdpi.com/2077-1312/8/6/388
+  - libelle: >-
+      Inegi (institut national de statistique du Mexique), « Quintana Roo, resumen » : 911 503 habitants
+      dans la municipalité de Benito Juárez (Cancún) au recensement du 15 mars 2020 (la ville seule : un
+      peu moins de 900 000)
+    url: https://www.inegi.org.mx/contenidos/app/areasgeograficas/resumen/resumen_23.pdf
+  - libelle: >-
+      ASUR (gestionnaire de l'aéroport), communiqué du 6 janvier 2025 sur le trafic de décembre 2024 :
+      30 411 520 passagers à l'aéroport de Cancún en 2024
+    url: https://www.prnewswire.com/news-releases/asur-announces-total-passenger-traffic-for-december-2024-302343332.html
+  - libelle: >-
+      Ministère de la Transition écologique, « Adaptation des territoires aux évolutions du littoral »
+      (mise à jour d'août 2026) : près de 20 % des côtes françaises reculent
+    url: https://www.ecologie.gouv.fr/politiques-publiques/adaptation-territoires-aux-evolutions-du-littoral
+  - libelle: >-
+      Ministère de la Transition écologique, loi du 3 janvier 1986 relative à l'aménagement, la protection
+      et la mise en valeur du littoral (bande des 100 mètres hors des espaces urbanisés)
+    url: https://www.ecologie.gouv.fr/politiques-publiques/loi-relative-lamenagement-protection-mise-valeur-du-littoral
+  - libelle: >-
+      Gouvernement, « Conservatoire du littoral : 50 ans au service de la protection des rivages » : créé
+      en 1975, environ 220 000 hectares protégés en 2025
+    url: https://www.info.gouv.fr/actualite/conservatoire-du-littoral-50-ans-au-service-de-la-protection-des-rivages
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: La Grande-Motte, une station
+    ensemble:
+      type: mosaique
+    formule: station balnéaire = ville des vacances
+    cartes:
+      - picto: lieu
+        motCle: La Grande-Motte
+        phrases:
+          - La Grande-Motte est une ville au bord de la mer Méditerranée, dans le sud de la France.
+        image:
+          aGenerer: >-
+            Carte de localisation sans aucun texte, format 4:3 paysage, style simple et lisible de manuel
+            scolaire. La France métropolitaine vue de haut, en beige clair, avec ses frontières grises
+            fines ; la mer et l'océan en bleu clair uni ; les pays voisins en gris très clair. Cadrage :
+            longitudes 6° ouest à 11° est sur toute la largeur, latitudes 52° nord à 41° nord sur toute
+            la hauteur. Placer précisément : un gros point rouge pour La Grande-Motte, sur la côte de la
+            Méditerranée, vers 59 % de la largeur et 77 % de la hauteur ; un petit carré noir pour Paris
+            vers 49 % de la largeur et 28 % de la hauteur. Laisser libres de tout dessin les zones vers
+            65 % de la largeur et 88 % de la hauteur (mer Méditerranée) et vers 12 % de la largeur et
+            54 % de la hauteur (océan Atlantique). Ne doit pas figurer : texte, lettre, chiffre, nom de
+            lieu, légende, rose des vents, échelle, relief, routes.
+          alt: >-
+            Carte de France : un point rouge marque La Grande-Motte sur la côte de la Méditerranée, au sud ;
+            un carré noir marque Paris, au nord.
+          etiquettes:
+            - texte: La Grande-Motte
+              x: 59
+              y: 77
+            - texte: Paris
+              x: 49
+              y: 28
+            - texte: mer Méditerranée
+              x: 65
+              y: 88
+            - texte: océan Atlantique
+              x: 12
+              y: 54
+      - picto: goutte
+        motCle: marais
+        phrases:
+          - "Vers 1960, cette côte est presque vide : des dunes, des marais et des nuées de moustiques."
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, lumière d'été. Une côte sauvage plate de la
+            Méditerranée : une longue plage de sable clair, des dunes basses couvertes d'herbes sèches,
+            et derrière, un étang peu profond bordé de roseaux et de salicornes. Aucun bâtiment, aucune
+            personne. Ne doit pas figurer : texte, lettre, chiffre, immeuble, route goudronnée, voiture,
+            bateau à moteur, parasol, panneau.
+          alt: Une côte vide, avec une plage, des dunes basses et un étang bordé de roseaux.
+      - picto: drapeau
+        motCle: mission Racine
+        phrases:
+          - En 1963, l'État lance la mission Racine pour construire des stations sur la côte du Languedoc.
+        enSavoirPlus: >-
+          L'État chasse les moustiques, construit des routes, une autoroute et des ports. Il veut accueillir
+          les familles en vacances et garder les touristes qui partaient vers l'Espagne.
+        image:
+          aGenerer: >-
+            Photographie réaliste en couleurs passées, dans le style d'une photo de chantier des années
+            1960, format 4:3 paysage. Sur une côte plate de sable, au bord de la mer, des bulldozers et
+            des camions de l'époque creusent un bassin de port ; au fond, la carcasse en béton d'un
+            immeuble en forme de pyramide en construction, avec une grue. Ouvriers en bleus de travail.
+            Ne doit pas figurer : texte, lettre, chiffre, logo, panneau de chantier écrit, engin moderne,
+            téléphone portable.
+          alt: Des engins des années 1960 creusent un port sur une côte de sable ; au fond, une pyramide en construction.
+      - picto: soleil
+        motCle: station balnéaire
+        phrases:
+          - Une station balnéaire est une ville faite pour les vacances au bord de la mer.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage, en été, dans le style de La
+            Grande-Motte (sans copier une vue précise). Au premier plan, une longue plage de sable avec
+            des centaines de petits parasols et de baigneurs minuscules ; derrière, une promenade de
+            front de mer, puis des immeubles blancs en forme de pyramides à gradins, entourés de pins ;
+            à droite, un port rempli de voiliers. Mer bleue calme. Ne doit pas figurer : texte, lettre,
+            chiffre, enseigne, logo, marque, panneau lisible.
+          alt: Vue du ciel d'une station balnéaire, avec la plage pleine de parasols, des immeubles en pyramide et un port.
+      - picto: pyramide
+        motCle: pyramides
+        phrases:
+          - L'architecte Jean Balladur dessine des immeubles en forme de pyramides, au milieu des jardins.
+        enSavoirPlus: >-
+          Depuis 2010, la ville a le label « Patrimoine du XXe siècle » pour son architecture.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, lumière du matin, dans le style des
+            immeubles de La Grande-Motte (sans copier un bâtiment précis). Deux grands immeubles blancs
+            en forme de pyramide à gradins, avec des balcons arrondis en béton et des façades percées
+            comme une dentelle, se dressent derrière des pins et des pelouses. Ciel bleu. Ne doit pas
+            figurer : texte, lettre, chiffre, enseigne, logo, panneau, voiture au premier plan.
+          alt: Deux immeubles blancs en forme de pyramide, avec des balcons arrondis, derrière des pins.
+      - picto: bateau
+        motCle: port de plaisance
+        phrases:
+          - En 2026, le port de plaisance compte environ 1 600 places pour des bateaux de loisir.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en été. Un port de plaisance de la
+            Méditerranée : de longs pontons en bois où sont amarrés des dizaines de voiliers blancs et de
+            petits bateaux à moteur ; sur le quai, des promeneurs en tenue d'été ; au fond, des immeubles
+            blancs en forme de pyramide. Ne doit pas figurer : texte, lettre, chiffre, nom de bateau
+            lisible, enseigne, logo, drapeau lisible.
+          alt: Un port de plaisance rempli de voiliers, avec des promeneurs sur le quai.
+      - picto: vague
+        motCle: plage
+        phrases:
+          - La ville a 7 km de plages de sable fin, le premier atout pour attirer les touristes.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en juillet, au niveau du sable. Une
+            grande plage de sable fin de la Méditerranée : des familles sous des parasols de couleurs
+            unies, des enfants qui jouent au bord de l'eau, un poste de surveillance en bois avec un
+            sauveteur. Ne doit pas figurer : texte, lettre, chiffre, logo, marque sur les parasols ou les
+            serviettes, panneau lisible.
+          alt: Une plage de sable pleine de familles sous des parasols, des enfants jouent au bord de l'eau.
+      - picto: groupe
+        motCle: habitants permanents
+        phrases:
+          - En 2022, environ 8 500 personnes habitent toute l'année à La Grande-Motte.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, un matin d'hiver ensoleillé. Une rue
+            calme d'une station balnéaire hors saison, avec des immeubles blancs aux balcons arrondis et
+            des pins : une dame âgée promène son chien, un père accompagne deux enfants avec leurs
+            cartables, un livreur à vélo. Peu de monde. Ne doit pas figurer : texte, lettre, chiffre,
+            enseigne, logo, plaque de rue, marque.
+          alt: Une rue calme en hiver, avec quelques habitants qui vont à l'école ou promènent leur chien.
+      - picto: lit
+        motCle: lits touristiques
+        phrases:
+          - "En 2025, la ville compte environ 90 000 lits pour les touristes : dix fois plus que d'habitants."
+        enSavoirPlus: >-
+          Un lit touristique est une place pour dormir : à l'hôtel, au camping, dans une location ou une
+          résidence secondaire.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en plein été. Une grande façade
+            d'immeuble de vacances blanc, aux nombreux balcons identiques, presque tous occupés : serviettes
+            de plage de couleurs unies qui sèchent, parasols de balcon ouverts, quelques vacanciers
+            accoudés. Ciel bleu. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, marque,
+            drapeau lisible.
+          alt: Une façade d'immeuble de vacances aux balcons pleins de serviettes et de vacanciers.
+      - picto: cle
+        motCle: résidence secondaire
+        phrases:
+          - Trois logements sur quatre sont des résidences secondaires, occupées surtout pendant les vacances.
+        enSavoirPlus: >-
+          Chiffres publiés par la ville en 2026 : environ 15 300 résidences secondaires pour 5 200
+          résidences principales.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, un soir de novembre. Un immeuble de
+            vacances blanc d'une station balnéaire, la nuit tombante : presque tous les volets sont fermés,
+            seules deux fenêtres sont éclairées. Rue vide, pins. Ne doit pas figurer : texte, lettre,
+            chiffre, enseigne, logo, panneau « à vendre » ou « à louer ».
+          alt: Un immeuble de vacances en hiver, presque tous les volets fermés, deux fenêtres seulement éclairées.
+      - picto: calendrier
+        motCle: haute saison
+        phrases:
+          - En 2025, juillet et août rassemblent la moitié des nuits passées par les touristes dans la ville.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, un après-midi d'août. Une promenade
+            de front de mer d'une station balnéaire de la Méditerranée, bordée de pins : une foule de
+            vacanciers en tenue d'été qui marchent, des terrasses de cafés pleines, et à côté la plage
+            couverte de parasols de couleurs unies. Une seule photo, sans montage. Ne doit pas figurer :
+            texte, lettre, chiffre, enseigne, logo, marque, panneau lisible.
+          alt: Une promenade de bord de mer pleine de vacanciers en août, avec des terrasses pleines et la plage couverte de parasols.
+    questions:
+      - question: Qui a créé La Grande-Motte, et quand ?
+        reponse: L'État, avec la mission Racine, à partir de 1963.
+      - question: Qu'est-ce qu'une station balnéaire ?
+        reponse: Une ville faite pour les vacances au bord de la mer.
+      - question: Pourquoi la ville change-t-elle autant entre l'hiver et l'été ?
+        reponse: "En été, les touristes arrivent : il y a dix fois plus de lits touristiques que d'habitants."
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Cancún, au Mexique
+    ensemble:
+      type: mosaique
+    formule: Cancún = une station géante
+    cartes:
+      - picto: lieu
+        motCle: Cancún
+        phrases:
+          - Cancún est une station balnéaire du Mexique, au bord de la mer des Caraïbes.
+        image:
+          aGenerer: >-
+            Carte de localisation sans aucun texte, format 4:3 paysage, style simple et lisible de manuel
+            scolaire. Cadrage : longitudes 110° ouest à 70° ouest sur toute la largeur, latitudes 33° nord
+            à 13° nord sur toute la hauteur. Le Mexique en beige clair, les autres terres (sud des
+            États-Unis, Cuba, Amérique centrale) en gris très clair, les mers en bleu clair uni. Placer
+            précisément un gros point rouge pour Cancún, à la pointe nord-est de la presqu'île du
+            Yucatán, vers 58 % de la largeur et 59 % de la hauteur. Laisser libres de tout dessin les
+            zones vers 20 % de la largeur et 48 % de la hauteur (Mexique), 50 % et 37 % (golfe du
+            Mexique), 75 % et 88 % (mer des Caraïbes), 30 % et 10 % (États-Unis). Ne doit pas figurer :
+            texte, lettre, chiffre, nom de lieu, légende, rose des vents, échelle, routes.
+          alt: >-
+            Carte : le Mexique en beige ; un point rouge marque Cancún à la pointe de la presqu'île du
+            Yucatán, entre le golfe du Mexique et la mer des Caraïbes ; les États-Unis au nord.
+          etiquettes:
+            - texte: Cancún
+              x: 58
+              y: 59
+            - texte: Mexique
+              x: 20
+              y: 48
+            - texte: golfe du Mexique
+              x: 50
+              y: 37
+            - texte: mer des Caraïbes
+              x: 75
+              y: 88
+            - texte: États-Unis
+              x: 30
+              y: 10
+      - picto: drapeau
+        motCle: ville nouvelle
+        phrases:
+          - À partir de 1970, l'État mexicain construit Cancún sur une côte presque vide.
+        enSavoirPlus: >-
+          Il choisit ce lieu pour ses plages de sable blanc, sa mer turquoise et son soleil toute l'année.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage. Une côte des Caraïbes encore sauvage : une longue
+            plage de sable très blanc, une mer turquoise, des cocotiers et une forêt basse derrière la
+            plage ; une seule petite cabane de pêcheur en bois avec une barque tirée sur le sable. Ne doit
+            pas figurer : texte, lettre, chiffre, hôtel, immeuble, route goudronnée, voiture, bateau à
+            moteur, transat, parasol.
+          alt: Une plage de sable blanc et une mer turquoise, avec une seule cabane de pêcheur.
+      - picto: ville
+        motCle: zone hôtelière
+        phrases:
+          - La zone hôtelière aligne de grands hôtels sur une longue bande de sable, entre la mer et une lagune.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage, dans le style de la zone
+            hôtelière de Cancún (sans copier une vue précise). Une longue et étroite bande de sable en
+            forme de 7 couverte de grands hôtels de dix à vingt étages, avec leurs piscines ; à droite,
+            la mer turquoise des Caraïbes et une plage blanche ; à gauche, une grande lagune plus sombre.
+            Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, marque, nom d'hôtel.
+          alt: Vue du ciel d'une longue bande de sable couverte de grands hôtels, entre la mer turquoise et une lagune.
+      - picto: avion
+        motCle: aéroport
+        phrases:
+          - En 2024, environ 30 millions de passagers passent par l'aéroport international de Cancún.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un avion de ligne blanc, sans aucune
+            inscription ni couleur de compagnie, descend vers une piste en survolant une côte de sable
+            blanc, une mer turquoise et une forêt tropicale basse. Ciel bleu avec quelques nuages. Ne
+            doit pas figurer : texte, lettre, chiffre, logo, nom de compagnie, drapeau, immatriculation.
+          alt: Un avion de ligne descend vers l'aéroport en survolant la mer turquoise et la plage.
+      - picto: groupe
+        motCle: croissance
+        phrases:
+          - "La ville a grandi très vite : en 2020, environ 900 000 personnes vivent à Cancún."
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Une grande ville tropicale
+            plate qui s'étend jusqu'à l'horizon : des milliers de petites maisons et d'immeubles bas aux
+            toits plats, de larges avenues, quelques arbres ; au loin, sur la gauche, une mince ligne
+            d'hôtels hauts au bord de la mer. Ne doit pas figurer : texte, lettre, chiffre, enseigne,
+            logo, panneau publicitaire lisible.
+          alt: Vue du ciel d'une grande ville de petites maisons ; au loin, une ligne de grands hôtels au bord de la mer.
+      - picto: personne
+        motCle: emplois
+        phrases:
+          - "Beaucoup d'habitants travaillent pour les touristes : serveurs, cuisiniers, femmes de chambre, guides, chauffeurs."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, dans un grand hôtel au bord de la mer
+            des Caraïbes. Trois employés mexicains au travail, représentés avec respect : une femme de
+            chambre qui pousse un chariot de linge dans une galerie ouverte, un serveur qui porte un
+            plateau de boissons près d'une piscine, un jardinier qui taille une haie. Uniformes simples
+            sans inscription. Ne doit pas figurer : texte, lettre, chiffre, logo, badge lisible, marque,
+            nom d'hôtel.
+          alt: Une femme de chambre, un serveur et un jardinier au travail dans un grand hôtel au bord de la mer.
+      - picto: maison
+        motCle: quartiers des employés
+        phrases:
+          - Les employés habitent souvent loin de la mer, dans de petits logements, et font un long trajet pour travailler.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, tôt le matin, sous un ciel clair.
+            Dans un quartier de petites maisons basses identiques et colorées d'une ville tropicale du
+            Mexique, des habitants en tenue de travail (chemise blanche, uniforme d'hôtel uni) attendent
+            un bus à un arrêt simple, au bord d'une rue goudronnée. Scène calme et digne, sans
+            misérabilisme. Ne doit pas figurer : texte, lettre, chiffre, numéro de bus, logo, enseigne,
+            panneau lisible, graffiti.
+          alt: Des employés en tenue de travail attendent le bus le matin dans un quartier de petites maisons.
+      - picto: balance
+        motCle: inégalités
+        phrases:
+          - Entre les hôtels de luxe et les quartiers des employés, les inégalités sont fortes.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage, vue en oblique. Au premier
+            plan, à gauche, un quartier de petites maisons basses serrées aux toits plats gris ; au milieu,
+            une large lagune sombre ; au fond, à droite, une rangée de grands hôtels blancs au bord d'une
+            mer turquoise. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, marque.
+          alt: Un quartier de petites maisons au premier plan, une lagune, puis une rangée de grands hôtels au bord de la mer.
+      - picto: arbre
+        motCle: mangrove
+        phrases:
+          - Pour construire, on a détruit des mangroves, ces forêts du bord de mer qui protègent la côte.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une mangrove au bord d'une lagune
+            des Caraïbes : des arbres aux racines en échasses plongées dans une eau calme et peu profonde,
+            un héron blanc. À l'arrière-plan à droite, la silhouette floue de grands hôtels. Ne doit pas
+            figurer : texte, lettre, chiffre, enseigne, logo, panneau, déchets.
+          alt: Une mangrove, des arbres aux racines plongées dans l'eau, avec des hôtels au loin.
+      - picto: vague
+        motCle: érosion
+        phrases:
+          - "Les tempêtes emportent le sable des plages : on a dû en rapporter plusieurs fois."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur une plage des Caraïbes très
+            étroite, devant un grand hôtel, les vagues ont creusé une petite falaise de sable ; à côté,
+            un tuyau sur le sable rejette un mélange d'eau et de sable pour recharger la plage, et un
+            engin de chantier étale le sable. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            enseigne, marque, nom d'hôtel.
+          alt: Une plage étroite rongée par les vagues, où un tuyau et un engin rapportent du sable.
+    questions:
+      - question: Qui a décidé de construire Cancún ?
+        reponse: L'État mexicain, à partir de 1970.
+      - question: Où habitent souvent les employés des hôtels ?
+        reponse: Loin de la mer, dans des quartiers de petits logements.
+      - question: Cite un problème pour l'environnement à Cancún.
+        reponse: La destruction des mangroves, ou l'érosion des plages.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Les littoraux touristiques du monde
+    ensemble:
+      type: mosaique
+    formule: littoral touristique = espace disputé
+    cartes:
+      - picto: globe
+        motCle: littoralisation
+        phrases:
+          - La littoralisation, c'est la concentration des habitants et des activités au bord de la mer.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage, prise de haut. Une côte de
+            la Méditerranée où les villes, les immeubles et les routes forment une bande continue le long
+            de la mer, alors que l'intérieur des terres, derrière, reste couvert de collines vertes et de
+            champs presque vides. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, marque.
+          alt: Vue du ciel d'une côte où les villes forment une bande continue au bord de la mer, l'intérieur restant vide.
+      - picto: lieu
+        motCle: grands littoraux touristiques
+        phrases:
+          - "Les grands littoraux touristiques : la Méditerranée, les Caraïbes, Dubaï, l'Asie du Sud-Est, l'Australie."
+        image:
+          aGenerer: >-
+            Planisphère sans aucun texte, format 4:3 paysage, style simple et lisible de manuel scolaire,
+            projection équirectangulaire : longitudes 180° ouest à 180° est sur toute la largeur,
+            latitudes 75° nord à 55° sud sur toute la hauteur. Continents en beige clair, océans en bleu
+            clair uni, sans frontières. Surligner en orange vif, par une bande épaisse le long de la côte,
+            cinq littoraux touristiques : les côtes de la mer Méditerranée (centrées vers 54 % de la
+            largeur et 28 % de la hauteur) ; les côtes et îles de la mer des Caraïbes (vers 29 % et 45 %) ;
+            la côte de Dubaï dans le golfe Persique (vers 65 % et 38 %) ; les côtes de Thaïlande et
+            d'Indonésie en Asie du Sud-Est (vers 78 % et 50 %) ; la côte est de l'Australie (vers 92 %
+            et 79 %). Ne doit pas figurer : texte, lettre, chiffre, nom de lieu, légende, rose des vents,
+            échelle, drapeaux.
+          alt: >-
+            Planisphère : cinq littoraux touristiques surlignés en orange, la Méditerranée, les Caraïbes,
+            Dubaï, l'Asie du Sud-Est et la côte est de l'Australie.
+          etiquettes:
+            - texte: Méditerranée
+              x: 54
+              y: 28
+            - texte: Caraïbes
+              x: 29
+              y: 45
+            - texte: Dubaï
+              x: 65
+              y: 38
+            - texte: Asie du Sud-Est
+              x: 78
+              y: 50
+            - texte: Australie
+              x: 92
+              y: 79
+      - picto: sac
+        motCle: tourisme de masse
+        phrases:
+          - "Le tourisme de masse : des millions de touristes vont aux mêmes endroits, aux mêmes moments."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue d'en haut en plein mois d'août.
+            Une plage de la Méditerranée entièrement couverte de serviettes et de parasols de couleurs
+            unies, serrés les uns contre les autres, avec une foule de baigneurs dans l'eau. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, marque sur les parasols ou les serviettes.
+          alt: Une plage noire de monde, couverte de serviettes et de parasols serrés.
+      - picto: route
+        motCle: aménagements
+        phrases:
+          - Pour accueillir les touristes, on construit des hôtels, des marinas, des routes et des aéroports.
+        enSavoirPlus: >-
+          Une marina est un port de plaisance entouré de logements, où l'on peut garer son bateau devant
+          chez soi.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Une marina de la Méditerranée :
+            des canaux bordés de maisons et de petits immeubles, chacun avec un bateau amarré devant ; une
+            route à quatre voies passe derrière ; au fond, de grands hôtels au bord de la plage. Ne doit
+            pas figurer : texte, lettre, chiffre, enseigne, logo, marque, nom de bateau.
+          alt: Vue du ciel d'une marina, avec des maisons et des bateaux le long des canaux, une route et des hôtels.
+      - picto: calendrier
+        motCle: saisonnalité
+        phrases:
+          - "La saisonnalité : une station est pleine en été et beaucoup plus calme en hiver."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, un jour gris de février. Une station
+            balnéaire hors saison : une promenade de bord de mer vide, des terrasses de cafés aux chaises
+            empilées et attachées, des volets fermés, une plage déserte. Ne doit pas figurer : texte,
+            lettre, chiffre, enseigne, logo, marque, panneau lisible.
+          alt: Une promenade de bord de mer vide en hiver, avec des chaises de café empilées et des volets fermés.
+      - picto: personne
+        motCle: emploi saisonnier
+        phrases:
+          - Un emploi saisonnier ne dure que quelques mois, pendant la saison touristique.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en été. Une jeune vendeuse de glaces
+            souriante, en tablier uni, sert un cornet à un enfant derrière le comptoir d'un petit kiosque
+            de bord de mer ; la plage et la mer en arrière-plan. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, marque, enseigne, prix affiché.
+          alt: Une jeune vendeuse de glaces sert un enfant dans un kiosque au bord de la plage.
+      - picto: cle
+        motCle: prix du logement
+        phrases:
+          - "Les résidences secondaires font monter les prix : se loger devient difficile pour les habitants à l'année."
+        enSavoirPlus: >-
+          Sur le littoral d'Occitanie, en 2023, quatre personnes sur dix qui y travaillent habitent ailleurs,
+          souvent plus loin de la mer.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. De dos, un jeune couple regarde la
+            vitrine d'une agence immobilière dans une rue de station balnéaire ; dans la vitrine, des
+            photos de maisons et d'appartements avec vue sur la mer, sans aucun texte ni prix lisible.
+            Ne doit pas figurer : texte, lettre, chiffre, prix, nom d'agence, logo, enseigne.
+          alt: De dos, un jeune couple regarde des annonces de logements dans une vitrine d'agence immobilière.
+      - picto: balance
+        motCle: conflit d'usage
+        phrases:
+          - Un conflit d'usage oppose des groupes qui veulent utiliser le même espace de façons différentes.
+        enSavoirPlus: >-
+          Par exemple : un promoteur veut construire un hôtel, des habitants veulent garder une plage
+          naturelle, des pêcheurs veulent garder leur port.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur une même petite crique de la
+            Méditerranée : à gauche, des pêcheurs réparent leurs filets près de barques en bois ; au
+            centre, des touristes sur des transats ; à droite, une grue et un immeuble en construction
+            juste derrière la plage. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne,
+            panneau de chantier écrit, marque.
+          alt: Sur une même crique, des pêcheurs, des touristes sur des transats et un immeuble en construction.
+      - picto: vague
+        motCle: érosion
+        phrases:
+          - "L'érosion, c'est la mer qui ronge la côte : en 2026, près de 20 % des côtes françaises reculent."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur une côte sableuse de France, une
+            dune entaillée par la mer forme une petite falaise de sable ; en haut, des racines de pins
+            pendent dans le vide et un ancien blockhaus en béton a basculé sur la plage. Mer agitée.
+            Ne doit pas figurer : texte, lettre, chiffre, graffiti, panneau, logo.
+          alt: Une dune rongée par la mer, avec des racines dans le vide et un vieux blockhaus tombé sur la plage.
+      - picto: livre
+        motCle: loi Littoral
+        phrases:
+          - Depuis 1986, la loi Littoral interdit en général de construire à moins de 100 mètres du rivage, hors des villes.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Une côte de France où une
+            longue plage naturelle bordée de dunes et de pins reste sans aucune construction, tandis
+            qu'un petit village groupé se trouve à l'écart, en retrait de la plage, derrière la pinède.
+            Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, panneau.
+          alt: Vue du ciel d'une plage naturelle sans construction, avec un village en retrait derrière les pins.
+      - picto: arbre
+        motCle: Conservatoire du littoral
+        phrases:
+          - Le Conservatoire du littoral achète des terrains au bord de l'eau pour les protéger du béton.
+        enSavoirPlus: >-
+          Créé en 1975, il protège environ 220 000 hectares en 2025. Près de La Grande-Motte, au Petit et
+          Grand Travers, une route du bord de plage a été supprimée pour laisser revivre les dunes.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un cordon de dunes protégé au bord
+            de la Méditerranée : des ganivelles (barrières basses en lattes de bois) retiennent le sable,
+            des plantes de dune poussent, un sentier de planches en bois mène à la plage ; deux
+            promeneurs restent sur le sentier. Ne doit pas figurer : texte, lettre, chiffre, panneau,
+            logo, voiture, immeuble.
+          alt: Des dunes protégées par des barrières en bois, avec un sentier de planches qui mène à la plage.
+    questions:
+      - question: Qu'est-ce que la littoralisation ?
+        reponse: La concentration des habitants et des activités au bord de la mer.
+      - question: Donne un exemple de conflit d'usage sur un littoral touristique.
+        reponse: Un promoteur veut construire un hôtel là où des habitants veulent garder une plage naturelle.
+      - question: Pourquoi est-il difficile de se loger dans une station balnéaire ?
+        reponse: Les résidences secondaires font monter les prix des logements.
+      - question: Comment la France protège-t-elle ses littoraux ?
+        reponse: Par la loi Littoral (1986) et le Conservatoire du littoral, qui achète des terrains pour les protéger.

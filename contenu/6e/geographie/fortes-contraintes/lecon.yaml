@@ -1,0 +1,698 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 2 « Habiter un espace de faible densité »,
+# sous-thème « Habiter un espace à forte(s) contrainte(s) naturelle(s) ou/et de grande biodiversité »
+# (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Étude de cas : le Nunavut (Grand Nord canadien), proposé en premier par la fiche Eduscol ; puis deux
+# exemples plus courts, la Guyane (forêt amazonienne, en France) et le Sahara ; puis la généralisation.
+# Leçon précédente : « La ville de demain » (thème 1).
+# Leçon suivante : « Habiter un espace agricole » (contenu/6e/geographie/espace-agricole).
+titre: Habiter un espace à fortes contraintes
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 3
+langue: fr
+statut: brouillon
+resume: >-
+  Vivre au Nunavut, dans le froid du Grand Nord canadien, puis dans la forêt de Guyane et au Sahara :
+  contraintes naturelles, adaptations, ressources et espaces protégés.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020) — classe de
+      sixième, géographie, thème 2 « Habiter un espace de faible densité »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 2 : Habiter un
+      espace de faible densité » (mars 2016) : contrainte (grand froid, sécheresse, chaleur humide,
+      pente, altitude), adaptation, biodiversité, parcs, exemples (Grand Nord canadien, forêts denses),
+      écueils (déterminisme ; peu d'habitants ne veut pas dire biodiversité préservée)
+    url: https://eduscol.education.fr/document/16780/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Gouvernement du Nunavut, « Nunavut, notre terre » : créé le 1er avril 1999, plus de deux millions de
+      km², au-delà de la limite des arbres, Inuits environ 85 % de la population, 25 localités, aucune
+      accessible par la route ou le rail, tout arrive par avion ou par bateau, inuktitut, le gouvernement
+      premier employeur, mines, tourisme, pêches
+    url: https://www.premier.gov.nu.ca/sites/default/files/public/Files/About_Nunavut/nunavut_our_land_-_fre.pdf
+  - libelle: >-
+      Statistique Canada, Le Quotidien, 9 février 2022, recensement de 2021 : le Nunavut compte 36 858
+      habitants
+    url: https://www150.statcan.gc.ca/n1/daily-quotidien/220209/dq220209a-fra.htm
+  - libelle: >-
+      Statistique Canada, Le Quotidien, 21 septembre 2022, recensement de 2021 : 30 865 Inuits vivent au
+      Nunavut, sur 36 858 habitants ; les Autochtones forment 85,8 % de sa population
+    url: https://www150.statcan.gc.ca/n1/daily-quotidien/220921/dq220921a-fra.htm
+  - libelle: >-
+      Wikipédia, « Iqaluit », tableau climatique d'après les normales 1991-2020 d'Environnement et
+      Changement climatique Canada : température moyenne annuelle -8,6 °C, février -27 °C
+    url: https://fr.wikipedia.org/wiki/Iqaluit
+  - libelle: >-
+      Gouvernement du Nunavut, « Guide du propriétaire sur le pergélisol au Nunavut » (2013) : pergélisol
+      sous presque toutes les maisons, pilotis, maisons surélevées pour que le vent passe dessous,
+      dégel dû au réchauffement, eau livrée par camion-citerne
+    url: https://climatechangenunavut.ca/sites/default/files/permafrost_nunavut_fr__reduced_size.pdf
+  - libelle: >-
+      L'Encyclopédie canadienne, « Motoneige » : la motoneige a largement remplacé le traîneau à chiens
+      dans l'Arctique
+    url: https://thecanadianencyclopedia.ca/fr/article/motoneige
+  - libelle: L'Encyclopédie canadienne, « Igloo » (abri d'hiver, encore utilisé par certains chasseurs)
+    url: https://encyclopediecanadienne.ca/article/igloo
+  - libelle: >-
+      Gouvernement du Canada, note sur Nutrition Nord Canada (2024) : dans le Nord, les prix des aliments
+      sont bien plus élevés que dans le reste du pays
+    url: https://rechercher.ouvert.canada.ca/notespq/record/aandc-aadnc%2CNA-2024-QP-341245648
+  - libelle: >-
+      Coalition sur la sécurité alimentaire du Nunavut, rapport de réunion 2016 (Assemblée législative du
+      Nunavut) : aliments traditionnels (chasse et pêche), coût de l'essence et du matériel de chasse
+    url: https://assembly.nu.ca/sites/default/files/TD-273-4%283%29-FR-Nunavut-Food-Security-Coalition-2016-Meeting-Report.pdf
+  - libelle: >-
+      Baffinland, « Mary River Mine » : mine de fer à ciel ouvert sur l'île de Baffin, minerai expédié par
+      bateau depuis Milne Inlet
+    url: https://www.baffinland.com/mary-river-mine/
+  - libelle: >-
+      Parcs Canada, parc national Auyuittuq : île de Baffin, glaciers et fjords, « la terre qui ne fond
+      jamais », géré conjointement par les Inuits et Parcs Canada
+    url: https://parcs.canada.ca/pn-np/nu/auyuittuq
+  - libelle: >-
+      Cour des comptes, « La forêt guyanaise : des constats alarmants, des clarifications nécessaires »
+      (référé du 21 juillet 2025) : la forêt couvre environ 8 millions d'hectares, soit 96 % de la Guyane
+      (chiffre du référé, repris par la presse) ; le Parc amazonien est le plus grand parc national
+      français ; l'orpaillage illégal cause d'importants dégâts
+    url: https://www.ccomptes.fr/fr/publications/la-foret-guyanaise-des-constats-alarmants-des-clarifications-necessaires
+  - libelle: >-
+      Parc amazonien de Guyane, « L'abattis au cœur du développement de la Guyane » : culture itinérante
+      sur brûlis, manioc, chasse, pêche et cueillette
+    url: https://parc-amazonien-guyane.fr/sites/parc-amazonien-guyane.fr/files/atoms/files/labattis-au-coeur-du-developpement-de-la-guyane.pdf
+  - libelle: >-
+      Parc amazonien de Guyane, diagnostic du territoire de l'Oyapock (2023) : Wayãpi et Teko de Camopi et
+      Trois-Sauts, pirogue au quotidien
+    url: https://parc-amazonien-guyane.fr/sites/parc-amazonien-guyane.fr/files/2025-01/Diagnostic%20Oyapock_FINAL.pdf
+  - libelle: >-
+      Parc amazonien de Guyane, guide de bonne conduite à Maripa-Soula (accès par le fleuve ou par avion,
+      Wayana, Teko, Aluku)
+    url: https://parc-amazonien-guyane.fr/sites/parc-amazonien-guyane.fr/files/available_docs/_guide_bonne_conduite_maripa-soula.pdf
+  - libelle: >-
+      Futura-Sciences (article rédigé par le WWF) : création du Parc amazonien de Guyane en février 2007
+    url: https://www.futura-sciences.com/planete/actualites/terre-creation-parc-amazonien-guyane-10447/
+  - libelle: >-
+      Assemblée nationale, rapport n° 4404 de la commission d'enquête sur l'orpaillage illégal en Guyane
+      (juillet 2021) : le mercure pollue durablement l'eau et les sols
+    url: https://www.assemblee-nationale.fr/dyn/15/rapports/ceorpguy/l15b4404_rapport-enquete.pdf
+  - libelle: Wikipédia, « Maripasoula » (plus grande commune de France, environ 18 360 km²)
+    url: https://fr.wikipedia.org/wiki/Maripasoula
+  - libelle: >-
+      Sénat, rapport d'information n° 337 (2019-2020) sur la Guyane : Maripasoula, commune la plus étendue
+      de Guyane (18 761 km² dans ce tableau), plus grande que n'importe quel département de métropole
+    url: https://www.senat.fr/rap/r19-337/r19-33722.html
+  - libelle: Encyclopædia Universalis, « Sahara » (le plus grand désert chaud du monde)
+    url: https://www.universalis.fr/encyclopedie/sahara/
+  - libelle: Encyclopædia Universalis, « Oasis »
+    url: https://www.universalis.fr/encyclopedie/oasis/
+  - libelle: Encyclopædia Universalis, « Touaregs » (éleveurs du Sahara central et méridional)
+    url: https://www.universalis.fr/encyclopedie/touaregs/
+  - libelle: Encyclopædia Universalis, « Déserts — l'homme dans le désert » (nomades et oasis)
+    url: https://www.universalis.fr/encyclopedie/deserts/7-l-homme-dans-le-desert/
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Le Nunavut, dans le Grand Nord
+    ensemble:
+      type: mosaique
+    formule: grand froid + isolement = fortes contraintes
+    cartes:
+      - picto: lieu
+        motCle: Nunavut
+        phrases:
+          - Le Nunavut est un immense territoire du Grand Nord canadien, au-delà de la limite des arbres.
+        enSavoirPlus: >-
+          Il a été créé en 1999. Nunavut veut dire « notre terre » en inuktitut, la langue des Inuits.
+        image:
+          aGenerer: >-
+            Carte de localisation sans aucun texte, format 4:3 paysage, style carte d'atlas scolaire
+            simple et propre, vue du nord de l'Amérique du Nord et du Groenland. Mer en bleu clair, terres
+            en beige clair, le territoire du Nunavut (nord du Canada, à l'ouest et au nord de la baie
+            d'Hudson, avec les îles de l'Arctique et l'île de Baffin) en orange franc, le reste du Canada
+            en beige plus foncé. Placer précisément : le centre du Nunavut vers 45 % de la largeur et 38 %
+            de la hauteur ; la baie d'Hudson (grande mer intérieure) vers 52 % de la largeur et 72 % de la
+            hauteur ; un point rouge pour la ville d'Iqaluit, au sud de l'île de Baffin, vers 70 % de la
+            largeur et 58 % de la hauteur ; le Groenland vers 85 % de la largeur et 22 % de la hauteur ;
+            le reste du Canada vers 28 % de la largeur et 84 % de la hauteur. Ne doit pas figurer : texte,
+            lettre, chiffre, nom de lieu, légende écrite, rose des vents avec lettres, échelle chiffrée,
+            frontières inventées.
+          alt: >-
+            Carte du nord de l'Amérique : le Nunavut en orange, au nord du Canada, au nord et à l'ouest de
+            la baie d'Hudson ; un point rouge marque Iqaluit, la capitale ; le Groenland est à droite.
+          etiquettes:
+            - texte: Nunavut
+              x: 45
+              y: 38
+            - texte: baie d'Hudson
+              x: 52
+              y: 72
+            - texte: Iqaluit
+              x: 70
+              y: 58
+            - texte: Groenland
+              x: 85
+              y: 22
+            - texte: reste du Canada
+              x: 28
+              y: 84
+      - picto: groupe
+        motCle: faible densité
+        phrases:
+          - Le Nunavut est plus de trois fois plus grand que la France, mais n'a qu'environ 37 000 habitants en 2021.
+        enSavoirPlus: >-
+          Chiffre du recensement de 2021. Les habitants vivent dans 25 villages et petites villes, très
+          loin les uns des autres.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne en été. Un petit village
+            du Nunavut au bord d'une baie : une centaine de maisons basses en bois peint (rouge, bleu,
+            vert, jaune) le long de quelques rues de gravier, au milieu d'une immense toundra rocheuse,
+            sans arbres, qui s'étend jusqu'à l'horizon ; quelques plaques de neige, mer grise avec des
+            morceaux de glace. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau,
+            inscription, arbre, gratte-ciel, autoroute.
+          alt: Vue aérienne d'un petit village de maisons colorées, perdu au milieu d'une immense toundra sans arbres.
+      - picto: personne
+        motCle: Inuits
+        phrases:
+          - En 2021, plus de 8 habitants sur 10 sont des Inuits, le peuple autochtone qui vit ici depuis très longtemps.
+        enSavoirPlus: >-
+          Un peuple autochtone est un peuple qui vivait sur ces terres avant l'arrivée des Européens.
+          Aujourd'hui, les Inuits vivent dans des maisons ; l'igloo sert parfois d'abri pendant la chasse.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, au printemps, lumière claire. Une
+            famille inuite (une grand-mère, un père, une mère et deux enfants souriants) devant sa maison
+            en bois peint sur pilotis, dans un village du Nunavut ; parkas modernes, dont une parka
+            traditionnelle brodée portée par la grand-mère ; neige au sol. Portrait digne et chaleureux,
+            sans pose folklorique. Ne doit pas figurer : texte, lettre, chiffre, logo, marque visible sur
+            les vêtements, igloo, costume de déguisement, plume, tipi.
+          alt: Une famille inuite souriante, en parkas, devant sa maison en bois dans un village enneigé.
+      - picto: thermometre
+        motCle: grand froid
+        phrases:
+          - "À Iqaluit, la capitale, la température moyenne de l'année est d'environ -9 °C."
+        enSavoirPlus: >-
+          Moyenne des années 1991 à 2020 (Environnement Canada). En février, le mois le plus froid, elle
+          descend à environ -27 °C ; la mer gèle pendant plusieurs mois.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en hiver. Une rue enneigée d'une
+            petite ville de l'Arctique canadien sous un ciel bleu glacé : maisons basses en bois coloré,
+            congères, une personne bien emmitouflée en parka à capuche bordée de fourrure marche dans la
+            neige, souffle visible ; au fond, la mer gelée. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, enseigne, panneau, plaque d'immatriculation lisible, thermomètre affichant un chiffre,
+            arbre.
+          alt: Une rue enneigée d'une petite ville de l'Arctique, avec une personne en parka et la mer gelée au fond.
+      - picto: flocon
+        motCle: pergélisol
+        phrases:
+          - Le pergélisol est un sol qui reste gelé toute l'année ; il est sous presque toutes les maisons.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, en été. Une tranchée creusée dans la toundra de
+            l'Arctique canadien, vue de près : en haut une fine couche de mousse et de terre brune dégelée,
+            en dessous une épaisse couche de terre grise mêlée de glace blanche et brillante ; une pelle
+            plantée à côté pour l'échelle. Ne doit pas figurer : texte, lettre, chiffre, règle graduée,
+            étiquette, logo, personne.
+          alt: Une tranchée dans la toundra montre, sous une fine couche de terre, un sol rempli de glace.
+      - picto: maison
+        motCle: pilotis
+        phrases:
+          - "Les maisons sont posées sur des pilotis : le vent passe dessous et garde le sol gelé."
+        enSavoirPlus: >-
+          Si la chaleur de la maison faisait fondre le pergélisol, le sol deviendrait mou et la maison
+          s'enfoncerait.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en hiver, plan moyen. Une maison
+            individuelle en bois peint en bleu, dans un village du Nunavut, nettement surélevée sur des
+            pilotis en acier d'environ un mètre : on voit bien le vide sous la maison, la neige balayée
+            par le vent, un petit escalier en bois jusqu'à la porte, un réservoir d'eau sur le côté. Ne
+            doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau, plaque lisible, arbre.
+          alt: Une maison en bois surélevée sur des pilotis en acier, avec du vide dessous, dans la neige.
+      - picto: avion
+        motCle: isolement
+        phrases:
+          - "Aucune route ne relie les villages au reste du Canada : tout arrive par avion ou par bateau."
+        enSavoirPlus: >-
+          Ce transport coûte cher : au magasin, la nourriture venue du sud est bien plus chère qu'ailleurs
+          au Canada.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en été. Un petit avion à hélices
+            décharge des caisses de nourriture et des colis sur une piste de gravier, au bord d'un village
+            de l'Arctique canadien ; deux employés en gilets orange les posent sur un chariot ; toundra
+            sans arbres et mer au fond. Ne doit pas figurer : texte, lettre, chiffre, logo de compagnie,
+            immatriculation lisible, marque sur les caisses, enseigne, route goudronnée.
+          alt: Un petit avion à hélices décharge des caisses de nourriture sur une piste de gravier, près d'un village.
+      - picto: pas
+        motCle: motoneige
+        phrases:
+          - Pour voyager sur la neige et la glace, on prend la motoneige, qui a presque remplacé le traîneau à chiens.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, au printemps, grand soleil. Deux
+            motoneiges, chacune tirant un long traîneau de bois chargé (qamutik), roulent sur la mer
+            gelée enneigée, le long d'une côte de montagnes blanches ; conducteurs en parka et lunettes de
+            neige. Ne doit pas figurer : texte, lettre, chiffre, logo, marque lisible sur les motoneiges,
+            numéro, route, arbre.
+          alt: Deux motoneiges tirant des traîneaux en bois roulent sur la mer gelée, au pied de montagnes enneigées.
+      - picto: lance
+        motCle: chasse et pêche
+        phrases:
+          - Beaucoup de familles chassent le phoque et le caribou, et pêchent l'omble, comme leurs ancêtres.
+        enSavoirPlus: >-
+          Cette nourriture traditionnelle coûte moins cher que celle du magasin ; elle est souvent partagée
+          entre les familles.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, au printemps. Un adulte inuit et un
+            adolescent, en parkas modernes, pêchent sur un lac gelé à travers un trou rond creusé dans la
+            glace ; un omble chevalier argenté et rose fraîchement pêché est posé sur la neige à côté
+            d'eux ; une motoneige et un traîneau en bois au fond. Scène calme, sans sang. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, marque visible, arme pointée, animal blessé.
+          alt: Un adulte et un adolescent pêchent par un trou dans la glace d'un lac gelé ; un poisson est posé sur la neige.
+      - picto: pioche
+        motCle: mine
+        phrases:
+          - Sur l'île de Baffin, la mine de Mary River extrait du fer, envoyé par bateau dans le monde.
+        enSavoirPlus: >-
+          Les mines apportent des emplois, mais le premier employeur reste le gouvernement : écoles,
+          santé, mairies.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en été, vue aérienne. Une grande
+            mine de fer à ciel ouvert dans un paysage arctique sans arbres : gradins de roche gris-rouge,
+            gros camions de chantier jaunes, une longue piste de gravier qui s'éloigne vers l'horizon. Ne doit pas figurer : texte, lettre, chiffre, logo, nom d'entreprise,
+            marque sur les camions, panneau.
+          alt: Une grande mine de fer à ciel ouvert, avec des camions, dans un paysage arctique sans arbres.
+      - picto: montagne
+        motCle: parc national
+        phrases:
+          - Le parc national Auyuittuq attire des randonneurs ; les Inuits et Parcs Canada le gèrent ensemble.
+        enSavoirPlus: >-
+          Auyuittuq veut dire « la terre qui ne fond jamais » : on y voit des glaciers et des fjords.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en été. Deux randonneurs avec de gros
+            sacs à dos marchent dans une large vallée glaciaire de l'île de Baffin, entre d'immenses parois
+            de granit gris et des glaciers blancs ; rivière de fonte, cailloux, aucun arbre. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, marque visible sur les sacs, panneau, refuge avec
+            inscription.
+          alt: Deux randonneurs marchent dans une vallée entre de hautes parois de roche et des glaciers.
+      - picto: goutte
+        motCle: réchauffement
+        phrases:
+          - Le climat se réchauffe ; le pergélisol fond par endroits, et des maisons bougent ou se fissurent.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en été. Une maison en bois d'un
+            village de l'Arctique canadien, penchée parce que le sol s'est affaissé : pilotis de travers,
+            flaques d'eau boueuse sous la maison, une fissure visible dans le mur, escalier décalé. Ne
+            doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau, personne.
+          alt: Une maison en bois penchée, au-dessus d'un sol boueux qui s'est affaissé ; un mur est fissuré.
+    questions:
+      - question: Quelles sont les contraintes naturelles du Nunavut ?
+        reponse: Le grand froid, le sol gelé (pergélisol) et l'isolement, loin de tout.
+      - question: Comment les habitants s'adaptent-ils au pergélisol ?
+        reponse: Ils construisent des maisons sur pilotis, pour que le sol reste gelé.
+      - question: Comment arrivent les marchandises au Nunavut ?
+        reponse: Par avion ou par bateau, car aucune route ne relie les villages au sud.
+      - question: Quelles ressources le Nunavut exploite-t-il ?
+        reponse: La chasse et la pêche, les mines (fer) et le tourisme dans les parcs.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: La Guyane et le Sahara
+    ensemble:
+      type: mosaique
+    formule: forêt dense ou désert = forte contrainte
+    cartes:
+      - picto: lieu
+        motCle: Guyane
+        phrases:
+          - La Guyane est un territoire français d'Amérique du Sud, couvert par la forêt amazonienne.
+        image:
+          aGenerer: >-
+            Carte de localisation sans aucun texte, format 4:3 paysage, style carte d'atlas scolaire simple
+            et propre, centrée sur la Guyane française. Océan en bleu clair en haut à droite, pays voisins
+            (Suriname à gauche, Brésil en bas et à droite) en beige clair, la Guyane en vert clair, avec
+            sa partie sud (le Parc amazonien) en vert foncé ; les deux grands fleuves frontières (Maroni à
+            l'ouest, Oyapock à l'est) en bleu. Placer précisément : un point rouge pour Cayenne, sur la
+            côte, vers 63 % de la largeur et 18 % de la hauteur ; un point noir pour Maripasoula, sur le
+            fleuve Maroni, vers 37 % de la largeur et 58 % de la hauteur ; le centre de la zone vert foncé
+            vers 52 % de la largeur et 74 % de la hauteur ; l'océan vers 85 % de la largeur et 10 % de la
+            hauteur ; le Brésil vers 82 % de la largeur et 86 % de la hauteur. Ne doit pas figurer : texte,
+            lettre, chiffre, nom de lieu, légende écrite, rose des vents avec lettres, échelle chiffrée.
+          alt: >-
+            Carte de la Guyane : la côte et Cayenne au nord, au bord de l'océan Atlantique ; au sud, en
+            vert foncé, le Parc amazonien et la commune de Maripasoula ; le Brésil au sud et à l'est.
+          etiquettes:
+            - texte: Cayenne
+              x: 63
+              y: 18
+            - texte: Maripasoula
+              x: 37
+              y: 58
+            - texte: Parc amazonien
+              x: 52
+              y: 74
+            - texte: océan Atlantique
+              x: 85
+              y: 10
+            - texte: Brésil
+              x: 82
+              y: 86
+      - picto: arbre
+        motCle: forêt dense
+        phrases:
+          - En 2025, la forêt couvre environ 96 % de la Guyane ; elle est chaude, humide et très serrée.
+        enSavoirPlus: >-
+          Chiffre de la Cour des comptes, 2025. Presque tous les habitants vivent sur la côte, au nord.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. La forêt amazonienne
+            de Guyane à perte de vue, un tapis continu d'arbres de toutes les nuances de vert, des nappes
+            de brume qui montent après la pluie, un fleuve brun qui serpente au milieu. Aucun bâtiment.
+            Ne doit pas figurer : texte, lettre, chiffre, logo, route, champ, ville.
+          alt: Vue aérienne d'une immense forêt verte traversée par un fleuve, avec de la brume.
+      - picto: oiseau
+        motCle: biodiversité
+        phrases:
+          - Cette forêt abrite une immense biodiversité, c'est-à-dire une très grande variété de plantes et d'animaux.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, dans la forêt amazonienne de Guyane. Sur une grosse
+            branche couverte de mousse et de plantes, sous la lumière verte du sous-bois : un ara rouge,
+            un toucan, une petite grenouille bleue et une grande fleur sauvage ; feuillages variés autour,
+            nets et détaillés. Ne doit pas figurer : texte, lettre, chiffre, logo, cage, humain, animal
+            d'une autre région du monde (lion, éléphant, pingouin).
+          alt: Un ara rouge, un toucan et une petite grenouille bleue sur une branche couverte de plantes, dans la forêt.
+      - picto: pirogue
+        motCle: pirogue
+        phrases:
+          - "Dans le sud, il n'y a pas de route : on voyage en pirogue sur les fleuves, ou en avion."
+        enSavoirPlus: >-
+          Maripasoula, sur le fleuve Maroni, est la plus grande commune de France ; on y arrive en avion
+          ou en pirogue.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une longue pirogue en bois à moteur
+            hors-bord remonte un large fleuve brun de Guyane, bordé de forêt dense ; à bord, un piroguier
+            à l'arrière, des passagers et des bidons, des sacs de riz ; un rapide de rochers au premier
+            plan. Ne doit pas figurer : texte, lettre, chiffre, logo, marque sur le moteur, inscription
+            sur la pirogue, pont, route.
+          alt: Une longue pirogue en bois à moteur, chargée de passagers et de bagages, remonte un fleuve dans la forêt.
+      - picto: personne
+        motCle: Amérindiens
+        phrases:
+          - Dans le sud, des peuples autochtones, les Wayana, les Teko et les Wayãpi, vivent au bord des fleuves.
+        enSavoirPlus: >-
+          D'autres peuples amérindiens, comme les Kali'na, vivent sur la côte. Au bord du Maroni vivent
+          aussi les Aluku, descendants d'Africains réduits en esclavage qui s'étaient enfuis.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un village amérindien au bord d'un
+            fleuve de Guyane : quelques maisons en bois sur pilotis, au toit de feuilles de palmier ou de
+            tôle, des pirogues tirées sur la berge ; une femme et deux enfants en vêtements de tous les
+            jours (tee-shirts, shorts) marchent sur le chemin ; un adolescent assis sur un banc. Image
+            respectueuse et naturelle, sans pose ni costume. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, marque visible sur les vêtements, plume, coiffe de déguisement, tipi.
+          alt: Un village au bord d'un fleuve, avec des maisons en bois sur pilotis, des pirogues et des habitants.
+      - picto: rameau
+        motCle: abattis
+        phrases:
+          - L'abattis est un petit champ ouvert dans la forêt, où l'on cultive surtout le manioc.
+        enSavoirPlus: >-
+          Après quelques années, on laisse la forêt repousser et on ouvre un autre abattis plus loin.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un abattis en Guyane : une petite
+            clairière ouverte dans la forêt dense, avec des plants de manioc de hauteur moyenne, quelques
+            troncs coupés et noircis au sol ; une femme amérindienne en vêtements de tous les jours
+            récolte des racines de manioc et les pose dans une hotte tressée. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, tracteur, serre, clôture, champ immense.
+          alt: Une femme récolte du manioc dans un petit champ ouvert au milieu de la forêt.
+      - picto: bouclier
+        motCle: Parc amazonien
+        phrases:
+          - Le Parc amazonien de Guyane, créé en 2007, est le plus grand parc national de France.
+        enSavoirPlus: >-
+          Le parc protège la forêt, mais les habitants peuvent y continuer à chasser, pêcher et cultiver
+          leurs abattis.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un inselberg (grand dôme de granit
+            nu) qui dépasse d'une forêt amazonienne immense et intacte, en Guyane, sous un ciel de nuages
+            blancs ; au premier plan, un garde du parc en tenue de terrain vert sombre observe le paysage
+            avec des jumelles, de dos. Ne doit pas figurer : texte, lettre, chiffre, logo, écusson lisible,
+            panneau, route.
+          alt: Un garde du parc regarde avec des jumelles une immense forêt d'où sort un dôme de roche.
+      - picto: piece
+        motCle: orpaillage illégal
+        phrases:
+          - Des chercheurs d'or clandestins abattent la forêt et polluent les rivières avec du mercure, un poison.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Une large plaie dans la
+            forêt amazonienne de Guyane : des arbres abattus, de la terre retournée, des bassins d'eau
+            boueuse jaune-orange, une petite rivière devenue couleur de boue ; tout autour, la forêt
+            verte intacte. Aucun humain visible. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            panneau, route goudronnée.
+          alt: Vue aérienne d'une zone de forêt détruite par des chercheurs d'or, avec des bassins de boue orange.
+      - picto: soleil
+        motCle: Sahara
+        phrases:
+          - Le Sahara, au nord de l'Afrique, est le plus grand désert chaud du monde ; il y pleut très peu.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Le désert du Sahara sous un soleil
+            écrasant : grandes dunes de sable orangé à gauche, plateau de roche nue et de cailloux noirs à
+            droite, ciel bleu sans nuage ; au loin, une file de quelques dromadaires. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, route, voiture, panneau, végétation verte abondante.
+          alt: Le désert du Sahara, avec des dunes de sable, un plateau de cailloux et des dromadaires au loin.
+      - picto: palmier
+        motCle: oasis
+        phrases:
+          - Dans une oasis, l'eau tirée du sous-sol permet de cultiver des palmiers-dattiers et des légumes.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une oasis du Sahara : une palmeraie
+            verte et dense de palmiers-dattiers, avec en dessous de petits jardins de légumes arrosés par
+            des rigoles d'eau ; un village de maisons en terre ocre au bord ; un agriculteur au travail ;
+            les dunes du désert juste derrière. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            enseigne, panneau, piscine, hôtel.
+          alt: Une oasis verte de palmiers-dattiers et de jardins, avec un village en terre, au milieu du désert.
+      - picto: chameau
+        motCle: nomades
+        phrases:
+          - Des éleveurs touaregs se déplacent avec leurs troupeaux pour trouver de l'eau et de l'herbe.
+        enSavoirPlus: >-
+          Beaucoup de Touaregs vivent aujourd'hui dans des villages ou des villes, mais certains restent
+          nomades.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, fin de journée. Deux éleveurs
+            touaregs, en longs vêtements et chèche (turban) indigo, conduisent un petit troupeau de
+            dromadaires et de chèvres vers un puits, sur une plaine sèche du sud du Sahara avec quelques
+            acacias épineux. Scène digne, sans exotisme. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, marque visible, arme, voiture, route goudronnée.
+          alt: Deux éleveurs touaregs en chèche indigo conduisent des dromadaires et des chèvres vers un puits.
+    questions:
+      - question: Pourquoi la Guyane est-elle un espace de grande biodiversité ?
+        reponse: Sa forêt amazonienne, chaude et humide, abrite une immense variété de plantes et d'animaux.
+      - question: Comment se déplace-t-on dans le sud de la Guyane ?
+        reponse: En pirogue sur les fleuves ou en avion, car il n'y a pas de route.
+      - question: Qu'est-ce qui menace la forêt guyanaise ?
+        reponse: L'orpaillage illégal, qui détruit la forêt et pollue les rivières au mercure.
+      - question: Comment vit-on dans le Sahara malgré la sécheresse ?
+        reponse: On cultive dans les oasis grâce à l'eau du sous-sol, ou on élève des troupeaux en nomade.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Habiter un espace à contraintes
+    ensemble:
+      type: mosaique
+    formule: contrainte + adaptation = habiter
+    cartes:
+      - picto: mur
+        motCle: contrainte naturelle
+        phrases:
+          - "Une contrainte naturelle gêne la vie des humains : grand froid, sécheresse, fortes pentes ou forêt très dense."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en hiver. Une rue d'un village de
+            l'Arctique canadien pendant une tempête de neige : la neige vole à l'horizontale, les maisons
+            basses en bois coloré se voient à peine ; au premier plan, une personne en parka à capuche
+            avance courbée contre le vent. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne,
+            panneau, voiture, arbre.
+          alt: Dans une tempête de neige, une personne en parka avance courbée contre le vent, entre des maisons à peine visibles.
+      - picto: globe
+        motCle: carte du monde
+        phrases:
+          - "Ces espaces couvrent une grande partie de la Terre : régions polaires, déserts, hautes montagnes, forêts denses."
+        image:
+          aGenerer: >-
+            Planisphère sans aucun texte, format 4:3 paysage, projection rectangulaire simple (longitudes
+            de -180 à +180 de gauche à droite, latitudes de +90 à -90 de haut en bas), étirée pour remplir
+            tout le cadre, sans marge ni bordure, style atlas scolaire épuré. Océans en bleu clair, autres terres en beige clair. Colorier : en blanc
+            bleuté les régions polaires (Grand Nord du Canada, Groenland, nord de la Sibérie,
+            Antarctique) ; en jaune les grands déserts chauds (Sahara, péninsule Arabique, centre de
+            l'Australie) ; en brun les hautes montagnes (Himalaya, Andes, Rocheuses) ; en vert foncé les
+            forêts denses (Amazonie, bassin du Congo, Indonésie). Placer précisément : le Grand Nord
+            canadien vers 25 % de la largeur et 13 % de la hauteur ; le Sahara vers 53 % de la largeur et
+            37 % de la hauteur ; l'Himalaya vers 74 % de la largeur et 34 % de la hauteur ; l'Amazonie vers
+            33 % de la largeur et 54 % de la hauteur ; le bassin du Congo vers 56 % de la largeur et 50 %
+            de la hauteur. Ne doit pas figurer : texte, lettre, chiffre, nom de lieu, légende écrite,
+            quadrillage chiffré, rose des vents avec lettres.
+          alt: >-
+            Planisphère des espaces à fortes contraintes : régions polaires en blanc (Grand Nord), déserts
+            en jaune (Sahara), hautes montagnes en brun (Himalaya), forêts denses en vert foncé (Amazonie,
+            Congo).
+          etiquettes:
+            - texte: Grand Nord
+              x: 25
+              y: 13
+            - texte: Sahara
+              x: 53
+              y: 37
+            - texte: Himalaya
+              x: 74
+              y: 34
+            - texte: Amazonie
+              x: 33
+              y: 54
+            - texte: Congo
+              x: 56
+              y: 50
+      - picto: groupe
+        motCle: faible densité
+        phrases:
+          - Ces espaces ont une faible densité, c'est-à-dire très peu d'habitants pour une très grande surface.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue très large. Une seule petite
+            maison isolée et une piste dans une immense steppe de montagne, sèche et vide, qui s'étend
+            jusqu'aux sommets enneigés à l'horizon ; un petit troupeau au loin. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, panneau, ville, ligne électrique nombreuse.
+          alt: Une maison seule au milieu d'un immense paysage vide, avec des montagnes au loin.
+      - picto: montagne
+        motCle: haute montagne
+        phrases:
+          - En haute montagne, l'altitude apporte le froid, et les fortes pentes rendent les routes difficiles.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un village de haute montagne de
+            l'Himalaya, accroché à une pente raide : maisons en pierre aux toits plats, petites terrasses
+            cultivées en escalier, une route étroite en lacets qui monte ; sommets enneigés derrière. Ne
+            doit pas figurer : texte, lettre, chiffre, logo, enseigne, drapeau avec inscription, panneau.
+          alt: Un village de maisons en pierre accroché à une pente raide, avec des cultures en terrasses et des sommets enneigés.
+      - picto: main
+        motCle: adaptation
+        phrases:
+          - "S'adapter, c'est trouver des solutions pour vivre avec la contrainte : pilotis, oasis, pirogue, vêtements chauds."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en hiver, grand soleil. Un enfant
+            inuit d'une dizaine d'années joue dehors dans la neige, devant les maisons sur pilotis de son
+            village du Nunavut ; il est bien protégé du froid : parka épaisse à capuche bordée de fourrure,
+            moufles, bottes chaudes, joues rouges, grand sourire. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, marque visible sur les vêtements, igloo, costume de déguisement.
+          alt: Un enfant souriant, en parka à capuche et moufles, joue dans la neige devant des maisons sur pilotis.
+      - picto: avion
+        motCle: contrainte relative
+        phrases:
+          - Avec l'avion, le chauffage ou internet, une contrainte gêne moins qu'autrefois, mais cela coûte cher.
+        enSavoirPlus: >-
+          Une contrainte n'est pas la même pour tous : elle dépend des moyens et des techniques de ceux qui
+          habitent là.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en hiver. Dans une salle de classe
+            chaude et bien éclairée d'une école de l'Arctique canadien, des élèves inuits travaillent sur
+            des ordinateurs portables ; par la grande fenêtre, on voit la neige et un petit avion qui
+            décolle d'une piste. Ne doit pas figurer : texte, lettre, chiffre, logo, écran lisible, marque
+            des ordinateurs, affiche avec texte.
+          alt: Des élèves travaillent sur des ordinateurs dans une classe chaude, tandis qu'un avion décolle dans la neige dehors.
+      - picto: oiseau
+        motCle: biodiversité
+        phrases:
+          - La biodiversité, c'est la variété des êtres vivants ; les forêts équatoriales en ont une immense.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage. Un sous-bois de forêt équatoriale très riche, vu de
+            près : troncs couverts de lianes et de plantes, fougères, champignons, un papillon bleu morpho
+            posé, une file de fourmis sur une feuille, un petit singe sur une branche en arrière-plan. Ne
+            doit pas figurer : texte, lettre, chiffre, logo, humain, animal d'un autre milieu (pingouin,
+            ours blanc).
+          alt: Un sous-bois de forêt équatoriale rempli de plantes, avec un papillon bleu, des fourmis et un petit singe.
+      - picto: pioche
+        motCle: ressources
+        phrases:
+          - "Ces espaces ont des ressources : bois, or, fer, pétrole, et des paysages qui attirent les touristes."
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, fond uni beige clair, vue de dessus. Posés côte à
+            côte et bien espacés : une rondelle de tronc d'arbre tropical, une petite pépite d'or, un bloc
+            de minerai de fer gris-rouge et une fiole de pétrole noir. Éclairage doux. Ne doit pas
+            figurer : texte, lettre, chiffre, étiquette, logo, règle graduée, pièce de monnaie.
+          alt: Une rondelle de bois, une pépite d'or, un morceau de minerai de fer et une fiole de pétrole.
+      - picto: hache
+        motCle: déforestation
+        phrases:
+          - La déforestation, c'est couper ou brûler la forêt pour le bois, les mines ou les champs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. La limite nette entre
+            une forêt amazonienne dense, à gauche, et une grande zone déboisée, à droite : troncs abattus,
+            souches, fumée d'un brûlis, terre rouge nue, une piste de terre. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, panneau, ville.
+          alt: Vue aérienne d'une forêt dense à côté d'une grande zone d'arbres abattus et brûlés.
+      - picto: oeil
+        motCle: tourisme
+        phrases:
+          - Le tourisme apporte du travail, mais il peut abîmer la nature et déranger les habitants.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en été. Un grand bateau de croisière
+            blanc ancré dans un fjord de l'Arctique, avec des icebergs ; au premier plan, un groupe de
+            touristes en coupe-vent colorés débarque d'un canot pneumatique sur une plage de galets et
+            prend des photos. Ne doit pas figurer : texte, lettre, chiffre, logo, nom du bateau, marque
+            sur les vêtements, drapeau.
+          alt: Des touristes débarquent d'un canot sur une plage de l'Arctique, devant un grand bateau de croisière.
+      - picto: bouclier
+        motCle: espace protégé
+        phrases:
+          - Un espace protégé, comme un parc national, a des règles qui limitent les activités pour préserver la nature.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Deux gardes d'un parc national en
+            tenue de terrain vert sombre, de dos, marchent sur un sentier étroit au bord d'une rivière
+            claire, dans une forêt intacte ; l'une note dans un carnet, l'autre observe avec des jumelles.
+            Ne doit pas figurer : texte, lettre, chiffre, logo, écusson lisible, panneau, voiture.
+          alt: Deux gardes d'un parc national marchent sur un sentier dans une forêt intacte et observent la nature.
+      - picto: personne
+        motCle: peuples autochtones
+        phrases:
+          - Les peuples autochtones vivent là depuis très longtemps ; ils défendent leurs terres et leur façon de vivre.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une réunion de village en plein air,
+            au bord d'un fleuve de forêt tropicale : une douzaine d'habitants amérindiens de tous âges, en
+            vêtements de tous les jours, assis en cercle sur des bancs ; une femme âgée parle, les autres
+            écoutent avec attention. Image digne, sans exotisme. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, marque visible, plume, coiffe de déguisement, pancarte écrite.
+          alt: Des habitants d'un village au bord d'un fleuve écoutent une femme âgée lors d'une réunion en plein air.
+    questions:
+      - question: Qu'est-ce qu'une contrainte naturelle ? Donne deux exemples.
+        reponse: Ce qui gêne la vie des humains, par exemple le grand froid et la sécheresse.
+      - question: Pourquoi ces espaces ont-ils une faible densité ?
+        reponse: Les contraintes y rendent la vie difficile, donc peu de gens y habitent.
+      - question: Pourquoi crée-t-on des parcs nationaux ?
+        reponse: Pour protéger la nature et la biodiversité contre la déforestation et les pollutions.
+      - question: Peu d'habitants, est-ce toujours une nature protégée ?
+        reponse: Non ; les mines ou l'orpaillage peuvent détruire la nature même là où il y a peu d'habitants.

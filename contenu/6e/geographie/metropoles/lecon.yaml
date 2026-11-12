@@ -1,0 +1,637 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 1 « Habiter une métropole », sous-thème « Les
+# métropoles et leurs habitants » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Démarche de la fiche Eduscol : deux études de cas dans des pays de niveau de développement différent
+# (ici Mumbai, en Inde, puis Paris), au plus près des habitants, puis une mise en perspective mondiale.
+# Leçon précédente : aucune (premier thème de géographie de 6e).
+# Leçon suivante : « La ville de demain » (contenu/6e/geographie/ville-de-demain).
+titre: Habiter une métropole
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 1
+langue: fr
+statut: brouillon
+resume: >-
+  Mumbai, en Inde, et Paris : comment les habitants d'une très grande ville se logent, travaillent et se
+  déplacent, puis ce qu'ont en commun les métropoles du monde.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, géographie, thème 1 « Habiter une métropole »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 1 : Habiter une
+      métropole » (mars 2016) : deux études de cas (Nord et Sud), se loger, travailler, se déplacer,
+      centre, étalement, quartiers inégaux, plus d'un humain sur deux en ville depuis 2007, dix grandes
+      métropoles à localiser, éviter les clichés sur les villes des pays en développement
+    url: https://eduscol.education.fr/document/16777/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      ONU (Département des affaires économiques et sociales), « The World's Cities in 2018 » : Mumbai
+      environ 20 millions d'habitants en 2018 ; les dix plus grandes villes ; 33 villes de plus de 10
+      millions d'habitants en 2018, 43 prévues en 2030
+    url: https://digitallibrary.un.org/record/3799524
+  - libelle: >-
+      Encyclopædia Universalis, « Bombay ou Mumbai » : site d'anciennes îles reliées, grand port abrité,
+      centre économique, industriel et financier
+    url: https://www.universalis.fr/encyclopedie/bombay-mumbai/
+  - libelle: >-
+      La Vie des idées, J. Galonnier, « Économie d'un méga-bidonville » (2014), sur le livre de M.-C.
+      Saglio-Yatzimirsky : Dharavi, au cœur de Mumbai, maisons qui servent d'ateliers (cuir, poterie,
+      vêtements) ; l'article avance 800 000 habitants sur 3 km², estimation haute
+    url: https://laviedesidees.fr/Economie-d-un-mega-bidonville
+  - libelle: >-
+      Wikipédia, « Dharavi » : environ 2,4 km², de 300 000 à 1 million d'habitants selon les
+      estimations ; situation entre les deux lignes de train, voisin du quartier d'affaires de
+      Bandra-Kurla. Le périmètre officiel du projet de réaménagement couvre environ 250 hectares
+      (Dharavi Redevelopment Project, 2025)
+    url: https://en.wikipedia.org/wiki/Dharavi
+  - libelle: >-
+      R. Chandran (Fondation Thomson Reuters), « Thriving informal economy in India's Dharavi defies the
+      slum label » (The Quint, octobre 2016) : des milliers de petites entreprises (recyclage du
+      plastique, poterie, cuir, couture), environ un milliard de dollars de chiffre d'affaires par an
+      selon certaines estimations
+    url: https://www.thequint.com/news/india/thriving-informal-economy-in-indias-dharavi-defies-the-slum-label-recycling-industry-developmental-projects
+  - libelle: >-
+      Free Press Journal, « Mumbai Suburban Rail Earns More Despite Lower Ridership » (avril 2026),
+      d'après les chiffres des chemins de fer Central Railway et Western Railway : en moyenne 38,7 et
+      29,5 lakh (centaines de milliers) de voyageurs par jour en 2025-2026, soit environ 6,8 millions
+    url: https://www.freepressjournal.in/mumbai/mumbai-suburban-rail-earns-more-despite-lower-ridership-post-pandemic-travel-shift
+  - libelle: >-
+      The Week, « Mumbai suburban rail is bursting at the seams » (mars 2026) : environ 9 millions de
+      voyageurs certains jours de semaine dans les trains de banlieue
+    url: https://www.theweek.in/news/biz-tech/2026/03/14/mumbai-local-train-network-upgrade.html
+  - libelle: >-
+      IndiaSpend, « Mumbai Locals: World's Busiest Urban Rail System » : plus de 7 millions de voyageurs
+      par jour avant 2020, trains surchargés aux heures de pointe
+    url: https://www.indiaspend.com/mumbai-locals-worlds-busiest-urban-rail-system-is-also-its-deadliest-96093
+  - libelle: >-
+      Bureau du Premier ministre de l'Inde, inauguration du pont Atal Setu (12 janvier 2024) : environ
+      21,8 km, dont 16,5 km au-dessus de la mer, entre Mumbai et Navi Mumbai
+    url: https://www.pmindia.gov.in/?p=16358124
+  - libelle: TomTom Traffic Index, Mumbai (une des villes les plus embouteillées du monde)
+    url: https://www.tomtom.com/traffic-index/mumbai-traffic/
+  - libelle: >-
+      Insee Focus n° 211 (octobre 2020), « En France, neuf personnes sur dix vivent dans l'aire
+      d'attraction d'une ville » : aire d'attraction de Paris, environ 13 millions d'habitants
+      (recensement 2017), près d'un habitant de la France sur cinq
+    url: https://www.insee.fr/fr/statistiques/4806694
+  - libelle: >-
+      Insee, « Niveau de vie et pauvreté par région » (édition 2024) : la Seine-Saint-Denis a le taux de
+      pauvreté le plus élevé des départements de France métropolitaine
+    url: https://www.insee.fr/fr/statistiques/7941411
+  - libelle: >-
+      Île-de-France Mobilités, présentation des lignes de RER (RER A : plus de 1,3 million de voyageurs
+      certains jours)
+    url: https://www.iledefrance-mobilites.fr/le-reseau/services-de-mobilite/rer/presentation-plans-rer
+  - libelle: Paris La Défense, le quartier d'affaires (site officiel)
+    url: https://parisladefense.com/fr
+  - libelle: >-
+      ONU, Rapport sur les objectifs de développement durable 2023, objectif 11 : environ 1,1 milliard
+      de personnes en bidonville ; 24,2 % des citadins en 2020
+    url: https://unstats.un.org/sdgs/report/2023/Goal-11
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Mumbai, une métropole indienne
+    ensemble:
+      type: mosaique
+    formule: Mumbai = ville géante qui attire
+    cartes:
+      - picto: lieu
+        motCle: Mumbai
+        phrases:
+          - Mumbai est une très grande ville d'Inde, au bord de la mer, avec environ 20 millions d'habitants en 2018.
+        enSavoirPlus: >-
+          On l'appelait autrefois Bombay. C'est la capitale économique de l'Inde, avec un grand port et la
+          Bourse. Elle est aussi la capitale du cinéma indien, qu'on surnomme Bollywood.
+        image:
+          aGenerer: >-
+            Carte de localisation, format 4:3 paysage, style carte physique simple et propre, vue de
+            dessus, sans aucun texte. Cadrage : l'Asie du Sud, de 60 à 100 degrés de longitude est et
+            de 5 à 37 degrés de latitude nord. L'Inde occupe le centre, en beige clair ; les pays voisins
+            en gris très clair ; la mer en bleu clair ; l'Himalaya en relief brun en haut. Placer
+            précisément : un gros point rouge (Mumbai) sur la côte ouest de l'Inde, vers 32 % de la
+            largeur et 56 % de la hauteur ; un point noir plus petit (New Delhi) vers 43 % de la largeur
+            et 26 % de la hauteur. La mer d'Arabie à gauche (zone vers 14 % de la largeur et 80 % de la
+            hauteur), le golfe du Bengale à droite (vers 72 % de la largeur et 72 % de la hauteur).
+            Frontières en traits gris fins. Ne doit pas figurer : texte, lettre, chiffre, nom de lieu,
+            légende écrite, échelle, rose des vents avec lettres, drapeau.
+          alt: Carte de l'Inde. Un point rouge marque Mumbai sur la côte ouest, au bord de la mer d'Arabie ; un point noir marque New Delhi, la capitale, au nord.
+          etiquettes:
+            - texte: Mumbai
+              x: 32
+              y: 56
+            - texte: New Delhi
+              x: 43
+              y: 26
+            - texte: Inde
+              x: 52
+              y: 42
+            - texte: mer d'Arabie
+              x: 14
+              y: 80
+            - texte: golfe du Bengale
+              x: 72
+              y: 72
+      - picto: vague
+        motCle: presqu'île
+        phrases:
+          - "Mumbai est bâtie sur d'anciennes îles reliées : à l'étroit, la ville s'étend vers le nord et l'est."
+        enSavoirPlus: >-
+          Une presqu'île est une terre presque entourée d'eau. De l'autre côté de la baie, une ville nouvelle, Navi Mumbai, a été construite pour loger et
+          faire travailler une partie des habitants.
+        image:
+          aGenerer: >-
+            Croquis de géographie, format 4:3 paysage, vue de dessus, aplats de couleurs simples, sans
+            aucun texte. Une presqu'île étroite et allongée du nord au sud occupe la gauche de l'image,
+            entre 22 % et 50 % de la largeur, et se termine en pointe vers le bas, vers 30 % de la
+            largeur et 92 % de la hauteur. À gauche, la mer (bleu clair). À droite de la presqu'île, une
+            large baie bleue, puis, de 65 % à 100 % de la largeur, la terre ferme. Sur la presqu'île : en
+            bas (pointe sud), une zone gris foncé, le centre, vers 30 % de la largeur et 84 % de la
+            hauteur ; au milieu, une petite zone orange, Dharavi, vers 38 % de la largeur et 54 % de la
+            hauteur ; en haut, une grande zone gris clair, les banlieues, vers 30 % de la largeur et 25 %
+            de la hauteur, avec une tache verte de forêt vers 42 % de la largeur et 18 % de la hauteur.
+            Sur la terre ferme, une zone gris clair allongée du nord au sud, Navi Mumbai, centrée vers
+            84 % de la largeur et 46 % de la hauteur, qui descend jusqu'au bout du pont. Une ligne rouge épaisse (un pont) traverse la baie de 46 % de la largeur et 64 % de
+            la hauteur jusqu'à 70 % de la largeur et 68 % de la hauteur. Ne doit pas figurer : texte,
+            lettre, chiffre, nom de lieu, légende écrite, échelle, rose des vents.
+          alt: "Croquis de Mumbai : une presqu'île allongée entre la mer et une baie. Au sud, le centre en gris foncé ; au milieu, Dharavi en orange ; au nord, les banlieues en gris clair et une forêt en vert. De l'autre côté de la baie, Navi Mumbai, reliée par un pont en rouge."
+          etiquettes:
+            - texte: centre
+              x: 30
+              y: 84
+            - texte: Dharavi
+              x: 38
+              y: 54
+            - texte: banlieues
+              x: 30
+              y: 25
+            - texte: Navi Mumbai
+              x: 84
+              y: 46
+            - texte: pont
+              x: 58
+              y: 66
+      - picto: tour
+        motCle: quartier des affaires
+        phrases:
+          - "Au sud, les tours abritent des bureaux, des banques et la Bourse : c'est le centre."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, fin d'après-midi. Le sud de
+            Mumbai vu depuis une promenade en bord de mer : une large avenue courbe longe la mer, et
+            derrière elle se dressent des immeubles anciens et des tours modernes de bureaux en verre.
+            Quelques passants et des taxis jaune et noir sur l'avenue. Ne doit pas figurer : texte,
+            lettre, chiffre, enseigne lisible, logo, panneau publicitaire, plaque d'immatriculation
+            lisible.
+          alt: Le centre de Mumbai au bord de la mer, avec une grande avenue et des tours de bureaux.
+      - picto: sac
+        motCle: migrant
+        phrases:
+          - Chaque année, des Indiens venus des campagnes arrivent à Mumbai pour trouver du travail.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur le quai d'une grande gare de
+            Mumbai, une famille indienne qui arrive de la campagne descend d'un train de grandes lignes
+            avec des sacs et une valise : un père, une mère en sari, deux enfants. Ils regardent autour
+            d'eux, curieux et confiants ; foule de voyageurs autour. Image digne, sans misérabilisme.
+            Ne doit pas figurer : texte, lettre, chiffre, panneau de gare lisible, enseigne, logo,
+            horloge avec chiffres.
+          alt: Une famille arrive en train à Mumbai avec ses sacs, sur un quai de gare animé.
+      - picto: cabane
+        motCle: bidonville
+        phrases:
+          - "Dharavi, au cœur de Mumbai, est un des plus grands bidonvilles d'Asie : des maisons serrées, construites sans autorisation."
+        enSavoirPlus: >-
+          Personne ne sait exactement combien de personnes y vivent : plusieurs centaines de milliers,
+          sur environ 2,5 km². Un grand projet veut le remplacer par des immeubles : beaucoup d'habitants craignent de devoir
+          partir.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, à hauteur d'homme. Une ruelle
+            étroite de Dharavi, à Mumbai : maisons de deux ou trois étages en briques et en tôle, très
+            serrées, fils électriques, linge qui sèche. Des habitants vivent leur journée normalement :
+            une femme rentre avec des courses, deux enfants en uniforme scolaire propre marchent vers
+            l'école, un homme pousse une charrette. Image respectueuse, sans misérabilisme. Ne doit pas
+            figurer : texte, lettre, chiffre, enseigne lisible, logo, affiche, graffiti, ordures en gros
+            plan.
+          alt: Une ruelle étroite de Dharavi, avec des maisons serrées, des habitants et des enfants qui vont à l'école.
+      - picto: main
+        motCle: atelier
+        phrases:
+          - "À Dharavi, beaucoup de maisons servent aussi d'ateliers : on y fabrique des objets en cuir, des poteries, des vêtements."
+        enSavoirPlus: >-
+          Dharavi compte des milliers de petites entreprises, qui recyclent aussi le plastique : c'est un
+          quartier où l'on vit et où l'on travaille beaucoup.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans un petit atelier de Dharavi,
+            à Mumbai, ouvert sur la ruelle, un potier assis au sol façonne un pot sur un tour ; derrière
+            lui, des rangées de pots en terre cuite qui sèchent. Lumière du jour qui entre par la porte.
+            Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, étiquette, affiche.
+          alt: Un potier façonne un pot dans un petit atelier de Dharavi, devant des pots qui sèchent.
+      - picto: balance
+        motCle: inégalités
+        phrases:
+          - "Dharavi touche un quartier d'affaires récent, aux tours de verre : richesse et pauvreté sont voisines."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en légère hauteur. Au premier
+            plan, les toits serrés en tôle et les petites maisons d'un quartier populaire de Mumbai ;
+            juste derrière, séparées par une route, de hautes tours de bureaux modernes en verre. Ciel
+            clair. Le contraste se lit en un coup d'œil. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, enseigne, panneau publicitaire.
+          alt: Des petites maisons aux toits de tôle au premier plan, et derrière, des tours de bureaux en verre.
+      - picto: train
+        motCle: train de banlieue
+        phrases:
+          - Les trains de banlieue transportent environ 7 millions de voyageurs par jour en 2025, souvent très serrés.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un train de banlieue de Mumbai,
+            longue rame électrique de couleur claire à bandes colorées, arrive à quai à l'heure de pointe ; les wagons sont pleins, des
+            voyageurs en tenue de travail attendent sur le quai bondé pour monter. Ne doit pas figurer :
+            texte, lettre, chiffre, numéro de train lisible, panneau lisible, logo, publicité.
+          alt: Un train de banlieue plein arrive en gare de Mumbai, devant un quai rempli de voyageurs.
+      - picto: voiture
+        motCle: embouteillage
+        phrases:
+          - Aux heures de pointe, voitures, bus et rickshaws (petits taxis à trois roues) avancent au pas.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une grande avenue de Mumbai
+            embouteillée à l'heure de pointe : voitures, bus rouges, rickshaws (petits taxis à trois
+            roues, noir et jaune) et motos serrés sur plusieurs files ; immeubles de chaque côté. Ne
+            doit pas figurer : texte, lettre, chiffre, plaque d'immatriculation lisible, enseigne,
+            logo, panneau publicitaire.
+          alt: Une avenue de Mumbai embouteillée, pleine de voitures, de bus rouges et de rickshaws.
+      - picto: route
+        motCle: pont sur la mer
+        phrases:
+          - "Pour mieux circuler, la ville construit des métros ; un pont de 22 km a ouvert en 2024."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Un très long pont
+            routier moderne à six voies, posé sur des piliers, traverse une large baie calme et file
+            vers l'horizon ; quelques voitures dessus ; au loin, la côte et des immeubles. Ne doit pas
+            figurer : texte, lettre, chiffre, panneau lisible, logo, plaque d'immatriculation.
+          alt: Un très long pont moderne traverse la baie de Mumbai sur des piliers.
+      - picto: soleil
+        motCle: loisirs
+        phrases:
+          - Le soir, des habitants de tous les quartiers se retrouvent au bord de la mer, sur la plage.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, au coucher du soleil. Une plage de
+            sable de Mumbai animée : des familles se promènent, des enfants jouent au cricket avec une
+            balle, des amis mangent assis sur le sable ; des immeubles au loin. Habillés de façons
+            variées, de milieux différents. Ne doit pas figurer : texte, lettre, chiffre, enseigne,
+            logo, publicité, marque sur les vêtements.
+          alt: Au coucher du soleil, des familles et des enfants qui jouent au cricket sur une plage de Mumbai.
+    questions:
+      - question: Où se trouve Mumbai ?
+        reponse: En Inde, sur la côte ouest, au bord de la mer d'Arabie.
+      - question: Pourquoi des Indiens viennent-ils vivre à Mumbai ?
+        reponse: Pour trouver du travail, car la ville concentre les emplois et les richesses.
+      - question: Qu'est-ce que Dharavi ?
+        reponse: Un très grand bidonville au cœur de Mumbai, où l'on vit et travaille dans de petits ateliers.
+      - question: Comment les habitants de Mumbai se déplacent-ils ?
+        reponse: Surtout en train de banlieue, très chargé, et en bus, voiture ou rickshaw, souvent dans les embouteillages.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Paris, une métropole française
+    ensemble:
+      type: mosaique
+    formule: Paris = métropole d'un pays riche
+    cartes:
+      - picto: lieu
+        motCle: Paris
+        phrases:
+          - Paris et ses environs comptaient environ 13 millions d'habitants en 2017, presque un Français sur cinq.
+        enSavoirPlus: >-
+          Ce chiffre compte toutes les communes d'où beaucoup d'habitants viennent travailler dans le
+          pôle parisien : l'Insee l'appelle l'aire d'attraction de Paris.
+        image:
+          aGenerer: >-
+            Croquis de géographie, format 4:3 paysage, vue de dessus, aplats de couleurs simples, sans
+            aucun texte. La région parisienne : au centre, un petit disque gris foncé (Paris) centré vers
+            50 % de la largeur et 52 % de la hauteur, d'un rayon d'environ 7 % de la largeur, traversé
+            par un fleuve bleu (la Seine) qui serpente d'est en ouest. Autour, un large anneau gris moyen
+            (la banlieue), jusqu'à environ 30 % de la largeur du centre. Plus loin, jusqu'aux bords, des
+            champs jaunes et verts clairs parsemés de petites taches grises (villages et lotissements,
+            le périurbain) et quelques forêts vert foncé. Un petit carré violet (le quartier de La
+            Défense) à l'ouest de Paris, dans la banlieue, vers 30 % de la largeur et 44 % de la hauteur.
+            Un symbole d'avion noir (aéroport de Roissy) au nord-est, au bord de la banlieue, vers 70 %
+            de la largeur et 24 % de la hauteur. Ne doit pas figurer : texte, lettre, chiffre, nom
+            de lieu, légende écrite, échelle, rose des vents.
+          alt: "Croquis de la région parisienne : Paris au centre en gris foncé, traversé par la Seine ; la banlieue autour en gris moyen ; plus loin, des champs et des villages, le périurbain. La Défense en violet à l'ouest, l'aéroport de Roissy au nord-est."
+          etiquettes:
+            - texte: Paris
+              x: 52
+              y: 56
+            - texte: La Défense
+              x: 30
+              y: 44
+            - texte: banlieue
+              x: 66
+              y: 70
+            - texte: périurbain
+              x: 82
+              y: 86
+            - texte: aéroport de Roissy
+              x: 70
+              y: 24
+      - picto: colonne
+        motCle: centre
+        phrases:
+          - Le centre de Paris rassemble monuments, musées, commerces et touristes ; les logements y coûtent très cher.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, journée ensoleillée. Le centre de
+            Paris au bord de la Seine : quais de pierre, immeubles anciens en pierre claire aux toits
+            gris, un pont ancien ; des promeneurs, des touristes et des cyclistes sur le quai. Ne doit
+            pas figurer : texte, lettre, chiffre, enseigne lisible, logo, publicité, plaque de rue.
+          alt: Le centre de Paris au bord de la Seine, avec des immeubles anciens, un pont et des promeneurs.
+      - picto: tour
+        motCle: La Défense
+        phrases:
+          - Juste à l'ouest de Paris, La Défense est un grand quartier d'affaires, avec ses tours de bureaux.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Le quartier d'affaires de La
+            Défense, près de Paris : une grande esplanade piétonne entourée de tours de bureaux en verre
+            et en acier ; des employés marchent, certains avec un café. Ne doit pas figurer : texte,
+            lettre, chiffre, logo d'entreprise, nom sur les tours, enseigne, publicité.
+          alt: Le quartier de La Défense, une esplanade entourée de tours de bureaux en verre.
+      - picto: ville
+        motCle: banlieue
+        phrases:
+          - "La banlieue entoure Paris : grands immeubles, maisons, usines, centres commerciaux et universités."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en légère hauteur. Une ville de
+            banlieue parisienne : au premier plan des maisons avec petits jardins, plus loin de grands
+            immeubles d'habitation, une ligne de tramway, un centre commercial et quelques entrepôts ;
+            ciel de jour. Ne doit pas figurer : texte, lettre, chiffre, enseigne lisible, logo,
+            publicité, panneau de ville.
+          alt: Une ville de banlieue avec des maisons, de grands immeubles, un tramway et un centre commercial.
+      - picto: maison
+        motCle: périurbain
+        phrases:
+          - Plus loin, beaucoup de familles vivent dans une maison avec jardin, entre la ville et les champs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne basse. Un lotissement
+            récent de maisons individuelles avec jardins, en Île-de-France, au bord de grands champs de
+            blé ; une route le relie à un village ancien et à une voie rapide au loin. Ne doit pas
+            figurer : texte, lettre, chiffre, panneau lisible, logo.
+          alt: Un lotissement de maisons avec jardins, au bord des champs, loin du centre de Paris.
+      - picto: train
+        motCle: RER
+        phrases:
+          - Le RER relie la banlieue au centre ; la ligne A transporte plus d'un million de voyageurs par jour.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un quai souterrain de gare RER à
+            Paris à l'heure de pointe : un train à deux étages arrive, beaucoup de voyageurs attendent,
+            certains avec un sac à dos ou une trottinette pliée. Ne doit pas figurer : texte, lettre,
+            chiffre, panneau lisible, plan affiché, logo, publicité.
+          alt: Un train à deux étages arrive sur un quai de RER rempli de voyageurs.
+      - picto: voiture
+        motCle: trajet
+        phrases:
+          - Chaque jour, beaucoup d'habitants font un long trajet entre leur logement et leur travail.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, tôt le matin. Une autoroute qui
+            entre dans Paris, embouteillée dans le sens de la ville : files de voitures et de
+            camionnettes, phares allumés ; l'autre sens est presque vide ; immeubles au loin. Ne doit
+            pas figurer : texte, lettre, chiffre, panneau lisible, plaque d'immatriculation lisible,
+            logo.
+          alt: Une autoroute embouteillée le matin, dans le sens qui entre dans Paris.
+      - picto: balance
+        motCle: inégalités
+        phrases:
+          - Au nord-est, la Seine-Saint-Denis est le département le plus pauvre de l'Hexagone ; l'ouest est plus riche.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en hauteur. Un quartier de
+            grands immeubles d'habitation de banlieue parisienne, rénovés, avec un parc, une école et un
+            terrain de sport où jouent des jeunes ; vie quotidienne paisible, image respectueuse sans
+            cliché. Ne doit pas figurer : texte, lettre, chiffre, graffiti, enseigne lisible, logo,
+            voiture brûlée, police.
+          alt: Un quartier de grands immeubles de banlieue, avec un parc, une école et des jeunes qui font du sport.
+      - picto: fleche
+        motCle: croissance
+        phrases:
+          - Mumbai grandit beaucoup plus vite que Paris, dont la population augmente lentement.
+        enSavoirPlus: >-
+          Selon l'ONU, l'agglomération de Mumbai pourrait gagner environ 5 millions d'habitants entre 2018
+          et 2030, celle de Paris moins d'un million.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. En bordure de Mumbai,
+            un grand chantier : plusieurs tours d'habitation en construction avec des grues, à côté de
+            quartiers déjà construits et de terrains encore vides. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, panneau de chantier lisible, publicité.
+          alt: Des tours d'habitation en construction, avec des grues, au bord de Mumbai.
+    questions:
+      - question: Combien d'habitants compte l'aire de Paris ?
+        reponse: Environ 13 millions, presque un Français sur cinq.
+      - question: Qu'est-ce que La Défense ?
+        reponse: Un grand quartier d'affaires, avec des tours de bureaux, juste à l'ouest de Paris.
+      - question: Qu'ont en commun Paris et Mumbai ?
+        reponse: "Un centre riche, des banlieues, de longs trajets chaque jour et des inégalités entre quartiers."
+      - question: Qu'est-ce qui les distingue ?
+        reponse: Mumbai grandit très vite et a de grands bidonvilles ; Paris grandit lentement, dans un pays riche.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Les métropoles du monde
+    ensemble:
+      type: mosaique
+    formule: métropole = centre + périphérie
+    cartes:
+      - picto: personne
+        motCle: citadin
+        phrases:
+          - "Depuis 2007, plus d'un humain sur deux vit en ville : c'est un citadin."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en légère hauteur. Un grand
+            passage piéton d'une très grande ville traversé par une foule de gens très divers (âges,
+            origines, tenues) qui vont dans tous les sens ; immeubles autour. Ne doit pas figurer :
+            texte, lettre, chiffre, enseigne lisible, logo, publicité, écran géant.
+          alt: Une foule de citadins très divers traverse un grand passage piéton en ville.
+      - picto: ville
+        motCle: métropole
+        phrases:
+          - Une métropole est une très grande ville qui attire habitants, emplois, entreprises et pouvoirs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne au crépuscule. Une
+            très grande ville qui s'étend jusqu'à l'horizon : au centre, un groupe de tours ; tout
+            autour, des quartiers d'immeubles et de maisons, des autoroutes éclairées, un fleuve. Ville
+            générique, sans monument célèbre reconnaissable. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, enseigne lisible, publicité.
+          alt: Une très grande ville vue du ciel au crépuscule, avec des tours au centre et des quartiers jusqu'à l'horizon.
+      - picto: globe
+        motCle: grandes métropoles
+        phrases:
+          - Les plus grandes métropoles du monde sont surtout en Asie, comme Tokyo, Delhi, Shanghai ou Mumbai.
+        enSavoirPlus: >-
+          Les dix plus grandes en 2018, selon l'ONU : Tokyo, Delhi, Shanghai, São Paulo, Mexico, Le Caire,
+          Mumbai, Pékin, Dhaka et Osaka. Il y avait 33 villes de plus de 10 millions d'habitants ; on en
+          attend 43 en 2030.
+        image:
+          aGenerer: >-
+            Planisphère simple, format 4:3 paysage, sans aucun texte. Carte du monde en projection plate
+            (longitudes de -180 à 180 degrés sur toute la largeur), continents en beige clair, océans en
+            bleu clair ; la carte occupe toute la largeur et va de 17 % à 83 % de la hauteur, fond bleu
+            clair au-dessus et au-dessous. Placer précisément dix points rouges, bien visibles, aux
+            positions suivantes (en % de la largeur puis de la hauteur) : Tokyo 89 et 37 ; Delhi 71 et
+            39,5 ; Shanghai 84 et 38,5 ; São Paulo 37 et 59 ; Mexico 22,5 et 43 ; Le Caire 58,7 et 39 ;
+            Mumbai 70,3 et 43 ; Pékin 82,3 et 35,3 ; Dhaka 75 et 41 ; Osaka 87,6 et 37,3. Le point de
+            Mumbai est un peu plus gros que les autres et cerclé de blanc. Ne doit pas
+            figurer : texte, lettre, chiffre, nom de pays ou de ville, légende écrite, frontière en
+            pointillé, échelle.
+          alt: Planisphère avec dix points rouges pour les dix plus grandes métropoles du monde en 2018, dont sept en Asie, une en Afrique (Le Caire) et deux en Amérique latine (Mexico, São Paulo). Le point de Mumbai est un peu plus gros.
+          etiquettes:
+            - texte: Mexico
+              x: 22.5
+              y: 43
+            - texte: São Paulo
+              x: 37
+              y: 59
+            - texte: Le Caire
+              x: 58.7
+              y: 39
+            - texte: Mumbai
+              x: 70.3
+              y: 50
+            - texte: Tokyo
+              x: 96
+              y: 29
+      - picto: fleche
+        motCle: métropolisation
+        phrases:
+          - "Les métropoles attirent toujours plus d'habitants, d'emplois et de richesses : c'est la métropolisation."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Une grande ville en
+            pleine croissance : au centre, des tours ; au bord de la ville, de nouveaux quartiers en
+            construction avec des grues, qui avancent sur des champs. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, publicité, panneau lisible.
+          alt: Une grande ville qui grandit, avec de nouveaux quartiers en construction au bord des champs.
+      - picto: colonne
+        motCle: centre
+        phrases:
+          - Le centre rassemble bureaux, commerces et monuments ; il est dense et cher.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Le centre animé d'une grande ville :
+            une place entourée de tours de bureaux, de commerces et d'un bâtiment ancien, avec beaucoup de
+            passants. Ville générique, sans monument célèbre reconnaissable. Ne doit pas figurer : texte,
+            lettre, chiffre, enseigne lisible, logo, publicité.
+          alt: Le centre animé d'une grande ville, avec des tours de bureaux, des commerces et des passants.
+      - picto: lieu
+        motCle: périphérie
+        phrases:
+          - "La périphérie entoure le centre : d'abord la banlieue, puis le périurbain, au milieu des champs."
+        image:
+          aGenerer: >-
+            Schéma simple, format 4:3 paysage, vue de dessus, aplats de couleurs, sans aucun texte.
+            Trois cercles concentriques centrés vers 50 % de la largeur et 50 % de la hauteur : au
+            centre, un disque rouge (le centre) d'un rayon de 9 % de la hauteur ; autour, un anneau
+            orange (la banlieue) jusqu'à 24 % de la hauteur ; plus loin, un large anneau jaune pâle
+            parsemé de petits carrés gris (le périurbain) jusqu'à 44 % de la hauteur, sur un fond vert
+            clair de champs. Quelques routes grises partent du centre en étoile. Ne doit pas
+            figurer : texte, lettre, chiffre, légende écrite, flèche, échelle.
+          alt: "Schéma d'une métropole en trois cercles : le centre en rouge, la banlieue en orange autour, puis le périurbain en jaune pâle, au milieu des champs en vert ; des routes partent du centre."
+          etiquettes:
+            - texte: centre
+              x: 50
+              y: 50
+            - texte: banlieue
+              x: 50
+              y: 34
+            - texte: périurbain
+              x: 50
+              y: 16
+      - picto: route
+        motCle: étalement urbain
+        phrases:
+          - "La ville s'étale : maisons, routes et magasins gagnent sur les champs autour d'elle."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. La limite d'une
+            grande ville : à gauche, des quartiers de maisons et une zone commerciale ; à droite, des
+            champs cultivés ; au milieu, une nouvelle route et des maisons en construction qui mordent
+            sur les champs. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne lisible,
+            panneau.
+          alt: Des maisons neuves et une route qui avancent sur les champs, au bord d'une grande ville.
+      - picto: cabane
+        motCle: bidonville
+        phrases:
+          - Un bidonville est un quartier construit sans autorisation, souvent sans eau courante ni égouts.
+        enSavoirPlus: >-
+          Selon l'ONU, environ un citadin sur quatre vivait dans un bidonville en 2020, surtout en Afrique
+          et en Asie.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en légère hauteur. Un quartier
+            construit sans autorisation à flanc de colline, dans une grande ville d'Amérique latine :
+            maisons de briques et de parpaings de couleurs variées, serrées, escaliers étroits ; une
+            femme porte des seaux d'eau, des enfants montent les marches. Image respectueuse, sans
+            misérabilisme. Ne doit pas figurer : texte, lettre, chiffre, graffiti, enseigne, logo,
+            arme, police.
+          alt: Un bidonville de maisons serrées à flanc de colline, où une femme porte des seaux d'eau.
+      - picto: mur
+        motCle: quartiers séparés
+        phrases:
+          - "Riches et pauvres vivent souvent dans des quartiers séparés, parfois par un mur : ce sont des inégalités."
+        enSavoirPlus: >-
+          Certains quartiers riches sont fermés et gardés : on les appelle des résidences fermées.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. D'un côté d'un haut
+            mur, une résidence fermée avec immeubles modernes, pelouses et piscines ; de l'autre côté,
+            un quartier de petites maisons serrées aux toits de tôle. Ville générique d'un pays du Sud,
+            sans copier une photographie célèbre. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            enseigne, panneau lisible.
+          alt: Un mur sépare une résidence riche avec piscines et un quartier de petites maisons serrées.
+      - picto: pas
+        motCle: mobilités
+        phrases:
+          - "Chaque jour, des millions d'habitants se déplacent : trains bondés, bus et embouteillages."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en hauteur. Un grand carrefour
+            de métropole à l'heure de pointe : voitures et bus à l'arrêt, piétons nombreux sur les
+            passages, un train qui passe sur un pont au-dessus. Ville générique. Ne doit pas figurer :
+            texte, lettre, chiffre, enseigne lisible, logo, publicité, plaque d'immatriculation lisible.
+          alt: Un grand carrefour à l'heure de pointe, avec des voitures, des bus, des piétons et un train sur un pont.
+      - picto: avion
+        motCle: relié au monde
+        phrases:
+          - Une métropole est reliée au monde par son aéroport, son port et internet.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Un grand aéroport
+            international au bord d'une métropole : plusieurs avions de ligne blancs sans marque garés
+            devant un terminal, un avion qui décolle ; au loin, les tours de la ville. Ne doit pas
+            figurer : texte, lettre, chiffre, logo de compagnie, nom sur les avions, enseigne.
+          alt: Un grand aéroport avec des avions, et au loin les tours de la ville.
+    questions:
+      - question: Qu'est-ce qu'une métropole ?
+        reponse: Une très grande ville qui attire des habitants, des emplois, des entreprises et des pouvoirs.
+      - question: Cite trois grandes métropoles du monde.
+        reponse: "Par exemple : Tokyo, Delhi et Shanghai (ou Mumbai, Le Caire, São Paulo, Mexico)."
+      - question: Qu'est-ce que l'étalement urbain ?
+        reponse: La ville grandit en surface et gagne sur les champs autour d'elle.
+      - question: Qu'est-ce qu'un bidonville ?
+        reponse: Un quartier pauvre construit sans autorisation, souvent sans eau courante.

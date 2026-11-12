@@ -1,0 +1,694 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 4 « Le monde habité », sous-thème « La répartition
+# de la population mondiale et ses dynamiques » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Ici la géographie se fait à l'échelle du monde : deux études de cas (un foyer, l'Asie du Sud ; un vide,
+# le Sahara), puis la carte du peuplement mondial et ses explications, puis les dynamiques.
+# Leçon précédente : « Un littoral touristique ».
+# Leçon suivante : « Des façons d'habiter la Terre » (contenu/6e/geographie/occupation-espace).
+titre: Où vivent les humains ?
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 7
+langue: fr
+statut: brouillon
+resume: >-
+  Les foyers de peuplement et les vides humains, avec l'Asie du Sud et le Sahara ; la densité ; une
+  population qui grandit, se concentre dans les villes et près des côtes, et migre.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, géographie, thème 4 « Le monde habité »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 4 : Le monde
+      habité » (mars 2016) : trois grands foyers (Asie orientale, monde indien, Europe) et foyers
+      secondaires (nord-est des États-Unis, sud-est du Brésil, golfe de Guinée) ; vides humains jamais
+      totalement vides (oasis) ; foyers en place depuis le Néolithique ; urbanisation et littoralisation ;
+      écueils : surestimer le climat, croire au « surpeuplement »
+    url: https://eduscol.education.fr/document/16786/download
+  - libelle: >-
+      Eduscol, « Sixième : la répartition de la population mondiale », plan de cours : foyers et déserts
+      humains, densité, atouts et contraintes, l'Afrique nouveau foyer de croissance
+    url: https://eduscol.education.fr/document/28987/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      ONU, Annuaire statistique n° 67 (novembre 2024), tableau « Population, superficie et densité »,
+      estimations 2024 : monde 8 162 millions (62,6 hab./km²), Asie 4 807 millions, Asie méridionale
+      2 064 millions, Afrique 1 515 millions, Europe 745 millions, Inde 1 451 millions, Bangladesh
+      1 333 hab./km², Libye 4,4 hab./km², France 120,7 hab./km²
+    url: https://data.un.org/_Docs/SYB/PDFs/SYB67_1_202411_Population,%20Surface%20Area%20and%20Density.pdf
+  - libelle: >-
+      ONU (DESA), « World Population Prospects 2024 : Summary of Results » (juillet 2024) : 8,2
+      milliards en 2024, pic d'environ 10,3 milliards vers le milieu des années 2080
+    url: https://desapublications.un.org/publications/world-population-prospects-2024-summary-results
+  - libelle: >-
+      ONU (DESA), la population mondiale atteint 8 milliards le 15 novembre 2022 ; l'Inde dépasse la
+      Chine en 2023
+    url: https://www.un.org/en/desa/world-population-reach-8-billion-15-november-2022
+  - libelle: >-
+      ONU (DESA), « The World's Cities in 2018 » (World Urbanization Prospects 2018) : 55 % des humains
+      en ville en 2018 ; Dhaka environ 20 millions d'habitants en 2018 (comme Mumbai)
+    url: https://digitallibrary.un.org/record/3799524
+  - libelle: >-
+      ONU (DESA), « World Urbanization Prospects 2025 », communiqué du 18 novembre 2025 : 2,5 milliards
+      d'humains en 1950 ; 33 mégapoles de plus de 10 millions d'habitants en 2025, dont 19 en Asie ;
+      avec une nouvelle méthode qui compte des agglomérations bien plus larges, Dhaka atteint presque 40
+      millions d'habitants
+    url: https://www.un.org/sustainabledevelopment/blog/2025/11/press-release-wup2025/
+  - libelle: >-
+      Population Reference Bureau, « Highlights from the 2024 World Population Data Sheet » : l'Afrique
+      fera 62 % de la croissance de la population mondiale d'ici 2050
+    url: https://www.prb.org/news/highlights-from-the-2024-world-population-data-sheet/
+  - libelle: >-
+      Migration Policy Institute, d'après l'ONU (International Migrant Stock 2024) : environ 304 millions
+      de migrants internationaux à la mi-2024, soit environ 3,7 % de la population mondiale
+    url: https://www.migrationpolicy.org/article/top-statistics-global-migration-migrants
+  - libelle: ONU (DESA), International Migrant Stock 2024 (présentation des données)
+    url: https://www.un.org/development/desa/pd/content/international-migrant-stock
+  - libelle: >-
+      Encyclopædia Universalis, « Gange — un régime complexe » : pluies d'été de la mousson, de juin à
+      octobre
+    url: https://www.universalis.fr/encyclopedie/gange/2-un-regime-complexe/
+  - libelle: >-
+      Larousse, encyclopédie, « le Sahara » : plus grand désert du monde, plus de 8 millions de km², moins
+      de 100 mm de pluie par an, cultures limitées aux oasis, nomades de moins en moins nombreux
+    url: https://www.larousse.fr/encyclopedie/autre-region/wd/142022
+  - libelle: >-
+      CIA, The World Factbook, « Egypt » : environ 95 % de la population vit sur l'étroite bande fertile
+      du Nil, environ 5 % du territoire
+    url: https://www.cia.gov/the-world-factbook/countries/egypt/
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: "Un foyer : l'Asie du Sud"
+    ensemble:
+      type: mosaique
+    formule: foyer de peuplement = beaucoup d'habitants
+    cartes:
+      - picto: lieu
+        motCle: Asie du Sud
+        phrases:
+          - "L'Asie du Sud, autour de l'Inde, va de l'Himalaya au nord jusqu'à l'océan Indien au sud."
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre l'Asie du Sud, de 60° à 100°
+            de longitude est et de 5° à 37° de latitude nord. En haut, la longue chaîne de l'Himalaya,
+            blanche et grise, enneigée, en arc de gauche à droite (centrée vers 60 % de la largeur et
+            22 % de la hauteur). Juste au sud, une grande plaine verte traversée de gauche à droite par
+            le Gange, un ruban bleu bien visible, qui passe vers 57 % de la largeur et 36 % de la
+            hauteur et se jette dans un large delta vert sur la mer, vers 74 % de la largeur et 48 % de
+            la hauteur. À gauche, le désert du Thar en ocre clair (vers 27 % de la largeur et 31 % de la
+            hauteur). En bas, la péninsule de l'Inde en forme de triangle pointé vers le bas, verte et
+            brune, entourée par l'océan Indien bleu (océan bien visible vers 20 % de la largeur et 88 %
+            de la hauteur, à l'ouest de la pointe de l'Inde). Trois points rouge foncé bien visibles marquent des villes : Delhi vers
+            43 % de la largeur et 26 % de la hauteur ; Dhaka, dans le delta, vers 76 % de la largeur et
+            41 % de la hauteur ; Mumbai, sur la côte ouest, vers 32 % de la largeur et 56 % de la
+            hauteur. Couleurs douces et contrastées, côtes nettes. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, frontière, route, quadrillage, légende, rose des vents, flèche.
+          alt: >-
+            Carte de l'Asie du Sud : l'Himalaya enneigé au nord, la plaine du Gange et son delta, le
+            désert du Thar à l'ouest, la péninsule de l'Inde entourée par l'océan Indien, et trois
+            grandes villes marquées en rouge, Delhi, Dhaka et Mumbai.
+          etiquettes:
+            - texte: Himalaya
+              x: 60
+              y: 18
+            - texte: Gange
+              x: 57
+              y: 33
+            - texte: désert du Thar
+              x: 27
+              y: 31
+            - texte: Delhi
+              x: 43
+              y: 26
+            - texte: Dhaka
+              x: 76
+              y: 41
+            - texte: Mumbai
+              x: 32
+              y: 56
+            - texte: océan Indien
+              x: 20
+              y: 88
+      - picto: groupe
+        motCle: foyer de peuplement
+        phrases:
+          - "Un foyer de peuplement est une grande région où vivent beaucoup d'habitants : l'Asie du Sud en est un."
+        enSavoirPlus: >-
+          En 2024, environ 2 milliards de personnes vivent en Asie du Sud, soit environ un humain sur
+          quatre.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne prise d'un drone à
+            moyenne hauteur. Une plaine plate et verte de l'Inde du Nord, à la fin de la mousson :
+            rizières en petits carrés irrigués, reliées par des chemins de terre, et une dizaine de
+            villages serrés les uns contre les autres, avec des maisons basses aux toits plats, des
+            arbres et des mares. Une petite route où passent des vélos et une moto. Lumière douce du
+            matin. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau, plaque lisible.
+          alt: Vue aérienne d'une plaine verte de l'Inde couverte de rizières et de nombreux villages très proches.
+      - picto: personne
+        motCle: Inde
+        phrases:
+          - "L'Inde est le pays le plus peuplé du monde : environ 1,45 milliard d'habitants en 2024."
+        enSavoirPlus: >-
+          L'Inde a dépassé la Chine en 2023. Ensemble, ces deux pays réunissent plus d'un tiers des
+          humains.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Le matin, dans une rue animée d'une
+            grande ville de l'Inde : des collégiens en uniforme marchent vers l'école avec leurs
+            cartables, des adultes vont au travail à pied, à vélo et en rickshaw à moteur ; des
+            immeubles de quatre étages, quelques arbres. Ambiance calme et quotidienne, personnes
+            souriantes et bien habillées, sans cliché. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, enseigne, panneau, plaque d'immatriculation lisible, publicité.
+          alt: Une rue animée d'une ville de l'Inde, le matin, avec des collégiens en uniforme et des adultes qui vont au travail.
+      - picto: epi
+        motCle: plaine du Gange
+        phrases:
+          - "Le long du Gange, un grand fleuve, la plaine est plate et fertile : les plantes y poussent bien."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. La large plaine du Gange en Inde,
+            au bord du fleuve : au premier plan, des paysannes et des paysans repiquent des plants de
+            riz dans une rizière inondée, les pieds dans l'eau ; au second plan, d'autres champs verts
+            très plats ; au fond, le fleuve large et calme, avec une barque de pêcheur. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, panneau, tracteur avec marque visible.
+          alt: Des paysans plantent du riz dans une rizière inondée, dans la grande plaine plate du Gange.
+      - picto: goutte
+        motCle: mousson
+        phrases:
+          - "La mousson est la saison des grandes pluies d'été : elle apporte l'eau dont le riz a besoin."
+        enSavoirPlus: >-
+          Dans la plaine du Gange, la mousson dure à peu près de juin à octobre.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une forte pluie de mousson tombe sur
+            des rizières vertes d'Asie du Sud ; de gros nuages gris foncé couvrent le ciel ; au premier
+            plan, une paysanne en sari protégée par un grand parapluie noir marche sur une digue de
+            terre entre deux rizières pleines d'eau. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, panneau, objet avec marque.
+          alt: Une forte pluie de mousson tombe sur des rizières ; une paysanne avec un parapluie marche entre les champs.
+      - picto: sablier
+        motCle: peuplement ancien
+        phrases:
+          - "Des paysans cultivent ces plaines depuis des milliers d'années : ce foyer est très ancien."
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 4 500 ans, dans la vallée de
+            l'Indus, en Asie du Sud : des paysans en vêtements simples de coton écru récoltent du blé à
+            la faucille près d'un village de maisons en briques crues ; un attelage de deux bœufs à
+            bosse tire une charrette à roues pleines en bois. Rivière au fond. Ne doit pas figurer :
+            texte, lettre, chiffre, objet en plastique, outil moderne, vêtement moderne, tracteur.
+          alt: Reconstitution de paysans de la vallée de l'Indus, il y a environ 4 500 ans, qui récoltent du blé près de leur village.
+      - picto: ville
+        motCle: Dhaka
+        phrases:
+          - "Dhaka, capitale du Bangladesh, est une des plus grandes villes du monde : environ 20 millions d'habitants en 2018."
+        enSavoirPlus: >-
+          Ce chiffre compte la ville et ses banlieues. En 2025, l'ONU a compté une zone encore plus large
+          autour de Dhaka : presque 40 millions d'habitants.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une grande avenue de Dhaka, au
+            Bangladesh, en fin de journée : de nombreux cyclo-pousses colorés (vélos-taxis à trois roues
+            avec une capote), des bus et des piétons ; de chaque côté, des immeubles de dix étages, et
+            des tours plus hautes au fond. Foule dense mais calme, gens qui rentrent du travail. Ne doit
+            pas figurer : texte, lettre, chiffre, logo, enseigne, panneau, publicité, plaque lisible.
+          alt: Une grande avenue de Dhaka, pleine de vélos-taxis colorés, de bus et de piétons, entre de hauts immeubles.
+      - picto: densite
+        motCle: très dense
+        phrases:
+          - "Au Bangladesh, environ 1 300 habitants vivent en moyenne sur chaque km² en 2024 : c'est très serré."
+        enSavoirPlus: >-
+          Un km², c'est un carré de 1 km de côté. En France, il y a environ 120 habitants par km².
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Un quartier très
+            dense d'une ville du Bangladesh : des immeubles de cinq à huit étages collés les uns aux
+            autres, des toits-terrasses où sèche du linge et où poussent des plantes en pots, des rues
+            étroites, un petit étang au centre. Lumière de fin de matinée. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, enseigne, panneau, publicité.
+          alt: Vue aérienne d'un quartier très serré, aux immeubles collés les uns aux autres, au Bangladesh.
+      - picto: montagne
+        motCle: Himalaya
+        phrases:
+          - "Au nord, les hautes montagnes de l'Himalaya, froides et en pente, sont peu peuplées."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une haute vallée de l'Himalaya :
+            sommets enneigés immenses au fond, pentes raides de rochers, un petit village de quelques
+            maisons de pierre aux toits plats, accroché à la pente, avec des champs en terrasses. Un
+            berger et quelques yaks sur un sentier. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            panneau, drapeau avec inscription.
+          alt: Un petit village de pierre accroché à une pente de l'Himalaya, sous des sommets enneigés.
+    questions:
+      - question: Qu'est-ce qu'un foyer de peuplement ?
+        reponse: Une grande région où vivent beaucoup d'habitants.
+      - question: Pourquoi l'Asie du Sud est-elle très peuplée ?
+        reponse: "Grâce aux plaines fertiles, à l'eau des fleuves et de la mousson, et parce que des paysans y vivent depuis très longtemps."
+      - question: Quel est le pays le plus peuplé du monde ?
+        reponse: L'Inde, avec environ 1,45 milliard d'habitants en 2024.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: "Un vide humain : le Sahara"
+    ensemble:
+      type: mosaique
+    formule: vide humain = très peu d'habitants
+    cartes:
+      - picto: lieu
+        motCle: Sahara
+        phrases:
+          - "Le Sahara, au nord de l'Afrique, est le plus grand désert chaud du monde."
+        enSavoirPlus: >-
+          Il couvre plus de 8 millions de km², près de 15 fois la France.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre le nord de l'Afrique, de 20°
+            de longitude ouest à 40° de longitude est et de l'équateur à 38° de latitude nord. En haut, la
+            mer Méditerranée en bleu (bien visible vers 63 % de la largeur et 9 % de la hauteur). À
+            gauche, la côte ouest de l'Afrique et l'océan Atlantique en bleu ; en bas à gauche, l'océan
+            Atlantique forme une large étendue bleue sous la côte du golfe de Guinée (océan bien visible
+            vers 10 % de la largeur et 88 % de la hauteur). Presque toute l'image est occupée par
+            l'immense désert du Sahara, ocre, beige et orangé, avec des mers de dunes et des plateaux de
+            roche (centre du désert vers 50 % de la largeur et 40 % de la hauteur). À droite, le Nil, un
+            mince ruban bleu bordé d'une étroite bande verte, traverse le désert du sud au nord (il passe
+            vers 88 % de la largeur et 37 % de la hauteur) et finit en delta vert sur la Méditerranée
+            (vers 85 % de la largeur et 18 % de la hauteur). Au bord droit, la mer Rouge, mince et bleue.
+            Plus bas, le désert laisse place à une bande de savane jaune-vert, le Sahel (vers 42 % de la
+            largeur et 63 % de la hauteur), puis à des forêts vertes près de la côte, tout en bas. Quelques minuscules taches vertes d'oasis dans le désert. Ne doit pas
+            figurer : texte, lettre, chiffre, nom de lieu, frontière, route, ville, quadrillage,
+            légende, rose des vents, flèche.
+          alt: >-
+            Carte du nord de l'Afrique : l'immense désert du Sahara, ocre, entre la mer Méditerranée au
+            nord, l'océan Atlantique à l'ouest et le Sahel au sud, traversé à l'est par le Nil et sa
+            bande verte.
+          etiquettes:
+            - texte: mer Méditerranée
+              x: 63
+              y: 9
+            - texte: océan Atlantique
+              x: 10
+              y: 88
+            - texte: Sahara
+              x: 50
+              y: 40
+            - texte: Nil
+              x: 88
+              y: 37
+            - texte: Sahel
+              x: 42
+              y: 63
+      - picto: soleil
+        motCle: désert chaud
+        phrases:
+          - "Il pleut très peu et il fait très chaud : on ne peut presque rien cultiver."
+        enSavoirPlus: >-
+          Il y tombe moins de 100 mm de pluie par an, et certaines années, presque rien.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un paysage du Sahara en plein midi :
+            au premier plan un plateau de roche et de cailloux noirs et brûlés par le soleil (un reg),
+            au fond de hautes dunes de sable orange ; ciel bleu pâle sans nuage, chaleur qui fait
+            trembler l'horizon. Aucun humain, aucune plante. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, panneau, véhicule, trace de pneu.
+          alt: Un paysage du Sahara en plein soleil, un sol de cailloux noirs et de hautes dunes de sable orange.
+      - picto: densite
+        motCle: vide humain
+        phrases:
+          - "Un vide humain est un espace où vivent très peu d'habitants : le Sahara en est un."
+        enSavoirPlus: >-
+          En Libye, pays presque entièrement dans le Sahara, il y a environ 4 habitants par km² en 2024.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, plan très large. Une immense étendue
+            de dunes de sable du Sahara jusqu'à l'horizon ; tout petit, au centre, un seul campement
+            de deux tentes basses et trois dromadaires, pour montrer qu'il y a très peu d'habitants sur
+            un espace immense. Lumière de fin d'après-midi. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, panneau, véhicule, route, ville.
+          alt: D'immenses dunes jusqu'à l'horizon, avec un seul tout petit campement de deux tentes et trois dromadaires.
+      - picto: palmier
+        motCle: oasis
+        phrases:
+          - "Une oasis est un lieu du désert avec de l'eau : on y cultive des palmiers-dattiers."
+        enSavoirPlus: >-
+          Le désert n'est jamais complètement vide : dans les oasis vivent des villages et parfois des
+          villes.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une oasis du Sahara vue d'une dune :
+            une grande tache verte de palmiers-dattiers, avec des jardins de légumes à l'ombre des
+            palmiers, un canal d'irrigation, et un village de maisons en terre ocre aux toits plats ;
+            tout autour, le désert de sable. Deux habitants marchent entre les jardins. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, panneau, enseigne, antenne parabolique au premier
+            plan.
+          alt: Une oasis verte de palmiers-dattiers et de jardins, avec un village en terre, au milieu du désert de sable.
+      - picto: chameau
+        motCle: nomades
+        phrases:
+          - "Des éleveurs nomades, comme certains Touaregs, se déplacent avec leurs troupeaux d'un point d'eau à l'autre."
+        enSavoirPlus: >-
+          Aujourd'hui, beaucoup de nomades se sont installés près des oasis et des villes.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le Sahara, un éleveur touareg
+            en tenue traditionnelle (chèche indigo enroulé sur la tête, longue tunique) et un jeune
+            garçon conduisent un petit troupeau de dromadaires et de chèvres vers un puits entouré de
+            pierres. Portrait digne et respectueux, sans exotisme. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, panneau, véhicule, touriste.
+          alt: Un éleveur touareg et un garçon conduisent des dromadaires et des chèvres vers un puits dans le désert.
+      - picto: vague
+        motCle: vallée du Nil
+        phrases:
+          - "En Égypte, presque tous les habitants vivent le long du Nil, au milieu du désert."
+        enSavoirPlus: >-
+          Environ 95 habitants sur 100 vivent sur à peine 5 % du pays, la bande fertile près du fleuve.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Le Nil en Égypte : au
+            centre, le fleuve bleu ; de chaque côté, une étroite bande très verte de champs, de palmiers
+            et de villages ; puis, d'un seul coup, une limite nette avec le désert ocre et vide qui
+            s'étend jusqu'à l'horizon des deux côtés. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, panneau, monument antique.
+          alt: Vue aérienne du Nil, bordé d'une étroite bande verte de champs et de villages, entre deux étendues de désert.
+    questions:
+      - question: Qu'est-ce qu'un vide humain ?
+        reponse: Un espace où vivent très peu d'habitants.
+      - question: Pourquoi le Sahara est-il peu peuplé ?
+        reponse: "Il fait très chaud et il pleut très peu : l'eau manque pour cultiver."
+      - question: Où vivent les habitants du Sahara ?
+        reponse: Surtout là où il y a de l'eau, dans les oasis et le long du Nil.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Foyers et vides du monde
+    ensemble:
+      type: mosaique
+    formule: densité = nombre d'habitants ÷ superficie en km²
+    cartes:
+      - picto: globe
+        motCle: carte des densités
+        phrases:
+          - "Sur cette carte du monde, plus la couleur est foncée, plus il y a d'habitants."
+        image:
+          aGenerer: >-
+            Planisphère de la densité de population, format 4:3 paysage, sans aucun texte, style de
+            carte d'atlas scolaire propre et lisible. Projection simple rectangulaire : la largeur va de
+            180° ouest à 180° est, la hauteur de 80° nord (en haut) à 60° sud (en bas) ; l'Antarctique
+            n'apparaît pas. Océans en bleu très pâle. Continents coloriés selon la densité, avec quatre
+            couleurs seulement : rouge foncé pour les régions très peuplées, orange pour les régions
+            assez peuplées, jaune pâle pour les régions peu peuplées, gris très clair presque blanc
+            pour les régions presque vides. En rouge foncé, trois grandes taches : l'Asie de l'Est
+            (est de la Chine, Corée, Japon, centrée vers 82 % de la largeur et 34 % de la hauteur),
+            l'Asie du Sud (plaine du Gange et Bangladesh, vers 72 % de la largeur et 41 % de la
+            hauteur), l'Europe de l'Ouest (vers 52 % de la largeur et 22 % de la hauteur). En rouge et
+            orange, trois taches plus petites : le nord-est des États-Unis (vers 29 % de la largeur et
+            29 % de la hauteur), le sud-est du Brésil sur la côte (vers 38 % de la largeur et 73 % de
+            la hauteur), le golfe de Guinée et le Nigeria (vers 52 % de la largeur et 51 % de la
+            hauteur). Une fine ligne rouge suit la vallée du Nil. En gris presque blanc : le Sahara
+            (vers 50 % de la largeur et 39 % de la hauteur), le Grand Nord du Canada et la Sibérie
+            (vers 22 % et 78 % de la largeur, 11 % de la hauteur), la forêt d'Amazonie (vers 33 % de
+            la largeur et 60 % de la hauteur), le centre de l'Australie (vers 87 % de la largeur et
+            75 % de la hauteur), le Tibet et l'Himalaya. Le reste en jaune pâle ou orange. Côtes nettes.
+            Ne doit pas figurer : texte, lettre, chiffre, nom de lieu, légende, échelle, frontière,
+            quadrillage, rose des vents, flèche, point de ville.
+          alt: >-
+            Planisphère des densités. En rouge foncé, les trois grands foyers de peuplement : Asie de
+            l'Est, Asie du Sud et Europe. En rouge et orange, des foyers plus petits : nord-est des
+            États-Unis, sud-est du Brésil, golfe de Guinée. En gris très clair, les vides humains :
+            Sahara, Grand Nord du Canada et Sibérie, Amazonie, centre de l'Australie, Himalaya.
+          etiquettes:
+            - texte: Asie de l'Est
+              x: 84
+              y: 30
+            - texte: Asie du Sud
+              x: 71
+              y: 45
+            - texte: Europe
+              x: 52
+              y: 18
+            - texte: nord-est des États-Unis
+              x: 26
+              y: 33
+            - texte: sud-est du Brésil
+              x: 38
+              y: 77
+            - texte: golfe de Guinée
+              x: 52
+              y: 55
+            - texte: Sahara
+              x: 48
+              y: 38
+            - texte: Sibérie
+              x: 78
+              y: 10
+            - texte: Grand Nord canadien
+              x: 22
+              y: 10
+            - texte: Amazonie
+              x: 32
+              y: 61
+            - texte: désert australien
+              x: 87
+              y: 75
+      - picto: groupe
+        motCle: population mondiale
+        phrases:
+          - "En 2024, environ 8,2 milliards d'humains vivent sur la Terre."
+        enSavoirPlus: >-
+          Près de 6 humains sur 10 vivent en Asie.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un grand passage piéton d'une ville,
+            vu d'en haut en légère plongée, traversé par une foule variée : des personnes de tous âges et
+            de toutes origines, des enfants, des personnes âgées, une personne en fauteuil roulant, des
+            parents avec une poussette. Lumière de jour. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, enseigne, panneau, publicité, inscription sur les vêtements.
+          alt: Une foule variée de personnes de tous âges traverse un grand passage piéton.
+      - picto: densite
+        motCle: densité
+        phrases:
+          - "La densité, c'est le nombre moyen d'habitants sur un km², un carré de 1 km de côté."
+        enSavoirPlus: >-
+          Pour la calculer, on divise le nombre d'habitants par la superficie. Exemple : 1 000 habitants
+          sur 10 km², cela fait 100 habitants par km². Dans le monde, en 2024, environ 63.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne prise à la verticale
+            par un drone, au bord d'une ville d'Europe. La limite de la ville passe au milieu de l'image,
+            du haut en bas. Moitié gauche : une campagne de grands champs et de prés, avec des haies et
+            seulement trois fermes isolées. Moitié droite : un quartier de ville avec des dizaines
+            d'immeubles serrés et des rues. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne,
+            flèche, cadre, quadrillage, bande blanche de séparation.
+          alt: >-
+            Vue du ciel du bord d'une ville : à gauche une campagne avec trois fermes, faible densité ; à
+            droite un quartier d'immeubles serrés, forte densité.
+          etiquettes:
+            - texte: faible densité
+              x: 25
+              y: 92
+            - texte: forte densité
+              x: 75
+              y: 92
+      - picto: groupe
+        motCle: trois grands foyers
+        phrases:
+          - "Trois grands foyers rassemblent plus de la moitié des humains : l'Asie de l'Est, l'Asie du Sud et l'Europe."
+        enSavoirPlus: >-
+          Avec les régions voisines (Asie du Sud-Est, Afrique du Nord, Proche-Orient), ils réunissent
+          environ trois humains sur quatre.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Une grande plaine
+            d'Asie de l'Est, dans l'est de la Chine : une ville moyenne avec des immeubles, entourée de
+            villages et de champs cultivés jusqu'à l'horizon, traversée par un canal et une rivière ; peu
+            d'espace libre. Ciel légèrement voilé. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            enseigne, panneau, publicité.
+          alt: Vue aérienne d'une plaine de l'est de la Chine, couverte de villes, de villages et de champs jusqu'à l'horizon.
+      - picto: ville
+        motCle: foyers secondaires
+        phrases:
+          - "Il existe aussi des foyers plus petits : l'est des États-Unis, le sud-est du Brésil, le golfe de Guinée."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Lagos, au Nigeria, sur
+            le golfe de Guinée : une lagune bleue traversée par un long pont, des quartiers d'immeubles et
+            de maisons très étendus de chaque côté, des tours au bord de l'eau, la mer à l'horizon.
+            Lumière de fin d'après-midi. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne,
+            panneau, publicité.
+          alt: Vue aérienne de Lagos, au Nigeria, une très grande ville au bord d'une lagune, sur le golfe de Guinée.
+      - picto: flocon
+        motCle: milieux difficiles
+        phrases:
+          - "Les vides humains sont les déserts chauds ou froids, les forêts très denses et les hautes montagnes."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. La toundra du Grand Nord canadien en
+            hiver : une immense plaine plate, gelée et couverte de neige, sans aucun arbre, jusqu'à
+            l'horizon ; quelques rochers et un lac gelé au loin ; ciel gris pâle et lumière froide. Aucun
+            humain, aucune construction. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau,
+            véhicule, trace de pas, animal au premier plan.
+          alt: >-
+            La toundra du Grand Nord, une immense plaine gelée et enneigée, sans arbre ni maison : un
+            désert froid presque vide d'habitants.
+      - picto: epi
+        motCle: atouts
+        phrases:
+          - "Les plaines, les fleuves, les bords de mer et un climat doux sont des atouts qui attirent les habitants."
+        enSavoirPlus: >-
+          À l'inverse, le froid, la sécheresse ou les fortes pentes sont des contraintes, des
+          difficultés pour vivre.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Une large vallée de
+            fleuve en Europe, au climat doux : le fleuve serpente au centre d'une plaine verte, avec des
+            champs, des villages, une ville au bord de l'eau avec un pont, une route et une voie ferrée
+            qui suivent la vallée. Lumière de printemps. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, enseigne, panneau, publicité.
+          alt: Vue aérienne d'une vallée de fleuve en Europe, avec des champs, des villages et une ville au bord de l'eau.
+      - picto: sablier
+        motCle: histoire
+        phrases:
+          - "Les grands foyers sont très anciens : ils existent depuis les débuts de l'agriculture, il y a des milliers d'années."
+        enSavoirPlus: >-
+          Le climat n'explique pas tout : des régions au climat doux sont peu peuplées. L'histoire des
+          peuples compte aussi.
+        image:
+          aGenerer: >-
+            Reconstitution photoréaliste, format 4:3 paysage. Il y a environ 7 000 ans, dans la vallée
+            du fleuve Jaune, en Chine : des paysans du Néolithique, en vêtements de chanvre et de peaux,
+            récoltent du millet avec des couteaux de pierre près d'un village de maisons rondes à demi
+            enterrées, aux toits de chaume ; des poteries peintes sèchent au soleil ; des cochons près
+            des maisons. Ne doit pas figurer : texte, lettre, chiffre, objet en métal, riz en rizière
+            inondée, vêtement moderne, cheval monté, roue.
+          alt: Reconstitution de paysans du Néolithique qui récoltent du millet près de leur village, dans la vallée du fleuve Jaune, en Chine.
+    questions:
+      - question: Qu'est-ce que la densité de population ?
+        reponse: Le nombre moyen d'habitants par km².
+      - question: "Calcule la densité : 5 000 habitants sur 50 km²."
+        reponse: "5 000 ÷ 50 = 100 habitants par km²."
+      - question: Cite les trois grands foyers de peuplement.
+        reponse: L'Asie de l'Est, l'Asie du Sud et l'Europe.
+      - question: Cite deux sortes de vides humains.
+        reponse: "Par exemple : les déserts chauds ou froids, les forêts très denses, les hautes montagnes."
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Une population qui change
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: 2,5 milliards d'humains
+          dates: en 1950
+          carte: 1
+        - libelle: 8 milliards d'humains
+          dates: en 2022
+          carte: 1
+        - libelle: environ 10,3 milliards (prévision)
+          dates: vers 2085
+          carte: 2
+    formule: urbanisation = de plus en plus d'habitants en ville
+    cartes:
+      - picto: fleche
+        motCle: croissance
+        phrases:
+          - "Depuis 1950, la population mondiale a plus que triplé : on parle de croissance démographique."
+        enSavoirPlus: >-
+          La population a atteint 8 milliards d'humains en novembre 2022.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans une maternité claire et
+            calme, une infirmière tend un nouveau-né enveloppé dans une couverture blanche à sa mère,
+            assise dans un lit, sous le regard du père. Scène douce et lumineuse. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, écran, affiche, inscription sur les vêtements.
+          alt: Dans une maternité, une infirmière tend un nouveau-né à sa mère, sous le regard du père.
+      - picto: sablier
+        motCle: demain
+        phrases:
+          - "Selon l'ONU, la population mondiale devrait atteindre environ 10,3 milliards vers 2085, puis baisser un peu."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une famille de trois générations
+            marche dans un parc en automne : une grand-mère, ses deux enfants adultes et trois petits
+            enfants qui courent devant. Lumière dorée. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, panneau, inscription sur les vêtements.
+          alt: Une famille de trois générations, des grands-parents aux petits enfants, marche dans un parc.
+      - picto: afrique
+        motCle: Afrique
+        phrases:
+          - "C'est en Afrique que la population augmente le plus vite : il y a beaucoup de naissances et de jeunes."
+        enSavoirPlus: >-
+          L'Afrique compte environ 1,5 milliard d'habitants en 2024. Elle fera plus de la moitié de la
+          croissance mondiale d'ici 2050.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. La cour d'un collège dans une grande
+            ville d'Afrique de l'Ouest à la récréation : de nombreux élèves en uniforme bleu et blanc
+            discutent, rient et jouent au ballon ; bâtiment scolaire propre de deux étages, arbre
+            ombragé. Ambiance joyeuse, sans cliché. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            enseigne, panneau, tableau écrit, inscription sur les vêtements.
+          alt: Des collégiens en uniforme discutent et jouent dans la cour de leur collège, dans une ville d'Afrique de l'Ouest.
+      - picto: personne
+        motCle: Europe
+        phrases:
+          - "En Europe, la population n'augmente presque plus et vieillit : il y a de plus en plus de personnes âgées."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur la place d'une petite ville
+            d'Europe, des personnes âgées actives : deux femmes et deux hommes de plus de 70 ans jouent
+            aux boules et discutent à l'ombre des platanes ; un couple âgé passe à vélo. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, enseigne, panneau, inscription.
+          alt: Sur une place d'une petite ville d'Europe, des personnes âgées jouent aux boules sous les platanes.
+      - picto: ville
+        motCle: urbanisation
+        phrases:
+          - "L'urbanisation, c'est l'augmentation du nombre d'habitants des villes : plus de la moitié des humains vivent en ville."
+        enSavoirPlus: >-
+          En 2025, l'ONU compte 33 mégapoles, des villes de plus de 10 millions d'habitants ; 19 sont en
+          Asie.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne en fin de journée.
+            Une très grande ville d'Asie qui s'étend jusqu'à l'horizon : des tours au centre, des
+            quartiers d'immeubles tout autour, de grandes avenues, et au premier plan de nouveaux
+            immeubles en construction avec des grues, à la limite de champs. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, enseigne, panneau, publicité.
+          alt: Une très grande ville qui s'étend jusqu'à l'horizon, avec de nouveaux immeubles construits au bord des champs.
+      - picto: vague
+        motCle: littoralisation
+        phrases:
+          - "La littoralisation, c'est l'installation de plus en plus d'habitants et d'activités près des côtes."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Une côte très
+            construite : une grande ville borde la mer sur des kilomètres, avec des immeubles, une plage,
+            un port avec des navires et des grues, et des routes le long du rivage ; l'intérieur des
+            terres, à l'arrière, est beaucoup moins construit. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, enseigne, panneau, publicité, nom de navire.
+          alt: Vue aérienne d'une côte couverte d'immeubles, avec une plage et un port, l'intérieur des terres moins construit.
+      - picto: pas
+        motCle: migrations
+        phrases:
+          - "Un migrant est une personne qui part vivre dans un autre pays : environ 304 millions en 2024."
+        enSavoirPlus: >-
+          C'est moins de 4 humains sur 100. On migre aussi à l'intérieur d'un pays, souvent de la
+          campagne vers la ville.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le hall d'arrivée d'une gare
+            moderne, une famille (deux parents et deux enfants) avec des valises et des sacs est
+            accueillie par des proches qui les serrent dans leurs bras ; d'autres voyageurs passent
+            autour. Émotion joyeuse. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne,
+            panneau, écran d'affichage, étiquette de bagage lisible.
+          alt: Dans le hall d'une gare, une famille avec des valises est accueillie par des proches qui la serrent dans leurs bras.
+    questions:
+      - question: Sur quel continent la population augmente-t-elle le plus vite ?
+        reponse: En Afrique.
+      - question: Qu'est-ce que l'urbanisation ?
+        reponse: "L'augmentation du nombre d'habitants des villes : plus de la moitié des humains vivent en ville."
+      - question: Qu'est-ce que la littoralisation ?
+        reponse: L'installation de plus en plus d'habitants et d'activités près des côtes.

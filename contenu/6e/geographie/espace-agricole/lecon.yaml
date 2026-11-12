@@ -1,0 +1,635 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 2 « Habiter un espace de faible densité »,
+# sous-thème « Habiter un espace de faible densité à vocation agricole » (programme en vigueur en 6e
+# jusqu'en 2026-2027 inclus).
+# La fiche Eduscol conseille de comparer deux études de cas : une campagne intensive reliée au monde
+# (grandes plaines d'Amérique du Nord) et un espace rural fragile d'un pays du Sud (sud du Mali). La leçon
+# suit ce plan : l'Iowa, au cœur de la Corn Belt, puis le sud du Mali, puis les notions, avec des exemples
+# français.
+# Leçon précédente : « Habiter un espace à fortes contraintes » (contenu/6e/geographie/fortes-contraintes).
+# Leçon suivante : « Un littoral industrialo-portuaire » (contenu/6e/geographie/littoral-portuaire).
+titre: Habiter un espace agricole
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 4
+langue: fr
+statut: brouillon
+resume: >-
+  Une campagne de grandes machines aux États-Unis, une agriculture familiale au Mali, et la vie à la
+  campagne : paysages, exploitations, déplacements.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, géographie, thème 2 « Habiter un espace de faible densité »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 2 : Habiter un
+      espace de faible densité » (mars 2016) : comparer une campagne intensive (grandes plaines
+      d'Amérique du Nord) et un espace rural fragile du Sud (sud du Mali)
+    url: https://eduscol.education.fr/document/16780/download
+  - libelle: >-
+      Eduscol, plan de cours « Sixième : habiter un espace de faible densité » (les Grandes Plaines des
+      États-Unis : agriculture mécanisée, grandes distances, exportations)
+    url: https://eduscol.education.fr/document/28969/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      US Census Bureau, QuickFacts Iowa : 57,1 habitants par mile carré en 2020, soit environ 22 par km²
+    url: https://www.census.gov/quickfacts/fact/table/IA/POP060220
+  - libelle: >-
+      USDA, recensement agricole 2022, Iowa : 86 911 exploitations, 345 acres (environ 140 hectares) en
+      moyenne
+    url: https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_1_State_Level/Iowa/st19_1_001_001.pdf
+  - libelle: Iowa Farm Bureau, « Ag Census reveals fewer farms, acres in production » (recensement 2022)
+    url: https://iowafarmbureau.com/Article/Ag-Census-reveals-fewer-farms-acres-in-production
+  - libelle: >-
+      USDA NASS, classements de l'Iowa (juin 2024, données 2023) : premier État pour le maïs-grain et
+      pour les porcs
+    url: https://www.nass.usda.gov/sites/default/files/Statistics_by_State/Iowa/Publications/Rankings/IA-Rankings-2024.pdf
+  - libelle: >-
+      USDA NASS (janvier 2025) : l'Iowa a récolté environ 2,6 milliards de boisseaux de maïs en 2024
+    url: https://www.nass.usda.gov/sites/default/files/Statistics_by_State/Iowa/Publications/Crop_Report/2025/IA-Crop-Production-Annual-01-25.pdf
+  - libelle: >-
+      Iowa Farm Bureau, « Ethanol Production, Corn Usage, Prices, and Exports » (avril 2025) : en 2024,
+      l'éthanol a utilisé environ 59 % du maïs récolté en Iowa
+    url: https://www.iowafarmbureau.com/Article/Ethanol-Production-Corn-Usage-Prices-and-Exports
+  - libelle: >-
+      Iowa Corn Growers Association, « Corn Facts and FAQs » : 62 % du maïs de l'Iowa sert à fabriquer
+      de l'éthanol
+    url: https://www.iowacorn.org/corn-facts-faq/
+  - libelle: >-
+      Iowa Renewable Fuels Association (janvier 2026) : l'Iowa, premier État producteur d'éthanol, a
+      transformé plus de 1,5 milliard de boisseaux de maïs en 2025
+    url: https://iowarfa.org/?p=8317
+  - libelle: >-
+      USDA AMS, le Mississippi et les barges de grain vers les ports d'exportation du golfe du Mexique
+      (avril 2025)
+    url: https://ams.prod.usda.gov/sites/default/files/media/ReliableWaterwaySystem042025.pdf
+  - libelle: >-
+      Iowa Public Radio (août 2021) : au recensement de 2020, les métropoles grandissent, les campagnes
+      de l'Iowa perdent des habitants
+    url: https://www.iowapublicradio.org/ipr-news/2021-08-14/census-metro-populations-grew-rural-areas-lost-in-iowa
+  - libelle: >-
+      Investigate Midwest (2020) : longs trajets en bus scolaire dans un district rural de l'Iowa
+    url: https://investigatemidwest.org/2020/10/23/generational-shifting-how-a-rural-iowa-school-district-changed-busing-for-costs-staffing-and-students-safety/
+  - libelle: >-
+      Encyclopædia Universalis, données pays : densité du Mali (environ 20 habitants par km² en 2025,
+      d'après la Banque mondiale)
+    url: https://www.universalis.fr/donnees-pays/indicateur/densite/mali/
+  - libelle: >-
+      Traoré, Soumaré, Bélières (Cirad), Hilhorst, « Quelles évolutions des systèmes de production
+      céréaliers au Mali ? », Grain de sel n° 54-56 (2011) : exploitations familiales, céréales gardées
+      pour nourrir la famille
+    url: https://www.inter-reseaux.org/wp-content/uploads/GDS54-56_p18-20_Mali.pdf
+  - libelle: >-
+      Djouara, Bélières, Kébé, Cahiers Agricultures (Cirad, 2006) : les exploitations familiales de la
+      zone cotonnière du Mali (coton, céréales, traction animale)
+    url: https://revues.cirad.fr/index.php/cahiers-agricultures/article/download/30561/30321
+  - libelle: >-
+      ICAC (Comité consultatif international du coton), « Situation of Cotton in Mali » : coton cultivé
+      sous la pluie, deuxième produit d'exportation après l'or, surtout vendu à la Chine (présentation
+      d'environ 2017, données jusqu'en 2016-2017)
+    url: https://icac.org/wp-content/uploads/2025/01/Situation-of-Cotton-in-Mali.pdf
+  - libelle: >-
+      Sidibé et Sogodogo, SFM Studies n° 90 (université de Neuchâtel, 2025) : enfants et jeunes en
+      mobilité, régions de Sikasso et Ségou, exode rural vers Bamako
+    url: https://www.unine.ch/sfm/wp-content/uploads/sites/100/SFM-Studies-90.pdf
+  - libelle: >-
+      Unicef Mali, « L'eau potable, une intervention à moindre coût » : forages équipés de pompes à main
+      dans les villages
+    url: https://www.unicef.org/mali/recits/leau-potable-une-intervention-%C3%A0-moindre-cout
+  - libelle: >-
+      Insee, « Une nouvelle définition du rural » (2021) : 88 % des communes, 33 % de la population ;
+      arrivées de nouveaux habitants ; temps d'accès aux services
+    url: https://insee.fr/fr/statistiques/5039991
+  - libelle: >-
+      Insee Première n° 2125 (septembre 2026) : près de 90 % des actifs ruraux vont travailler en voiture
+    url: https://insee.fr/fr/statistiques/9037833
+  - libelle: >-
+      Insee, « 1970-2020 : des exploitations agricoles moins nombreuses, plus grandes et davantage
+      spécialisées » (environ 390 000 exploitations en 2020)
+    url: https://www.insee.fr/fr/statistiques/7728893
+  - libelle: Agence Bio, les chiffres du bio 2024 (environ 10 % de la surface agricole en bio)
+    url: https://www.agencebio.org/wp-content/uploads/2025/06/CP_Presentation-des-chiffres-du-bio2024_Agence-BIO.pdf
+  - libelle: Géoconfluences, glossaire, « Openfield »
+    url: https://geoconfluences.ens-lyon.fr/glossaire/openfield
+  - libelle: Géoconfluences, glossaire, « Bocage »
+    url: https://geoconfluences.ens-lyon.fr/glossaire/bocage
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: L'Iowa, dans la Corn Belt
+    ensemble:
+      type: mosaique
+    formule: peu d'habitants + grandes machines = énorme production
+    cartes:
+      - picto: lieu
+        motCle: Corn Belt
+        phrases:
+          - "L'Iowa, au centre des États-Unis, est au cœur de la Corn Belt : la « ceinture du maïs »."
+        image:
+          aGenerer: >-
+            Carte de géographie simple et lisible, format 4:3 paysage, sans aucun texte. Elle montre les
+            États-Unis sans l'Alaska ni Hawaï, qui occupent presque toute l'image, avec un peu de
+            Canada en gris clair en haut et un peu de Mexique en gris clair en bas. Océans et golfe en
+            bleu clair, autres États en beige clair avec de fines limites grises. Une grande zone jaune
+            pâle, la Corn Belt, couvre le centre-nord-est du pays (de l'est du Nebraska jusqu'à l'Ohio,
+            avec le sud du Minnesota, l'Illinois et l'Indiana), centrée vers 62 % de la largeur et 32 %
+            de la hauteur. Dans cette zone, l'État de l'Iowa est colorié en vert foncé, centré vers
+            53 % de la largeur et 30 % de la hauteur. Le fleuve Mississippi, une ligne bleue bien
+            visible, descend du nord vers le sud en longeant l'est de l'Iowa, passe vers 58 % de la
+            largeur et 55 % de la hauteur, et se jette dans le golfe du Mexique ; un point rouge marque
+            La Nouvelle-Orléans à son embouchure, vers 59 % de la largeur et 74 % de la hauteur. Le
+            golfe du Mexique est en bas, vers 58 % de la largeur et 90 % de la hauteur. Ne doit pas
+            figurer : texte, lettre, chiffre, nom de lieu, légende, rose des vents, drapeau, route,
+            ville autre que le point rouge.
+          alt: >-
+            Carte des États-Unis : la Corn Belt en jaune pâle au centre-nord-est, l'Iowa en vert foncé,
+            le Mississippi en bleu qui descend jusqu'à La Nouvelle-Orléans, point rouge sur le golfe du
+            Mexique.
+          etiquettes:
+            - texte: Corn Belt
+              x: 70
+              y: 38
+            - texte: Iowa
+              x: 53
+              y: 30
+            - texte: Mississippi
+              x: 58
+              y: 55
+            - texte: La Nouvelle-Orléans
+              x: 59
+              y: 74
+            - texte: golfe du Mexique
+              x: 58
+              y: 90
+      - picto: densite
+        motCle: faible densité
+        phrases:
+          - "Il y a peu d'habitants pour beaucoup d'espace : environ 22 habitants par km² en Iowa en 2020."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne prise de haut en été.
+            Dans l'Iowa, aux États-Unis : une immense plaine de champs verts de maïs et de soja en
+            grands rectangles, coupée par des routes droites en gravier qui se croisent à angle droit.
+            Une seule ferme isolée, avec sa maison blanche, ses hangars et deux silos ronds en métal,
+            entourée de quelques arbres, au milieu de l'image ; aucune autre maison visible jusqu'à
+            l'horizon. Ne doit pas figurer : texte, lettre, chiffre, panneau, logo, ville, village,
+            montagne.
+          alt: Vue d'avion d'une immense plaine de champs, avec une seule ferme isolée au milieu.
+      - picto: epi
+        motCle: maïs et soja
+        phrases:
+          - Sur un sol plat et fertile, les champs de maïs et de soja s'étendent à perte de vue.
+        enSavoirPlus: >-
+          L'Iowa est le premier État des États-Unis pour la production de maïs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, à hauteur d'homme, fin d'été. Dans
+            l'Iowa : au premier plan, à gauche, un champ de grands pieds de maïs avec leurs épis ; à
+            droite, un champ de soja bas et vert foncé ; les deux champs filent tout droit jusqu'à
+            l'horizon, parfaitement plat, sous un grand ciel bleu avec quelques nuages. Aucun humain.
+            Ne doit pas figurer : texte, lettre, chiffre, panneau, logo, clôture publicitaire, montagne.
+          alt: Un champ de maïs et un champ de soja qui s'étendent jusqu'à l'horizon, sur une plaine plate.
+      - picto: maison
+        motCle: ferme isolée
+        phrases:
+          - Les familles d'agriculteurs vivent dans des fermes isolées, loin les unes des autres.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une ferme familiale de l'Iowa en
+            fin d'après-midi : une maison en bois blanche à deux étages avec un porche, une grange rouge,
+            un grand hangar en métal et deux silos ronds en tôle, quelques arbres autour pour couper le
+            vent ; un pick-up garé devant, sans marque visible. Champs de maïs tout autour, aucune autre
+            maison en vue. Ne doit pas figurer : texte, lettre, chiffre, plaque d'immatriculation
+            lisible, logo, drapeau, boîte aux lettres avec nom.
+          alt: Une ferme isolée avec sa maison blanche, sa grange rouge et ses silos, entourée de champs.
+      - picto: tracteur
+        motCle: grande exploitation
+        phrases:
+          - Une exploitation moyenne de l'Iowa mesure environ 140 hectares en 2022.
+        enSavoirPlus: >-
+          140 hectares, c'est la place d'environ 200 terrains de football.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne en automne. Dans
+            l'Iowa, une très grande moissonneuse-batteuse verte récolte le maïs dans un immense champ
+            doré ; à côté d'elle roule un tracteur qui tire une benne à grain en train de se remplir. Le
+            champ s'étend jusqu'à l'horizon. Ne doit pas figurer : texte, lettre, chiffre, logo, marque
+            lisible sur les machines, autocollant, panneau.
+          alt: Vue d'avion d'une moissonneuse-batteuse et d'un tracteur qui récoltent le maïs dans un immense champ.
+      - picto: tracteur
+        motCle: mécanisation
+        phrases:
+          - "Les machines font presque tout le travail : peu de personnes suffisent pour une grande exploitation."
+        enSavoirPlus: >-
+          Les tracteurs se guident souvent par GPS et les agriculteurs suivent les prix du maïs sur leur
+          téléphone.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Vue depuis l'intérieur de la
+            cabine d'un grand tracteur, au printemps, dans l'Iowa : une agricultrice d'une quarantaine
+            d'années, en casquette et chemise de travail, assise au volant, regarde un écran tactile
+            fixé à côté d'elle qui montre une carte colorée du champ, sans aucun chiffre ni mot ; par
+            le grand pare-brise, un champ plat fraîchement semé. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, marque, écran avec écriture.
+          alt: Une agricultrice dans la cabine d'un tracteur, devant un écran qui montre la carte de son champ.
+      - picto: cochon
+        motCle: élevage de porcs
+        phrases:
+          - "Le maïs nourrit aussi les porcs : l'Iowa est le premier État des États-Unis pour l'élevage de porcs."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans l'Iowa, au milieu des
+            champs de maïs, trois longs bâtiments d'élevage de porcs, bas, aux toits gris et aux murs
+            blancs, côte à côte, avec deux silos à grain en métal à leur bout. Vue extérieure seulement,
+            calme, ciel bleu. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau, intérieur
+            des bâtiments, animal mort ou blessé.
+          alt: Trois longs bâtiments d'élevage de porcs au milieu des champs de maïs.
+      - picto: usine
+        motCle: éthanol
+        phrases:
+          - En 2024, plus de la moitié du maïs de l'Iowa a été transformée en éthanol, un carburant pour les voitures.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une usine d'éthanol au bord
+            d'une petite route de campagne de l'Iowa : de grandes cuves blanches, des tours en métal,
+            des silos à grain, un camion-benne qui livre du maïs ; champs plats autour. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, nom d'entreprise, panneau, fumée noire.
+          alt: Une usine d'éthanol avec ses cuves et ses silos, au milieu des champs.
+      - picto: silo
+        motCle: silo
+        phrases:
+          - Après la récolte, le grain est stocké dans de hauts silos, près des routes et des voies ferrées.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. À l'entrée d'une petite ville de
+            l'Iowa, un grand silo à grain en béton gris, haut comme un immeuble, à côté d'une voie
+            ferrée où attend un long train de wagons-trémies ; deux camions de grain attendent devant.
+            Plaine plate autour. Ne doit pas figurer : texte, lettre, chiffre, logo, nom de ville,
+            nom d'entreprise, panneau, graffiti.
+          alt: Un grand silo à grain en béton près d'une voie ferrée, avec un train de wagons et des camions.
+      - picto: bateau
+        motCle: exportation
+        phrases:
+          - Des barges descendent le Mississippi vers le golfe du Mexique ; le grain part ensuite dans le monde entier.
+        enSavoirPlus: >-
+          Une barge est un grand bateau plat, sans moteur. Exporter, c'est vendre à un autre pays. À La
+          Nouvelle-Orléans, le grain passe des barges aux grands navires.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur le large fleuve Mississippi,
+            un pousseur (petit bateau à cabine haute) pousse un convoi de douze barges couvertes,
+            chargées de grain, attachées en trois rangées ; berges boisées, ciel d'automne. Ne doit pas
+            figurer : texte, lettre, chiffre, nom de bateau, logo, drapeau, pont avec inscription.
+          alt: Un bateau pousse un long convoi de barges chargées de grain sur le Mississippi.
+      - picto: ville
+        motCle: petites villes
+        phrases:
+          - "Beaucoup de petites villes perdent des habitants : des jeunes partent vers les grandes villes."
+        enSavoirPlus: >-
+          De 2010 à 2020, la plupart des comtés de l'Iowa ont perdu des habitants, surtout à la
+          campagne.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. La rue principale d'une petite
+            ville de l'Iowa, un matin calme : une rangée de petits immeubles en brique de deux étages,
+            quelques boutiques ouvertes et deux vitrines vides, trois voitures garées, une personne âgée
+            qui marche sur le trottoir ; au bout de la rue, les champs et un silo. Ne doit pas figurer :
+            texte, lettre, chiffre, enseigne lisible, logo, plaque d'immatriculation lisible, panneau
+            de rue.
+          alt: La rue principale calme d'une petite ville, avec des boutiques en brique, dont deux vides.
+      - picto: bus
+        motCle: bus scolaire
+        phrases:
+          - "Les écoles sont loin des fermes : chaque jour, beaucoup d'enfants font un long trajet en bus."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, tôt le matin. Un bus scolaire jaune
+            américain arrêté au bord d'une longue route droite en gravier, entre deux champs ; deux
+            enfants avec leur cartable montent dedans, devant l'allée d'une ferme isolée. Ne doit pas
+            figurer : texte, lettre, chiffre, inscription sur le bus, logo, panneau lisible, plaque
+            d'immatriculation lisible.
+          alt: Deux enfants montent dans un bus scolaire jaune, au bord d'une route de campagne en gravier.
+    questions:
+      - question: Pourquoi dit-on que l'Iowa est un espace de faible densité ?
+        reponse: Parce qu'il y a peu d'habitants par km², environ 22 en 2020.
+      - question: Pourquoi peu d'agriculteurs suffisent-ils pour de si grandes exploitations ?
+        reponse: Parce que de grandes machines font presque tout le travail.
+      - question: Comment le maïs de l'Iowa est-il relié au reste du monde ?
+        reponse: Il part en barge sur le Mississippi jusqu'au golfe du Mexique, puis en bateau vers d'autres pays.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Au Mali, une agriculture familiale
+    ensemble:
+      type: mosaique
+    formule: agriculture vivrière = cultiver pour nourrir sa famille
+    cartes:
+      - picto: lieu
+        motCle: sud du Mali
+        phrases:
+          - Le Mali est un pays d'Afrique de l'Ouest ; au sud, autour de Sikasso, il pleut assez pour cultiver.
+        image:
+          aGenerer: >-
+            Carte de géographie simple et lisible, format 4:3 paysage, sans aucun texte. Elle montre
+            l'Afrique de l'Ouest, de la côte atlantique à gauche jusqu'au pays du Niger à droite. L'océan
+            Atlantique, en bleu clair, n'occupe que le coin en bas à gauche (centré vers 7 % de la
+            largeur et 85 % de la hauteur), au large de la Guinée et de la Sierra Leone ; la côte du
+            Sénégal longe le bord gauche de l'image. Le Mali, colorié en orange clair, a sa forme réelle
+            (un grand pays sans mer, plus large au nord qu'au sud) ; il est centré vers 54 % de la
+            largeur et 41 % de la hauteur. Son nord, en haut de l'image vers 65 % de la largeur et 23 %
+            de la hauteur, est dans le désert du Sahara, rendu par une teinte ocre clair qui couvre
+            tout le haut de la carte. Le sud du Mali, en bas du pays, est en vert, autour de la ville de
+            Sikasso. Les pays voisins (Mauritanie, Algérie, Niger, Burkina Faso, Côte d'Ivoire,
+            Guinée, Sénégal) sont en beige clair avec de fines limites grises. Un point noir pour
+            Bamako, la capitale, vers 38 % de la largeur et 66 % de la hauteur ; un point rouge pour
+            Sikasso, vers 47 % de la largeur et 73 % de la hauteur. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, légende, rose des vents, drapeau, route.
+          alt: >-
+            Carte de l'Afrique de l'Ouest : le Mali en orange clair, son nord dans le désert du Sahara,
+            son sud en vert autour de Sikasso (point rouge), Bamako en point noir, l'océan Atlantique en
+            bas à gauche.
+          etiquettes:
+            - texte: Mali
+              x: 54
+              y: 41
+            - texte: désert du Sahara
+              x: 65
+              y: 23
+            - texte: Bamako
+              x: 38
+              y: 66
+            - texte: Sikasso
+              x: 47
+              y: 73
+            - texte: océan Atlantique
+              x: 9
+              y: 85
+      - picto: densite
+        motCle: faible densité
+        phrases:
+          - "Le Mali compte environ 20 habitants par km² en 2025 : les villages sont séparés par de grands espaces."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne prise de haut à la
+            saison des pluies. Dans le sud du Mali : une savane verte avec de grands arbres isolés
+            (karités, baobabs), des champs cultivés de formes irrégulières, et un seul petit village de
+            maisons en terre aux toits de tôle et de paille au centre de l'image, relié par une piste
+            de terre rouge ; aucun autre village visible. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, route goudronnée, ville, immeuble.
+          alt: Vue d'avion d'une savane verte avec des champs et un seul petit village relié par une piste.
+      - picto: groupe
+        motCle: exploitation familiale
+        phrases:
+          - Presque toutes les exploitations sont familiales ; une grande famille cultive ses champs ensemble.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, lumière du matin. Dans le sud du
+            Mali, au début de la saison des pluies : une famille au travail dans son champ, un homme,
+            deux femmes en pagne coloré et deux adolescents, qui sèment des graines dans la terre
+            ocre en ligne, le long des sillons ; arbres de savane au fond. Personnes représentées avec
+            dignité, concentrées sur leur travail. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            tee-shirt avec inscription, tracteur, misère mise en scène.
+          alt: Une famille sème des graines dans son champ, le long des sillons, dans la savane.
+      - picto: epi
+        motCle: agriculture vivrière
+        phrases:
+          - Les familles cultivent le mil, le sorgho et le maïs surtout pour se nourrir, et en vendent peu.
+        enSavoirPlus: >-
+          Le mil et le sorgho sont des céréales qui résistent bien au manque d'eau.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le sud du Mali, en fin de
+            saison des pluies : au premier plan, des tiges de sorgho et de mil hautes de deux mètres
+            avec leurs épis ; derrière, une femme coupe les épis de mil et les met dans une bassine
+            en métal posée au sol. Ciel nuageux, arbres de savane. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, sac avec inscription, tracteur.
+          alt: Une femme récolte les épis de mil dans un champ de grandes tiges de mil et de sorgho.
+      - picto: piece
+        motCle: coton
+        phrases:
+          - Le coton est vendu pour gagner de l'argent ; il part presque tout à l'étranger, surtout vers l'Asie.
+        enSavoirPlus: >-
+          Le coton est le deuxième produit vendu par le Mali à l'étranger, après l'or.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le sud du Mali, à la
+            récolte : un champ de cotonniers aux capsules blanches ouvertes ; un homme et une femme
+            cueillent le coton à la main et le mettent dans de grands sacs en toile ; au bord du
+            champ, un gros tas de coton blanc. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            inscription sur les sacs, machine.
+          alt: Un homme et une femme cueillent le coton à la main dans un champ, près d'un tas de coton blanc.
+      - picto: boeuf
+        motCle: traction animale
+        phrases:
+          - Beaucoup de familles labourent avec une charrue tirée par des bœufs ; les autres travaillent à la houe.
+        enSavoirPlus: >-
+          La houe est un outil à main, une sorte de pioche pour retourner la terre.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le sud du Mali, au début de
+            la saison des pluies : un jeune homme guide une charrue simple en métal tirée par deux
+            bœufs zébus attelés par un joug en bois ; elle trace des sillons dans la terre ocre ; un
+            enfant marche devant les bœufs. Arbres de savane au fond. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, tracteur, animal blessé.
+          alt: Un jeune homme laboure avec une charrue tirée par deux bœufs.
+      - picto: goutte
+        motCle: pluie
+        phrases:
+          - "Les champs ne sont pas arrosés : tout dépend de la pluie, et une sécheresse peut ruiner la récolte."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le sud du Mali, en début
+            d'après-midi : un champ de jeunes pieds de maïs sur une terre ocre, sous un grand ciel
+            noir de pluie ; les premières grosses gouttes tombent ; un agriculteur, de dos, regarde le
+            ciel au bord du champ. Ne doit pas figurer : texte, lettre, chiffre, logo, tuyau,
+            arroseur, canal d'irrigation.
+          alt: Un agriculteur regarde arriver la pluie au bord d'un champ de jeunes pieds de maïs.
+      - picto: maison
+        motCle: vivre au village
+        phrases:
+          - Au village, l'eau vient souvent d'une pompe à main ; des pistes de terre mènent aux champs et au marché.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un village du sud du Mali en fin
+            de matinée : maisons en briques de terre aux toits de tôle, greniers ronds en terre à toit
+            de paille ; au centre, une pompe à main où deux femmes et un enfant remplissent des
+            bidons jaunes ; une piste de terre rouge part vers les champs. Personnes représentées avec
+            dignité. Ne doit pas figurer : texte, lettre, chiffre, logo, inscription sur les bidons,
+            panneau.
+          alt: Des femmes et un enfant remplissent des bidons à la pompe du village, près des maisons en terre.
+      - picto: pas
+        motCle: exode rural
+        phrases:
+          - Des jeunes partent travailler en ville, à Bamako, ou à l'étranger ; c'est l'exode rural.
+        enSavoirPlus: >-
+          Ils envoient souvent de l'argent à leur famille restée au village.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Au bord d'une piste de terre
+            rouge, dans le sud du Mali : deux jeunes hommes avec un sac de voyage montent dans un
+            minibus collectif blanc qui part vers la ville ; leur mère et une petite sœur leur font
+            signe. Arbres de savane. Ne doit pas figurer : texte, lettre, chiffre, logo, inscription
+            sur le minibus, plaque d'immatriculation lisible.
+          alt: Deux jeunes hommes montent dans un minibus qui part vers la ville ; leur famille leur dit au revoir.
+    questions:
+      - question: Quelle est la différence entre l'agriculture de l'Iowa et celle du sud du Mali ?
+        reponse: En Iowa, de grandes machines produisent pour vendre ; au Mali, des familles cultivent surtout pour se nourrir.
+      - question: Qu'est-ce que l'agriculture vivrière ?
+        reponse: Une agriculture qui sert d'abord à nourrir la famille de l'agriculteur.
+      - question: Pourquoi les récoltes du sud du Mali sont-elles fragiles ?
+        reponse: Parce que les champs dépendent de la pluie ; une sécheresse peut tout détruire.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Vivre à la campagne
+    ensemble:
+      type: mosaique
+    formule: faible densité = peu d'habitants par km²
+    cartes:
+      - picto: densite
+        motCle: densité
+        phrases:
+          - La densité, c'est le nombre d'habitants par km² ; dans les campagnes agricoles, elle est faible.
+        enSavoirPlus: >-
+          En France, les communes rurales sont 88 % des communes, mais n'ont qu'un tiers des habitants.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue aérienne. Une campagne
+            française en été : de grands champs jaunes et verts, un petit village groupé autour de son
+            clocher au loin, quelques routes ; beaucoup plus d'espace cultivé que de maisons. Ne doit
+            pas figurer : texte, lettre, chiffre, panneau, logo, ville, autoroute.
+          alt: Vue d'avion d'une campagne française avec de grands champs et un petit village au loin.
+      - picto: epi
+        motCle: openfield
+        phrases:
+          - L'openfield est un paysage de grands champs ouverts, sans haies, comme en Beauce près de Paris.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, début juillet. La Beauce, en
+            France : une plaine parfaitement plate de grands champs de blé doré et de colza sans aucune
+            haie ni clôture ; au loin, un village groupé autour de son église et un silo ; ciel bleu.
+            Ne doit pas figurer : texte, lettre, chiffre, panneau, logo, éolienne au premier plan,
+            montagne.
+          alt: Une plaine plate de grands champs de blé sans haies, avec un village au loin.
+      - picto: arbre
+        motCle: bocage
+        phrases:
+          - Le bocage est un paysage de petits champs entourés de haies d'arbres, souvent pour l'élevage.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en légère hauteur, au
+            printemps. Un bocage de Normandie : de petits prés verts de formes irrégulières, chacun
+            entouré d'une haie d'arbres ; des vaches pâturent dans deux prés ; quelques fermes
+            dispersées aux toits d'ardoise. Ne doit pas figurer : texte, lettre, chiffre, panneau,
+            logo, étiquette sur les vaches lisible, ville.
+          alt: Un paysage de petits prés entourés de haies d'arbres, avec des vaches et des fermes dispersées.
+      - picto: maison
+        motCle: exploitation agricole
+        phrases:
+          - "L'exploitation agricole, c'est l'entreprise de l'agriculteur : ses terres, ses bâtiments, ses machines, ses animaux."
+        enSavoirPlus: >-
+          En France, il y avait environ 390 000 exploitations en 2020, de moins en moins nombreuses et
+          de plus en plus grandes.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue en hauteur. Une exploitation
+            agricole française : une maison en pierre, un grand hangar ouvert où l'on voit un tracteur
+            et une remorque, une étable avec des vaches, un tas de bottes de paille rondes ; les champs
+            de l'exploitation tout autour. Ne doit pas figurer : texte, lettre, chiffre, logo, marque
+            sur les machines, panneau.
+          alt: Une exploitation agricole avec la maison, le hangar et le tracteur, l'étable et les champs autour.
+      - picto: tracteur
+        motCle: mécanisation
+        phrases:
+          - La mécanisation, c'est remplacer le travail des bras et des animaux par des machines.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. En France, en juillet, une
+            moissonneuse-batteuse récolte un champ de blé doré ; un nuage de poussière derrière elle ;
+            un tracteur avec une benne attend au bord du champ. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, marque lisible sur les machines, panneau.
+          alt: Une moissonneuse-batteuse récolte un champ de blé, un tracteur attend au bord.
+      - picto: sac
+        motCle: agriculture intensive
+        phrases:
+          - L'agriculture intensive produit le plus possible, avec des machines, des engrais et des pesticides.
+        enSavoirPlus: >-
+          Les engrais nourrissent les plantes ; les pesticides tuent les insectes et les mauvaises herbes. Trop
+          utilisés, ils polluent l'eau et les sols.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un tracteur tire un long
+            pulvérisateur aux bras dépliés qui projette une fine brume au-dessus d'un grand champ de
+            blé vert, au printemps ; le conducteur est dans la cabine fermée. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, marque, tête de mort, symbole de danger, panneau.
+          alt: Un tracteur pulvérise un produit au-dessus d'un grand champ de blé vert.
+      - picto: rameau
+        motCle: agriculture biologique
+        phrases:
+          - "L'agriculture biologique n'utilise ni engrais ni pesticides chimiques : environ 10 % des terres agricoles françaises en 2024."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. En France, une maraîchère d'une
+            trentaine d'années, à genoux dans un potager de légumes variés (salades, poireaux,
+            courgettes) entouré d'une haie fleurie, arrache des mauvaises herbes à la main ; une
+            caisse en bois de légumes cueillis à côté d'elle. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, étiquette, label, pulvérisateur.
+          alt: Une maraîchère arrache des mauvaises herbes à la main dans un potager de légumes variés.
+      - picto: route
+        motCle: services éloignés
+        phrases:
+          - À la campagne, le médecin, les magasins et le collège sont souvent loin de la maison.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une petite route de campagne
+            française qui serpente entre des champs et des prés vers un bourg lointain, à plusieurs
+            kilomètres ; une seule voiture roule sur la route ; au premier plan, une maison isolée.
+            Ne doit pas figurer : texte, lettre, chiffre, panneau lisible, logo, plaque
+            d'immatriculation lisible.
+          alt: Une petite route de campagne mène, entre les champs, à un bourg lointain.
+      - picto: voiture
+        motCle: voiture
+        phrases:
+          - Près de 9 travailleurs ruraux sur 10 vont au travail en voiture, selon l'Insee en 2026.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, tôt le matin. Dans un village
+            français, devant une maison, un homme et une femme montent chacun dans leur voiture pour
+            partir au travail ; un car scolaire passe au fond. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, marque lisible, plaque d'immatriculation lisible, panneau lisible.
+          alt: Devant une maison de village, deux adultes montent chacun dans leur voiture pour aller travailler.
+      - picto: personne
+        motCle: néoruraux
+        phrases:
+          - Les néoruraux sont des habitants des villes venus vivre à la campagne, pour le calme et l'espace.
+        enSavoirPlus: >-
+          Grâce à ces arrivées, la population des campagnes françaises augmente un peu.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une jeune famille (deux parents
+            et deux enfants) devant une maison de village en pierre rénovée, avec un jardin ; le père
+            porte un carton de déménagement, les enfants jouent dans l'herbe ; des champs derrière.
+            Ne doit pas figurer : texte, lettre, chiffre, logo, inscription sur les cartons, camion de
+            déménagement avec nom.
+          alt: Une jeune famille emménage dans une maison de village en pierre, entourée de champs.
+      - picto: ville
+        motCle: lien avec la ville
+        phrases:
+          - La campagne nourrit la ville ; la ville lui apporte des emplois, des services et des clients.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un marché de plein air dans une
+            ville française : un agriculteur et sa fille vendent leurs légumes, leurs fruits et leurs
+            fromages sur un étal à des clients de la ville ; immeubles au fond. Ne doit pas figurer :
+            texte, lettre, chiffre, étiquette de prix, logo, enseigne, panneau.
+          alt: Au marché d'une ville, un agriculteur et sa fille vendent leurs produits à des clients.
+    questions:
+      - question: Quelle est la différence entre l'openfield et le bocage ?
+        reponse: L'openfield a de grands champs ouverts sans haies ; le bocage a de petits champs entourés de haies.
+      - question: Pourquoi les habitants des campagnes utilisent-ils beaucoup la voiture ?
+        reponse: Parce que le travail, les magasins et les services sont loin, et qu'il y a peu de transports en commun.
+      - question: Qui sont les néoruraux ?
+        reponse: Des habitants des villes qui viennent vivre à la campagne.

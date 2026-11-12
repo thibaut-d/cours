@@ -1,0 +1,557 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 4 « Le monde habité », sous-thème « La variété des
+# formes d'occupation spatiale dans le monde » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Dernière leçon de géographie de 6e : elle fait aussi la synthèse de l'année (métropoles, espaces de
+# faible densité, littoraux), comme le demande la fiche Eduscol (« approche filée », « tour du monde de la
+# planète habitée »).
+# Étude de cas : le delta du Mékong (Vietnam), espace rural très densément peuplé, puis d'autres formes
+# d'occupation dans le monde, puis les notions.
+# Leçon précédente : « Où vivent les humains ? » (contenu/6e/geographie/population-mondiale).
+# Leçon suivante : aucune (fin du programme de géographie de 6e).
+titre: Des façons d'habiter la Terre
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 8
+langue: fr
+statut: brouillon
+resume: >-
+  Le delta du Mékong, une campagne très peuplée, puis mégapoles, fronts pionniers, nomades, littoraux
+  et la mer : toute la Terre est habitée, de façons très variées.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, géographie, thème 4 « Le monde habité »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 4 : Le monde
+      habité » (mars 2016) : espaces denses et « vides » jamais totalement vides (oasis, villes, fronts
+      pionniers), habitat permanent ou temporaire, y compris en mer, formes de peuplement
+      (groupé/dispersé), rôle de l'histoire (foyers du Néolithique), approche filée avec les thèmes 1 à 3,
+      écueils (ne pas survaloriser le climat et le relief)
+    url: https://eduscol.education.fr/document/16786/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 2 : Habiter un
+      espace de faible densité » (mars 2016)
+    url: https://eduscol.education.fr/document/16780/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Encyclopædia Universalis, « Mékong » : canaux du delta, crue, riz (double récolte au centre,
+      remontées d'eau salée en aval), densités de plus de 700 habitants par km² dans la plaine du delta
+    url: https://www.universalis.fr/encyclopedie/mekong/
+  - libelle: >-
+      CIFOR-ICRAF, Working Paper 31 : environ 17,5 millions d'habitants dans le delta du Mékong en 2022
+      (12 provinces et la ville de Can Tho)
+    url: https://cifor-icraf.org/publications/pdf_files/WPapers/CIFOR-ICRAF-WP-31.pdf
+  - libelle: >-
+      Office national de la statistique du Vietnam (NSO, ex-GSO), superficie, population et densité par
+      province et par région (delta du Mékong en 2022 : environ 40 900 km², environ 17,4 millions
+      d'habitants, soit plus de 400 habitants par km²)
+    url: https://www.nso.gov.vn/en/px-web/?pxid=E0201&theme=Population%20and%20Employment
+  - libelle: >-
+      Diercke (atlas), « Viet Nam — Rural settlement in the Mekong River Delta » : villages étirés le long
+      des canaux, peu de ponts, le bateau premier moyen de transport, riziculture
+    url: https://www.diercke.com/content/viet%20nam-rural-settlement-mekong-river-delta-978-3-14-100890-6-133-3-1
+  - libelle: Encyclopædia Britannica, « Mekong River — Economy » (réseau de canaux du delta, riziculture)
+    url: https://www.britannica.com/place/Mekong-River/Economy
+  - libelle: >-
+      Administration nationale du tourisme du Vietnam, « Cai Rang Floating Market » : des centaines de
+      bateaux vendent chaque matin les produits agricoles du delta, à Can Tho
+    url: https://vietnamtourism.vn/en/index.php/tourism/items/2888
+  - libelle: >-
+      ONU (DESA), « The World's Cities in 2018 » (World Urbanization Prospects 2018) : 33 villes de plus
+      de 10 millions d'habitants en 2018 ; les plus grandes, Tokyo, Delhi et Shanghai ; Mumbai environ
+      20 millions d'habitants
+    url: https://digitallibrary.un.org/record/3799524
+  - libelle: >-
+      ONU (DESA), World Urbanization Prospects 2025, communiqué du 18 novembre 2025 : avec une nouvelle
+      méthode qui compte des agglomérations bien plus larges, Jakarta devient la plus grande ville du
+      monde, devant Dhaka et Tokyo
+    url: https://www.un.org/sustainabledevelopment/blog/2025/11/press-release-wup2025/
+  - libelle: Géoconfluences (ENS de Lyon), glossaire, « Mégalopole » (mégalopole japonaise du Tōkaidō)
+    url: https://geoconfluences.ens-lyon.fr/glossaire/megalopole
+  - libelle: >-
+      Géoconfluences (ENS de Lyon), glossaire, « Front pionnier » (peuplement le long des routes,
+      Amazonie brésilienne)
+    url: https://geoconfluences.ens-lyon.fr/glossaire/front-pionnier
+  - libelle: Géoconfluences (ENS de Lyon), glossaire, « Densité »
+    url: https://geoconfluences.ens-lyon.fr/glossaire/densite
+  - libelle: Géoconfluences (ENS de Lyon), glossaire, « Écoumène »
+    url: https://geoconfluences.ens-lyon.fr/glossaire/ecoumene
+  - libelle: Encyclopædia Universalis, « Oasis » (eau et végétation au milieu d'un espace aride, irrigation)
+    url: https://www.universalis.fr/encyclopedie/oasis/
+  - libelle: Encyclopædia Universalis, « Sahara »
+    url: https://www.universalis.fr/encyclopedie/sahara/
+  - libelle: Encyclopædia Universalis, « Nomadisme »
+    url: https://www.universalis.fr/encyclopedie/nomadisme/
+  - libelle: >-
+      Unesco, patrimoine culturel immatériel, « L'artisanat traditionnel de la yourte mongole et les
+      coutumes associées » (habitat des éleveurs nomades, démontable)
+    url: https://ich.unesco.org/fr/RL/l-artisanat-traditionnel-de-la-yourte-mongole-et-les-coutumes-associees-00396
+  - libelle: >-
+      Encyclopædia Universalis, « Nunavut » : environ 2,1 millions de km², 27 communautés surtout sur les
+      côtes, environ 85 % d'Inuits
+    url: https://www.universalis.fr/encyclopedie/nunavut/
+  - libelle: "Statistique Canada, recensement de 2021 : Nunavut, 36 858 habitants"
+    url: https://www12.statcan.gc.ca/census-recensement/stats/statind2021.cfm
+  - libelle: Encyclopædia Universalis, « Amazonie »
+    url: https://www.universalis.fr/encyclopedie/amazonie/
+  - libelle: >-
+      ONU, Annuaire statistique n° 67 (novembre 2024), tableau « Population, superficie et densité » :
+      France 120,7 habitants par km² en 2024
+    url: https://data.un.org/_Docs/SYB/PDFs/SYB67_1_202411_Population,%20Surface%20Area%20and%20Density.pdf
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Le delta du Mékong
+    ensemble:
+      type: mosaique
+    formule: delta + riz + canaux = campagne très peuplée
+    cartes:
+      - picto: lieu
+        motCle: delta du Mékong
+        phrases:
+          - "Au sud du Vietnam, le Mékong se divise en plusieurs bras avant la mer : c'est un delta."
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre le sud du Cambodge et le sud du
+            Vietnam. La mer est en bleu en bas de l'image et à gauche (golfe de Thaïlande, en bas à
+            gauche) et en bas à droite (mer de Chine méridionale, centrée vers 82 % de la largeur et
+            84 % de la hauteur). La terre est verte. Le grand fleuve Mékong, ruban bleu bien visible,
+            entre par le haut de l'image vers 38 % de la largeur, descend vers le sud-est, passe vers
+            45 % de la largeur et 42 % de la hauteur, puis se divise en six ou sept bras parallèles qui
+            rejoignent la mer en bas à droite, entre 55 % et 75 % de la largeur. Entre ces bras, une
+            grande plaine plate d'un vert vif de rizières, quadrillée de fins canaux droits, couvre le
+            bas de l'image, centrée vers 50 % de la largeur et 78 % de la hauteur. Côte basse, sans
+            falaise. Des reliefs vert sombre en haut à droite. Une tache grise urbaine bien visible
+            marque Hô Chi Minh-Ville, vers 67 % de la largeur et 48 % de la hauteur. Couleurs douces et
+            contrastées, côtes nettes. Ne doit pas figurer : texte, lettre, chiffre, nom de lieu,
+            frontière, route, quadrillage de coordonnées, légende, rose des vents, flèche.
+          alt: >-
+            Carte du sud du Vietnam : le Mékong descend du Cambodge et se divise en plusieurs bras avant
+            la mer de Chine méridionale ; entre les bras, une grande plaine verte de rizières, le delta.
+          etiquettes:
+            - texte: Cambodge
+              x: 22
+              y: 18
+            - texte: Vietnam
+              x: 84
+              y: 24
+            - texte: Mékong
+              x: 45
+              y: 42
+            - texte: Hô Chi Minh-Ville
+              x: 67
+              y: 48
+            - texte: delta du Mékong
+              x: 50
+              y: 78
+            - texte: mer de Chine
+              x: 82
+              y: 84
+      - picto: groupe
+        motCle: campagne peuplée
+        phrases:
+          - Plus de 17 millions de personnes vivent dans le delta en 2022, surtout à la campagne.
+        enSavoirPlus: >-
+          Le delta est une campagne bien plus peuplée que les campagnes françaises.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, vue aérienne prise par un drone, format 4:3 paysage. La
+            campagne du delta du Mékong au Vietnam : un canal brun traverse l'image en diagonale ; sur
+            ses deux rives, une file presque continue de maisons basses aux toits de tôle et de tuiles,
+            entourées de cocotiers et de bananiers ; derrière les maisons, de grandes rizières vertes
+            rectangulaires jusqu'à l'horizon. Quelques petits bateaux sur le canal. Lumière du matin. Ne
+            doit pas figurer : texte, lettre, chiffre, panneau, enseigne, logo, publicité, grand
+            immeuble.
+          alt: >-
+            Vue d'avion d'un canal bordé de maisons serrées les unes contre les autres, avec des rizières
+            derrière.
+      - picto: epi
+        motCle: rizière
+        phrases:
+          - "Grâce à l'eau et à la terre fertile du fleuve, les familles cultivent surtout le riz."
+        enSavoirPlus: >-
+          Au centre du delta, on peut faire deux récoltes de riz par an.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le delta du Mékong au
+            Vietnam, une femme et un homme, en vêtements de travail à manches longues et chapeaux
+            coniques, repiquent de jeunes plants de riz dans une rizière inondée, de l'eau jusqu'aux
+            chevilles. Rizières vert tendre jusqu'au loin, une rangée de cocotiers au fond. Personnes
+            montrées avec respect, au travail, sans pose. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, inscription sur les vêtements, panneau, machine moderne au premier plan.
+          alt: Une femme et un homme repiquent des plants de riz dans une rizière inondée.
+      - picto: maison
+        motCle: se loger
+        phrases:
+          - "Les maisons s'alignent le long des canaux : l'eau devant, la rizière derrière."
+        enSavoirPlus: >-
+          Certaines maisons sont construites sur pilotis, au-dessus de l'eau, pour laisser la terre aux
+          cultures et se protéger des crues.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, prise depuis un bateau sur un canal
+            du delta du Mékong. Sur la rive, une rangée de maisons simples et propres, en bois et en
+            brique, certaines sur pilotis au-dessus de l'eau, avec de petits pontons ; des plantes en
+            pots, du linge qui sèche ; un enfant fait signe de la main depuis un ponton. Cocotiers
+            derrière. Ne doit pas figurer : texte, lettre, chiffre, panneau, enseigne, logo, publicité,
+            antenne satellite au premier plan, déchets.
+          alt: Des maisons en bois et en brique, certaines sur pilotis, au bord d'un canal.
+      - picto: pirogue
+        motCle: se déplacer
+        phrases:
+          - "On circule en bateau sur les canaux, et à moto sur les petites routes le long de l'eau."
+        enSavoirPlus: >-
+          De grands ponts ont été construits, mais il en manque encore : on traverse souvent les bras du
+          fleuve en bac, un bateau qui fait la navette d'une rive à l'autre.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur un large bras du Mékong au
+            Vietnam, un petit bac en bois transporte d'une rive à l'autre une dizaine de personnes et
+            leurs motos ; à côté, une longue barque à moteur chargée de sacs de riz. Eau brune, ciel
+            clair, rive plate avec des cocotiers. Ne doit pas figurer : texte, lettre, chiffre, plaque
+            d'immatriculation lisible, logo, enseigne, nom peint sur le bateau, drapeau.
+          alt: Un petit bac transporte des personnes et leurs motos sur un bras du Mékong, à côté d'une barque chargée de sacs.
+      - picto: sac
+        motCle: marché flottant
+        phrases:
+          - À Can Tho, des centaines de bateaux vendent chaque matin les fruits et légumes du delta.
+        enSavoirPlus: >-
+          C'est le marché flottant de Cai Rang. Les bateaux accrochent en haut d'une perche un exemple de
+          ce qu'ils vendent.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, tôt le matin. Le marché flottant
+            de Cai Rang, près de Can Tho, sur un bras du Mékong au Vietnam : de nombreux bateaux en bois
+            serrés les uns contre les autres, chargés de pastèques, d'ananas, de choux et de patates
+            douces ; sur certains, un fruit est accroché en haut d'une longue perche ; des vendeurs et
+            des acheteurs se passent des fruits de bateau à bateau. Lumière dorée. Ne doit pas figurer :
+            texte, lettre, chiffre, panneau, enseigne, logo, étiquette de prix, nom peint sur les
+            bateaux.
+          alt: Un marché sur l'eau, avec de nombreux bateaux chargés de fruits et de légumes.
+      - picto: goutte
+        motCle: canaux
+        phrases:
+          - Les habitants ont creusé des milliers de kilomètres de canaux pour irriguer et circuler.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, vue aérienne verticale prise par un drone, format 4:3
+            paysage. Dans le delta du Mékong au Vietnam, des canaux rectilignes se croisent à angle droit
+            et découpent de grandes rizières vertes et jaunes en rectangles ; le long des canaux, des
+            lignes de maisons et d'arbres. Ne doit pas figurer : texte, lettre, chiffre, panneau, logo,
+            grande ville, usine.
+          alt: Vue du ciel de canaux droits qui se croisent et découpent les rizières en rectangles.
+      - picto: vague
+        motCle: crue
+        phrases:
+          - "Chaque année, la crue du fleuve apporte eau et limon, mais elle peut inonder les maisons."
+        enSavoirPlus: >-
+          Le limon est une boue fine qui rend la terre fertile. Près de la mer, l'eau salée qui remonte
+          les bras du fleuve gêne aussi la culture du riz.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans le delta du Mékong au
+            Vietnam, à la saison des hautes eaux : des champs couverts d'une eau brune calme jusqu'à
+            l'horizon, des cocotiers et des maisons sur pilotis qui dépassent de l'eau ; une barque avec
+            deux personnes circule entre les maisons. Calme, sans détresse ni catastrophe. Ne doit pas
+            figurer : texte, lettre, chiffre, panneau, logo, enseigne, objet flottant en plastique,
+            secouriste.
+          alt: Des champs couverts par la crue, avec des maisons sur pilotis et une barque.
+    questions:
+      - question: Pourquoi le delta du Mékong est-il très peuplé ?
+        reponse: "Grâce à l'eau et à la terre fertile : on peut y cultiver beaucoup de riz."
+      - question: Comment se déplacent les habitants du delta ?
+        reponse: En bateau sur les canaux, à moto sur les petites routes, en bac pour traverser le fleuve.
+      - question: Quel aménagement les habitants ont-ils construit ?
+        reponse: Des canaux, pour irriguer les rizières et circuler en bateau.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Ailleurs, d'autres façons d'habiter
+    ensemble:
+      type: mosaique
+    formule: chaque espace = une façon d'habiter
+    cartes:
+      - picto: tour
+        motCle: mégapole
+        phrases:
+          - Une mégapole est une ville de plus de 10 millions d'habitants.
+        enSavoirPlus: >-
+          En 2018, selon l'ONU, il y en avait 33, surtout en Asie ; la plus grande était Tokyo. Mumbai,
+          étudiée cette année, en est une. En 2025, l'ONU compte les villes d'une nouvelle façon, plus
+          large : Jakarta, en Indonésie, passe alors devant Dhaka et Tokyo.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, vue aérienne en fin de journée, format 4:3 paysage.
+            Une immense ville d'Asie qui s'étend jusqu'à l'horizon : des tours de bureaux au centre, des
+            milliers d'immeubles d'habitation autour, de larges avenues et des voies rapides chargées de
+            voitures. Ne doit pas figurer : texte, lettre, chiffre, enseigne lisible, logo, publicité,
+            monument célèbre reconnaissable.
+          alt: Une immense ville d'Asie vue d'avion, avec des tours et des milliers d'immeubles jusqu'à l'horizon.
+      - picto: train
+        motCle: mégalopole
+        phrases:
+          - "Une mégalopole est une suite de grandes villes reliées entre elles, comme Tokyo, Nagoya et Osaka."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Au Japon, un train à grande vitesse
+            blanc au long nez file sur un viaduc à travers une zone urbaine continue : maisons, immeubles
+            et petites usines se suivent sans interruption jusqu'aux collines au loin. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, enseigne, publicité, inscription sur le train.
+          alt: Un train à grande vitesse traverse au Japon une zone où les villes se suivent sans interruption.
+      - picto: arbre
+        motCle: front pionnier
+        phrases:
+          - "En Amazonie, des agriculteurs défrichent la forêt le long des routes : c'est un front pionnier."
+        enSavoirPlus: >-
+          Défricher, c'est couper la forêt pour cultiver ou élever du bétail. Cela détruit une partie de
+          la forêt.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, vue aérienne, format 4:3 paysage. En Amazonie
+            brésilienne : à gauche, la forêt tropicale dense et intacte ; à droite, des prés défrichés
+            avec quelques vaches blanches et de petites fermes ; entre les deux, une route de terre
+            rouge bien droite qui avance dans la forêt. Ne doit pas figurer : texte, lettre, chiffre,
+            logo, panneau, incendie, fumée.
+          alt: Une route de terre rouge entre la forêt amazonienne, à gauche, et des prés défrichés, à droite.
+      - picto: tente
+        motCle: nomade
+        phrases:
+          - En Mongolie, des éleveurs nomades déplacent leurs troupeaux et leur yourte selon les saisons.
+        enSavoirPlus: >-
+          La yourte est une grande tente ronde de feutre qu'on démonte et remonte en quelques heures.
+          C'est un habitat temporaire : il ne reste pas toujours au même endroit.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans la steppe de Mongolie en été,
+            immense prairie verte et collines douces : deux yourtes blanches rondes ; une famille
+            d'éleveurs en vêtements traditionnels et modernes mêlés surveille un troupeau de moutons et
+            de chèvres ; un cavalier au loin. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            panneau, drapeau, inscription sur les vêtements.
+          alt: Deux yourtes blanches dans la steppe de Mongolie, avec une famille et un troupeau de moutons.
+      - picto: vague
+        motCle: littoral
+        phrases:
+          - "Les littoraux attirent de plus en plus d'habitants : ports, usines, plages et stations touristiques."
+        enSavoirPlus: >-
+          Un littoral est l'espace où la terre touche la mer. Tu as étudié des ports (Rotterdam, Le
+          Havre) et des stations touristiques (La Grande-Motte, Cancún).
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, vue aérienne, format 4:3 paysage. Un littoral très
+            aménagé au bord d'une mer bleue : à gauche, un port avec des grues, des conteneurs et un
+            grand navire à quai ; à droite, une longue plage bordée d'immeubles et d'hôtels, avec des
+            baigneurs. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne, nom de navire
+            lisible, publicité.
+          alt: Un littoral aménagé, avec un port de commerce à gauche et une plage bordée d'immeubles à droite.
+      - picto: bateau
+        motCle: en mer
+        phrases:
+          - "Même la mer est habitée : des marins vivent plusieurs semaines à bord des navires."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. En pleine mer, sans terre visible,
+            un grand porte-conteneurs chargé de conteneurs de couleurs vives navigue sur une mer calme ;
+            à l'arrière, sur le pont, deux marins en combinaison de travail regardent l'horizon. Ne doit
+            pas figurer : texte, lettre, chiffre, logo, nom de navire ou de compagnie lisible, drapeau.
+          alt: Un grand navire chargé de conteneurs en pleine mer, avec deux marins sur le pont.
+    questions:
+      - question: Qu'est-ce qu'un front pionnier ?
+        reponse: Un espace où l'on défriche pour cultiver et habiter des terres nouvelles, comme en Amazonie.
+      - question: Comment vivent les éleveurs nomades de Mongolie ?
+        reponse: Ils déplacent leurs troupeaux et leur yourte selon les saisons.
+      - question: Quelle est la différence entre une mégapole et une mégalopole ?
+        reponse: "La mégapole est une ville géante ; la mégalopole est une suite de grandes villes reliées."
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Toute la Terre est habitée
+    ensemble:
+      type: mosaique
+    formule: habiter = se loger + travailler + se déplacer + se divertir
+    cartes:
+      - picto: globe
+        motCle: monde habité
+        phrases:
+          - Les lieux étudiés cette année sont dans des espaces très peuplés ou peu peuplés.
+        enSavoirPlus: >-
+          Aucun espace n'est tout à fait vide : les humains habitent presque toute la Terre.
+        image:
+          aGenerer: >-
+            Planisphère simple, vue d'en haut, format 4:3 paysage, sans aucun texte. Projection
+            rectangulaire simple : de 180° ouest (bord gauche) à 180° est (bord droit), et de 80° nord
+            (bord du haut) à 60° sud (bord du bas), Antarctique coupée. Océans en bleu clair uni.
+            Continents coloriés en trois couleurs : rouge orangé pour les espaces très peuplés (Asie de
+            l'Est, Inde et Bangladesh, Europe, île de Java, vallée du Nil, côte du golfe de Guinée,
+            nord-est des États-Unis) ; jaune pâle pour les espaces moyennement ou peu peuplés ; gris
+            très clair pour les espaces presque vides (Sahara, Arabie, Grand Nord du Canada, Groenland,
+            Sibérie, Amazonie, centre de l'Australie, Mongolie et Tibet). Neuf petits points noirs bien
+            visibles, aux positions exactes suivantes : Iowa, au centre des États-Unis, vers 24 % de la
+            largeur et 27 % de la hauteur ; Nunavut, au nord du Canada, vers 26 % de la largeur et 10 %
+            de la hauteur ; Cancún, à la pointe est du Mexique, vers 26 % de la largeur et 42 % de la
+            hauteur ; Guyane, au nord de l'Amérique du Sud, vers 35 % de la largeur et 54 % de la
+            hauteur ; Paris vers 51 % de la largeur et 22 % de la hauteur ; Sahara vers 53 % de la
+            largeur et 41 % de la hauteur ; sud du Mali vers 48 % de la largeur et 49 % de la hauteur ;
+            Mumbai, sur la côte ouest de l'Inde, vers 70 % de la largeur et 44 % de la hauteur ; delta
+            du Mékong au sud du Vietnam vers 79 % de la largeur et 50 % de la hauteur. Contours nets,
+            couleurs douces et contrastées. Ne doit pas figurer : texte, lettre, chiffre, nom de lieu,
+            légende, frontière, quadrillage, rose des vents, flèche.
+          alt: >-
+            Planisphère du peuplement : en rouge orangé les espaces très peuplés (Asie de l'Est, Inde,
+            Europe, Java, vallée du Nil, golfe de Guinée, nord-est des États-Unis), en jaune pâle les
+            espaces peu peuplés, en gris clair les espaces presque vides (déserts, Grand Nord, Amazonie).
+            Des points marquent les lieux étudiés cette année : Paris, Mumbai, l'Iowa, le Nunavut, la
+            Guyane, le Sahara, le sud du Mali, Cancún et le delta du Mékong.
+          etiquettes:
+            - texte: Iowa
+              x: 24
+              y: 27
+            - texte: Nunavut
+              x: 26
+              y: 10
+            - texte: Cancún
+              x: 26
+              y: 42
+            - texte: Guyane
+              x: 35
+              y: 54
+            - texte: Paris
+              x: 51
+              y: 22
+            - texte: Sahara
+              x: 53
+              y: 41
+            - texte: Mali
+              x: 48
+              y: 49
+            - texte: Mumbai
+              x: 70
+              y: 44
+            - texte: delta du Mékong
+              x: 79
+              y: 50
+      - picto: densite
+        motCle: densité
+        phrases:
+          - Dans le delta du Mékong, la densité dépasse 400 habitants par km² en 2022.
+        enSavoirPlus: >-
+          C'est plus de trois fois la densité de la France. Au Nunavut, au contraire, il y a bien moins
+          d'un habitant par km².
+        image:
+          aGenerer: >-
+            Infographie simple, format 4:3 paysage, fond blanc, sans aucun texte. Deux grands carrés
+            verts de même taille côte à côte, vus de dessus, bien séparés. Le carré de gauche est rempli
+            de nombreuses petites silhouettes de personnes noires (une centaine), serrées. Le carré de
+            droite ne contient que deux petites silhouettes de personnes noires. Style plat et net,
+            couleurs franches. Ne doit pas figurer : texte, lettre, chiffre, légende, flèche, signe.
+          alt: >-
+            Deux carrés de même taille : celui de gauche contient beaucoup de personnes (forte densité),
+            celui de droite seulement deux (faible densité).
+      - picto: maison
+        motCle: groupé ou dispersé
+        phrases:
+          - "L'habitat est groupé quand les maisons se serrent en village, dispersé quand elles sont isolées."
+        enSavoirPlus: >-
+          Dans l'Iowa, que tu as étudié, les fermes sont loin les unes des autres : l'habitat est
+          dispersé.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, vue aérienne, format 4:3 paysage, en deux moitiés
+            côte à côte séparées par une fine bande blanche. À gauche : un village de campagne aux
+            maisons serrées les unes contre les autres autour d'une place, entouré de champs. À droite :
+            une campagne verte où cinq fermes sont posées loin les unes des autres, chacune au milieu de
+            ses champs. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau.
+          alt: >-
+            À gauche, un village aux maisons serrées (habitat groupé) ; à droite, des fermes isolées loin
+            les unes des autres (habitat dispersé).
+      - picto: montagne
+        motCle: milieu
+        phrases:
+          - "Le milieu compte : l'eau et les plaines attirent ; le grand froid, la sécheresse et la haute montagne gênent."
+        enSavoirPlus: >-
+          Le milieu n'explique pas tout : certaines plaines bien arrosées sont peu peuplées.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, en deux moitiés côte à côte séparées
+            par une fine bande blanche. À gauche : une plaine verte au bord d'un fleuve, avec des champs
+            et des villages. À droite : une haute montagne enneigée et rocheuse, sans aucune maison. Ne
+            doit pas figurer : texte, lettre, chiffre, logo, panneau, personne.
+          alt: À gauche, une plaine verte et habitée au bord d'un fleuve ; à droite, une haute montagne enneigée sans maison.
+      - picto: sablier
+        motCle: histoire
+        phrases:
+          - "L'histoire compte aussi : l'Asie et l'Europe sont très peuplées depuis le Néolithique."
+        enSavoirPlus: >-
+          Avec l'agriculture, les humains se sont installés et sont devenus nombreux aux mêmes endroits.
+          Ces grands foyers de peuplement existent toujours.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. En Asie de l'Est, des rizières en
+            terrasses très anciennes, vertes, sculptées dans une colline, avec un village de maisons
+            traditionnelles au pied ; un paysage travaillé par les humains depuis des siècles. Ne doit
+            pas figurer : texte, lettre, chiffre, logo, panneau, touriste, véhicule.
+          alt: Des rizières en terrasses très anciennes sur une colline, avec un village au pied.
+      - picto: truelle
+        motCle: aménager
+        phrases:
+          - "Les sociétés transforment leur espace : canaux, irrigation, routes rendent habitables des lieux difficiles."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, vue aérienne, format 4:3 paysage. Dans un désert de
+            sable ocre, de grands cercles verts parfaitement ronds de cultures irriguées, alignés, avec
+            au centre de chacun le pivot d'arrosage ; une route droite les longe. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, panneau.
+          alt: Des cercles verts de cultures irriguées au milieu d'un désert de sable.
+      - picto: digue
+        motCle: développement
+        phrases:
+          - Un pays riche peut construire plus de routes, de digues et de réseaux d'eau qu'un pays pauvre.
+        enSavoirPlus: >-
+          Les habitants d'un même pays n'ont pas tous les mêmes moyens : il y a aussi des inégalités
+          entre eux.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un chantier de digue au bord d'une
+            large rivière : une pelleteuse dépose des blocs de pierre, deux ouvriers en casque et gilet
+            de sécurité vérifient le travail ; une ville au loin. Ne doit pas figurer : texte, lettre,
+            chiffre, logo, inscription sur les gilets, panneau, nom de marque sur l'engin.
+          alt: Des ouvriers et une pelleteuse construisent une digue de pierres au bord d'une rivière.
+      - picto: lieu
+        motCle: habiter
+        phrases:
+          - Habiter, c'est se loger, travailler, se déplacer et se divertir dans un lieu.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une rue animée d'un quartier
+            d'habitation d'une ville moyenne, en fin d'après-midi : des immeubles et des maisons avec
+            leurs fenêtres, une boulangerie et un petit atelier ouverts, un bus et des cyclistes qui
+            passent, des enfants qui jouent au ballon sur une petite place avec des arbres. Ne doit pas
+            figurer : texte, lettre, chiffre, enseigne lisible, logo, publicité, plaque de rue.
+          alt: Une rue où l'on voit des logements, des commerces, un bus, des cyclistes et des enfants qui jouent.
+      - picto: globe
+        motCle: tour du monde
+        phrases:
+          - "Métropole, campagne, désert, Grand Nord ou littoral : chaque société habite la Terre à sa façon."
+        enSavoirPlus: >-
+          Cette année, tu as étudié des métropoles (Mumbai, Paris), des espaces peu peuplés (Nunavut,
+          Iowa, Mali), des littoraux (Rotterdam, Cancún), et maintenant le monde entier.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un montage de quatre photos égales
+            en grille de deux sur deux, séparées par de fines bandes blanches : en haut à gauche, les
+            immeubles d'une grande ville ; en haut à droite, une rizière verte avec un village ; en bas à
+            gauche, une oasis de palmiers dans le désert ; en bas à droite, une plage bordée
+            d'immeubles. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau.
+          alt: Quatre photos, une grande ville, une rizière avec un village, une oasis dans le désert et une plage bordée d'immeubles.
+    questions:
+      - question: "Où la densité est-elle la plus forte : dans le delta du Mékong ou au Nunavut ?"
+        reponse: Dans le delta du Mékong, avec plus de 400 habitants par km².
+      - question: Cite deux raisons qui expliquent qu'un espace est très peuplé.
+        reponse: "Un milieu favorable (eau, plaine) et une longue histoire : il est habité depuis le Néolithique."
+      - question: Que veut dire habiter ?
+        reponse: Se loger, travailler, se déplacer et se divertir dans un lieu.
+      - question: Un désert est-il complètement vide ?
+        reponse: Non, des humains vivent dans les oasis ou s'y déplacent avec leurs troupeaux.

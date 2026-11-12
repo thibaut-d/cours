@@ -1,0 +1,711 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 3 « Habiter les littoraux », sous-thème « Littoral
+# industrialo-portuaire » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Démarche (fiche Eduscol du thème 3) : étude de cas d'un grand complexe industrialo-portuaire (Rotterdam,
+# cité par la fiche et très utilisé par les manuels), mise en perspective avec un port français (Le Havre,
+# cité aussi), puis généralisation. Les habitants (travailler, se loger, se divertir) et les conflits
+# d'usage sont au centre, comme le demande la fiche.
+# Leçon précédente : « Habiter un espace agricole » (thème 2).
+# Leçon suivante : « Un littoral touristique » (contenu/6e/geographie/littoral-touristique).
+titre: Un littoral industrialo-portuaire
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 5
+langue: fr
+statut: brouillon
+resume: >-
+  Rotterdam, le plus grand port d'Europe, puis Le Havre : conteneurs, terminaux, zones
+  industrialo-portuaires, habitants, conflits d'usage et protection de la nature.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020) — classe de
+      sixième, géographie, thème 3 « Habiter les littoraux » : littoral industrialo-portuaire, littoral
+      touristique
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 3 : Habiter les
+      littoraux » (mars 2016) : études de cas (Dunkerque, Le Havre, Marseille-Fos, Rotterdam…), zones
+      industrialo-portuaires, ports étendus vers la mer, porte-conteneurs, emplois, conflits d'usage,
+      pollution, loi Littoral et réserves naturelles, docker et habitants
+    url: https://eduscol.education.fr/document/16783/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Port of Rotterdam, « Facts and figures » : zone portuaire de plus de 40 km de long, 12 500 ha
+      (terre et eau)
+    url: https://www.portofrotterdam.com/en/experience-online/facts-and-figures
+  - libelle: >-
+      Port of Rotterdam, « Voortgangsrapportage herijkte Havenvisie Rotterdam » (février 2024) : 193 417
+      emplois liés au port en 2022 (zone portuaire et industrielle et économie de la ville), dont
+      108 000 directs
+    url: https://www.portofrotterdam.com/sites/default/files/2024-04/voortgangsrapportage-herijkte-havenvisie-rotterdam-februari-2024.pdf
+  - libelle: >-
+      Port of Rotterdam, « Throughput in the port of Rotterdam shows a slight decline » (26 février
+      2026, bilan 2025) : 428,4 millions de tonnes, 14,2 millions d'EVP
+    url: https://www.portofrotterdam.com/en/node/5524
+  - libelle: >-
+      Port of Rotterdam, « Maasvlakte 2: five years of operation » (2018) : 2 000 ha de terre nouvelle,
+      sable pris au fond de la mer du Nord, ouverture en mai 2013, terminaux automatiques
+    url: https://www.portofrotterdam.com/en/news-and-press-releases/maasvlakte-2-five-years-operation
+  - libelle: >-
+      Port of Rotterdam, « Rotterdam Mainport Development Project » : compensation écologique, zone de
+      protection des fonds marins d'environ 25 000 ha avec aires de repos pour oiseaux et phoques, dunes
+      nouvelles
+    url: https://portofrotterdam.com/en/rotterdam-mainport-development-project
+  - libelle: >-
+      Port Economics, Management and Policy (Notteboom, Pallis, Rodrigue), « Construction of Maasvlakte
+      2 » et « Evolution of the Port of Rotterdam » : 2 000 ha derrière une digue, 7,5 km de plage et de
+      dunes, port déplacé du centre-ville vers la mer
+    url: https://porteconomicsmanagement.org/construction-maasvlakte-2-rotterdam/
+  - libelle: >-
+      Port of Rotterdam, Portlantis, « Locality » : la plage de Maasvlakte 2, où l'on se baigne, bronze et
+      se promène
+    url: https://portofrotterdam.com/en/portlantis/to-do/locality
+  - libelle: >-
+      Wikipédia (anglais), « Port of Rotterdam » : histoire du port, raffineries et industrie chimique,
+      liaisons par le Rhin vers l'Allemagne
+    url: https://en.wikipedia.org/wiki/Port_of_Rotterdam
+  - libelle: >-
+      Ondernemersplein (gouvernement néerlandais), fiche Rotterdam d'après le CBS : 673 804 habitants au
+      1er janvier 2026
+    url: https://ondernemersplein.overheid.nl/feiten-en-cijfers/factsheet-rotterdam/
+  - libelle: >-
+      HAROPA PORT, bilan 2025 : 84,7 millions de tonnes, record de 3,2 millions d'EVP sur l'axe Seine
+      (Le Havre, Rouen, Paris)
+    url: https://www.haropaport.com/en/news/record-traffic-and-growing-modal-share-2025-seine-corridor
+  - libelle: >-
+      Ministère de la Transition écologique (SDES), « Le trafic maritime en France en 2024 » : 6,3
+      millions d'EVP en France, dont plus de 3,1 millions pour HAROPA
+    url: https://www.statistiques.developpement-durable.gouv.fr/le-trafic-maritime-en-france-tres-legere-baisse-du-fret-en-2024
+  - libelle: >-
+      Insee Flash Normandie n° 143 (juillet 2024), « En 2021, l'emploi portuaire diminue à Rouen et
+      progresse au Havre » : 29 970 salariés dans le complexe industrialo-portuaire du Havre fin 2021
+      (hors intérim)
+    url: https://www.insee.fr/fr/statistiques/8211865
+  - libelle: >-
+      Insee Analyses Normandie n° 63 (2019) : le complexe industrialo-portuaire du Havre, raffinage à
+      Gonfreville-l'Orcher
+    url: https://www.insee.fr/fr/statistiques/4187914
+  - libelle: >-
+      Préfecture de la Seine-Maritime, conclusions d'une enquête publique sur le port du Havre (2022),
+      présentation d'HAROPA Port : territoire portuaire de 10 100 ha sur la rive nord de l'estuaire,
+      plus de 30 000 emplois
+    url: https://www.seine-maritime.gouv.fr/contenu/telechargement/50579/327319/file/2022%20HAROPA%20Conclusions%20Avis.pdf
+  - libelle: >-
+      Assemblée nationale, réponse à une question écrite : inauguration des deux premiers terminaux de
+      Port 2000 le 30 mars 2006
+    url: https://questions.assemblee-nationale.fr/dyn/12/questions/QANR5L12QE101055.pdf
+  - libelle: >-
+      Insee, populations de référence 2022, Seine-Maritime : Le Havre, 166 462 habitants
+    url: https://www.insee.fr/fr/statistiques/fichier/8290080/PopRef2022_dep76_SEINE-MARITIME.pdf
+  - libelle: >-
+      Unesco, Centre du patrimoine mondial, « Le Havre, la ville reconstruite par Auguste Perret »
+      (inscrite en 2005 ; reconstruction de 1945 à 1964)
+    url: https://whc.unesco.org/fr/list/1181/
+  - libelle: >-
+      Décret n° 97-1329 du 30 décembre 1997 portant création de la réserve naturelle de l'estuaire de la
+      Seine (étendue à 8 528 ha en 2004)
+    url: https://aida.ineris.fr/reglementation/decret-ndeg-97-1329-301297-portant-creation-reserve-naturelle-lestuaire-seine-seine
+  - libelle: >-
+      Agence européenne de l'environnement, OURCOAST, « Le Havre harbour compensatory measures » : île
+      artificielle de repos pour les oiseaux, construite pour compenser Port 2000 (achevée vers 2004-2005)
+    url: https://discomap.eea.europa.eu/map/Data/Milieu/OURCOAST_068_FR/OURCOAST_068_FR_Case_LeHavreHarbourCompensatoryMeasures.pdf
+  - libelle: Office de tourisme Le Havre Étretat, la plage du Havre et la réserve naturelle de l'estuaire
+    url: https://lehavre-etretat-tourisme.com/en/things-to-see-and-do/visit/classified-natural-areas/seine-estuary-nature-reserve
+  - libelle: >-
+      CNUCED (ONU), « Review of Maritime Transport » : environ 80 % du volume du commerce international
+      de marchandises passe par la mer
+    url: https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport
+  - libelle: >-
+      Adani Ports, arrivée du MSC Irina (2025), plus grand porte-conteneurs : environ 400 m de long,
+      24 346 EVP
+    url: https://www.adani.com/newsroom/media-releases/worlds-largest-container-ship-msc-irina-makes-historic-debut-at-vizhinjam-international-seaport
+  - libelle: >-
+      Encyclopædia Universalis, « Polder » : terre gagnée sur la mer, endiguée et drainée ; l'exemple
+      néerlandais
+    url: https://www.universalis.fr/encyclopedie/polder/
+  - libelle: >-
+      Ministère de la Transition écologique, « Loi relative à l'aménagement, la protection et la mise en
+      valeur du littoral » (loi Littoral du 3 janvier 1986)
+    url: https://www.ecologie.gouv.fr/politiques-publiques/loi-relative-lamenagement-protection-mise-valeur-du-littoral
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Rotterdam, un port géant
+    ensemble:
+      type: mosaique
+    formule: port = lien entre la mer et la terre
+    cartes:
+      - picto: lieu
+        motCle: Rotterdam
+        phrases:
+          - Rotterdam est aux Pays-Bas, près de la mer du Nord, là où arrivent le Rhin et la Meuse.
+        image:
+          aGenerer: >-
+            Carte de localisation sans aucun texte, format 4:3 paysage, style carte d'atlas scolaire
+            simple et propre, vue du nord-ouest de l'Europe. Mer en bleu clair, terres en beige clair,
+            frontières en fins traits gris. Placer précisément : la mer du Nord, grande surface bleue,
+            centrée vers 35 % de la largeur et 22 % de la hauteur ; la côte est de la Grande-Bretagne à
+            gauche, vers 15 % de la largeur et 35 % de la hauteur ; un gros point rouge pour Rotterdam,
+            sur la côte des Pays-Bas, vers 50 % de la largeur et 55 % de la hauteur ; le Rhin, trait bleu
+            foncé épais, qui part de Rotterdam et monte vers l'est puis le sud-est jusqu'en Allemagne,
+            passant vers 72 % de la largeur et 68 % de la hauteur ; l'Allemagne vers 80 % de la largeur
+            et 40 % de la hauteur ; le nord de la France vers 30 % de la largeur et 88 % de la hauteur.
+            Ne doit pas figurer : texte, lettre, chiffre, nom de lieu, légende écrite, rose des vents
+            avec lettres, échelle chiffrée, drapeau.
+          alt: >-
+            Carte du nord-ouest de l'Europe : Rotterdam, point rouge sur la côte des Pays-Bas, au bord de
+            la mer du Nord ; le Rhin, trait bleu foncé, part de Rotterdam vers l'Allemagne.
+          etiquettes:
+            - texte: mer du Nord
+              x: 35
+              y: 22
+            - texte: Royaume-Uni
+              x: 15
+              y: 35
+            - texte: Rotterdam
+              x: 50
+              y: 55
+            - texte: Rhin
+              x: 72
+              y: 68
+            - texte: Allemagne
+              x: 80
+              y: 40
+            - texte: France
+              x: 30
+              y: 88
+      - picto: un
+        motCle: premier port d'Europe
+        phrases:
+          - "C'est le plus grand port d'Europe : environ 428 millions de tonnes de marchandises en 2025."
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage, prise de haut par temps
+            clair. Un immense port européen au bord de la mer du Nord : de longs bassins rectangulaires,
+            des quais où sont amarrés des porte-conteneurs, des milliers de conteneurs colorés empilés,
+            des rangées de grues bleues, des cuves blanches de pétrole au second plan, la mer à
+            l'horizon. Ne doit pas figurer : texte, lettre, chiffre, logo, nom de compagnie sur les
+            conteneurs ou les navires, drapeau lisible, panneau.
+          alt: Vue aérienne d'un immense port, avec des bassins, des porte-conteneurs, des piles de conteneurs et des grues.
+      - picto: fleche
+        motCle: un port qui avance
+        phrases:
+          - Le port est né en ville, puis s'est étiré vers la mer, sur plus de 40 km.
+        enSavoirPlus: >-
+          Les navires sont de plus en plus grands : il leur faut de la place et des bassins profonds,
+          près de la mer.
+        image:
+          aGenerer: >-
+            Croquis géographique sans aucun texte, format 4:3 paysage, vue de dessus, style de croquis
+            de manuel scolaire aux aplats de couleurs simples. Un fleuve bleu traverse l'image de droite à
+            gauche et se jette dans la mer (bleu plus foncé) sur le bord gauche. Le long du fleuve, de
+            droite à gauche : une ville en orange (rues fines), centrée vers 86 % de la largeur et 45 %
+            de la hauteur ; puis des zones portuaires en gris, de plus en plus grandes vers la mer, avec
+            des bassins en forme de doigts : une zone vers 62 % de la largeur et 64 % de la hauteur, une
+            autre vers 35 % de la largeur et 50 % de la hauteur ; enfin, une grande terre neuve en gris
+            avancée dans la mer, vers 12 % de la largeur et 34 % de la hauteur. Une large flèche rouge
+            pointe de la ville vers la mer, en bas de l'image. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, légende écrite, échelle chiffrée.
+          alt: >-
+            Croquis du port de Rotterdam : la ville en orange à droite, puis des zones portuaires grises
+            de plus en plus grandes jusqu'à une terre neuve avancée dans la mer, à gauche ; une flèche
+            rouge va de la ville vers la mer.
+          etiquettes:
+            - texte: centre-ville
+              x: 86
+              y: 45
+            - texte: Botlek
+              x: 62
+              y: 64
+            - texte: Europoort
+              x: 35
+              y: 50
+            - texte: Maasvlakte 2
+              x: 12
+              y: 34
+            - texte: mer du Nord
+              x: 8
+              y: 80
+      - picto: grue
+        motCle: terminal à conteneurs
+        phrases:
+          - Au terminal, d'immenses grues déchargent les conteneurs des navires et les posent à terre.
+        enSavoirPlus: >-
+          Sur Maasvlakte 2, des grues commandées à distance et des véhicules sans chauffeur déplacent les
+          conteneurs, jour et nuit.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue depuis le quai. Un très grand
+            porte-conteneurs amarré le long d'un quai ; trois grandes grues portiques bleues penchées
+            au-dessus du navire ; l'une soulève un conteneur rouge uni ; au sol, des piles de conteneurs
+            unis de couleurs variées et un petit véhicule automatique qui transporte un conteneur. Ciel
+            clair. Ne doit pas figurer : texte, lettre, chiffre, logo, nom de compagnie sur les
+            conteneurs ou le navire, drapeau lisible, panneau.
+          alt: Des grues portiques bleues déchargent les conteneurs d'un très grand navire le long d'un quai.
+      - picto: vague
+        motCle: Maasvlakte 2
+        phrases:
+          - Maasvlakte 2 est une terre neuve, faite avec du sable pris au fond de la mer.
+        enSavoirPlus: >-
+          Environ 2 000 hectares ont été gagnés sur la mer du Nord, derrière une longue digue. Le nouveau
+          port a ouvert en 2013.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Une drague, grand navire de
+            travaux, projette en l'air un arc de sable mêlé d'eau vers une nouvelle terre de sable clair
+            qui avance dans une mer grise et calme ; au fond, sur la terre déjà faite, des quais et
+            quelques grues. Ne doit pas figurer : texte, lettre, chiffre, logo, nom sur la coque, drapeau
+            lisible, panneau.
+          alt: Une drague projette un arc de sable pour fabriquer une nouvelle terre dans la mer.
+      - picto: usine
+        motCle: usines
+        phrases:
+          - Raffineries et usines chimiques sont installées au bord des bassins, tout près des navires.
+        enSavoirPlus: >-
+          Une raffinerie transforme le pétrole brut, arrivé par la mer, en carburants comme l'essence.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Au bord d'un bassin portuaire, une
+            raffinerie : tours de distillation métalliques, tuyaux, grandes cuves blanches rondes et
+            quelques cheminées ; un navire pétrolier est amarré au quai devant. Lumière de fin d'après-midi.
+            Ne doit pas figurer : texte, lettre, chiffre, logo, nom de compagnie, panneau, drapeau
+            lisible.
+          alt: Une raffinerie avec ses tours, ses tuyaux et ses cuves blanches, au bord d'un bassin où est amarré un pétrolier.
+      - picto: bateau
+        motCle: péniche
+        phrases:
+          - Des péniches remontent le Rhin pour livrer les marchandises jusqu'en Allemagne.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur un large fleuve européen, une
+            longue péniche chargée de trois rangées de conteneurs unis colorés navigue vers l'amont ;
+            berges vertes avec digues, quelques éoliennes et un village au loin. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, nom sur la coque, drapeau lisible, panneau.
+          alt: Une longue péniche chargée de conteneurs navigue sur un large fleuve.
+      - picto: groupe
+        motCle: travailler
+        phrases:
+          - En 2022, environ 193 000 emplois de la région de Rotterdam dépendaient du port.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur un quai de port, au petit matin,
+            quatre travailleurs portuaires d'âges et d'origines variés, hommes et femmes, en casque et
+            gilet orange uni, discutent devant des piles de conteneurs ; l'une tient une tablette. Ils ont
+            l'air concentrés et détendus. Ne doit pas figurer : texte, lettre, chiffre, logo, badge
+            lisible, inscription sur les gilets, panneau.
+          alt: Quatre travailleurs du port, en casque et gilet orange, discutent sur un quai devant des conteneurs.
+      - picto: ville
+        motCle: ville portuaire
+        phrases:
+          - "Rotterdam, environ 674 000 habitants en 2026, est une ville portuaire : elle vit avec son port."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une grande ville portuaire des
+            Pays-Bas au bord d'un large fleuve : tours modernes, un grand pont à haubans blanc qui
+            traverse le fleuve, un bateau-taxi jaune uni sur l'eau ; au premier plan, sur le quai, des
+            habitants marchent et font du vélo. Fin d'après-midi ensoleillée. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, enseigne, panneau, plaque lisible.
+          alt: Une grande ville au bord d'un fleuve, avec des tours, un pont blanc et des habitants à vélo sur le quai.
+      - picto: soleil
+        motCle: loisirs
+        phrases:
+          - Sur Maasvlakte 2, une plage et des dunes accueillent promeneurs et baigneurs, à côté des terminaux.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une longue plage de sable clair au
+            bord de la mer du Nord, en été : quelques familles, des promeneurs et un cerf-volant ; des
+            dunes avec des herbes à droite ; à l'horizon, à gauche, des grues de port et un
+            porte-conteneurs. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau, drapeau
+            lisible, marque sur les objets de plage.
+          alt: Une plage avec des familles et des promeneurs, avec des grues de port à l'horizon.
+      - picto: oiseau
+        motCle: nature protégée
+        phrases:
+          - "En échange, une grande zone de mer est protégée : oiseaux et phoques peuvent s'y reposer."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur un banc de sable découvert par
+            la marée basse, au bord de la mer du Nord, une dizaine de phoques se reposent ; des oiseaux de
+            mer (sternes, huîtriers pies) se posent autour. Ciel gris clair. Aucune construction proche.
+            Ne doit pas figurer : texte, lettre, chiffre, panneau, bouée écrite, humain.
+          alt: Des phoques se reposent sur un banc de sable, entourés d'oiseaux de mer.
+    questions:
+      - question: Où se trouve Rotterdam ?
+        reponse: Aux Pays-Bas, près de la mer du Nord, là où arrivent le Rhin et la Meuse.
+      - question: Pourquoi le port s'est-il agrandi vers la mer ?
+        reponse: Pour avoir de la place et des bassins profonds pour les très grands navires.
+      - question: Comment a-t-on fabriqué Maasvlakte 2 ?
+        reponse: Avec du sable pris au fond de la mer, pour créer une terre neuve.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Le Havre, un port français
+    ensemble:
+      type: mosaique
+    formule: ZIP = port + usines
+    cartes:
+      - picto: lieu
+        motCle: Le Havre
+        phrases:
+          - Le Havre est en Normandie, là où la Seine se jette dans la Manche.
+        image:
+          aGenerer: >-
+            Carte de localisation sans aucun texte, format 4:3 paysage, style carte d'atlas scolaire
+            simple et propre, vue du nord-ouest de la France. Mer en bleu clair, terres en beige clair.
+            Placer précisément : la Manche, grande surface bleue, centrée vers 30 % de la largeur et 20 %
+            de la hauteur ; un gros point rouge pour Le Havre, sur la côte, à l'embouchure de la Seine,
+            vers 38 % de la largeur et 42 % de la hauteur ; la Seine, trait bleu foncé épais et sinueux,
+            qui part du Havre vers l'est et le sud-est ; un point noir pour Rouen sur la Seine vers 62 %
+            de la largeur et 56 % de la hauteur ; un point noir plus gros pour Paris sur la Seine vers
+            85 % de la largeur et 74 % de la hauteur. Ne doit pas figurer : texte, lettre, chiffre, nom
+            de lieu, légende écrite, échelle chiffrée, drapeau.
+          alt: >-
+            Carte du nord-ouest de la France : Le Havre, point rouge au bord de la Manche, là où arrive
+            la Seine ; la Seine, trait bleu foncé, remonte vers Rouen puis Paris, deux points noirs.
+          etiquettes:
+            - texte: Manche
+              x: 30
+              y: 20
+            - texte: Le Havre
+              x: 38
+              y: 42
+            - texte: Rouen
+              x: 62
+              y: 56
+            - texte: Paris
+              x: 85
+              y: 74
+      - picto: conteneur
+        motCle: premier port à conteneurs
+        phrases:
+          - Le Havre est le premier port de France pour les conteneurs.
+        enSavoirPlus: >-
+          Avec Rouen et Paris, il forme le port HAROPA, qui a traité environ 3,2 millions d'EVP en 2025
+          (un EVP = un conteneur de 6 m).
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Un grand terminal à
+            conteneurs en France, au bord d'un estuaire : un long quai droit, deux porte-conteneurs
+            amarrés, des grues portiques, des milliers de conteneurs colorés unis rangés en blocs, des
+            rails de train et des camions à l'arrière. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            nom de compagnie sur les conteneurs ou les navires, drapeau lisible, panneau.
+          alt: Vue aérienne d'un grand terminal à conteneurs, avec deux navires, des grues, des conteneurs, des trains et des camions.
+      - picto: grue
+        motCle: Port 2000
+        phrases:
+          - Port 2000, ouvert en 2006, a été construit sur la mer pour accueillir les plus grands navires.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage, prise de haut. Un port à
+            conteneurs construit sur un grand terre-plein gagné sur la mer, à l'entrée d'un estuaire :
+            une longue digue de protection, un bassin droit et profond, des quais avec des grues
+            portiques et un très grand porte-conteneurs qui entre dans le bassin. Ville au loin à gauche.
+            Ne doit pas figurer : texte, lettre, chiffre, logo, nom de compagnie, drapeau lisible,
+            panneau.
+          alt: Vue aérienne d'un port à conteneurs construit sur la mer, protégé par une digue, où entre un très grand navire.
+      - picto: usine
+        motCle: ZIP
+        phrases:
+          - La zone industrialo-portuaire, ou ZIP, réunit le port et les usines sur environ 10 000 hectares.
+        enSavoirPlus: >-
+          C'est à peu près la surface de la ville de Paris.
+        image:
+          aGenerer: >-
+            Croquis géographique sans aucun texte, format 4:3 paysage, vue de dessus, style de croquis
+            de manuel scolaire aux aplats de couleurs simples. En bas de l'image, de gauche à droite, un
+            large estuaire bleu qui s'ouvre sur la mer à gauche. Au bord nord de l'estuaire : une ville en
+            orange sur la gauche, centrée vers 15 % de la largeur et 35 % de la hauteur ; un terminal à
+            conteneurs en gris foncé avec des quais, vers 25 % de la largeur et 66 % de la hauteur ; une
+            longue bande grise de zones portuaires et d'usines le long d'un canal droit, vers 55 % de la
+            largeur et 50 % de la hauteur ; une raffinerie (petits ronds violets de cuves) vers 75 % de la
+            largeur et 35 % de la hauteur ; une zone verte de marais et de roselières au bord de l'eau,
+            vers 78 % de la largeur et 80 % de la hauteur ; la mer bleu foncé vers 5 % de la largeur et
+            85 % de la hauteur. Ne doit pas figurer : texte, lettre, chiffre, nom de lieu, légende
+            écrite, échelle chiffrée.
+          alt: >-
+            Croquis du Havre : la ville en orange à gauche, le terminal à conteneurs en gris foncé, une
+            longue bande grise d'usines le long d'un canal, une raffinerie en violet et une réserve
+            naturelle en vert au bord de l'estuaire.
+          etiquettes:
+            - texte: ville du Havre
+              x: 15
+              y: 35
+            - texte: Port 2000
+              x: 25
+              y: 66
+            - texte: usines
+              x: 55
+              y: 50
+            - texte: raffinerie
+              x: 75
+              y: 35
+            - texte: réserve naturelle
+              x: 78
+              y: 80
+            - texte: Manche
+              x: 5
+              y: 85
+      - picto: goutte
+        motCle: raffinerie
+        phrases:
+          - À Gonfreville-l'Orcher, une grande raffinerie transforme le pétrole arrivé par bateau en carburants.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue de loin. Une grande raffinerie
+            dans une plaine au bord d'un estuaire : tours métalliques, réseau de tuyaux, dizaines de
+            cuves rondes blanches, une torche avec une petite flamme ; au premier plan, une prairie et
+            une route. Ne doit pas figurer : texte, lettre, chiffre, logo, nom de compagnie, panneau,
+            drapeau lisible.
+          alt: Une grande raffinerie avec ses tours, ses tuyaux et ses cuves blanches, vue depuis une prairie.
+      - picto: groupe
+        motCle: emplois
+        phrases:
+          - En 2021, environ 30 000 salariés travaillaient dans le port et les usines de la ZIP.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Changement d'équipe à l'entrée d'une
+            usine portuaire, en fin de journée : des ouvriers et ouvrières en tenue de travail unie et
+            casque arrivent à pied et à vélo, d'autres repartent ; derrière eux, des cuves et des tuyaux.
+            Ne doit pas figurer : texte, lettre, chiffre, logo, badge lisible, panneau, enseigne.
+          alt: Des ouvriers et ouvrières en tenue de travail arrivent et repartent à l'entrée d'une usine du port.
+      - picto: personne
+        motCle: docker
+        phrases:
+          - Les dockers chargent et déchargent les navires, souvent aux commandes d'immenses grues.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un docker en casque blanc et gilet
+            jaune uni, de profil, guide de la main un conteneur suspendu à une grue qui le pose sur la
+            remorque d'un camion ; un deuxième docker observe à côté. Quai de port, ciel couvert. Ne doit
+            pas figurer : texte, lettre, chiffre, logo, inscription sur les vêtements, nom sur le
+            conteneur, plaque d'immatriculation lisible.
+          alt: Un docker guide un conteneur que la grue pose sur un camion.
+      - picto: ville
+        motCle: habiter Le Havre
+        phrases:
+          - Le Havre compte environ 166 000 habitants en 2022 ; beaucoup vivent du port.
+        enSavoirPlus: >-
+          Détruit par les bombardements de 1944, le centre a été reconstruit par l'architecte Auguste
+          Perret. Il est inscrit au patrimoine mondial de l'Unesco.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une rue du centre du Havre bordée
+            d'immeubles en béton clair aux formes simples et régulières, construits après la guerre ; des
+            habitants marchent sur un large trottoir, un tramway moderne uni passe ; au fond, au bout de
+            la rue, on devine des grues du port. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            enseigne, panneau, plaque lisible.
+          alt: Une large rue bordée d'immeubles en béton clair, avec des habitants et un tramway, et des grues du port au fond.
+      - picto: soleil
+        motCle: plage
+        phrases:
+          - Tout près du port, la plage du Havre accueille baigneurs, promeneurs et sportifs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une plage de galets en Normandie en
+            été, avec des cabines de plage blanches unies, des baigneurs et des promeneurs ; au loin, un
+            porte-conteneurs passe sur la mer et l'on devine des grues de port à l'horizon. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, panneau, enseigne, drapeau lisible.
+          alt: Une plage de galets avec des baigneurs et des cabines blanches, un porte-conteneurs au loin.
+      - picto: oiseau
+        motCle: réserve naturelle
+        phrases:
+          - Une réserve naturelle protège les oiseaux de l'estuaire, la large embouchure de la Seine, à côté du port.
+        enSavoirPlus: >-
+          La réserve a été créée en 1997. En échange de la place prise par Port 2000, une petite île a été
+          construite pour que les oiseaux s'y reposent.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Des roselières et des vasières au
+            bord d'un estuaire, à marée basse ; des aigrettes blanches et des avocettes se nourrissent
+            dans la vase ; au loin, à l'horizon, la silhouette de grues de port et de cuves. Lumière douce
+            du matin. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau, humain.
+          alt: Des oiseaux se nourrissent dans les vasières d'un estuaire, avec des grues de port au loin.
+    questions:
+      - question: Où se trouve Le Havre ?
+        reponse: En Normandie, là où la Seine se jette dans la Manche.
+      - question: Qu'est-ce qu'une ZIP ?
+        reponse: Une zone industrialo-portuaire, qui réunit un port et des usines.
+      - question: Qui partage le littoral du Havre ?
+        reponse: Le port, les usines, les habitants, les baigneurs de la plage et les oiseaux de la réserve.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Les littoraux industrialo-portuaires
+    ensemble:
+      type: mosaique
+    formule: mondialisation = échanges par la mer
+    cartes:
+      - picto: vague
+        motCle: littoral
+        phrases:
+          - Le littoral est l'espace où la terre et la mer se rencontrent.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Une côte vue d'en haut : à
+            gauche la mer bleue avec des vagues, au milieu une plage et des dunes, à droite des champs, un
+            village et une route. La limite entre terre et mer est bien nette. Ne doit pas figurer :
+            texte, lettre, chiffre, logo, panneau.
+          alt: Une côte vue d'en haut, avec la mer, une plage, des dunes et un village.
+      - picto: lieu
+        motCle: port
+        phrases:
+          - Un port est un lieu aménagé pour que les navires s'abritent, chargent et déchargent.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Un port vu d'en haut : une
+            digue courbe protège des bassins calmes ; le long des quais, des navires de commerce sont
+            amarrés ; des grues, des hangars et des entrepôts sont alignés derrière les quais. Ne doit pas
+            figurer : texte, lettre, chiffre, logo, nom sur les navires, panneau.
+          alt: Un port vu d'en haut, avec une digue, des bassins, des navires à quai et des grues.
+      - picto: conteneur
+        motCle: conteneur
+        phrases:
+          - Un conteneur est une grande boîte en métal, de taille standard, qui passe du navire au camion ou au train.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, fond de quai. Un seul conteneur en
+            métal ondulé bleu uni, portes ouvertes, posé sur la remorque d'un camion ; à l'intérieur, des
+            cartons empilés. Lumière de jour. Ne doit pas figurer : texte, lettre, chiffre, logo, code
+            peint sur le conteneur, plaque d'immatriculation lisible, panneau.
+          alt: Un conteneur bleu ouvert, rempli de cartons, posé sur la remorque d'un camion.
+      - picto: bateau
+        motCle: porte-conteneurs
+        phrases:
+          - "Les plus grands porte-conteneurs mesurent environ 400 m de long : quatre terrains de football."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, vue de côté depuis la mer. Un
+            gigantesque porte-conteneurs en pleine mer, chargé de conteneurs colorés unis empilés très
+            haut, de la proue à la poupe ; un petit remorqueur à côté donne l'échelle. Mer calme, ciel
+            clair. Ne doit pas figurer : texte, lettre, chiffre, logo, nom sur la coque, drapeau lisible.
+          alt: Un gigantesque porte-conteneurs chargé de conteneurs colorés, à côté d'un petit remorqueur.
+      - picto: globe
+        motCle: mondialisation
+        phrases:
+          - "Avec la mondialisation, les pays échangent partout dans le monde : environ 80 % des marchandises voyagent par mer."
+        enSavoirPlus: >-
+          Ce chiffre vient de l'ONU (CNUCED). Les grands ports se trouvent surtout en Asie de l'Est, en
+          Europe et en Amérique du Nord.
+        image:
+          aGenerer: >-
+            Planisphère sans aucun texte, format 4:3 paysage, style carte d'atlas scolaire simple :
+            océans en bleu clair, continents en beige clair. De grandes routes maritimes tracées en lignes
+            rouges plus ou moins épaisses relient l'Asie de l'Est, l'Europe et l'Amérique du Nord, par
+            l'océan Indien, la mer Rouge, la Méditerranée et l'Atlantique. Gros points noirs pour quatre
+            ports : Rotterdam vers 50 % de la largeur et 20 % de la hauteur ; New York vers 28 % de la
+            largeur et 34 % de la hauteur ; Shanghai vers 82 % de la largeur et 40 % de la hauteur ;
+            Singapour vers 76 % de la largeur et 58 % de la hauteur. Ne doit pas figurer : texte, lettre,
+            chiffre, nom de lieu, légende écrite, échelle chiffrée, drapeau.
+          alt: >-
+            Planisphère : de grandes routes maritimes en rouge relient l'Asie de l'Est, l'Europe et
+            l'Amérique du Nord ; quatre ports en points noirs : Rotterdam, New York, Shanghai et Singapour.
+          etiquettes:
+            - texte: Rotterdam
+              x: 50
+              y: 20
+            - texte: New York
+              x: 28
+              y: 34
+            - texte: Shanghai
+              x: 82
+              y: 40
+            - texte: Singapour
+              x: 76
+              y: 58
+      - picto: usine
+        motCle: zone industrialo-portuaire
+        phrases:
+          - Une ZIP réunit un port et des usines qui transforment les marchandises arrivées par la mer.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Une zone
+            industrialo-portuaire : au premier plan un bassin avec un vraquier déchargé par une grue ; le
+            long des quais, une aciérie aux grands hangars, des cuves de pétrole, des tas de charbon et de
+            minerai ; des voies ferrées et une autoroute à l'arrière. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, nom de compagnie, panneau, drapeau lisible.
+          alt: Vue aérienne d'une zone de port et d'usines, avec un navire, des hangars, des cuves et des tas de minerai.
+      - picto: digue
+        motCle: terre-plein
+        phrases:
+          - Pour s'agrandir, un port crée des terre-pleins, des terres neuves faites de sable ou de pierres.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Un chantier de port : un
+            grand terrain plat de sable clair, tout neuf, avancé dans la mer, bordé d'une digue de gros
+            blocs de pierre ; des bulldozers jaunes unis l'aplanissent ; la mer bleue l'entoure sur trois
+            côtés. Ne doit pas figurer : texte, lettre, chiffre, logo, nom sur les engins, panneau.
+          alt: Un grand terrain de sable tout neuf avancé dans la mer, bordé d'une digue de blocs de pierre.
+      - picto: digue
+        motCle: polder
+        phrases:
+          - Aux Pays-Bas, un polder est une terre gagnée sur la mer, plus basse qu'elle, protégée par des digues.
+        enSavoirPlus: >-
+          Maasvlakte 2 n'est pas un polder : son sable a été monté plus haut que la mer. C'est un
+          terre-plein.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage, aux Pays-Bas. À droite, une haute
+            digue herbeuse ; derrière elle, à droite, on voit la mer, plus haute que les champs. À gauche,
+            en contrebas, un polder plat : prairies vertes découpées par des fossés droits remplis d'eau,
+            des vaches, une ferme et un moulin. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            panneau, drapeau lisible.
+          alt: Un polder plat avec des prairies et des fossés, en contrebas d'une haute digue qui retient la mer.
+      - picto: groupe
+        motCle: emplois
+        phrases:
+          - "Le port fait vivre les habitants : dockers, ouvriers, marins, chauffeurs, mais aussi commerçants de la ville."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Rue animée d'une ville portuaire en
+            fin de journée : un chauffeur de camion, une ouvrière en tenue de travail et un marin en ciré
+            uni marchent sur le trottoir ; un boulanger sert une cliente devant sa boutique ; au fond, des
+            grues de port. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau, plaque
+            lisible.
+          alt: Une rue de ville portuaire avec un chauffeur, une ouvrière, un marin et un boulanger, des grues au fond.
+      - picto: balance
+        motCle: conflit d'usage
+        phrases:
+          - "Port, pêcheurs, promeneurs et protecteurs des oiseaux veulent le même littoral : c'est un conflit d'usage."
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur un même bout de côte : à gauche,
+            un petit bateau de pêche ; au centre, des promeneurs sur un chemin au bord d'une vasière où se
+            posent des oiseaux ; à droite, tout près, les cuves et les grues d'une zone portuaire. Le
+            contraste entre nature, loisirs et industrie est bien visible. Ne doit pas figurer : texte,
+            lettre, chiffre, logo, panneau, nom sur le bateau.
+          alt: Sur la même côte, un bateau de pêche, des promeneurs, des oiseaux et, juste à côté, les cuves et les grues d'un port.
+      - picto: goutte
+        motCle: pollution
+        phrases:
+          - Usines et navires peuvent polluer l'air et l'eau ; camions et grues font du bruit.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Vue depuis la fenêtre d'un immeuble
+            d'habitation : au loin, des cheminées d'usine portuaire rejettent des fumées grises dans le
+            ciel ; plus près, une file de camions chargés de conteneurs roule sur une route. Ambiance
+            grise. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau, plaque lisible.
+          alt: Depuis la fenêtre d'un immeuble, on voit des cheminées d'usine qui fument et une file de camions.
+      - picto: arbre
+        motCle: protéger
+        phrases:
+          - Des lois et des réserves naturelles protègent une partie du littoral, ses plantes et ses animaux.
+        enSavoirPlus: >-
+          En France, la loi Littoral de 1986 limite les constructions au bord de la mer.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un littoral sauvage et protégé :
+            dunes couvertes d'oyats, un sentier en planches de bois qui serpente vers la mer, une petite
+            barrière basse en bois pour que les promeneurs restent sur le chemin ; une famille marche sur
+            le sentier. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau, enseigne.
+          alt: Un sentier en planches traverse des dunes protégées jusqu'à la mer, avec une famille qui marche.
+    questions:
+      - question: Qu'est-ce qu'un littoral industrialo-portuaire ?
+        reponse: Un littoral aménagé avec un grand port et des usines.
+      - question: Pourquoi les ports comptent-ils dans la mondialisation ?
+        reponse: Environ 80 % des marchandises échangées dans le monde voyagent par la mer.
+      - question: Comment un port gagne-t-il de la place sur la mer ?
+        reponse: Il crée des terre-pleins avec du sable ou des pierres, protégés par des digues.
+      - question: Donne un exemple de conflit d'usage.
+        reponse: Le port veut s'agrandir là où vivent des oiseaux protégés.

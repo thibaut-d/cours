@@ -1,0 +1,653 @@
+# Leçon en brouillon : toutes les images sont à générer (description de ce qu'elles montrent).
+# Programme : cycle 3, classe de 6e, géographie, thème 1 « Habiter une métropole », sous-thème « La ville
+# de demain » (programme en vigueur en 6e jusqu'en 2026-2027 inclus).
+# Étude de cas : l'écoquartier Vauban, à Fribourg-en-Brisgau (Allemagne), très utilisé par les manuels ;
+# puis Clichy-Batignolles (Paris), Masdar (Émirats arabes unis) et Songdo (Corée du Sud) ; puis la
+# généralisation (ville durable, ses moyens et ses limites).
+# Leçon précédente : « Habiter une métropole » (contenu/6e/geographie/metropoles).
+# Suite : thème 2, « Habiter un espace de faible densité » (à écrire).
+titre: La ville de demain
+public: 6e
+matiere: geographie
+matiereLibelle: Géographie
+ordre: 2
+langue: fr
+statut: brouillon
+resume: >-
+  L'écoquartier Vauban à Fribourg, puis Paris, Masdar et Songdo : comment on imagine une ville plus
+  durable, et ce qui ne marche pas toujours.
+sources:
+  - libelle: >-
+      Programme du cycle 3 en vigueur (Eduscol, d'après le BOEN n° 31 du 30 juillet 2020 et le BOEN n° 25
+      du 22 juin 2023) — classe de sixième, géographie, thème 1 « Habiter une métropole »
+    url: https://eduscol.education.fr/document/50990/download
+  - libelle: >-
+      Eduscol, « S'approprier les différents thèmes du programme — Géographie 6e, thème 1 : Habiter une
+      métropole » (mars 2016) : développement urbain durable, ville étalée et ville compacte, rôle des
+      citoyens, ville intelligente et connectée, ville verte ; écueil : parler des écoquartiers sans la
+      mixité sociale de leurs habitants
+    url: https://eduscol.education.fr/document/16777/download
+  - libelle: >-
+      Eduscol, ressources d'accompagnement d'histoire-géographie au cycle 3 : l'ancien programme reste en
+      vigueur en 6e en 2026-2027, le nouveau (BO n° 22 du 28 mai 2026) s'y applique à la rentrée 2027
+    url: https://eduscol.education.gouv.fr/4791/ressources-d-accompagnement-du-programme-d-histoire-et-geographie-au-cycle-3
+  - libelle: >-
+      Ville de Fribourg-en-Brisgau (Green City Freiburg), panneaux « Quartier Vauban » en français :
+      41 ha, environ 5 500 habitants et 172 voitures pour 1 000 habitants (annuaire statistique 2013),
+      ancienne caserne française, Forum Vauban (1994), maisons passives, première maison collective
+      passive d'Allemagne (1999), lotissement solaire à énergie positive, centrale de cogénération au
+      bois, bandes de verdure, rues sans stationnement et garages collectifs, tramway, coopératives
+    url: https://freiburg.de/pb/site/Freiburg/get/params_E-1402105896/1928876/Infotafeln_Vauban_fr.pdf
+  - libelle: >-
+      Ville de Fribourg-en-Brisgau, « Quartier Vauban — Von der Kaserne zum Stadtteil, Abschlussbericht
+      1992-2014 » : départ des forces armées françaises en août 1992 (les panneaux en français disent
+      1991), environ 170 logements passifs, centrale de quartier d'abord au bois puis au gaz, tramway
+      mis en service en 2006, 5 680 habitants en 2014
+    url: https://freiburg.de/pb/site/Freiburg/get/params_E-472828301/1032280/Abschlussbericht%20Vauban_17
+  - libelle: >-
+      Wikipédia, « Quartier Vauban de Fribourg-en-Brisgau » : départ de l'armée française le 15 août
+      1992, tramway en service depuis avril 2006
+    url: https://fr.wikipedia.org/wiki/Quartier_Vauban_de_Fribourg-en-Brisgau
+  - libelle: >-
+      Pour la Solidarité, « Étude comparative des politiques locales européennes au croisement de
+      l'économie sociale et solidaire et du développement durable » (2014), fiche Vauban : les logements
+      coûtent assez cher, la mixité sociale est difficile, beaucoup de cadres supérieurs
+    url: https://base.socioeco.org/docs/ecoquartiervauban.pdf
+  - libelle: >-
+      Ville de Paris, « L'aménagement de Clichy-Batignolles : mission réussie » : 54 ha sur une ancienne
+      friche ferroviaire, 3 400 logements dont 50 % de logements sociaux, 7 500 habitants, parc
+      Martin-Luther-King de 10 ha, géothermie, 26 000 m² de toits végétalisés, ligne 14 et tramway T3b
+    url: https://www.paris.fr/pages/clichy-batignolles-17e-2379
+  - libelle: Ville de Paris, « Clichy-Batignolles, un quartier entier chauffé par la géothermie »
+    url: https://www.paris.fr/pages/clichy-batignolles-un-quartier-entier-chauffe-par-la-geothermie-4582/
+  - libelle: >-
+      Associated Press, « Emirati green city falls short of ambitions but still delivers lessons »
+      (décembre 2023) : Masdar prévue pour 50 000 habitants, travaux depuis 2008, fin prévue en 2016 puis
+      en 2020, environ 15 000 personnes y vivent ou y travaillent dont un tiers d'habitants, rues étroites
+      et plantées tournées vers le vent, petits véhicules automatiques peu étendus
+    url: https://www.clickorlando.com/business/2023/12/08/on-sidelines-of-cop28-emirati-green-city-falls-short-of-ambitions-but-still-delivers-lessons/
+  - libelle: >-
+      Wikipédia, « Masdar City » : situation près d'Abou Dhabi (Émirats arabes unis), projet initial
+      de 40 000 habitants, environ 5 000 habitants en 2023
+    url: https://en.wikipedia.org/wiki/Masdar_City
+  - libelle: >-
+      Union internationale des télécommunications (UIT, ONU), « Autonomous urban systems in Songdo,
+      Republic of Korea » : ville connectée depuis 2003, collecte pneumatique des déchets, défis (coût,
+      vie privée)
+    url: https://www.itu.int/hub/publication/t-joint-u4ssc-2026-3/
+  - libelle: >-
+      Wikipédia, « Songdo » : ville nouvelle sur un polder gagné sur la mer Jaune, près d'Incheon,
+      travaux depuis 2003, déchets aspirés par des tuyaux, loyers élevés
+    url: https://fr.wikipedia.org/wiki/Songdo
+  - libelle: >-
+      The Asia Business Daily, « Population influx increases administrative demand in Songdo
+      International City » (16 octobre 2024) : 210 000 habitants à Songdo en octobre 2023
+    url: https://view.asiae.co.kr/en/article/2024101612450211212
+  - libelle: >-
+      Insee, définition « Développement durable » : trois piliers, économique, écologique et social
+    url: https://www.insee.fr/fr/metadonnees/definition/c1644
+  - libelle: Ministère chargé du Logement, la démarche et le label ÉcoQuartier
+    url: https://www.ecoquartiers.logement.gouv.fr/
+
+chapitres:
+  # ---------------------------------------------------------------------------------------------
+  - titre: Vauban, un écoquartier
+    ensemble:
+      type: frise
+      periodes:
+        - libelle: départ de l'armée
+          dates: "1992"
+          carte: 2
+        - libelle: Forum Vauban
+          dates: "1994"
+          carte: 11
+        - libelle: première maison passive collective
+          dates: "1999"
+          carte: 8
+        - libelle: tramway
+          dates: "2006"
+          carte: 6
+    formule: écoquartier = peu de voitures + peu d'énergie + verdure
+    cartes:
+      - picto: lieu
+        motCle: Fribourg
+        phrases:
+          - Vauban est un quartier de Fribourg, une ville du sud-ouest de l'Allemagne, tout près de la France.
+        enSavoirPlus: >-
+          En allemand, la ville s'appelle Freiburg im Breisgau.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte. Elle montre la plaine du Rhin entre la
+            France et l'Allemagne : le Rhin, un ruban bleu bien visible, coule du bas vers le haut de
+            l'image, presque droit, vers 40 % de la largeur. À gauche du Rhin, la plaine d'Alsace (France)
+            en vert et jaune, puis les montagnes des Vosges en vert foncé vers 10 % de la largeur. À
+            droite du Rhin, une plaine étroite puis les collines boisées de la Forêt-Noire en vert
+            sombre, de 65 % à 100 % de la largeur. En bas, vers 90 % de la hauteur, les premières
+            collines de la Suisse. Une fine ligne blanche continue suit le Rhin pour marquer la
+            frontière entre France et Allemagne. Un point rouge foncé bien visible marque Fribourg, au
+            pied de la Forêt-Noire, vers 58 % de la largeur et 50 % de la hauteur. Couleurs douces et
+            contrastées. Ne doit pas figurer : texte, lettre, chiffre, nom de lieu, route, quadrillage,
+            légende, rose des vents, flèche, autre point de couleur.
+          alt: >-
+            Carte de la plaine du Rhin : la France à gauche du fleuve, l'Allemagne à droite, la Suisse en
+            bas ; un point rouge marque Fribourg, au pied de la Forêt-Noire.
+          etiquettes:
+            - texte: France
+              x: 18
+              y: 35
+            - texte: Allemagne
+              x: 80
+              y: 22
+            - texte: Suisse
+              x: 50
+              y: 92
+            - texte: Rhin
+              x: 38
+              y: 72
+            - texte: Fribourg
+              x: 58
+              y: 50
+      - picto: mur
+        motCle: caserne
+        phrases:
+          - Le quartier est construit sur une ancienne caserne de l'armée française, partie en 1992.
+        enSavoirPlus: >-
+          Le quartier mesure 41 hectares, la taille de près de 60 terrains de football. Il porte le nom
+          de la caserne Vauban.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans un quartier résidentiel
+            d'Allemagne du Sud, un ancien bâtiment de caserne militaire des années 1930 à trois étages,
+            crépi clair, au toit pentu en tuiles, transformé en logements : balcons ajoutés en bois,
+            vélos garés devant, grands arbres, des étudiants discutent devant l'entrée. Lumière de fin
+            d'été. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, plaque d'immatriculation
+            lisible, soldat, véhicule militaire, drapeau.
+          alt: Un ancien bâtiment de caserne transformé en logements, avec des balcons en bois et des vélos devant.
+      - picto: arbre
+        motCle: écoquartier
+        phrases:
+          - Un écoquartier est un quartier construit pour respecter l'environnement et pour bien vivre ensemble.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage, vue en légère plongée, en
+            été, d'un écoquartier allemand de petits immeubles colorés de trois à cinq étages. Placer
+            précisément quatre éléments bien visibles : une avenue centrale où passe un tramway moderne
+            sur une voie engazonnée, vers 50 % de la largeur et 55 % de la hauteur ; une large bande
+            de verdure avec des arbres entre deux rangées d'immeubles, vers 20 % de la largeur et 30 % de
+            la hauteur ; des toits couverts de panneaux solaires sur des maisons en rangée, vers 78 % de
+            la largeur et 25 % de la hauteur ; un parking à étages au bord du quartier, vers 85 % de la
+            largeur et 82 % de la hauteur. Peu de voitures dans les rues, des vélos et des piétons.
+            Collines boisées au loin. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo,
+            panneau publicitaire, plaque lisible.
+          alt: >-
+            Vue aérienne d'un écoquartier : un tramway sur une avenue verte, une bande d'arbres, des toits
+            solaires et un parking au bord du quartier.
+          etiquettes:
+            - texte: tramway
+              x: 50
+              y: 55
+            - texte: bande verte
+              x: 20
+              y: 30
+            - texte: toits solaires
+              x: 78
+              y: 25
+            - texte: garage
+              x: 85
+              y: 82
+      - picto: groupe
+        motCle: habitants
+        phrases:
+          - En 2013, environ 5 500 personnes habitent à Vauban ; c'est un quartier jeune, avec beaucoup de familles.
+        enSavoirPlus: >-
+          L'âge moyen des habitants est d'environ 29 ans.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Sur une place de quartier en
+            Allemagne, un mercredi matin de marché : des parents avec des poussettes, des enfants à
+            vélo, des personnes âgées et des jeunes achètent des légumes à des étals en bois, devant
+            des immeubles colorés à balcons. Ambiance calme et joyeuse. Ne doit pas figurer : texte,
+            lettre, chiffre, enseigne, logo, étiquette de prix, panneau, voiture.
+          alt: Des habitants de tous âges font leurs courses au marché, sur une place entourée d'immeubles colorés.
+      - picto: pas
+        motCle: rue sans voiture
+        phrases:
+          - "Dans beaucoup de rues, on ne se gare pas : les voitures restent dans un garage, au bord du quartier."
+        enSavoirPlus: >-
+          Les enfants jouent dans la rue sans danger. En 2013, il y a 172 voitures pour 1 000 habitants,
+          bien moins qu'ailleurs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une rue résidentielle étroite d'un
+            écoquartier allemand, sans aucune voiture : des enfants jouent au ballon et à la craie sur
+            le sol, une mère pousse un vélo avec une remorque, des pots de fleurs et des bancs devant
+            des maisons en rangée colorées à balcons en bois. Ne doit pas figurer : texte, lettre,
+            chiffre, dessin de lettres à la craie, voiture, enseigne, logo, panneau.
+          alt: Une rue sans voitures où des enfants jouent devant des maisons colorées.
+      - picto: tram
+        motCle: tramway
+        phrases:
+          - Depuis 2006, un tramway relie le quartier au centre-ville de Fribourg.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un tramway moderne aux couleurs claires
+            roule sur une voie couverte de gazon au milieu d'une avenue bordée d'arbres et d'immeubles
+            de quatre étages ; à côté, une large piste cyclable avec deux cyclistes. Ne doit pas
+            figurer : texte, lettre, chiffre, numéro de ligne, nom de destination, logo, publicité,
+            enseigne.
+          alt: Un tramway roule sur une voie couverte de gazon, à côté d'une piste cyclable.
+      - picto: velo
+        motCle: courtes distances
+        phrases:
+          - Écoles, magasins et marché sont tout proches ; on y va à pied ou à vélo.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Devant une petite école primaire
+            moderne en bois clair, dans un écoquartier allemand, des enfants arrivent à vélo et à pied
+            avec leurs parents ; un grand range-vélos plein. Arbres, matin ensoleillé. Ne doit pas
+            figurer : texte, lettre, chiffre, nom d'école, logo, panneau, voiture.
+          alt: Des enfants arrivent à l'école à vélo et à pied, devant un grand range-vélos.
+      - picto: maison
+        motCle: maison passive
+        phrases:
+          - Une maison passive est si bien isolée qu'elle n'a presque pas besoin de chauffage.
+        enSavoirPlus: >-
+          Toutes les maisons de Vauban consomment peu d'énergie, et environ 170 logements sont passifs.
+          Le chauffage vient d'une petite centrale commune au quartier.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un immeuble de quatre étages en
+            bois et en crépi clair, aux grandes fenêtres à triple vitrage, avec des balcons en bois et
+            des pare-soleil orientables ; des plantes grimpantes sur la façade ; ciel d'hiver clair. Ne
+            doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau, plaque.
+          alt: Un immeuble en bois aux grandes fenêtres, bien isolé, avec des balcons.
+      - picto: soleil
+        motCle: énergie solaire
+        phrases:
+          - Dans le lotissement solaire, les maisons produisent plus d'énergie qu'elles n'en consomment.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une rangée de maisons mitoyennes
+            de trois étages aux façades de couleurs vives (rouge, bleu, jaune, vert), dont les grands
+            toits inclinés vers le sud sont entièrement couverts de panneaux solaires. Ciel bleu, pelouse
+            devant. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne, panneau, voiture.
+          alt: Des maisons colorées en rangée, aux toits entièrement couverts de panneaux solaires.
+      - picto: arbre
+        motCle: espaces verts
+        phrases:
+          - Les vieux arbres ont été gardés, et des bandes de verdure séparent les rangées d'immeubles.
+        enSavoirPlus: >-
+          Les habitants ont aidé à planter ces bandes vertes. Des fossés recueillent l'eau de pluie.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une large bande de verdure sauvage
+            entre deux rangées de petits immeubles colorés : grands arbres anciens, herbes hautes, un
+            fossé peu profond pour l'eau de pluie, un petit pont en bois, des enfants qui jouent et une
+            aire de jeux en bois. Ne doit pas figurer : texte, lettre, chiffre, logo, panneau, voiture.
+          alt: Une bande de verdure avec de grands arbres et un fossé, entre deux rangées d'immeubles.
+      - picto: main
+        motCle: Forum Vauban
+        phrases:
+          - Avec le Forum Vauban, créé en 1994, les habitants ont donné leur avis pour construire le quartier.
+        enSavoirPlus: >-
+          Grâce à eux, la grande place est devenue le cœur du quartier, avec un marché chaque mercredi.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage. Dans une salle de réunion simple d'un centre de
+            quartier, une vingtaine d'habitants de tous âges, assis en cercle, discutent autour d'un
+            grand plan de quartier dessiné posé sur une table (seulement des formes de couleurs, sans
+            mot) ; une femme lève la main pour parler. Ne doit pas figurer : texte, lettre, chiffre,
+            tableau écrit, affiche, logo, écran.
+          alt: Des habitants réunis en cercle discutent autour d'un grand plan de leur quartier.
+      - picto: cle
+        motCle: groupe d'habitants
+        phrases:
+          - Des groupes d'habitants ont construit ensemble leur immeuble, sans passer par un promoteur.
+        enSavoirPlus: >-
+          Un promoteur est une entreprise qui construit des logements pour les vendre. Il y a aussi des
+          coopératives et des logements pour étudiants, moins chers.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Devant un petit immeuble neuf en
+            bois de trois étages, une douzaine de voisins de tous âges (familles, personnes âgées,
+            jeunes) posent ensemble en souriant, comme pour fêter leur arrivée ; un enfant tient une
+            clé. Ne doit pas figurer : texte, lettre, chiffre, banderole, logo, panneau, enseigne.
+          alt: Un groupe de voisins pose devant le petit immeuble en bois qu'ils ont fait construire ensemble.
+    questions:
+      - question: Pourquoi dit-on que Vauban est un écoquartier ?
+        reponse: Peu de voitures, des maisons qui consomment peu d'énergie, l'énergie solaire et beaucoup de verdure.
+      - question: Comment se déplacent les habitants de Vauban ?
+        reponse: Surtout à pied, à vélo et en tramway.
+      - question: Quel rôle ont joué les habitants ?
+        reponse: Avec le Forum Vauban, ils ont donné leur avis et participé aux choix du quartier.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: D'autres villes de demain
+    ensemble:
+      type: mosaique
+    formule: ville de demain = projets d'aujourd'hui
+    cartes:
+      - picto: globe
+        motCle: dans le monde
+        phrases:
+          - En France, aux Émirats arabes unis ou en Corée du Sud, on construit aussi des quartiers durables.
+        image:
+          aGenerer: >-
+            Carte de géographie en relief, vue d'en haut, comme une image satellite aux couleurs
+            naturelles, format 4:3 paysage, sans aucun texte, projection simple où longitudes et
+            latitudes sont des lignes droites. Cadrage : de gauche à droite, de l'océan Atlantique (15°
+            ouest) jusqu'au Japon (145° est) ; de haut en bas, du nord de l'Europe (70° nord) jusqu'au
+            sud de l'océan Indien (50° sud). On y voit l'Europe, toute l'Afrique, le Moyen-Orient, l'Asie
+            et le nord-ouest de l'Australie en bas à droite. Océans en bleu, terres en vert et ocre, déserts en ocre clair.
+            Trois points rouge foncé bien visibles : Paris, dans le nord de la France, vers 11 % de la
+            largeur et 18 % de la hauteur ; Abou Dhabi, sur la côte du golfe Persique, vers 44 % de la
+            largeur et 38 % de la hauteur ; Songdo, sur la côte ouest de la Corée du Sud, vers 88 % de la
+            largeur et 27 % de la hauteur. Côtes nettes, couleurs douces et contrastées. Ne doit pas
+            figurer : texte, lettre, chiffre, nom de lieu, frontière, quadrillage, légende, rose des
+            vents, flèche, autre point de couleur.
+          alt: >-
+            Carte de l'Europe, de l'Afrique et de l'Asie avec trois points rouges : Paris en France, Masdar près d'Abou
+            Dhabi sur le golfe Persique, et Songdo en Corée du Sud.
+          etiquettes:
+            - texte: Paris
+              x: 11
+              y: 18
+            - texte: Masdar
+              x: 44
+              y: 38
+            - texte: Songdo
+              x: 88
+              y: 27
+            - texte: océan Indien
+              x: 56
+              y: 72
+      - picto: lieu
+        motCle: Clichy-Batignolles
+        phrases:
+          - À Paris, Clichy-Batignolles est un écoquartier construit sur d'anciens terrains du chemin de fer.
+        enSavoirPlus: >-
+          En 2025, à la fin des travaux, le quartier compte environ 7 500 habitants. Il est desservi par la ligne 14 du métro et par le
+          tramway.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Un quartier neuf de Paris :
+            immeubles modernes aux formes variées, blancs, gris et bois, de 6 à 15 étages, avec des
+            terrasses plantées, autour d'un grand parc vert ; à côté, un large faisceau de voies ferrées
+            avec quelques trains. Toits de Paris en zinc gris au loin. Ne doit pas figurer : texte,
+            lettre, chiffre, enseigne, logo, publicité, tour Eiffel.
+          alt: Vue aérienne d'un quartier neuf de Paris, avec des immeubles modernes autour d'un grand parc, près de voies ferrées.
+      - picto: cle
+        motCle: logement social
+        phrases:
+          - La moitié des logements sont des logements sociaux, aux loyers moins chers, pour les familles modestes.
+        enSavoirPlus: >-
+          Des familles aux revenus différents vivent ainsi dans le même quartier.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Au pied d'un immeuble neuf de Paris
+            aux balcons plantés, des habitants variés se croisent dans une cour arborée : une famille
+            avec deux enfants et des sacs de courses, une personne âgée, un jeune homme à vélo, une
+            femme en tenue de travail. Ambiance quotidienne et respectueuse. Ne doit pas figurer :
+            texte, lettre, chiffre, enseigne, logo, plaque, panneau.
+          alt: Des habitants variés se croisent dans la cour arborée d'un immeuble neuf.
+      - picto: goutte
+        motCle: géothermie
+        phrases:
+          - La géothermie utilise la chaleur de l'eau du sous-sol pour chauffer les logements.
+        image:
+          aGenerer: >-
+            Schéma réaliste en coupe, format 4:3 paysage, sans aucun texte. En haut, quelques immeubles
+            d'un quartier de ville posés sur le sol ; en dessous, des couches de terre et de roche de
+            couleurs différentes ; tout en bas, une couche bleue d'eau souterraine. Deux tuyaux
+            verticaux relient cette eau à un petit bâtiment technique : un tuyau rouge fait monter
+            l'eau chaude, un tuyau bleu fait redescendre l'eau refroidie ; de minces tuyaux rouges vont
+            ensuite vers les immeubles. Ne doit pas figurer : texte, lettre, chiffre, flèche avec mot,
+            légende écrite, logo.
+          alt: >-
+            Schéma en coupe : un tuyau rouge fait monter l'eau chaude du sous-sol jusqu'aux immeubles,
+            un tuyau bleu la renvoie sous terre.
+      - picto: arbre
+        motCle: parc
+        phrases:
+          - Le parc Martin-Luther-King, de 10 hectares, est au cœur du quartier.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un grand parc urbain moderne à
+            Paris, un après-midi de printemps : pelouses, bassin, jeunes arbres, aire de jeux ; des
+            enfants jouent, des familles se promènent, des personnes lisent sur les pelouses ; des
+            immeubles neufs aux balcons plantés autour du parc. Ne doit pas figurer : texte, lettre,
+            chiffre, enseigne, logo, panneau, publicité.
+          alt: Un grand parc avec des pelouses et un bassin, entouré d'immeubles neufs, où jouent des enfants.
+      - picto: soleil
+        motCle: Masdar
+        phrases:
+          - Masdar est une ville nouvelle, construite depuis 2008 dans le désert, près d'Abou Dhabi.
+        enSavoirPlus: >-
+          Abou Dhabi est la capitale des Émirats arabes unis. Masdar veut montrer qu'on peut vivre dans
+          le désert avec l'énergie du soleil.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Vue d'ensemble d'un quartier
+            moderne au milieu du désert de sable ocre : bâtiments bas et serrés aux façades couleur sable
+            et aux fenêtres protégées par des grilles ornées, un grand champ de panneaux solaires au
+            premier plan, une haute tour à vent élancée, des terrains vides autour. Ciel bleu pâle,
+            lumière forte. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, drapeau,
+            publicité.
+          alt: Un quartier moderne aux bâtiments couleur sable au milieu du désert, avec un grand champ de panneaux solaires.
+      - picto: thermometre
+        motCle: rue fraîche
+        phrases:
+          - Les rues sont étroites, ombragées et tournées vers le vent, pour rester plus fraîches.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une rue piétonne très étroite dans
+            une ville nouvelle du golfe Persique : hauts murs couleur sable aux fenêtres protégées par
+            des grilles ornées, ombre presque partout, quelques palmiers et arbres dans des bacs, deux
+            piétons qui marchent tranquillement. Ne doit pas figurer : texte, lettre, chiffre, enseigne,
+            logo, voiture, publicité.
+          alt: Une rue étroite et ombragée entre des murs couleur sable, avec quelques arbres.
+      - picto: sablier
+        motCle: inachevée
+        phrases:
+          - Prévue pour plus de 40 000 habitants, Masdar n'en compte qu'environ 5 000 en 2023 ; elle est inachevée.
+        enSavoirPlus: >-
+          Elle devait être finie en 2016, puis en 2020 ; aujourd'hui, aucune date n'est fixée. Les
+          petites voitures automatiques prévues n'ont été construites que sur un court trajet.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. À gauche, quelques bâtiments
+            modernes couleur sable terminés ; à droite et jusqu'à l'horizon, un grand terrain de sable
+            vide, avec des routes tracées mais sans maison, et une grue immobile. Ciel bleu pâle. Ne
+            doit pas figurer : texte, lettre, chiffre, enseigne, logo, panneau, drapeau.
+          alt: Quelques bâtiments terminés à côté d'un grand terrain de sable vide, avec une grue immobile.
+      - picto: wifi
+        motCle: Songdo
+        phrases:
+          - Songdo, en Corée du Sud, est une ville connectée, bâtie depuis 2003 sur des terres gagnées sur la mer.
+        enSavoirPlus: >-
+          Environ 210 000 personnes y habitent en 2023. Des capteurs et des ordinateurs aident à gérer la
+          circulation et les secours. Les loyers y sont souvent plus chers qu'ailleurs.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une ville nouvelle d'Asie de l'Est
+            au bord de la mer : un grand parc avec un canal d'eau de mer au premier plan, des habitants
+            qui s'y promènent, et derrière, de hautes tours de verre modernes et des immeubles
+            d'habitation ; ciel clair. Ne doit pas figurer : texte, lettre, chiffre, idéogramme,
+            enseigne, logo, publicité, écran.
+          alt: Un parc avec un canal au pied de hautes tours de verre, dans une ville nouvelle au bord de la mer.
+      - picto: poubelle
+        motCle: déchets
+        phrases:
+          - À Songdo, les déchets partent par des tuyaux sous la terre, sans camion-poubelle.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Au pied d'un immeuble moderne, une
+            borne métallique grise de collecte des déchets, avec une trappe ronde ; un habitant y jette
+            un sac poubelle fermé. La borne est reliée à un tuyau souterrain (on voit seulement la borne
+            sortir d'un sol pavé). Ne doit pas figurer : texte, lettre, chiffre, idéogramme, autocollant,
+            logo, consigne écrite, camion.
+          alt: Un habitant jette un sac poubelle dans une borne reliée à des tuyaux sous la terre.
+    questions:
+      - question: Pourquoi Clichy-Batignolles est-il un écoquartier ?
+        reponse: Il est chauffé par la géothermie, a un grand parc, des transports en commun et des logements sociaux.
+      - question: Masdar est-elle une réussite ?
+        reponse: En partie seulement ; on y teste des idées, mais elle est inachevée et compte peu d'habitants.
+      - question: Qu'est-ce qu'une ville connectée ?
+        reponse: Une ville où des capteurs et des ordinateurs aident à gérer la circulation, l'énergie ou les déchets.
+
+  # ---------------------------------------------------------------------------------------------
+  - titre: Vers une ville durable
+    ensemble:
+      type: mosaique
+    formule: ville durable = environnement + vivre ensemble + travail
+    cartes:
+      - picto: ville
+        motCle: ville durable
+        phrases:
+          - Une ville durable protège l'environnement, permet à tous de bien vivre ensemble et donne du travail.
+        enSavoirPlus: >-
+          Ce sont les trois piliers du développement durable : l'environnement, le social et l'économie.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une place de ville européenne
+            moderne, vivante : au centre, des arbres et une fontaine ; à gauche, des immeubles
+            d'habitation aux toits solaires ; au fond, des bureaux et des commerces ; des habitants de
+            tous âges et de toutes origines marchent, font du vélo ou attendent un tramway. Ne doit pas
+            figurer : texte, lettre, chiffre, enseigne, logo, publicité, voiture.
+          alt: Une place de ville vivante avec des arbres, des immeubles aux toits solaires, des commerces et des habitants variés.
+      - picto: route
+        motCle: étalement urbain
+        phrases:
+          - Quand la ville s'étale sur les champs, il faut plus de routes et plus de voitures.
+        image:
+          aGenerer: >-
+            Photographie aérienne réaliste d'aujourd'hui, format 4:3 paysage. Au bord d'une ville
+            européenne, un lotissement de maisons individuelles identiques avec jardin avance sur des
+            champs cultivés ; un rond-point et de larges routes avec des voitures, un grand parking
+            de zone commerciale. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo,
+            publicité, nom de magasin.
+          alt: Vue aérienne d'un lotissement de maisons qui avance sur des champs, avec des routes et un grand parking.
+      - picto: densite
+        motCle: densifier
+        phrases:
+          - Densifier, c'est construire plus serré, par exemple sur une friche, un terrain abandonné.
+        enSavoirPlus: >-
+          Une ville plus serrée, dite compacte, prend moins de place sur les champs que la ville étalée.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. En ville, sur un ancien terrain
+            industriel, un chantier de petits immeubles de quatre à six étages se construit entre des
+            immeubles existants ; une grue, des ouvriers en tenue de chantier, une vieille usine en
+            briques gardée et rénovée à côté. Ne doit pas figurer : texte, lettre, chiffre, logo,
+            panneau de chantier écrit, publicité.
+          alt: Des immeubles se construisent sur un ancien terrain d'usine, entre des immeubles existants.
+      - picto: velo
+        motCle: mobilités douces
+        phrases:
+          - Les mobilités douces, ce sont la marche et le vélo ; elles ne polluent pas.
+        enSavoirPlus: >-
+          Avec les transports en commun (bus, tramway, métro), elles permettent de se passer de voiture.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une large piste cyclable séparée
+            de la route dans une ville européenne, un matin : des cyclistes de tous âges, dont un parent
+            avec un enfant sur un vélo cargo, et des piétons sur un trottoir large bordé d'arbres. Ne
+            doit pas figurer : texte, lettre, chiffre, marquage écrit au sol, enseigne, logo, publicité.
+          alt: Des cyclistes de tous âges sur une large piste cyclable, à côté de piétons.
+      - picto: eclair
+        motCle: énergies renouvelables
+        phrases:
+          - Les énergies renouvelables, comme le soleil, le vent ou la chaleur du sous-sol, ne s'épuisent pas.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Les toits d'un quartier d'immeubles
+            couverts de panneaux solaires, et au loin, sur une colline, trois éoliennes blanches. Ciel
+            bleu avec quelques nuages. Ne doit pas figurer : texte, lettre, chiffre, logo, enseigne,
+            publicité.
+          alt: Des toits couverts de panneaux solaires et, au loin, trois éoliennes.
+      - picto: arbre
+        motCle: végétaliser
+        phrases:
+          - Végétaliser, c'est planter des arbres, des parcs et des toits verts pour rafraîchir la ville.
+        enSavoirPlus: >-
+          En été, une ville très minérale (béton, bitume) garde la chaleur : on parle d'îlot de chaleur.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un immeuble de ville moderne dont le
+            toit plat est couvert d'herbes, de fleurs et de petits arbustes, et dont la façade porte des
+            plantes grimpantes ; dans la rue en dessous, une rangée d'arbres donne de l'ombre à des
+            passants en tenue d'été. Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo,
+            publicité.
+          alt: Un immeuble avec un toit couvert de plantes et une rue ombragée par des arbres.
+      - picto: wifi
+        motCle: ville connectée
+        phrases:
+          - Dans une ville connectée, des capteurs et Internet aident à gérer la circulation et l'énergie.
+        enSavoirPlus: >-
+          Ces outils coûtent cher et posent une question : qui utilise les informations recueillies sur
+          les habitants ?
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Un carrefour de ville moderne au
+            crépuscule : feux de circulation, un petit boîtier capteur gris fixé sur un lampadaire
+            (sans voyant ni écran lisible), un bus électrique et des vélos ; l'éclairage public est
+            allumé. Ne doit pas figurer : texte, lettre, chiffre, écran avec texte, enseigne, logo,
+            publicité, plaque.
+          alt: Un carrefour au crépuscule, avec un petit capteur fixé sur un lampadaire, un bus et des vélos.
+      - picto: groupe
+        motCle: mixité sociale
+        phrases:
+          - La mixité sociale, c'est faire vivre des habitants riches et modestes dans le même quartier.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans un jardin partagé au pied
+            d'immeubles, des voisins très différents jardinent ensemble : une famille, une personne
+            âgée, un homme en costume qui rentre du travail, une jeune femme, des enfants. Ambiance
+            simple et chaleureuse, sans cliché. Ne doit pas figurer : texte, lettre, chiffre, panneau,
+            logo, enseigne.
+          alt: Des voisins de tous âges et de milieux différents jardinent ensemble au pied de leurs immeubles.
+      - picto: piece
+        motCle: coût
+        phrases:
+          - Les logements écologiques coûtent souvent cher ; à Vauban, beaucoup d'habitants ont de bons revenus.
+        enSavoirPlus: >-
+          Si les familles modestes ne peuvent pas y vivre, le quartier n'est pas vraiment durable. Les
+          logements sociaux servent à éviter cela.
+        image:
+          aGenerer: >-
+            Photographie réaliste, format 4:3 paysage, gros plan. Sur une table, des clés d'appartement
+            neuves posées sur une pile de pièces de monnaie et de billets de banque en euros, flous ; à
+            l'arrière-plan flou, la maquette d'un petit immeuble aux toits solaires. Ne doit pas
+            figurer : texte, lettre, chiffre lisible, logo, étiquette.
+          alt: Des clés d'appartement posées sur des pièces et des billets, devant la maquette d'un immeuble écologique.
+      - picto: grue
+        motCle: projets inachevés
+        phrases:
+          - Certains grands projets, comme Masdar, restent inachevés ou attirent moins d'habitants que prévu.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Une large avenue toute neuve et
+            presque vide dans une ville nouvelle, bordée de grands immeubles modernes dont beaucoup de
+            fenêtres sont sombres ; un seul piéton au loin ; des terrains vides entre les immeubles.
+            Ne doit pas figurer : texte, lettre, chiffre, enseigne, logo, publicité, idéogramme.
+          alt: Une avenue neuve presque vide, bordée d'immeubles modernes et de terrains vides.
+      - picto: main
+        motCle: citoyens
+        phrases:
+          - La ville de demain se décide aujourd'hui ; les habitants peuvent donner leur avis sur les projets.
+        image:
+          aGenerer: >-
+            Photographie réaliste d'aujourd'hui, format 4:3 paysage. Dans une salle de mairie en France,
+            une réunion publique : des habitants de tous âges, dont des collégiens, regardent une
+            grande maquette blanche d'un futur quartier avec des arbres miniatures, posée sur une table ;
+            une architecte explique en montrant la maquette. Ne doit pas figurer : texte, lettre,
+            chiffre, affiche, écran, logo, drapeau, panneau.
+          alt: Des habitants de tous âges regardent la maquette d'un futur quartier, expliquée par une architecte.
+    questions:
+      - question: Quels sont les trois piliers d'une ville durable ?
+        reponse: L'environnement, le social (bien vivre ensemble) et l'économie (avoir du travail).
+      - question: Pourquoi vaut-il mieux densifier la ville que l'étaler ?
+        reponse: Pour garder les champs et la nature, et pour avoir besoin de moins de routes et de voitures.
+      - question: Cite deux limites des villes durables.
+        reponse: Les logements coûtent souvent cher, et certains projets, comme Masdar, restent inachevés.
