@@ -25,6 +25,13 @@ Le premier fichier à lire pour reprendre le travail (Claude ou Codex). Le tenir
 
 ## Petits défauts repérés
 
+- Accueil : une adresse aux filtres inconnus (`?public=xyz`) efface les filtres retenus au chargement
+  (`src/scripts/filtres-accueil.ts`, n'enregistrer qu'après un clic ou si l'adresse avait une valeur connue).
+- Accueil : le message « aucune leçon » bascule `hidden` dans une zone `role="status"` ; changer plutôt son
+  texte, mieux annoncé par les lecteurs d'écran.
+- Tuile : l'attribut `data-publics` est écrit mais jamais lu (`src/components/TuileLecon.astro`).
+- Fil d'Ariane d'une leçon : le lien de la matière remplace le filtre de public retenu (la 6e est perdue au
+  retour) ; conforme à la conception, à revoir si c'est gênant à l'usage.
 - Fil d'Ariane : espaces irréguliers (« Cours /   6e   / ») dus à la largeur minimale de 48 px des liens.
 - Le bouton « Cacher les réponses » semble ne pas utiliser la police Luciole : à vérifier.
 - La publication GitHub Actions est passée de 2 min 30 à 8 min, bloquée sur l'installation du navigateur
